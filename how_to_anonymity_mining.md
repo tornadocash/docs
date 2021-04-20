@@ -18,8 +18,7 @@ The basic process of Anonymity Mining is as follows:
 ### Deposit a note
 On tornado Cash, choose Deposit and the amount you wish to send to the contract. You can choose between fixed amounts of ETH or other cryptocurrency. The amount is fixed to establish an anonymity set. The more users deposit a certain pool, the larger the set any withdrawals can potentially be from.
 
-When you deposit into the contract, tornado cash gives you a note representing a secret that is needed to withdraw. The commitment is a hash of the secret. Don't lose this note!  
-In the background, the deposit is registered on chain.
+When you deposit into the contract, tornado cash gives you a note representing a secret that is needed to withdraw. The commitment is a hash of the secret. Don't lose this note! You can encrypt your deposit note and create an additional on-chain backup of the note (hardware wallets don't support this functionality at the moment). In the background, the deposit is registered on chain.
 
 Your note is now accumulating Anonymity Points. The longer you keep your ETH / Tokens locked in the contract, the more you contribute to the anonymity set, allowing all users to gain anonymity. The AP compensate you for this.
 
@@ -31,7 +30,7 @@ If you use a relayer, the withdrawal transaction is payed for using the accumula
 The withdrawal is also registered on chain, and your Anonymity Point accumulation stops. 
 
 ### Update the Merkle Tree
-Before you can claim the Anonymity Points, the Merkle Tree (a [smart contract](https://etherscan.io/address/0x527653eA119F3E6a1F5BD18fbF4714081D7B31ce#code) must be updated. In simplified terms, the deposit transaction and the withdrawal transaction must be successfully linked. When a user deposits, the deposit is registered in this smart contract. Once there are 256 of them, anyone can upload the deposits metadata (the most important is the block number) to the deposits merle tree managed by the contract. It’s a complex operation that’s why it’s done in batches and cost so much
+Before you can claim the Anonymity Points, the Merkle Tree (a [smart contract](https://etherscan.io/address/0x527653eA119F3E6a1F5BD18fbF4714081D7B31ce#code) must be updated. After the Merkle trees update a user can generate a zeroknowledge proof that he/she has deposited and withdrawn in that tree without revealing which exact deposit and withdrawal. Along with the proof the user increments its AP balance. The correctness of the increment is also validated by the smart contract (when it verifies the zk proof). When a user deposits, the deposit is registered in this smart contract. Once there are 256 of them, anyone can upload the deposits metadata (the most important is the block number) to the deposits merle tree managed by the contract. It’s a complex operation that’s why it’s done in batches and cost so much.
 
 To fully decentralize Tornado Cash, the Merkle Tree lies in a smart contract that can be updated by anyone. In the Tree Updater Github, edit the .env file and run the docker container. The Tree Updater Contract updates in batches of 256 deposit transactions, linking them to any withdrawals that happened in between. Updating the tree costs around 1.2M gas per batch. 
 
@@ -44,10 +43,10 @@ A proof will be calculated and a transaction submitted to the mining contract. T
 
 Using a relayer can also help in times of congestion, and send a claim transaction multiple times, in case the first transaction is rejected, queuing the transactions and letting the claim be included in the next block.
 
-You can claim several notes and pool your AP before swapping.
+You can claim several notes and pool your AP before swapping. Swapping a full AP reward for a single note can compromise anonymity, because attack could try to calculate how much time the note spent in the pool based on reward amount. If you swap AP for multiple notes, or not a full AP amount it's much harder to do that.
 
 ### Swap AP for TORN
-Once you have been able to claim, you can Swap some or all of your AP for TORN, which is then sent to the wallet of your choice.
+Once you have been able to claim, you can Swap some or all of your AP for TORN, which is then sent to the wallet of your choice. 
 
 TORN drips into the Mining Contract pool at a variable rate which can be seen on the swap interface and AP accumulate a the rate of all the notes. AP is swapped for TORN [at the rate defined by the AMM](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703).
 
