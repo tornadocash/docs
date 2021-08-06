@@ -1,5 +1,7 @@
 # Tips to remain anonymous
 
+_Tutorial written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)_\*\*\*\*_
+
 The Tornado Cash tool allows you to remain anonymous on-chain. However, if the tool is used without protecting oneself upstream and downstream, there is no point and the anonymity would only be partial. There are practices to avoid this.
 
 ### Use a VPN
