@@ -86,7 +86,5 @@ For more information on anonymity mining, seek the following resources:
 * [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a) 
 * [Anonymity mining explained \(technical\)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
-If you’ve any further questions make sure to [visit us in the official discord 1](https://discord.com/invite/TFDrM8K42j), stay secluded friends.
-
 _Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
 
