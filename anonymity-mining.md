@@ -1,6 +1,6 @@
 # Anonymity mining
 
-Tutorial _written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)
+_Tutorial written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
 
 Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points \(AP\) dependent on how long they hedge their assets in a pool.
 
