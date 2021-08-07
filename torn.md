@@ -1,6 +1,6 @@
 # TORN
 
-\_\_[_Written by Tornado Team_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)\_\_
+_Written by_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) _****&_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)_\*\*\*\*_
 
 ## Token
 
