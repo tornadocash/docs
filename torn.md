@@ -10,7 +10,7 @@ TORN is an ERC20-compatible token with a fixed supply that governs [Tornado.Cash
 
 **Here’s how the initial distribution of TORN would break down:**
 
-* **5% \(500,000 TORN\):** Airdrop to early users of [Tornado.Cash](https://tornado.cash/)ETH pools
+* **5% \(500,000 TORN\):** Airdrop to early users of [Tornado.Cash](https://tornado.cash/) ETH pools
 * **10% \(1,000,000 TORN\):** Anonymity mining for [Tornado.Cash](https://tornado.cash/) ETH pools, distributed linearly over 1 year
 * **55% \(5,500,000 TORN\):** DAO treasury, will be unlocked linearly over 5 years with 3 month cliff
 * **30% \(3,000,000 TORN\):** Founding developers and early supporters, will be unlocked linearly over 3 years with 1 year cliff
