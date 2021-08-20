@@ -1,7 +1,5 @@
 # TORN
 
-_Written by_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) _****&_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)_\*\*\*\*_
-
 ## Token
 
 TORN is an ERC20-compatible token with a fixed supply that governs [Tornado.Cash](https://tornado.cash/). TORN holders can make proposals and vote to change the protocol via governance.
@@ -41,5 +39,5 @@ The exact airdrop formula is the following:
 
 ![](.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
 
-
+_Written by_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) _****&_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)_\*\*\*\*_
 
