@@ -1,7 +1,5 @@
 # Anonymity mining
 
-_Tutorial written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
-
 Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points \(AP\) dependent on how long they hedge their assets in a pool.
 
 _This incentive began on December 18, 2020 and will end on December 18, 2021._
@@ -87,4 +85,6 @@ For more information on anonymity mining, seek the following resources:
 * [Anonymity mining explained \(technical\)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
 _Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
+
+_Tutorial written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
 
