@@ -2,8 +2,6 @@
 
 **\[Work in progress\]**
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
-
 ![](.gitbook/assets/image.png)
 
 Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space. 
@@ -44,5 +42,5 @@ The protocol also functions with zk-SNARK, which enables zero-knowledge proofs a
 
 User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it. 
 
-_August 17th, 2021_
+_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
 
