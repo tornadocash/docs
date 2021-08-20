@@ -1,7 +1,5 @@
 # Tips to remain anonymous
 
-_Tutorial written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)_\*\*\*\*_
-
 The Tornado Cash tool allows you to remain anonymous on-chain. However, if the tool is used without protecting oneself upstream and downstream, there is no point and the anonymity would only be partial. There are practices to avoid this.
 
 ### Use a VPN
@@ -29,6 +27,8 @@ Your anonymity also depends on the number of transactions after your deposit \(c
 ### Use multiple addresses
 
 A 7 x 10eth deposit from one address and a 7 x 10eth withdrawal to a single address can also be linked. Remember to multiply your withdrawal addresses.
+
+_Tutorial written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)_\*\*\*\*_
 
 
 
