@@ -7,4 +7,5 @@
 * [Anonymity mining](anonymity-mining.md)
 * [TORN](torn.md)
 * [Governance](governance.md)
+* [Community Involvement](community-involvement.md)
 
