@@ -91,7 +91,7 @@ Multi-signature key holders consider that the funding request is validated by th
 
 All Snapshot funding request are designed the same way: a s**ingle choice voting system** where users decide wether they are **For or Against** the given proposition.
 
-Steps to vote on Snapshot are quite intuitive. The community member solely needs to:
+Steps to vote on Snapshot are quite intuitive. The community member needs to:
 
 * Connect the wallet holding TORNs thanks to either MetaMask, WalletConnect or Torus;
 
