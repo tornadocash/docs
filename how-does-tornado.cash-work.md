@@ -2,8 +2,6 @@
 
 **\[Work in progress\]**
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
-
 Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
 
 ### Global overview of Tornado.Cash functioning
@@ -33,5 +31,5 @@ Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial comm
 
 Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
 
-
+_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
 
