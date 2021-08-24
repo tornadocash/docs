@@ -91,5 +91,5 @@ You can undelegate at anytime. To undelegate simply use the `Undelegate` Button 
 
 
 
-_Written by_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_
+_Tutorial written by_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_
 
