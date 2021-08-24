@@ -86,5 +86,5 @@ For more information on anonymity mining, seek the following resources:
 
 _Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
 
-_Written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
+_Tutorial written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
 
