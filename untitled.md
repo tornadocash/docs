@@ -12,3 +12,31 @@ Tornado.cash is available on several blockchains, so you will have to choose amo
 
 
 
+### Select a token
+
+Choose the token you want to deposit and its amount:
+
+![](.gitbook/assets/abdce.gif)
+
+### Connect your wallet
+
+Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
+
+### Save your note
+
+Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` \(top-right corner\).
+
+![](.gitbook/assets/aaaab.gif)
+
+### Be patient
+
+As explained [here](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), the longer you wait, the greater your anonymity set will be.
+
+Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
+
+## Withdraw
+
+
+
+
+
