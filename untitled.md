@@ -10,8 +10,6 @@ Tornado.cash is available on several blockchains, so you will have to choose amo
 
 ![](.gitbook/assets/azpoj.gif)
 
-
-
 ### Select a token
 
 Choose the token you want to deposit and its amount:
@@ -36,7 +34,29 @@ Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
 
 ## Withdraw
 
+### Choose a chain
 
+Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+
+GIF
+
+### Select a token
+
+Choose the token you want to withdraw and its amount:
+
+GIF
+
+### Connect your wallet
+
+Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
+
+### Paste your note
+
+Use your deposit note by pasting it in the corresponding box. Click on `Withdraw` and wait for the zksnark proof to be generated.
+
+### Confirm the withdrawal
+
+![](.gitbook/assets/1-qwu2v6lalrldd28prupvlq.png)
 
 _Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
 
