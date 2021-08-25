@@ -38,17 +38,7 @@ Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
 
 Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
 
-GIF
-
-### Select a token
-
-Choose the token you want to withdraw and its amount:
-
-GIF
-
-### Connect your wallet
-
-Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
+![](.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
 ### Paste your note
 
@@ -56,7 +46,9 @@ Use your deposit note by pasting it in the corresponding box. Click on `Withdraw
 
 ### Confirm the withdrawal
 
-![](.gitbook/assets/1-qwu2v6lalrldd28prupvlq.png)
+![](.gitbook/assets/abdaaaa.png)
+
+Done !
 
 _Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
 
