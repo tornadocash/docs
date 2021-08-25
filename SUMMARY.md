@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction of Tornado.Cash](README.md)
 * [Introduction of Tornado.Cash](introduction-of-tornado.cash.md)
 * [How does Tornado.Cash work?](how-does-tornado.cash-work.md)
 * [Tips to remain anonymous](tips-to-remain-anonymous.md)
