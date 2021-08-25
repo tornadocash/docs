@@ -38,5 +38,9 @@ Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
 
 
 
+_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
+
+
+
 
 
