@@ -1,7 +1,5 @@
 # Introduction of Tornado.Cash
 
-**\[Work in progress\]**
-
 ![](.gitbook/assets/image.png)
 
 Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space. 
@@ -30,9 +28,9 @@ As of today, Tornado.Cash can be used with the following tokens:
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
-The protocol also includes an **anonymity mining system for some of its token**, allowing its users to earn a **governance token**. Thanks to TORN tokens, Tornado Cash users actively participate in shaping the protocol. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol para@eters & token distribution are completely under the community's control through this governance.
+The protocol also includes an **anonymity mining system for some of its token**, allowing its users to earn a **governance token**. Thanks to TORN tokens, Tornado Cash users actively participate in shaping the protocol. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol parameters & token distribution are completely under the community's control through this governance.
 
-More information about [Anonymity mining](anonymity-mining.md) & [Tornado.Cash token](torn.md) are available.
+_More information about_ [_Anonymity mining_](anonymity-mining.md) _&_ [_Tornado.Cash token_](torn.md) _are available._
 
 ## How does Tornado.Cash run?
 
@@ -40,7 +38,9 @@ More information about [Anonymity mining](anonymity-mining.md) & [Tornado.Cash t
 
 The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
 
-User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it. 
+User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it.
+
+
 
 _Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
 
