@@ -1,5 +1,7 @@
 # How does Tornado.Cash work?
 
+**\[Work in progress\]**
+
 Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
 
 ### Global overview of Tornado.Cash functioning
@@ -12,9 +14,8 @@ When a user puts funds into a pool \(a.k.a. the deposit\), a private note is gen
 
 The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
 
-* Using a relayer to pay gas at withdrawal;
-* Leaving a lapse of time between the deposit & the withdrawal action;
-* Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
+*  Leaving a lapse of time between the deposit & the withdrawal action
+*  Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
 
 _More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
 
@@ -29,8 +30,6 @@ To process a withdrawal, the same area of bytes is split into two separate parts
 Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial commitment and of the nullifier without revealing any information. Even if the nullifier is public, privacy is sustained as there is no way to link the hashed nullifier to the initial commitment. Besides, even if the information that the transaction is present in the Merkle root, the information about the exact Merkle path, thus the location of the transaction, is still kept private.
 
 Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
-
-
 
 _Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
 

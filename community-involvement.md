@@ -1,5 +1,7 @@
 # Community Involvement
 
+**\[Work In Progress\]**
+
 In a Decentralized Autonomous Organization \(DAO\), significant elements such as protocol parameters & token distribution are controlled by the community through governance. This governance allows the community to shape & continuously improve the protocol.
 
 However, the role of a community does not stop to suggesting proposals & expressing its opinion through votes. The community can also actively contribute to the success and prosperity of their protocol through constructive debates, mutual help and specific actions.

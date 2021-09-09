@@ -6,7 +6,7 @@ However, maintaining privacy and preserving financial freedom should never come 
 
 To this extent, **Tornado.Cash Compliance Tool enables users to prove the origin of their funds.** Thanks to the Note generated after each deposit, **this tool will issue a cryptographically verified proof of transactional history** using the Ethereum addresses used to deposit & withdraw assets.
 
-You can visit the Medium post related to this tool to learn more about the development and launch: [**Tornado.Cash compliance Medium Post**](https://tornado-cash.medium.com/tornado-cash-compliance-9abbf254a370).
+You can visit the Medium post related to this tool to learn more about is development and launch: [**Tornado.Cash compliance Medium Post**](https://tornado-cash.medium.com/tornado-cash-compliance-9abbf254a370).
 
 Therefore, if you are ever in need to prove the origin of held assets withdrawn from one of Tornado.Cash pools, we invite you to use the following [Compliance Tool](https://app.tornado.cash/compliance/):
 
