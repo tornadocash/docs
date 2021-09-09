@@ -1,7 +1,5 @@
 # Compliance Tool
 
-**\[Work In Progress\]**
-
 By design, everything is public on the blockchain, which can deprive users from their right to privacy. Anyone can have access to everyone’s whole transaction history. In response to this core problem,Tornado.Cash protocol allows cryptocurrency holders to earn back their privacy and gain anonymity. Indeed, it enables users to break the on-chain link between a source and a destination address.
 
 However, maintaining privacy and preserving financial freedom should never come at the expense of non-compliance. The right of privacy lies in the ability to have control over the information we provide and to whom we provide it. 
