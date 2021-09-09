@@ -38,11 +38,11 @@ On June 2021, Tornado.Cash community has voted the implementation of a community
 Tornado.Cash Community Fund has been allocated 5% of total available TORN of the governance treasury, broken down as follows:
 
 * 5% of the already vested 485.3k TORN at that time, resulting on an **initial transfer of 22.9k TORN** _-&gt;_ [_Transaction Details_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47) __
-* 5% of the monthly 91.6k that will be vested in the next 12 month, which result on **a monthly transfer of approx. 4,6k TORN** \(a total of approx. 55k TORN over a year\)
+* 5% of the monthly 91.6k that will be vested in the next 12 month, which result on **a monthly transfer of approx. 4.6k TORN** \(a total of approx. 55k TORN over a year\)
 
-The monthly allocation of the Fund was programmed through [Sablier](https://sablier.finance/), a protocol built on Ethereum that allows a live stream of remaining TORNs \(second by second\) over 12 months.
+The monthly allocation of the Fund was programmed through [Sablier](https://sablier.finance/), a protocol built on Ethereum that allows a live stream of remaining TORNs \(second by second\) over 12 months. 
 
-In total, an amount of approximatively **78k TORN** was allocated to this Community Fund.
+In total, an amount of approximatively **78k TORN** was allocated to this Community Fund. As of the end of August 2021, the balance of the Community Fund is about ~12.6k TORN vested in Sablier & 15.5k TORN in the Gnosis safe.
 
 Tornado.Cash Community Contract is: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances). 
 
