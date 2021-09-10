@@ -1,4 +1,4 @@
-# Community Involvement
+# Роль сообщества в проекте Tornado Cash
 
 In a Decentralized Autonomous Organization \(DAO\), significant elements such as protocol parameters & token distribution are controlled by the community through governance. This governance allows the community to shape & continuously improve the protocol.
 

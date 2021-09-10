@@ -7,6 +7,6 @@
 * [Майнинг Анонимности](anonymity-mining.md)
 * [TORN](torn.md)
 * [Управление проектом Tornado Cash](governance.md)
-* [Community Involvement](community-involvement.md)
+* [Роль сообщества в проекте Tornado Cash](community-involvement.md)
 * [Compliance Tool](compliance-tool.md)
 
