@@ -1,46 +1,58 @@
-# Introduction of Tornado.Cash
+# Познакомьтесь с Tornado.Cash
 
 ![](.gitbook/assets/image.png)
 
-Torndo Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space. 
+\[Информационный раздел постоянно пополняется\]
 
-As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
+Tornado Cash - это полностью децентрализованный некастодиальный протокол, позволяющий осуществлять частные транзакции в сфере криптовалют. 
 
-As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
+Как децентрализованный протокол, смарт-контракты Tornado.Cash реализованы в блокчейне Ethereum, что делает их неизменяемыми. Они не могут быть изменены или подделаны. Поэтому никто, включая первоначальных разработчиков проекта, не может их модифицировать или отключить. Все смарт-контракты для управления сетью, стекингом и эмиссией развертываются сообществом в децентрализованном порядке.
 
-## How privacy is achieved?
+Поскольку Tornado.Cash является некастодиальным протоколом, пользователи сохраняют свою криптовалюту у себя во время работы с Tornado.Cash. При каждом пополнении счета, пользователям предоставляется приватный ключ, позволяющий получить доступ к размещенным средствам, что дает полный контроль над активами.
 
-Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
+## Как достигается конфиденциальность?
 
-To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance. 
+Tornado Cash повышает конфиденциальность транзакций за счет разрыва связи между кошельками \(адресами\) пользователей в сети блокчейн. Проект использует смарт-контракт, который принимает депозиты в ETH и других токенах с одного адреса и позволяет выводить их с другого адреса.
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) _****_& [Tips to remain anonymous](tips-to-remain-anonymous.md).
+Чтобы сохранить конфиденциальность, необходимо использовать несколько уровней защиты, например, использовать ретранслятор \(Relayer\)  для платежей при выводе средств на адрес, не имеющий ранее существующего баланса в ETH для оплаты комиссий. 
 
-## Where is Tornado.Cash at?
+Более подробную информацию можно найти в разделе Проект Изнутри:
 
-The protocol has been operating on the **Ethereum blockchain** since its inception in 2019. It was recently deployed, in June 2021, on **Binance Smart Chain** & **Polygon**.
+[Как работает Tornado.Cash?](https://docs.tornado.cash/how-does-tornado.cash-work) и [Советы по сохранению анонимности.](https://docs.tornado.cash/tips-to-remain-anonymous)
 
-As of today, Tornado.Cash can be used with the following tokens:
+## На чем базируется Tornado.Cash?
 
-* On Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
-* On Binance Smart Chain: **BNB** _\(Binance Coin\)_.
-* On Polygon Network: **MATIC** _\(Polygon\)_
+Протокол работает на блокчейне Ethereum с момента его создания в 2019 году. Недавно, в июне 2021 года, он был развернут на Binance Smart Chain & Polygon.
+
+На сегодняшний день Tornado.Cash можно использовать со следующими токенами:
+
+* На Ethereum: ETH \(Ethereum\), DAI \(Dai\), cDAI \(Compound Dai\), USDC \(USD Coin\), USDT \(Tether\) и WBTC \(Wrapped Bitcoin\).
+* На блокчейне Binance: BNB \(Binance Coin\)
+* В сети Polygon: MATIC \(Polygon\).
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
-The protocol also includes an **anonymity mining system for some of its token**, allowing its users to earn a **governance token**. Thanks to TORN tokens, Tornado Cash users actively participate in shaping the protocol. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol parameters & token distribution are completely under the community's control through this governance.
+Протокол также включает систему анонимного майнинга для части своих токенов, позволяя пользователям зарабатывать токены управления \(governance coin\). Благодаря токенам TORN пользователи Tornado Cash активно участвуют в формировании протокола. Сообщество имеет большой вес и влияет на эволюцию проекта Tornado Cash и улучшение его функций. Параметры протокола и распределение токенов полностью контролируются сообществом благодаря такому управлению.
 
-_More information about_ [_Anonymity mining_](anonymity-mining.md) _&_ [_Tornado.Cash token_](torn.md) _are available._
+  
+Более подробная информация об [анонимном майнинге](https://docs.tornado.cash/anonymity-mining) и токене [Tornado.Cash](https://docs.tornado.cash/torn) доступна по ссылкам.
 
-## How does Tornado.Cash run?
+## Как работает Tornado.Cash?
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain -  are fully **open sourced.** Working as a DAO \(Decentralized Autonomous Organization\), Tornado.Cash governance and mining smart contracts are deployed by its community.
+Программный код, лежащий в основе функционала Tornado.Cash, а также смарт-контакты, схемы и инструментарий имеют открытый исходный код.
 
-The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
+Работая как DAO \(децентрализованная автономная организация\), управление Tornado.Cash и майнинговые смарт-контракты развертываются его сообществом.
 
-User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it.
+  
+Протокол также работает с технологией zk-SNARK, которая обеспечивает доказательства с нулевым разглашением \(zero-knowledge proofs\), позволяя пользователям продемонстрировать сервису владение активом без деанонимизации.
+
+Использование этой технологии основано на исследованиях с открытым исходным кодом, проведенных командой Zcash при помощи сообщества Ethereum. Для создания начальных ключей zk-SNARK в мае 2020 года было запущено сообщество Tornado.Cash [Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1), в которое на данный момент внесено [1114 вкладов](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa).
+
+Такое значительное количество участников делает невозможным компрометацию протокола путем подделки доказательства с нулевым разглашением.
+
+Пользовательский интерфейс размещен на IPFS \(InterPlanetary File System\) сообщества, что сводит к минимуму риск удаления данных. На практике, интерфейс будет работать до тех пор, пока хотя бы один пользователь будет хостить его.
 
 
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+автор __[_@ayefda_](https://torn.community/u/ayefda)\_\_
 
