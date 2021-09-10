@@ -2,7 +2,7 @@
 
 * [Познакомьтесь с Tornado.Cash](README.md)
 * [Как работает Tornado.cash? EDIT](how-does-tornado.cash-work.md)
-* [Tips to remain anonymous](tips-to-remain-anonymous.md)
+* [Советы по сохранению анонимности](tips-to-remain-anonymous.md)
 * [Deposit & Withdraw](untitled.md)
 * [Anonymity mining](anonymity-mining.md)
 * [TORN](torn.md)
