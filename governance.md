@@ -1,10 +1,14 @@
-# Governance
+# Управление проектом Tornado Cash
 
-### How to suggest a proposal ?
+### Как внести предложение?
 
-In order to participate in Tornado.Cash governance, users first need to lock tokens in the governance contract. If a user votes or creates a proposal, the tokens cannot be unlocked before the proposal execution period ends \(8.25 days from proposal creation\). The locked tokens can also be delegated to another address.
+Для того чтобы принять участие в управлении проектом Tornado.Cash, пользователям сначала необходимо заблокировать свои токены TORN в контракте управления. Если пользователь голосует или создает предложение, токены не могут быть разблокированы до окончания периода выполнения предложения \(8,25 дней с момента создания предложения\).
 
-To create a proposal, a user needs to have at least `1,000 TORN`. All proposals must be smart contracts with verified code that are executed from the [governance contract ](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce)\(using `delegatecall`\). This way, it’s easy to audit and test any governance changes.
+Заблокированные токены также могут быть делегированы другому адресу.
+
+Чтобы создать предложение, пользователь должен иметь не менее 1.000 TORN. Все предложения являются смарт-контрактами с верифицированным кодом, которые выполняются из [контракта управления](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce) \(с использованием команды `delegatecall`\).
+
+Таким образом, любые изменения в контрактах можно легко проверить и протестировать.
 
 The voting period for a proposal is 3 days. A proposal will succeed if it receives a simple majority of votes and there are at least `25,000 TORN` total votes \(if turnout is too low, the proposal automatically fails\).
 
