@@ -35,7 +35,7 @@ The exact curve for the time multiplier looks like this:
 
 ![](.gitbook/assets/1-bje88nlnkbe29-zcs5agkw-2x.png)
 
-The exact airdrop formula is the following:
+Точная формула airdrop’a выглядит следующим образом:
 
 ![](.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
 
