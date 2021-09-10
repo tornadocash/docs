@@ -1,90 +1,92 @@
-# Anonymity mining
+# Майнинг Анонимности
 
-Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points \(AP\) dependent on how long they hedge their assets in a pool.
+Майнинг анонимности - это инструмент для повышения уровня конфиденциальности в любых протоколах объединения монет или смешивания монет, путем начисления участникам очков анонимности \(AP\) в зависимости от того, на какой срок они размещают свои активы в пуле.
 
-_This incentive began on December 18, 2020 and will end on December 18, 2021._
+Этот инструмент начал действовать 18 декабря 2020 года и закончит свое действие 18 декабря 2021 года.
 
-Individuals deposit to any one of the anonymity pools that are supported \(ETH, WBTC, DAI or cDAI\) and are rewarded a fixed amount of AP per block, over the period their deposit remains in the pool. These points can then be exchanged for TORN once claimed.
+Участники вносят депозит в любой из поддерживаемых пулов анонимности \(ETH, WBTC, DAI или cDAI\) и получают фиксированное количество очков AP за каждый блок в течение всего периода, пока их депозит остается в пуле. Эти баллы можно обменять на токен TORN.
 
-### Anonymity points \(AP\)
+### Очки анонимности \(AP\)
 
-_Readers should be aware some lower denomination deposits at the time of writing, do not produce a positive return due to the gas costs required to withdraw, redeem and exchange anonymity points_
+Читатели должны учитывать, что некоторые вклады с низким номиналом на не всегда приносят положительного доход из-за затрат \(на комиссии\), необходимых для снятия, погашения и обмена очков анонимности.
 
-One of the community members created the resource of [a mining spreadsheet 13](https://torn.community/t/anonymity-mining-spreadsheet/720) that helps calculate annual percentage yield’s \(APY’s\) for each pool and each denomination set within, through estimating the fees required to claim a reward. **It is highly recommended to view this resource and plan one’s course of action before expecting to earn yield.** At the bottom of the spreadsheet, you can view each pool by selecting the associated tab.
+Один из членов сообщества создал полезный ресурс в виде [электронной майнинг таблицы 13](https://torn.community/t/anonymity-mining-spreadsheet/720), которая поможет рассчитать годовую процентную доходность \(APY\) для каждого пула и каждого номинала средств, установленного в нем, путем оценки комиссионных, необходимых для получения вознаграждения. **Настоятельно рекомендуется изучить эту информацию и просчитать свои действия, прежде чем рассчитывать доходность.** В нижней части электронной таблицы можно просмотреть каждый пул, выбрав соответствующую вкладку.
 
-### How to earn AP
+### Как заработать очки AP
 
-1. Decide what amount and asset to deposit by selecting it through the dropdown menu, before clicking on "Connect" and "Deposit".
+1. Решите, какую сумму и в каком активе необходимо внести, выбрав его в выпадающем меню, а затем нажмите кнопки "Connect" и "Deposit".
 
 ![](.gitbook/assets/m3fh0gl.png)
 
-2. Take a record of your depositing note and back it up safely, **do not share this with anyone or risk losing your deposit and reward.**
+2. Получите приватную заметку Tornado Cash Note о пополнении счета и сохраните ее в безопасном месте. **Не передавайте и не теряйте информацию из заметки никому, иначе вы рискуете потерять свой депозит и вознаграждение.**
 
 ![](.gitbook/assets/vhustru.png)
 
-3. Generate the proof and submit the transaction.
+3. Сгенерируйте доказательство и отправьте транзакцию.
 
-4. Your deposit should now be viewable on the bottom of the page, you can track how much AP it earns here; remember the longer your deposit remains active, the more AP you earn.
+4. Ваш депозит теперь должен отобразиться внизу страницы, здесь вы можете отслеживать, сколько AP он заработал; помните, чем дольше ваш вклад остается активным, тем больше AP вы заработаете.
 
 ![](.gitbook/assets/k6juetp.png)
 
-_Notes that are active \(not withdrawn\) are known as “unspent” notes._
+_Активные вклады \(которые не сняты\), определяются как "неизрасходованные" вклады._
 
-### How to claim AP
+### Как получить очки AP
 
-1. First you must create a mining account and store those credentials on-chain for easy recovery \(requires a transaction\), **like depositing notes, you should never share your mining recovery key with anyone** and ensure to back it up in a safe place. This feature is not supported by hardware wallets so it’s encouraged to store the information as presented_._
+1. Сначала вы должны создать учетную запись для майнинга и сохранить эти учетные данные в сети блокчейн для легкого восстановления \(требуется провести транзакцию\),
+
+**Как и в случае с получением приватной заметки при внесении депозита - вы никогда и никому не должны передавать свой ключ для восстановления майнинг-аккаунта и обязательно храните его в надежном месте.**
+
+Эта функция не поддерживается аппаратными кошельками, поэтому рекомендуется хранить информацию в представленном виде.
 
 ![](.gitbook/assets/lskzkgk.png)
 
-2. Take an active deposit through providing an unspent note and withdraw to an address of preference and decide whether to use a relayer or not \(_to maintain a deposit’s anonymity it is always advised to use a relayer_\), this will bring the note into a “spent” state.
+2. Выведите активный депозит, вставив в поле информацию из приватной заметки. Выводите средства на предпочитаемый адрес кошелька, используя или не используя ретранслятор \(для сохранения анонимности депозита всегда рекомендуется использовать ретранслятор\). Это приведет заметку в состояние "израсходована".
 
 ![](.gitbook/assets/aid86cj.png)
 
-**Remember to still keep your depositing notes a secret even after withdrawing, as they still retain the ability to redeem AP.**
+**Не забывайте сохранять в тайне свои приватные заметки даже после снятия средств, так как они все еще сохраняют возможность получения AP.**
 
 ![](.gitbook/assets/bpsqxxr.png)
 
-3. Visit the mining route of the application and enter your spent note, you may be faced with one of the following situations.
+3. Пройдите по ссылке с маршрутом майнинга в приложении и введите информацию из израсходованной заметки, после вы можете столкнуться с одной из следующих ситуаций.
 
-* **The ability to claim your spent note**: click the “Claim reward” button and submitting the transaction either by using a relayer or not, once confirmed your AP balance should update to reflect the action.
+* **Возможность использовать израсходованную заметку:** нажмите кнопку "Claim reward" и подтвердите транзакцию, используя или не используя ретранслятор, после подтверждения, ваш баланс AP должен обновиться.
 
 ![](.gitbook/assets/e9jyqhu.png)
 
- 
-
-* **The inability to claim a spent note:** _“Warning: The note is not yet ready for anonymity mining. You can wait few days before trying again”_ - This means the Merkle trees are out of sync and require a transaction to be updated.
+* **Нет возможности использовать израсходованную заметку:** "Предупреждение: Заметка еще не готова для майнинга анонимности. Вы можете подождать несколько дней, прежде чем повторить попытку" - Это означает, что деревья Меркла рассинхронизированы и требуют обновления транзакции.
 
 ![](.gitbook/assets/i6qtr0f.png)
 
-Updating the trees can be an expensive process, **it is recommended that users with small deposits wait for the larger miners to update the trees, this could take anywhere from a few days to a week**. If you want to view your event relative to the current pending batches. Click the _“Show mining note information”_ hyperlink, here you can also pay the transaction fees to sync the tree relative to your withdrawal through the “Update trees” button.
+Обновление деревьев Меркла может быть дорогостоящим процессом, **поэтому пользователям с небольшими депозитами рекомендуется подождать, пока крупные майнеры обновят деревья - это может занять от нескольких дней до недели.** Если вы хотите просмотреть свое событие относительно текущих ожидающих транзакций, щелкните на гиперссылке _"Show mining note information"._ Здесь вы также можете оплатить транзакционные сборы для синхронизации дерева, нужного для совершения вашего вывода с помощью кнопки "Update trees".
 
 ![](.gitbook/assets/d8dmxjj.png)
 
-### How to exchange AP
+### Как обменять очки AP
 
-1. Navigate over to the “Swap” tab on the mining page which can be accessed through the second navigation bar from the top of the page.
+1. Перейдите на вкладку "Swap” на странице майнинга, доступ к которой осуществляется через вторую навигационную панель сверху страницы.
 
 ![](.gitbook/assets/ahrjxbq.png)
 
-2. Enter the amount of AP requested to exchange or select the “Maximum” option to convert your active balance. Below this input, information regarding the current AP/TORN rate and reward output will be displayed. Provide an address of preference to receive the reward, finalise by generating the proof and submitting the transaction through a relayer or not.
+2. Введите количество AP, которое вы хотите обменять, или выберите опцию "Максимум" для конвертации всего активного баланса. Под этим вводом будет отображаться информация о текущем курсе AP/TORN и выдаче вознаграждения. Укажите предпочитаемый адрес для получения вознаграждения и завершите операцию, сгенерировав доказательство и отправив транзакцию с/без использования ретранслятора.
 
 ![](.gitbook/assets/wo55lao.png)
 
-3. If all steps were followed correctly, TORN will be transferred to the address of preference provided in step 2 of this section.
+3. Если все шаги были выполнены правильно, TORN будет переведен на адрес кошелька, указанного в шаге 2.
 
-### Closing remarks
+### Заключительные ремарки
 
-Congratulations, you have successfully participated in anonymity mining!
+Поздравляем, вы успешно приняли участие в майнинге анонимности!
 
-It is always recommended to plan when deciding to mine any of the anonymity sets, users should also be aware that the [AP/TORN rate](https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2) is dependent on supply and demand, therefore, **the more people that claim the higher the rate becomes, and the less people that claim the lower it becomes**.
+Рекомендуется планировать время для майнинга любого из комплексов анонимности заранее. Пользователи также должны знать, что ставка [AP/TORN](https://dune.xyz/luckyallocator/Daily-AP-TORN-Rate-v2) зависит от спроса и предложения, поэтому, **чем больше людей выводят очки анонимности, тем выше становится ставка, а чем меньше людей - тем ниже становится ставка**
 
-For more information on anonymity mining, seek the following resources:
+Для получения дополнительной информации о добыче анонимности обратитесь к следующим ресурсам:
 
-* [Tornado.Cash governance proposal article](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
-* [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a) 
-* [Anonymity mining explained \(technical\)](https://torn.community/t/anonymity-mining-technical-overview/15)
+* [Статья о предложении по управлению проектом Tornado.Cash](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
+* [Статья об оптимизации майнинга анонимности Tornado.Cash](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)
+* [Разбор майнинга анонимности \(техническая статья\)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
-_Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
+С уважением к [_@sockawoo_](https://torn.community/u/sockawoo) и [_@ethdev_](https://torn.community/u/ethdev) __ за помощь в рецензировании
 
-_Written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
+Автор [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
 

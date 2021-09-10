@@ -1,56 +1,56 @@
-# Ввод и вывод средств EDIT
+# Deposit & Withdraw
 
-Это руководство пользователя представляет собой пошаговое объяснение процессов депонирования и вывода средств. Если вы хотите понять, как работает система Tornado.cash, пожалуйста, перейдите на \(соответствующее руководство.\) -&gt; put link how tornado cash work
+This tutorial is a step-by-step explanation of how to deposit & withdraw your funds. If you want to understand how the internal system of Tornado.cash works, please refer to [this tutorial](https://docs.tornado.cash/how-does-tornado.cash-work).
 
-## Депозиты и Снятия средств
+## **Deposit**
 
-### Выберите сеть блокчейн
+### Choose a chain
 
-_Инструмент Tornado.cash доступен на нескольких блокчейнах, поэтому вам необходимо выбрать одну из 4 сетей:_
+Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
 
 ![](.gitbook/assets/azpoj.gif)
 
-### Выберите токен
+### Select a token
 
-_Выберите токен, который вы хотите внести на депозит, и сумму депозита_
+Choose the token you want to deposit and its amount:
 
 ![](.gitbook/assets/abdce.gif)
 
-### Подключите кошелек
+### Connect your wallet
 
-_Нажмите на кнопку_ `Connect` _и выберите одного из провайдеров кошельков, таких как Metamask или WalletConnect._
+Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
 
-### Сохраните свою приватную заметку Tornado Cash Note
+### Save your note
 
-_Нажмите на кнопку_ `Deposit` _и сохраните свою приватную заметку в надежном месте, прежде чем нажать на кнопку_ `I backed up the note.` _Вы также можете сохранять зашифрованные заметки внутри сети блокчейн, создав учетную запись для заметок - для этого нажмите на_ `Settings` _\(правый верхний угол\)._
+Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` \(top-right corner\).
 
 ![](.gitbook/assets/aaaab.gif)
 
-### Будьте терпеливы
+### Be patient
 
-Как объясняется [здесь](https://docs.tornado.cash/v/ru/tips-to-remain-anonymous#ispolzuite-neskolko-adresov), чем дольше вы ждете, тем больше будет ваш комплекс анонимности.
+As explained [here](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), the longer you wait, the greater your anonymity set will be.
 
-Поздравляем! Теперь ваши токены находятся в пуле Tornado.Cash.
+Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
 
-## Вывод средств
+## Withdraw
 
-### Выберите сеть блокчейн
+### Choose a chain
 
-Инструмент Tornado.cash доступен на нескольких блокчейнах, поэтому вам необходимо выбрать одну из 4 сетей:
+Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
 
 ![](.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
-### Используйте вашу приватную записку
+### Paste your note
 
-Используйте свою приватную записку, вставив ее данные в соответствующее поле. Нажмите на кнопку `Withdraw` и дождитесь генерации доказательства zksnark.
+Use your deposit note by pasting it in the corresponding box. Click on `Withdraw` and wait for the zksnark proof to be generated.
 
-### Подтвердите вывод средств
+### Confirm the withdrawal
 
 ![](.gitbook/assets/abdaaaa.png)
 
-Готово!
+Done !
 
-автор __[_**@bt11ba**_](https://torn.community/u/bt11ba/)
+_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
 
 
 
