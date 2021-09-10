@@ -1,36 +1,45 @@
-# How does Tornado.Cash work?
+# Как работает Tornado.cash? EDIT
 
-Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
+\[Информационный раздел постоянно пополняется\]
 
-### Global overview of Tornado.Cash functioning
+Прежде чем погрузиться в мануалы, объясняющие и облегчающие пользование сервисом Tornado.Cash, мы представляем вам общий обзор функционала протокола.
 
-To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets. 
+### **Общий обзор функционала Tornado.Cash**
 
-Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized. 
 
-When a user puts funds into a pool \(a.k.a. the deposit\), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
 
-The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
+Для достижения конфиденциальности транзакций Tornado.Cash использует смарт-контракты, которые принимают токены на депозит с одного адреса и позволяют выводить их на другой. Эти смарт-контракты работают как пулы, которые объединяют все депонированные активы. 
 
-* Using a relayer to pay gas at withdrawal;
-* Leaving a lapse of time between the deposit & the withdrawal action;
-* Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
+Как только средства выводятся из пула с нового адреса, связь между источником и получателем в сети блокчейн разрывается. Таким образом, выведенные криптоактивы анонимизируются. 
+
+Когда пользователь помещает средства в пул \(то есть - осуществляет депозит\), генерируется приватная заметка Tornado Cash Note. Эта приватная заметка служит для пользователя закрытым ключом для последующего доступа к своим средствам. Чтобы снять средства, пользователь может использовать свой старый кошелек либо совершенно новый - с помощью заметки Tornado Cash Note средства будут выведены в считанные минуты.
+
+.
+
+Защита данных, обеспеченная данным протоколом, естественным образом зависит от количества пользователей и размера пула. Чем больше пользователей вносят средства в пул, тем лучше. Однако, чтобы сохранить анонимность, пользователь должен помнить об основных правилах сохранения конфиденциальности:
+
+*  Выжидать определенное время между внесением депозита и снятием средств.
+*  Смешивать свои средства со средствами других пользователей - подождите пока после вашего депозита будут внесены новые, прежде чем выводить свои активы.
 
 _More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
 
-### Contribution of zk-SNARK & hashing process
+Дополнительные рекомендации приведены в разделе: Советы по сохранению анонимности.
 
-Tornado.Cash use Zero-Knowledge Succinct Non-Interactive Argument of Knowledge \(also called zk-SNARK\) to verify & allow transactions.
+### Какой вклад в проект внесли доказательство zk-SNARK и процесс хэширования
 
-To process a deposit, Tornado.Cash generates a random area of bytes, computes it through the [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) \(as it is friendlier with zk-SNARK\), then send the token & the 20 mimc hash to the smart contract. The contract will then insert it into the Merkle tree.
+Tornado.Cash использует доказательство Zero-Knowledge Succinct Non-Interactive Argument of Knowledge \(также называемый zk-SNARK\) для проверки и разрешения транзакций.
 
-To process a withdrawal, the same area of bytes is split into two separate parts: the **secret** on one side & the **nullifier** on the other side. The nullifier is hashed. This nullifier is a public input that is sent on-chain to get checked with the smart contrat & the Merkle tree data. It avoids double spending for instance.
+Чтобы обработать депозит, Tornado.Cash генерирует случайную область байтов, вычисляет ее через [хэш Педерсона](https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) \(так как он более совместим с zk-SNARK\), затем отправляет токен и хэш 20 mimc смарт-контракту. Контракт затем вставляет его в дерево Меркла.
 
-Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial commitment and of the nullifier without revealing any information. Even if the nullifier is public, privacy is sustained as there is no way to link the hashed nullifier to the initial commitment. Besides, even if the information that the transaction is present in the Merkle root, the information about the exact Merkle path, thus the location of the transaction, is still kept private.
+Для обработки вывода средств та же область байтов разбивается на две отдельные части: секрет с одной стороны и нуллификатор с другой.
 
-Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
+Нуллификатор хэшируется. Этот нуллификатор является публичным вводом информации, который передается по цепочке для сверки с данными смарт-контракта и деревом Меркла. Это позволяет, например, избежать задвоенных транзакций.
+
+Благодаря zk-SNARK можно доказать 20 mimc хэш исходного обязательства и нуллификатора, не раскрывая никакой конкретной информации. Даже если нуллификатор является публичной информацией, конфиденциальность сохраняется, так как нет возможности связать хэшированный нуллификатор с первоначальным платежным обязательством. Кроме того, информация о том, что транзакция присутствует в корне Меркла, информация о точном пути транзакции и о местонахождении транзакции является приватной.
+
+Депозиты просты с технологической точки зрения, но сложны с точки зрения трудозатрат, поскольку необходимо вычислить 20 mimc хэш и обновить дерево Меркла. В то время как процесс снятия средств является более сложным, но более дешевым в плане трудозатрат, поскольку они требуются только для хэша нуллификатора и доказательства с нулевым разглашением.
 
 
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+автор __[_@ayefda_](https://torn.community/u/ayefda)\_\_
 
