@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Познакомьтесь с Tornado.Cash](README.md)
-* [Как работает Tornado.cash? EDIT](how-does-tornado.cash-work.md)
+* [Как работает Tornado.cash?](how-does-tornado.cash-work.md)
 * [Советы по сохранению анонимности](tips-to-remain-anonymous.md)
 * [Ввод и вывод средств EDIT](untitled.md)
 * [Майнинг Анонимности](anonymity-mining.md)
