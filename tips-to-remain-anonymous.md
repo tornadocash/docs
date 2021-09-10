@@ -1,34 +1,32 @@
-# Советы по сохранению анонимности
+# Tips to remain anonymous
 
-Инструмент Tornado Cash позволяет сохранять анонимность транзакций в цепочке блокчейн. Однако если использовать этот инструмент без дополнительных мер обеспечения конфиденциальности, анонимность будет лишь частичной. Поэтому представляем вам методы, способные значительно повысить ваш уровень анонимности.
+The Tornado Cash tool allows you to remain anonymous on-chain. However, if the tool is used without protecting oneself upstream and downstream, there is no point and the anonymity would only be partial. There are practices to avoid this.
 
-### Используйте VPN
+### Use a VPN
 
-Ваш интернет-провайдер \(ISP\) идентифицирует вас с помощью IP-адреса.
+Your internet service provider \(ISP\) identifies you with an IP address. To prevent third parties from knowing that you are using Tornado.cash, you should consider using TOR and/or a VPN for your transfers. Avoid using free VPNs, they tend to keep or even sell your data. There are several VPNs on the market boasting a "no-log policy".
 
-Чтобы сторонние лица не узнали, что вы используете Tornado.cash, вам следует использовать TOR и/или VPN для совершения ваших транзакций. Избегайте использования бесплатных VPN, они могут хранить или даже продавать ваши данные. На рынке есть много VPN-сервисов, которые могут похвастаться "политикой no-log".
+### Save your note in a safe place <a id="save-your-note-in-a-safe-place"></a>
 
-### Храните свою приватную заметку Tornado Cash Note в безопасном месте <a id="save-your-note-in-a-safe-place"></a>
+Your note provides a record of your original transaction. Anyone who has it can withdraw the funds deposited, but also know the deposit address. Be sure to keep this note away from prying eyes and store it in a secure environment.
 
-Ваша приватная заметка содержит запись о первоначальной транзакции. Любой человек, получивший к ней доступ, может не только снять внесенные средства, но и узнать адрес с которого был внесен вклад. Обязательно держите вашу приватную заметку подальше от посторонних глаз и храните ее в безопасном месте.
+### Delete data <a id="delete-data"></a>
 
-### Удаляйте данные <a id="delete-data"></a>
+Your browser is a real source of information for the extensions you use. Delete your data after each deposit or withdrawal. If two transfers are made with the same cookies, the extension you are using will be able to link these two transactions.
 
-Ваш браузер является богатым источником информации о расширениях, которые вы используете. Удаляйте данные после каждого пополнения или снятия средств. Если два разных перевода будут сделаны при использовании одних и тех же файлов cookie, используемое вами расширение сможет связать эти транзакции.
+### Avoid using the same API token <a id="avoid-using-the-same-api-token"></a>
 
-### Не пользуйтесь одним API-токеном <a id="avoid-using-the-same-api-token"></a>
+If you use the same API token for two transactions, you will be easily recognized by your extension. For Metamask users, be aware that this extension will use the same token for each of your transactions. To avoid this problem, don't hesitate to uninstall and reinstall Metamask for each transfer, making sure to create a new account each time.
 
-Если вы используете один и тот же API-токен для двух транзакций, расширение легко распознает вас. Пользователям Metamask следует помнить, что это расширение будет использовать один и тот же токен для совершения каждой транзакции. Чтобы избежать этого, вы можете удалять и заново устанавливать Metamask для совершения каждого нового перевода, но обязательно создавайте новые учетные записи.
-
-### Будьте терпеливы <a id="be-patient"></a>
+### Be patient <a id="be-patient"></a>
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MXflGk4w5pDjjlmPCuF%2F-MgQVRqU6Ff6ypW_Q-fV%2F-MgQW0ko2bOUYlnsuG0F%2Fozxj.png?alt=media&token=1debad58-aa3c-4638-9d18-1636e87e3d0a)
 
-Ваша анонимность также зависит от количества новых транзакций после вашего депозита \(см. вкладку Статистика выше\). Если вы снимаете средства сразу после пополнения счета, ваш депозит можно будет связать с вашим переводом с помощью корреляционных вероятностей. Чем дольше вы ждете, тем больше будет ваш комплекс анонимности.
+Your anonymity also depends on the number of transactions after your deposit \(cf. Statistics tab above\). If you withdraw your funds immediately after depositing them, it is possible to link your deposit to your transfer using correlation probabilities. The longer you wait, the greater your anonymity set will be.
 
-### Используйте несколько адресов
+### Use multiple addresses
 
-Депозит 7 x 10eth с одного адреса и вывод средств 7 x 10eth на другой адрес также можно связать между собой. Не забывайте дробить суммы и использовать разные адреса для вывода.
+A 7 x 10eth deposit from one address and a 7 x 10eth withdrawal to a single address can also be linked. Remember to multiply your withdrawal addresses.
 
-автор __[_**@bt11ba**_](https://torn.community/u/bt11ba/)
+_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
 
