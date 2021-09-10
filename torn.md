@@ -4,7 +4,7 @@
 
 TORN is an ERC20-compatible token with a fixed supply that governs [Tornado.Cash](https://tornado.cash/). TORN holders can make proposals and vote to change the protocol via governance.
 
-**TORN is not a fundraising device or investment opportunity. It will remain non-transferable until the community decides that unlocking transfers via a governance vote, not earlier than 45 days following deployment, would comply with all applicable laws.**
+**TORN is not a fundraising device or investment opportunity.**
 
 **Here’s how the initial distribution of TORN would break down:**
 
