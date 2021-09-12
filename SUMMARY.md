@@ -8,5 +8,5 @@
 * [TORN](torn.md)
 * [Управление проектом Tornado Cash](governance.md)
 * [Роль сообщества в проекте Tornado Cash](community-involvement.md)
-* [Compliance Tool](compliance-tool.md)
+* [Инструмент для обеспечения соответствия](compliance-tool.md)
 
