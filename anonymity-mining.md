@@ -88,6 +88,6 @@ _Активные вклады \(которые не сняты\), опреде�
 
 С уважением к [_@sockawoo_](https://torn.community/u/sockawoo) и [_@ethdev_](https://torn.community/u/ethdev) __ за помощь в рецензировании
 
-Автор [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)  
+Автор [_@xgozzy_](https://torn.community/u/xgozzy/summary)  
 _****_Переведено и адаптировано: [@ghost](https://torn.community/u/ghost/summary)
 

@@ -52,6 +52,5 @@ Tornado Cash повышает конфиденциальность транза�
 
 
 
-автор __[_@ayefda_](https://torn.community/u/ayefda)  
-__Переведено и адаптировано: [@Ghost](https://torn.community/u/ghost/summary)
+автор __[_@ayefda_](https://torn.community/u/ayefda)\_\_
 
