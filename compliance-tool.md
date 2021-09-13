@@ -52,5 +52,6 @@
 
 ![https://app.tornado.cash/compliance/](.gitbook/assets/capture-de-cran-2021-09-02-a-15.12.53.png)
 
-автор [@ayefda](https://torn.community/u/ayefda)
+автор [@ayefda](https://torn.community/u/ayefda)  
+Переведено и адаптировано: [@ghost](https://torn.community/u/ghost/summary)
 

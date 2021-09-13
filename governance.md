@@ -1,95 +1,105 @@
-# Governance
+# Управление проектом Tornado Cash
 
-### How to suggest a proposal ?
+### Как внести предложение?
 
-In order to participate in Tornado.Cash governance, users first need to lock tokens in the governance contract. If a user votes or creates a proposal, the tokens cannot be unlocked before the proposal execution period ends \(8.25 days from proposal creation\). The locked tokens can also be delegated to another address.
+Для того чтобы принять участие в управлении проектом Tornado.Cash, пользователям сначала необходимо заблокировать свои токены TORN в контракте управления. Если пользователь голосует или создает предложение, токены не могут быть разблокированы до окончания периода выполнения предложения \(8,25 дней с момента создания предложения\).
 
-To create a proposal, a user needs to have at least `1,000 TORN`. All proposals must be smart contracts with verified code that are executed from the [governance contract ](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce)\(using `delegatecall`\). This way, it’s easy to audit and test any governance changes.
+Заблокированные токены также могут быть делегированы другому адресу.
 
-The voting period for a proposal is 3 days. A proposal will succeed if it receives a simple majority of votes and there are at least `25,000 TORN` total votes \(if turnout is too low, the proposal automatically fails\).
+Чтобы создать предложение, пользователь должен иметь не менее 1.000 TORN. Все предложения являются смарт-контрактами с верифицированным кодом, которые выполняются из [контракта управления](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce) \(с использованием команды `delegatecall`\).
 
-After a proposal succeeds, it is subject for a timelock of 2 days. After the timelock, any user is able to execute the proposal \(which initiates the changes\). If proposal is not executed for 3 days after that, it is considered _expired_ and can no longer be executed.
+Таким образом, любые изменения в контрактах можно легко проверить и протестировать.
 
-All of these initial parameters are relatively small, since there won’t be many TORN tokens in circulation early on. But as the circulating supply increases, governance may adjust these thresholds.
+Период голосования по предложению составляет 3 дня. Предложение будет принято, если оно получит простое большинство голосов и за него проголосует не менее 25 000 токенов TORN \(если явка на голосование будет слишком низкой, предложение автоматически провалится\).
 
-A proposal can be of the following nature:
+После принятия предложения на него накладывается временная блокировка, которая длится 2 дня. По истечении этого срока, любой пользователь может имплементировать предложение \(что инициирует определенные изменения\).
 
-* Adding a new Tornado Cash pool in the proxy
-* Changing the AP reward rates parameters
-* Unpause/Pause the TORN token
-* Change some core mining contracts such as the `TornadoTrees` contract
-* A combination of all of the above
+Если предложение не выполняется в течение 3 дней после принятия, оно считается просроченным и больше не может быть выполнено.
 
-And many more can be done. To find out exactly what can be changed through governance in the protocol, look for the functions with the modifier `onlyGovernance` in the smart contracts.
+Текущие параметры относительно просты, так как на начальном этапе в обращении будет не так много токенов TORN. Но, по мере увеличения объема циркулирующего предложения, сообщество может скорректировать эти пороговые значения.
 
-The governance functions are represented by a red arrow in [this architecture diagram.](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
+Вносимые предложения могут быть следующего характера:
 
-NOTE: Parts of this article was taken from [this medium post.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) Credits goes to the Tornado cash team.
+* Добавление нового пула Tornado Cash в прокси-сервере
+* Изменение параметров ставок вознаграждения очками AP
+* Снятие с "паузы" / постановка на "паузу" токена TORN
+* Изменение некоторых основных майнинг-контрактов, таких как контракт TornadoTrees
+* Комбинация вышеперечисленных предложений
 
-### How to vote ?
+Вы можете вносить эти и многие другие предложения. Чтобы узнать, что именно можно изменить с помощью управления в протоколе, найдите в смарт-контрактах функции с модификатором `onlyGovernance`.
 
-You first need to deposit \(or lock\) TORN tokens into the governance contract.
+Функции управления представлены красной стрелкой на этой [архитектурной диаграмме.](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
 
-Go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+ПРИМЕЧАНИЕ: Часть этой статьи была заимствована из [этого материала](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) на портале Medium. Благодарим команду Tornado cash за исходный материал.
 
-Click `Manage` -&gt; `Lock Tab`
+### Как голосовать за предложения?
 
-Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
+Сначала вам нужно внести \(или заблокировать\) токены TORN в контракте управления.
+
+Перейдите по адресу: [https://app.tornado.cash/governance.](https://app.tornado.cash/governance.)
+
+Нажмите кнопку `Lock` на вкладке `Manage`
+
+Одобрите контракт управления для передачи токенов TORN, нажав на кнопку `Approve`. После подтверждения одобрения, выберите сумму, которую вы хотите внести, и нажмите кнопку `Lock`. Подтвердите транзакцию в своем кошельке и дождитесь получения подтверждения.
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
-Before the vote, the next crucial step is to review the proposal.  
- Legitimate proposals should have a dedicated post on [Torn.community ](https://torn.community/)under the category “Proposal”. The forum post will provide additional context and arguments on the proposal. Read the thread and make your own mind on the issue.
+Перед участием в голосовании следующим важным шагом является рассмотрение предложения.
 
-Once a proposal was submitted it should appear on:  
-[https://app.tornado.cash/governance](https://app.tornado.cash/governance)  
- Proposal are implemented in the form of a smart contract making changes to the system. It is therefore important to verify the address of the smart-contract and review its code. Find the address of the proposal contract here:
+Легитимные предложения должны иметь специальный пост на [torn.community](https://torn.community/) в категории “Proposal”. Сообщение на форуме будет содержать дополнительный контекст и аргументы по предложению. Прочитайте предложение и сопутствующую информацию и примите собственное решение по данному вопросу.
+
+После того, как предложение было подано, оно должно появиться на:
+
+[https://app.tornado.cash/governance](https://app.tornado.cash/governance) 
+
+Предложения реализуются в виде смарт-контракта, вносящего изменения в систему. Поэтому важно проверить адрес смарт-контракта и изучить его код. Найдите адрес контракта-предложения здесь:
 
 ![](.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
 
-Look for the contract address on Etherscan and make sure that the source code is verified and readable.
+Найдите адрес контракта на Etherscan и убедитесь в том, что исходный код проверен и доступен для чтения.
 
 ![](.gitbook/assets/d2d37d169a94f09156e76fa522b7974cb7c9ac3f.png)
 
-Read the source code and make sure that it matches what is described in the forum post.
+Прочитайте исходный код и убедитесь, что он соответствует тому, что описано в сообщении на форуме.
 
-If you are not technical or not comfortable to read Solidity code, get someone you trust to review the contract for you.
+Если вы не являетесь техническим специалистом или вам неудобно читать код Solidity, попросите кого-нибудь, кому вы доверяете, просмотреть контракт за вас.
 
-If you agree \(or disagree\) with the proposal code, it time to vote!
+Если вы согласны \(или не согласны\) с кодом предложения, пришло время голосовать!
 
-A proposal have a voting windows of 3 days. This means that we have 3 days to reach the vote quorum of 25k TORN.
+Окно голосования по предложению составляет 3 дня. Это означает, что у нас есть 3 дня, чтобы набрать необходимое количество участников для голосования в 25 000 TORN.
 
-Important: Once you voted, your tokens will be locked for 8.25 days from the moment the proposal was submitted \(the start of the 3 days voting period\). After the 8.25 you can withdraw your tokens from the governance contract. Note that you can vote on 2 proposal at the same time without incurring additional lockup period \(Only the most recently submitted proposal will matter for the 8.25 lockup\).
+Важно: Как только вы проголосовали, ваши токены будут заблокированы на 8,25 дней с момента подачи предложения на голосование \(начало 3-дневного периода голосования\). По истечении 8,25 дней вы сможете отозвать свои токены из контракта управления. Обратите внимание, что вы можете голосовать по двум предложениям одновременно без дополнительного периода блокировки \(8,25 дней будут отсчитываться с момента участия в последнем голосовании\).
 
-To vote, simply click on the Green check mark or the the red cross depending whether you accept or reject the proposal. Confirm the transaction with Metamask and your vote is in!
+Чтобы проголосовать, просто нажмите на зеленую галочку или красный крестик в зависимости от того, принимаете вы предложение или отклоняете его. Подтвердите транзакцию с помощью Metamask, и ваш голос принят!
 
-### How to delegate the vote ?
+### Как делегировать право голосования?
 
-If you are a TORN token holder, you can delegate your voting power to someone else without having to send him the tokens.
+Если вы являетесь держателем токенов TORN, вы можете делегировать свое право голоса другому лицу без необходимости отправлять ему токены.
 
-IMPORTANT: If you delegate your tokens and that your delegate votes or initiate a proposal, your tokens will be locked for 8.25 days from the moment the proposal that the delegate voted on started. Note that that you can always undelegate at any time.
+ВАЖНО: Если вы делегируете свои токены и ваш делегат проголосует или внесет на обсуждение предложение, ваши токены будут заблокированы на 8,25 дней с момента начала голосования по предложению, за которое голосовал или которое внес делегат. Обратите внимание, что вы всегда можете отменить делегирование.
 
-To achieve delegation, go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Чтобы осуществить делегирование полномочий голоса, перейдите по ссылке: [https://app.tornado.cash/governance](https://app.tornado.cash/governance). 
 
-You first need to lock your tokens in the governance contract. Click **`Manage`** -&gt; **`Lock`** tab
+Сначала необходимо заблокировать токены в контракте управления. Нажмите кнопку `Lock` на вкладке `Manage`
 
-Approve the governance contract to transfer your TORN tokens by clicking on the **`Approve`** button. Once the approve is confirmed, chose the amount you want to delegate and click **`Lock`**. Confirm the transaction in your wallet and wait for the confirmation.
+Утвердите контракт управления для передачи токенов TORN, нажав на кнопку `Approve`. После подтверждения, выберите сумму, которую вы хотите передать, и нажмите кнопку `Lock`. Подтвердите транзакцию в своем кошельке и дождитесь подтверждения.
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2%20%281%29.png)
 
-The last step, is to make the actual delegation. Go again to [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Последним шагом будет фактическое делегирование. Снова перейдите на сайт [https://app.tornado.cash/governance](https://app.tornado.cash/governance). 
 
-Click **`Manage`** -&gt; **`Delegate`** tab
+Перейдите на вкладку `Manage` и нажмите кнопку `Delegate` 
 
-Fill-in the address to which you want to delegate and click **`Delegate`**. Approve the transaction in your wallet and wait for confirmation.
+Введите адрес, на который вы хотите делегировать права голоса, и нажмите `Delegate`. Одобрите транзакцию в своем кошельке и дождитесь подтверждения.
 
 ![](.gitbook/assets/43c05d176d7f75a336af7a865565c9b23786b98c.png)
 
-The totality of your locked balance will be delegated.
+После этого, весь ваш заблокированный баланс будет делегирован.
 
-You can undelegate at anytime. To undelegate simply use the `Undelegate` Button in `Manage` -&gt; `Undelegate` Tab.
+Вы можете отменить делегирование в любое время. Чтобы отменить делегирование, просто воспользуйтесь кнопкой `Undelegate` на вкладке Manage.
 
 
 
-_Written by_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_
+Автор __[_@rezan_](https://torn.community/u/Rezan/summary)  
+__Переведено и адаптировано: [@ghost](https://torn.community/u/ghost/summary)
 

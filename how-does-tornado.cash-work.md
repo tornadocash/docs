@@ -1,4 +1,4 @@
-# Как работает Tornado.cash? EDIT
+# Как работает Tornado.cash?
 
 \[Информационный раздел постоянно пополняется\]
 
@@ -21,7 +21,7 @@
 *  Выжидать определенное время между внесением депозита и снятием средств.
 *  Смешивать свои средства со средствами других пользователей - подождите пока после вашего депозита будут внесены новые, прежде чем выводить свои активы.
 
-_More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_More recommendations are provided on:_ [Советы по сохранению анонимности](https://docs.tornado.cash/v/ru/tips-to-remain-anonymous)_._
 
 Дополнительные рекомендации приведены в разделе: Советы по сохранению анонимности.
 
@@ -41,5 +41,6 @@ Tornado.Cash использует доказательство Zero-Knowledge Su
 
 
 
-автор __[_@ayefda_](https://torn.community/u/ayefda)\_\_
+автор __[_@ayefda_](https://torn.community/u/ayefda)  
+__Переведено и адаптировано: [@ghost](https://torn.community/u/ghost/summary)
 
