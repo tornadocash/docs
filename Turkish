@@ -1,0 +1,45 @@
+# Tornado.Cash'e Giriş
+
+![](.gitbook/assets/image.png)
+
+Tornado cash, kripto alanında gizli işlemlere izin veren, **tamamen merkeziyetsiz** ve **gözetim dışı** bir **protokoldür**. 
+
+Merkeziyetsiz bir protokol olarak Tornado Cash akıllı sözleşmeleri, Ethereum blok zinciri üzerinde uygulandı ve bu sözleşmeler, karıştıralamaz ve değiştirilemezler. Bu nedenle, ilk geliştiriciler de dahil olmak üzere hiç kimse bu akıllı sözleşmeleri değiştiremez ve kapatamaz.Bütün idare \(yönetim\) ve akıllı madencilik sözleşmeleri topluluk tarafından merkeziyetsiz bir şekilde dağıtılır.
+
+Gözetlenemez bir protokol olarak Tornado Cash'i kullanırken, kullanıcılar kendi kripto varlıklarının sahipliğini de ellerinde tutarlar ve nitekim her varlık yatırma işleminde, kullanıcılara üzerinde tam kontrol sağlayabildikleri, yatırılan varlıklara erişimi sağlayan özel bir anahtar verilir.
+
+## Gizlilik nasıl sağlanır ?
+
+Tornado Cash, kaynak adres ve hedef adres arasındaki zincir bağlantısını kırarak gizliliği sağlar.Tornado Cash, bir adresten yatırılan Ethereum ve diğer tokenleri kabul edip, fakrlı bir adresten ise çekim yapılabilmesine olanak tanıyan akıllı bir sözleşme kullanır.
+
+Gizliliği koruyabilmek adına önceden oluşturulmuş ve içinde bakiyesi olmayan bir hesaba gaz ödemesi yapmak için bir aktarıcı kullanmak gibi bir kaç uygulama sıralanmıştır. 
+
+Daha fazla detay için:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) _****_& [Anonim kalma ipuçları](tips-to-remain-anonymous.md).
+
+## Tornado.Cash nerede kullanılır?
+
+Tornado Cash protokolü, kurulduğu 2019 yılından bu yana  **Ethereum blok zinciri** üzerinde faaliyet gösteriyor. Kısa bir süre önce, Haziran 2021'de ise **Binance Smart Chain** & **Polygon** da kullanılmaya başlandı.
+
+Bugün, Tornado Cash aşağıdaki tokenlerde kullanılabilir:
+
+* Ethereum'da : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
+* Binance Smart Chain'de : **BNB** _\(Binance Coin\)_.
+* Polygon Ağında : **MATIC** _\(Polygon\)_
+
+![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
+
+Protokol ayrıca,bir kısım tokenler için **anonim madencilik sistemi ** içerir ve kullanıcıların **idare tokeni** kazanmasına olanak tanır. Torn tokeni sayesinde Tornado Cash kullanıcıları, protokolün şekillendirilmesine aktif olarak katılır. Topluluk, Tornado Cash'in evrimi \(geleceği\) ve özelliklerinin iyileştirilmesi konusunda güçlü bir ağırlığa sahiptir. Nitekim, protokol parametreleri & token dağıtımı bu idare aracılığıyla tamamen topluluğun kontrolü altındadır.
+
+Daha fazla bilgi için [Anonymity mining](anonymity-mining.md) & [Tornado.Cash token](torn.md) kullanılabilir.
+
+## Tornado.Cash nasıl çalışır?
+
+[Tornado Cash'in işleyişinin ardındaki kodlar](https://github.com/tornadocash) - akıllı sözleşmeler,kullanılan araç zincirleri tamamen **açık kaynaklıdır.** DAO devreler \(Merkeziyetsiz Özel Kuruluş\) olarak çalışan Tornado.Cash, idare ve akıllı madencilik sözleşmelerini topluluk aracılığıyla dağıtır.
+
+Tornado.Cash protokolü ayrıca sıfır bilgi kanıtlarına olanak tanıyan zk-SNARK ile çalışır ve kullanıcılara bilgileri ifşa olmadan kullanabilme imkanı tanır. Bu teknolojinin kullanımı **Ethereum topluluğunun ve Zcash ekibi tarafından yapılan açık kaynaklı araştırmalara dayanmaktadır**. zk-SNARK başlangıç anahtarlarını kurmak için , Tornado.Cash[ Güvenilir Kurulum Topluluğu](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1)  Mayıs 2020'de kuruldu ve 1114 katılımcı sağlandı[for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). Bu önemli sayıdaki katılımcı, sıfır bilgi kanıtlarlarının taklitlerini oluşturarak, protokolün tehlikeye atılmasını imkansız hale getiriyor.
+
+Kullanıcı arayüzü, **IPFS'de** \(Gezegenlerarası Dosya Sistemi\) barındıracak verilerin silinme riskleri en aza indirilir. Nitekim, arayüz en az bir kullanıcı olduğu sürece çalışacaktır.
+
+_Yazar_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+
+Çeviri [_@MrAmed_](https://torn.community/u/MrAmed)\_\_
