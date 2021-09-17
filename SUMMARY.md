@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Introduction of Tornado.Cash](README.md)
-* [How does Tornado.Cash work?](how-does-tornado.cash-work.md)
-* [Tips to remain anonymous](tips-to-remain-anonymous.md)
-* [Deposit & Withdraw](untitled.md)
-* [Anonymity mining](anonymity-mining.md)
+* [Introducción a Tornado.Cash](README.md)
+* [¿Cómo funciona Tornado.Cash?](how-does-tornado.cash-work.md)
+* [Consejos para mantener el anonimato](tips-to-remain-anonymous.md)
+* [Depósitos y Retiradas](untitled.md)
+* [Minado anónimo](anonymity-mining.md)
 * [TORN](torn.md)
-* [Governance](governance.md)
-* [Community Involvement](community-involvement.md)
-* [Compliance Tool](compliance-tool.md)
+* [Governanza](governance.md)
+* [Comunidad](community-involvement.md)
+* [Herramienta de conformidad](compliance-tool.md)
 

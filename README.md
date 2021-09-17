@@ -1,46 +1,46 @@
-# Introduction of Tornado.Cash
+# Introducción a Tornado.Cash
 
-**\[Work in progress\]**
+**\[Trabajo en curso\]**
 
 ![](.gitbook/assets/image.png)
 
-Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space. 
+Tornado Cash es un **protocolo** **no custodiado** **totalmente descentralizado** que permite transacciones privadas en el espacio crypto.
 
-As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
+Como protocolo descentralizado, el smart contract Tornado.Cash se ha implementado en la blockchain Ethereum haciéndolo inmutable. No se puede ni cambiar ni manipular. Por tanto, nadie - incluyendo a los desarrolladores iniciales - lo puede modificar o eliminar. La governanza y el minado de los smart contracts se ha desplegado de manera descentralizada. 
 
-As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
+Como protocolo no custodiado, los usuarios mantienen la custodia de sus cryptodivisas mientras operan en Tornado.Cash. En efecto, por cada depósito, el usuarios obtiene la clave privada que le permite acceder a los fondos previamente depositados, lo cual brinda al usuario el control total de sus activos.
 
-## How privacy is achieved?
+## ¿Como se consigue privacidad?
 
-Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
+Tornado Cash mejora la privacidad de las transacciones rompiendo la cadena de unión entre las direcciones fuente y destino. Usa un smart contract que acepta el depósito de ETH y otros tokens desde una direccion y habilita su retirada desde otra dirección. 
 
-To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance. 
+Para preservar la privacidad, es recomendable seguir algunas buenas prácticas, tales como el uso de un retransmisor para los pagos de gas en las retiradas de fondos mediante una dirección vacía o sin balance previo.
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) _****_& [Tips to remain anonymous](tips-to-remain-anonymous.md).
+Más detalles disponibles en _Behind the scenes:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) y [Tips to remain anonymous](tips-to-remain-anonymous.md).
 
-## Where is Tornado.Cash at?
+## ¿Cuál es el estado actual de Tornado.Cash?
 
-The protocol has been operating on the **Ethereum blockchain** since its inception in 2019. It was recently deployed, in June 2021, on **Binance Smart Chain** & **Polygon**.
+El protocolo ha estado operando en la **blockchain Ethereum** desde su concepción en 2019. Recientemente se ha desplegado, en Junio de 2021, en  **Binance Smart Chain** y **Polygon**.
 
-As of today, Tornado.Cash can be used with the following tokens:
+Hoy en dia, Tornado.Cash se puede usar con los tokens siguientes:
 
-* On Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
-* On Binance Smart Chain: **BNB** _\(Binance Coin\)_.
-* On Polygon Network: **MATIC** _\(Polygon\)_
+* En Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
+* En Binance Smart Chain: **BNB** _\(Binance Coin\)_.
+* En Polygon Network: **MATIC** _\(Polygon\)_
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
-The protocol also includes an **anonymity mining system for some of its token**, allowing its users to earn a **governance token**. Thanks to TORN tokens, Tornado Cash users actively participate in shaping the protocol. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol para@eters & token distribution are completely under the community's control through this governance.
+El protocolo también incluye un **sistema de minado anónimo par alguno de sus tokens**, permitiendo a los usuarios ganar **tokens de governanza**. Gracias a los tokens TORN, los usuarios de Tornado Cash participan activamente en el modelado del protocolo. La comunidad tiene un peso importante en la evolución de Tornado Cash y la mejora de sus características. En efecto, los parémetros del protocolo y la distribución de tokens están completamente bajo el control de la comunidad a través de su governanza. 
 
-More information about [Anonymity mining](anonymity-mining.md) & [Tornado.Cash token](torn.md) are available.
+Mas información disponible en [Anonymity mining](anonymity-mining.md) y [Tornado.Cash token](torn.md).
 
-## How does Tornado.Cash run?
+## Como funciona Tornado.Cash
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain -  are fully **open sourced.** Working as a DAO \(Decentralized Autonomous Organization\), Tornado.Cash governance and mining smart contracts are deployed by its community.
+[El código tras el funcionamiento de Tornado.Cash](https://github.com/tornadocash) - smart contracts, circuitos y toolchain -  son completamente **open sourced.** Trabajando como DAO \(Decentralized Autonomous Organization u Organización Autónoma Descentralizada\), la governanza y minado de los smart contracts de Tornado.Cash han sido desplegados emteramente por su comunidad.
 
-The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
+El protocolo también funciona con zk-SNARK, lo cuál habilita las  ***zero-knowledge proofs***, evidencias de nulo conocimiento, permitiendo a los usuarios demostrar la posesión de cierta información sin necesidad de relevarla explícitamente. El uso de dicha tecnología se basa en **investigaciones en codigo abierto realizadas por el equipo de Zcash con la ayuda de la comunidad Ethereum**. Para configurar las claves iniciales de zk-SNARK, la Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) se lanzó en Mayo de 2020 representada [por 114 contribuyentes](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). Este numero significativo de contribuyentes hace imposible comprometer el protocolo mediente el copiado de las pruebas de nulo-conocimiento.
 
-User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it. 
+La interfaz de usuario esta alojada en **IPFS** \(InterPlanetary File System\) por la comunidad, minimizando el riesgo de eliminación de datos. En efecto, la interfaz seguirá existiendo mientras quede al menos un solo usuario alojándola.
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
-
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda) \
+_Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09) 

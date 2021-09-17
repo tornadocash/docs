@@ -1,29 +1,28 @@
-# How To Access The Tornado Cash In Goerli Network
-Welcome everyone to the Tornado Cash testnet, and thank you for your interest in participating in the pilot phase of the application. The application is available for testing in the Goerli Network. In this article, we will explain to you in detail how you can test and use the Tornado Cash testnet platform in the Goerli network.
-The prerequisite for testing the application is testnet is listed below. Please follow the below steps:
+# Como Acceder A Tornado Cash Con Goerli Network
+Bienvenidos a la red de pruebas de Tornado Cash, y gracias por su interés por participar en el fase piloto de la aplicación. La aplicación está disponible para realizar pruebas a traves de la red Goerli Network. En este artículo, le explicaremos en detalle cómo puede probar y usar la plataforma de pruebas de Tornado Cash en la red Goerli Network.
+Los prerrequisito para probar la aplicación en la red de pruebas se listan a continuación. Por favor siga los pasos siguientes:  
 
+## Prerrequisito para la red Goerli Network
+- ETH de prueba que pueden ser obtenidos con el ***faucet*** de Goerli 
+- TORN de prueba, propocionados por el equipo del proyecto (no obligatorios)
+- Configurar su red en el monedero Metamask como **"Goerli Test Network"** 
 
-## Prerequisites for Goerli Test Network
-
-- Test ETH that can be claimed from the Goerli faucet
-- Test TORN, provided by the project team (not mandatory)
-- Set your network in the Metamask wallet to **“Goerli Test Network”**
-
-### Step 1: Receive test ETH token in your Wallet
-Users can request the test ETH tokens from the Goerli network faucet.
-Go to the **[Goerli faucet](https://goerli-faucet.slock.it/)**, enter your ethereum address, and just hit the Request button. You will receive your test ETH tokens shortly at your wallet address.
+### Paso 1: Recibir ETH de prueba en el monedero
+Los usuarios pueden pedir los tokens ETH de prueba desde el ***faucet*** de la red Goerli.
+Vaya a **[Goerli faucet](https://goerli-faucet.slock.it/)**, introduzca su dirección ethereum, y simplemente toque el boton ***Request***. En breve recibirá sus tokens ETH de prueba en la dirección de su monedero. 
 
 ![goerli faucet](https://siasky.net/XADTOSmJfX6bQVhZ5-ZRivkzCPloyiHLHdShM8wsZNxM1Q)
 
-### Step 2: Get Test TORN Token
-The TORN token is not mandatorily required to test the application and it's working. You can use Ethereum (ETH) and examine the Tornado Cash application in testnet.
-However, if you want, you can request and get the test TORN token from the project team. Once received, open your Metamask wallet and check for the tokens.
-If you are using this token for the first time, then the token will not be directly visible to you in the wallet, and you have to add it manually. You can add the token contract address manually by going to the **Custom Token** tab.
-**TORN Contract Address - 0x77777feddddffc19ff86db637967013e6c6a116c**
+### Paso 2: Obtener tokens TORN de prueba
+El token de prueba TORN no es obligatorio para probar la aplicación y su funcionamiento. Puede usar Ethereum (ETH) directamente para examinar la aplicación Tornado Cash en la red de prueba.
+No obstante, si quisiera, puede pedir y obtener tokens TORN de prueba a través del equipo del proyecto. Una vez los haya recibido, abra su monedero Metamask y compruebe sus tokens.
+Si usa este token por primera vez, el token no será visible directamente en su monedero, y deberá añadirlo manualmente. Añada el contrato del token manualmente dirigiendose a la pestaña de **Custom Token**.
+**Dirección del Smart Contract TORN  - 0x77777feddddffc19ff86db637967013e6c6a116c**
 
 ![user wallet](https://siasky.net/TAD5yMM_XuB3BGv0jP0plWg01qrMSgOeivR4N_7KOOVL7g)
 
-We now have the test ETH and test TORN tokens in our Metamask wallet. We can proceed with testing and depositing tokens into the Tornado application.
+Ahora tenemos los tokens de prueba ETH  y TORN en nuestro monedero Metamask. Podemos proceder con las pruebas y el depósito de tokens en la aplicación Tornado.
 
-### Step 3:  Select the network as Goerli Network 
-As we have mentioned earlier that the Tornado Cash application is available in the Georli network, so set up your network connection to the Goerli network as shown in the above screenshot. [](https://)
+### Paso 3: Seleccionar la red Goerli Network
+Como se ha mencionado al inicio, la aplicación Tornado Cash está disponible en la red Goerli. Configure su conexión a la red Goerli como se muestra en la imagen anterior. [](https://)
+
