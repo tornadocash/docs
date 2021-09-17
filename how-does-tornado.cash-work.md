@@ -1,35 +1,36 @@
-# How does Tornado.Cash work?
+# Cómo funciona Tornado.Cash?
 
-**\[Work in progress\]**
+**\[Trabajo en curso\]**
 
-Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
+Antes de sumergirnos en tutoriales que explican el uso de Tornado.Cash, aqui recopilamos una visión de la funcionalidad global del protocolo.
 
-### Global overview of Tornado.Cash functioning
+### Visión global de funcionalidad de Tornado.Cash
 
-To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets. 
+Para conseguir privacidad, Tornado.Cash **utiliza smart contracts que aceptan depósitos de tokens desde una dirección y habilita su retirada desde una dirección diferente**. Estos smart contracts trabajan como pools que mezclan todos los activos depositados.
 
-Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized. 
+Una vez los fondos son retirados por una dirección copletamente nueva de dichas pools, el nexo en cadena entre el origen y el destino se rompe. En consecuencia, el retiro de los cryptoactivos resulta anónimo. 
 
-When a user puts funds into a pool \(a.k.a. the deposit\), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
+Cuando un usuario añade fondos a una pool \(a.k.a. el depósito\), se genera una nota privada. Esta nota privada funciona como una clave privada y proporciona al usuario la capacidad de acceder a los fondos posteriormente. Para retirar lso fondos, el mismo usuario puede usar una dirección diferente - antigua o nueva - y recuperar sus fondos mediante esta clave privada.
 
-The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
+La fortaleza del protocolo esta ligada naturalmente al número de usuarios y el tamaño de la pool. Como mas usuarios depositen en la pool mejor. No obstante, para preservar la privacidad y el anonimato, el usuario debe tener en cuenta una serie de reglas básicas:
 
-*  Leaving a lapse of time between the deposit & the withdrawal action
-*  Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
+* Dejar un tiempo entre las acciones de depósito y el retiro de fondos.
+* Mezclar sus fondos con los demás esperando varias transacciones antes de recuperar sus activos. 
 
-_More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_Mas recomendaciones en:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
 
-### Contribution of zk-SNARK & hashing process
+### Contribución de los zk-SNARK y el proceso de hashing
 
-Tornado.Cash use Zero-Knowledge Succinct Non-Interactive Argument of Knowledge \(also called zk-SNARK\) to verify & allow transactions.
+Tornado.Cash utiliza Zero-Knowledge Succinct Non-Interactive Argument of Knowledge \(abreviado zk-SNARK\) para verificar y permitir transacciones.
 
-To process a deposit, Tornado.Cash generates a random area of bytes, computes it through the [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) \(as it is friendlier with zk-SNARK\), then send the token & the 20 mimc hash to the smart contract. The contract will then insert it into the Merkle tree.
+Para procesar un depósito, Tornado.Cash genera una area aleatoria de bytes, los procesa con un [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) \(más adecuado para zk-SNARK\), envía el token y la 20 mimc hash al smart contract. El contrato lo inserta entonces en un árbol de Merkle \(a.k.a. Merkle tree\).
 
-To process a withdrawal, the same area of bytes is split into two separate parts: the **secret** on one side & the **nullifier** on the other side. The nullifier is hashed. This nullifier is a public input that is sent on-chain to get checked with the smart contrat & the Merkle tree data. It avoids double spending for instance.
+Para procesar un retiro, la misma área de bytes se divide en dos partes separadas: el **secret** por un lado y el **nullifier** por el otro. Al nullifier se le aplica un hash. Este nullifier es una parámetro público que se envia on-chain para ser verificado con el smart contract y los datos en el árbol de Merkle. Por ejemplo, impide el doble gasto.
 
-Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial commitment and of the nullifier without revealing any information. Even if the nullifier is public, privacy is sustained as there is no way to link the hashed nullifier to the initial commitment. Besides, even if the information that the transaction is present in the Merkle root, the information about the exact Merkle path, thus the location of the transaction, is still kept private.
+Gracias a los zk-SNARK, es posible probar el 20 mimc hash del commitment inicial y el nullifier sin revelar ninguna información. Incluso si el nullifier es público, la privacidad semantiene ya que no hay manera de conectar el hash del nullifier con el commitment inicial. Además, incluso si transciende que la información de la transacción esta presente en la raíz del árbol de Merkle, la información del directorio exacto en el árbol de Merkle, es decir, la localización de la transacción, se mantiene la privada.
 
-Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
+Los depósitos son simples desde el punto de vista técnico, pero costosos en términos de gas, ya que necesitan procesar el 20 mimc hash y actualizar el árbol de Merkle. Opuestamente, el retiro es un proceso complejo, pero menos costoso ya únicamente se necesita gas para el hash del nullifier y la zero-knowledge proof.
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)\
+_Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09)
 

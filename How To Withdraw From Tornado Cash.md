@@ -1,46 +1,46 @@
-# How To Withdraw From Tornado Cash
-Users can withdraw their tokens from the Tornado cash platform at any time but to ensure high-level privacy it is recommended to wait until there are a few deposits after yours.
-For Withdraw, users are required to provide two details:
-- Note 
-- Recipient Address
+# Cómo Retirar De Tornado Cash
+Los usuarios pueden retirar sus tokens de la plataforma Tornado Cash en cualquier momento, pero para asegurar un nivel de privacidad alto se recomienda esperar hasta que haya algunos depósitos posteriores al suyo.
+Para las retiradas, se requeire que los usuarios dispongan de:
+- Note
+- Dirección de recepción 
  
 ![wihdraw button](https://siasky.net/IAA0oMfBCz3vPgANvIUsGBS84y4eC0DFgrbuVWVDwX5i9Q)
 
-Fill in the mandatory details. You can get the Note details from the deposit transaction.
-Once your fill in the note details, all details about your deposit get displayed.
+Rellene los detalles obligatorios. Obtendrá los detalles de ***Note*** de la transacción de depósito original.
+Una vez haya cumplimentado los detalles de Note, los demás detalles sobre su depósito se mostrarán.
 
  ![withdraw details](https://siasky.net/TAB6fl4n3yj1f_cd59CzRUEap6QvaPe3fslWThwC6KWBlQ)
- 
-From the Withdraw setting tab, you can choose two options for withdrawal:
-- Via  Relayer 
-- Web3 wallet
 
-You can choose the withdrawal method as Wallet but for that, you need to have a completely new Ethereum address with some ETH on it. But getting some ETH will eventually lead to the loss of anonymity. 
- 
+Desde la pestaña de configuración de Withdraw, usted puede escoger entre dos opción para la retirada:
+- Via Relayer (usando un retransmisor)
+- Web3 wallet (usando un monedero Web3 como Metamask)
+
+Usted puede escoger el método de retirada ***Web3 wallet*** pero necesitará una direccion completamente nueva de Ethereum con algunos ETH en su balance. La obtencion de esos ETH podría eventualmente llevar a la perdida de anonimato.
+
   ![withdraw wallet](https://siasky.net/MACMuLY11IK0h2b1MON8k0gUjZHLNVqwDYdX5tW9-npAhw)
   
-Thus, it is recommended to choose the withdrawal method as Relayer. A relayer is used to preserve privacy. With Relayer, there is no way to link a connection between the withdrawal and the deposit addresses.
- 
+Por tanto, es cemoendable escoger el metodo de retirada a traves de un ***Relayer***. Un relayer se usa para preservar la privacidad. Con la opción Relayer no hay manera de conectar las direcciones de ingreso y retirada.
+
   ![relayer](https://siasky.net/MAALGPo1Emw_K_-y6t6EaB6Ao--NPnSuIQfTfqI28qSUCw)
   
-Once you select this method to withdraw, your zk-Snark proof gets generated. 
-The zkSnark technology is a method that helps the users to verify that they possess a secret to an unspent commitment from the list of deposit smart contracts without actually revealing the exact deposit corresponds to a secret.
- 
+Cuando selecciona este metodo de retirada, se genera su prueba zk-SNARK.
+La tecnología xk-SNARK es un método que ayuda a los usuarios a verificar que estos poseen la clave secreta relacionada con un ***commitment*** no gastado de los existentes en la lista de depósitos sin que se revele el depósito preciso asociado con dicha clave.
+
   ![confirmation](https://siasky.net/GADcmOqr30fMXl7neBtSR6knAzPg8x_4mxQtUt96dQSa1w)
   
-Confirm the process.
-You can now see the withdrawal transaction details at the bottom. 
-One interesting thing you can note here is that the user’s reward is continuously increasing. 
+Confirme el proceso.\
+Usted ahora podrá ver los detalles de la transacción de retiro en la parte inferior.
+Un aspecto interesante que notará es que la recompensa del usuario se incrementa constantemente.   
 
    ![final withdraw detail](https://siasky.net/KAAxcbm5QgjFr7mTKFqBU8uVKKNHKsaWz3-m85iQOP-6kg)
  
-To cross- verify the anonymity, click on the transaction hash and check the ethereum addresses mentioned on the log.
+Para verificar el anonimato, clique en el hash de la transacción y compruebe la dirección ethereum que se menciona en el log.
 
  ![txn hash](https://siasky.net/DADzeQWIwr8CkZIRyLyUJTzs8kdve1kNlvOwwc6WBz8gqg)
  
-You can easily check that the source address is something different from your wallet address. 
-Also, no transaction details will appear in the destination wallet address.
+Podrá facilmente comprobar que la dirección origen difiere de la dirección original de su monedero.
+Adicionalmente, no hay detalles de la transacción en la dirección del monedero destino.
 
  ![metamask activity](https://siasky.net/VAAJZImmqf15RxJJp3nbgSrKUPaFpljsh6pQyvpxZavdIw)
  
-As a good practice, it is recommended to destroy the note data once you have successfully withdrawn your funds.
+Como buena práctica, se recomienda destruir el documento ***Note*** una vez haya finalizado el retiro de fondos exitosamente.

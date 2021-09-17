@@ -42,5 +42,5 @@ El protocolo también funciona con zk-SNARK, lo cuál habilita las  ***zero-know
 
 La interfaz de usuario esta alojada en **IPFS** \(InterPlanetary File System\) por la comunidad, minimizando el riesgo de eliminación de datos. En efecto, la interfaz seguirá existiendo mientras quede al menos un solo usuario alojándola.
 
-_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda) \
+_Escrito por_ [_**@ayefda**_](https://torn.community/u/ayefda) \
 _Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09) 
