@@ -1,58 +1,57 @@
-# Deposit & Withdraw
+# Depósito y Retiro
 
-This tutorial is a step-by-step explanation of how to deposit & withdraw your funds. If you want to understand how the internal system of Tornado.cash works, please refer to [this tutorial](https://docs.tornado.cash/how-does-tornado.cash-work).
+Este tutorial es una guía paso a paso de cómo depositar y retirar sus fondos. Si quiere entender como funciona internamente Tornado.Cash, por favor diríjase a [este tutorial](https://docs.tornado.cash/how-does-tornado.cash-work).
 
-## **Deposit**
+## **Depósito**
 
-### Choose a chain
+### Escoja una cadena
 
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+Tornado.Cash esta disponible en diferentes blockchains, deberá escoger entre 4 cadenas:
 
 ![](.gitbook/assets/azpoj.gif)
 
-### Select a token
+### Seleccione un token
 
-Choose the token you want to deposit and its amount:
+Escoja el token que quiere depositar y la cantidad:
 
 ![](.gitbook/assets/abdce.gif)
 
-### Connect your wallet
+### Conecte su monedero
 
-Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
+Clique en `Connect` y escoja entre los diversos proveedores de monederos, tales como Metamask o WalletConnect.
 
-### Save your note
+### Guarde su nota
 
-Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` \(top-right corner\).
+Clique en `Deposit` y guarde su nota en un lugar seguro antes de hacer clic en `I backed up the note` \(_He guardado la nota_\). Puede incluso guardar notas encriptadas _on-chain_ configurando una _Note Account_, haciendo clic en `Settings` \(esquina superior derecha\).
 
 ![](.gitbook/assets/aaaab.gif)
 
-### Be patient
+### Sea paciente
 
-As explained [here](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), the longer you wait, the greater your anonymity set will be.
+Como se ha explicado [aqui](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), a mayor espera, mayor grado de anonimato se obtiene.
 
-Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
+Felicidades ! Lo ha conseguido. Ahora sus tokens estan en la pool de Tornado.Cash.
 
-## Withdraw
+## Retiro
 
-### Choose a chain
+### Escoja una cadena
 
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+Tornado.Cash esta disponible en diferentes blockchains, deberá escoger entre 4 cadenas:
 
 ![](.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
-### Paste your note
+### Pegue su nota
 
-Use your deposit note by pasting it in the corresponding box. Click on `Withdraw` and wait for the zksnark proof to be generated.
+Pegue su nota de depósito en el cuadro correspondiente. Haga clic en `Withdraw` y espere a que la zk-SNARK proof se genere.
 
-### Confirm the withdrawal
+### Confirme tu retiro
 
 ![](.gitbook/assets/abdaaaa.png)
 
-Done !
+Hecho !
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
-
-
+_Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)\
+_Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09) 
 
 
 

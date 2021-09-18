@@ -1,90 +1,89 @@
-# Anonymity mining
+# Minado de anonimato
 
-Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points \(AP\) dependent on how long they hedge their assets in a pool.
+El minado de anonimato o _anonymity mining_ es un incentivo para incrementar el nivel de privacidad para cualquier protocolo de _coin-joining_ o _coin-mixing_ mediante la recompensa a los participantes con puntos de anonimato (AP - anonymity points) dependiendo del tiempo que mantengan sus activos en una pool.
 
-_This incentive began on December 18, 2020 and will end on December 18, 2021._
+_Este incentivo empezó el 18 de Diciembre de 2020 y acabará el 18 de Diciembre de 2021._
 
-Individuals deposit to any one of the anonymity pools that are supported \(ETH, WBTC, DAI or cDAI\) and are rewarded a fixed amount of AP per block, over the period their deposit remains in the pool. These points can then be exchanged for TORN once claimed.
+Los depósitos individuales en cualquier pool de anonimato permitidas \(ETH, WBTC, DAI or cDAI\) y que se recompensa con una cantidad fija de AP por bloque, durante su periodo de depósito permanece en la pool. Estos puntos se pueden intercambiar por TORN una vez reclamados.
 
 ### Anonymity points \(AP\)
 
-_Readers should be aware some lower denomination deposits at the time of writing, do not produce a positive return due to the gas costs required to withdraw, redeem and exchange anonymity points_
+_Los lectores deben saber que algunos depósitos de cantidades bajas a fecha de escritura, no producen un retorno positivo debido al coste de gas requerido para retirar, canjear y cambiar los anonymity points_
 
-One of the community members created the resource of [a mining spreadsheet 13](https://torn.community/t/anonymity-mining-spreadsheet/720) that helps calculate annual percentage yield’s \(APY’s\) for each pool and each denomination set within, through estimating the fees required to claim a reward. **It is highly recommended to view this resource and plan one’s course of action before expecting to earn yield.** At the bottom of the spreadsheet, you can view each pool by selecting the associated tab.
+Uno de los miembros de la comunidad creó un recurso de [hoja de minado 13](https://torn.community/t/anonymity-mining-spreadsheet/720) que ayuda a calcular el porcentaje de rendimiento anual \(APY\) para cada pool y cada cantidad fijada, estimando las comisiones requeridas para reclamar la recompensa. **Es muy recomendable revisar este recurso y planear sus acciones antes de esperar un retorno con cierto rendimiento.** Al final de la hoja de cálculo, usted puede ver cada pool seleccionando la pestaña asociada.
 
-### How to earn AP
+### Como ganar AP
 
-1. Decide what amount and asset to deposit by selecting it through the dropdown menu, before clicking on "Connect" and "Deposit".
+1. Decida que cantidad y activo va a depositar seleccionándolo mediante el menu desplegable, antes de hacer clic en "Connect" y "Deposit".
 
 ![](.gitbook/assets/m3fh0gl.png)
 
-2. Take a record of your depositing note and back it up safely, **do not share this with anyone or risk losing your deposit and reward.**
+2. Haga una copia de su nota de depósito y guárdela en un lugar seguro, **no comparta esto con nadie o pondrá a riesgo su depósito y recompensa.**
 
 ![](.gitbook/assets/vhustru.png)
 
-3. Generate the proof and submit the transaction.
+3. Genere la prueba y envíe la transacción.
 
-4. Your deposit should now be viewable on the bottom of the page, you can track how much AP it earns here; remember the longer your deposit remains active, the more AP you earn.
+4. Su depósito deberia ahora ser visible en el inferior de la página, puede seguir cuánto AP gana ahí; recuerde que como mayor tiempo permanece su depósito activo, más AP ganará.
 
 ![](.gitbook/assets/k6juetp.png)
 
-_Notes that are active \(not withdrawn\) are known as “unspent” notes._
+_Las Notas que estan activas \(no retiradas\) se conocen como notas de tipo "unspent"._
 
-### How to claim AP
+### Como reclamar AP
 
-1. First you must create a mining account and store those credentials on-chain for easy recovery \(requires a transaction\), **like depositing notes, you should never share your mining recovery key with anyone** and ensure to back it up in a safe place. This feature is not supported by hardware wallets so it’s encouraged to store the information as presented_._
+1. Primero debe crear una cuenta de minado y guardar sus credenciales on-chain para su fácil recuperación \(requiere una trasnacción\), **al igual que con las notas, usted nunca debe compartir su clave de recuperacion de minado con nadie** y asegúrese de guardarla en un lugar seguro. Esta característica no esta respaldada por los monederos hardware, por lo que se recomienda guardar la información como se presenta.
 
 ![](.gitbook/assets/lskzkgk.png)
 
-2. Take an active deposit through providing an unspent note and withdraw to an address of preference and decide whether to use a relayer or not \(_to maintain a deposit’s anonymity it is always advised to use a relayer_\), this will bring the note into a “spent” state.
+2. Tome un depósito activo presentando una nota _unspent_ y retire a una dirección de su preferencia y decida si usa un retransmisor (_relayer_) o no \(para mantener el anonimato en un depósito siempre se recomienda usar un relayer\), esto llevara la nota a un estado de "spent" ("gastado").
 
 ![](.gitbook/assets/aid86cj.png)
 
-**Remember to still keep your depositing notes a secret even after withdrawing, as they still retain the ability to redeem AP.**
+**Recuerde quedarse sus notas de depósito en secreto incluso después de su retirada, ya que todavía tienen la habilidad de reclamar AP.**
 
 ![](.gitbook/assets/bpsqxxr.png)
 
-3. Visit the mining route of the application and enter your spent note, you may be faced with one of the following situations.
+3. Visite la ruta de minado de la aplicación y introduzca su nota "spent", puede encontrarse con una de las situaciones siguientes.
 
-* **The ability to claim your spent note**: click the “Claim reward” button and submitting the transaction either by using a relayer or not, once confirmed your AP balance should update to reflect the action.
+* **La habilidad de reclamar su _spent note_**: haga clic en el boton `Claim reward` y envíe la transacción con un relayer o no, una vez se haya confirmado, su balance de AP debería actualizarse para reflejar la acción.
 
 ![](.gitbook/assets/e9jyqhu.png)
 
- 
-
-* **The inability to claim a spent note:** _“Warning: The note is not yet ready for anonymity mining. You can wait few days before trying again”_ - This means the Merkle trees are out of sync and require a transaction to be updated.
+* **La inhabilidad de reclamar su _spent note_**: _“Warning: The note is not yet ready for anonymity mining. You can wait few days before trying again”_ - Esto significa que el árbol de Merkle no estan sincronizados y se requiere una transacción para actualizarlos.
 
 ![](.gitbook/assets/i6qtr0f.png)
 
-Updating the trees can be an expensive process, **it is recommended that users with small deposits wait for the larger miners to update the trees, this could take anywhere from a few days to a week**. If you want to view your event relative to the current pending batches. Click the _“Show mining note information”_ hyperlink, here you can also pay the transaction fees to sync the tree relative to your withdrawal through the “Update trees” button.
+Actualizar los árboles puede ser un proceso costoso, **se recomienda que los usuarios con pequeñas cantidades depositadas esperen a que un minero con mas peso actualice el árbol, esto puede llevar de unos dias a una semana**. Si usted quiere ver su evento relativo a los lotes pendientes actuales. Haga clic en _"Show mining note information"_ hyperlink, ahi puede tambień pagar las comisiones de transacción par asyncronizar el árbol relativo a su retiro mediante el boton `Update trees`.
 
 ![](.gitbook/assets/d8dmxjj.png)
 
-### How to exchange AP
+### Como cambiar AP
 
-1. Navigate over to the “Swap” tab on the mining page which can be accessed through the second navigation bar from the top of the page.
+1. Navegue a la pestaña de "Swap" en la pagina de minado, a la que puede acceder a través de la segunda barra de navegación desde el borde superior de la página.
 
 ![](.gitbook/assets/ahrjxbq.png)
 
-2. Enter the amount of AP requested to exchange or select the “Maximum” option to convert your active balance. Below this input, information regarding the current AP/TORN rate and reward output will be displayed. Provide an address of preference to receive the reward, finalise by generating the proof and submitting the transaction through a relayer or not.
+2. Introduzca la cantidad de AP que quiere cambiar o seleccione la opción "Maximum" para convertir su balance activo total. Bajo esta entrada, información sobre el cambio actual AP/TORN y la recompensa de salida será mostrada. Proporcione una dirección de preferencia para recibir la recompensa, finalice generando la prueba y enviando la transacción mediante un relayer o no.
 
 ![](.gitbook/assets/wo55lao.png)
 
-3. If all steps were followed correctly, TORN will be transferred to the address of preference provided in step 2 of this section.
+3. Si ha seguido todos los pasos correctamente, tokens TORN se transferirán a la dirección de preferencia proporcionada el el paso 2 de esta sección.
 
-### Closing remarks
+### Observaciones finales
 
-Congratulations, you have successfully participated in anonymity mining!
+Felicidades, ha participado de forma exitosa en _anonymity mining_!
 
-It is always recommended to plan when deciding to mine any of the anonymity sets, users should also be aware that the [AP/TORN rate](https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2) is dependent on supply and demand, therefore, **the more people that claim the higher the rate becomes, and the less people that claim the lower it becomes**.
+Siempre es recomendable planear cuándo decide minar cualquiera de los conjuntos, los usuarios deben también tener en cuenta que el cambio [AP/TORN](https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2) depende de la oferta y la demando, por lo que **a mas gente reclame, mayor será la relación de cambio, y viceversa; como menos se reclame, menor será la relación**.
 
-For more information on anonymity mining, seek the following resources:
+Para más información en anonymity mining, indague en los siguientes recursos:
 
 * [Tornado.Cash governance proposal article](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
 * [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a) 
 * [Anonymity mining explained \(technical\)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
-_Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
+_Agradecimientos a_ [_@sockawoo_](https://torn.community/u/sockawoo) _y_ [_@ethdev_](https://torn.community/u/ethdev) _por la ayuda en la revisión_
 
-_Written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
+_Escrito por_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)
 
+_Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09)

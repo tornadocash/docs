@@ -6,7 +6,7 @@
 
 Tornado Cash es un **protocolo** **no custodiado** **totalmente descentralizado** que permite transacciones privadas en el espacio crypto.
 
-Como protocolo descentralizado, el smart contract Tornado.Cash se ha implementado en la blockchain Ethereum haciéndolo inmutable. No se puede ni cambiar ni manipular. Por tanto, nadie - incluyendo a los desarrolladores iniciales - lo puede modificar o eliminar. La governanza y el minado de los smart contracts se ha desplegado de manera descentralizada. 
+Como protocolo descentralizado, el smart contract Tornado.Cash se ha implementado en la blockchain Ethereum haciéndolo inmutable. No se puede ni cambiar ni manipular. Por tanto, nadie - incluyendo a los desarrolladores iniciales - lo puede modificar o eliminar. La gobernanza y el minado de los smart contracts se ha desplegado de manera descentralizada. 
 
 Como protocolo no custodiado, los usuarios mantienen la custodia de sus cryptodivisas mientras operan en Tornado.Cash. En efecto, por cada depósito, el usuarios obtiene la clave privada que le permite acceder a los fondos previamente depositados, lo cual brinda al usuario el control total de sus activos.
 
@@ -30,17 +30,18 @@ Hoy en dia, Tornado.Cash se puede usar con los tokens siguientes:
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
-El protocolo también incluye un **sistema de minado anónimo par alguno de sus tokens**, permitiendo a los usuarios ganar **tokens de governanza**. Gracias a los tokens TORN, los usuarios de Tornado Cash participan activamente en el modelado del protocolo. La comunidad tiene un peso importante en la evolución de Tornado Cash y la mejora de sus características. En efecto, los parémetros del protocolo y la distribución de tokens están completamente bajo el control de la comunidad a través de su governanza. 
+El protocolo también incluye un **sistema de minado anónimo par alguno de sus tokens**, permitiendo a los usuarios ganar **tokens de gobernanza**. Gracias a los tokens TORN, los usuarios de Tornado Cash participan activamente en el modelado del protocolo. La comunidad tiene un peso importante en la evolución de Tornado Cash y la mejora de sus características. En efecto, los parámetros del protocolo y la distribución de tokens están completamente bajo el control de la comunidad a través de su gobernanza. 
 
 Mas información disponible en [Anonymity mining](anonymity-mining.md) y [Tornado.Cash token](torn.md).
 
 ## Como funciona Tornado.Cash
 
-[El código tras el funcionamiento de Tornado.Cash](https://github.com/tornadocash) - smart contracts, circuitos y toolchain -  son completamente **open sourced.** Trabajando como DAO \(Decentralized Autonomous Organization u Organización Autónoma Descentralizada\), la governanza y minado de los smart contracts de Tornado.Cash han sido desplegados emteramente por su comunidad.
+[El código tras el funcionamiento de Tornado.Cash](https://github.com/tornadocash) - smart contracts, circuitos y toolchain -  son completamente **open sourced.** Trabajando como DAO \(Decentralized Autonomous Organization u Organización Descentralizada Autónoma\), la gobernanza y minado de los smart contracts de Tornado.Cash han sido desplegados enteramente por su comunidad.
 
-El protocolo también funciona con zk-SNARK, lo cuál habilita las  ***zero-knowledge proofs***, evidencias de nulo conocimiento, permitiendo a los usuarios demostrar la posesión de cierta información sin necesidad de relevarla explícitamente. El uso de dicha tecnología se basa en **investigaciones en codigo abierto realizadas por el equipo de Zcash con la ayuda de la comunidad Ethereum**. Para configurar las claves iniciales de zk-SNARK, la Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) se lanzó en Mayo de 2020 representada [por 114 contribuyentes](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). Este numero significativo de contribuyentes hace imposible comprometer el protocolo mediente el copiado de las pruebas de nulo-conocimiento.
+El protocolo también funciona con zk-SNARK, lo cuál habilita las  ***zero-knowledge proofs***, evidencias de nulo conocimiento, permitiendo a los usuarios demostrar la posesión de cierta información sin necesidad de relevarla explícitamente. El uso de dicha tecnología se basa en **investigaciones en codigo abierto realizadas por el equipo de Zcash con la ayuda de la comunidad Ethereum**. Para configurar las claves iniciales de zk-SNARK, la Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) se lanzó en Mayo de 2020 representada [por 114 contribuyentes](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). Este numero significativo de contribuyentes hace imposible comprometer el protocolo mediante el copiado de las pruebas de nulo-conocimiento.
 
 La interfaz de usuario esta alojada en **IPFS** \(InterPlanetary File System\) por la comunidad, minimizando el riesgo de eliminación de datos. En efecto, la interfaz seguirá existiendo mientras quede al menos un solo usuario alojándola.
 
 _Escrito por_ [_**@ayefda**_](https://torn.community/u/ayefda) \
+
 _Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09) 

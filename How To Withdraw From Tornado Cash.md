@@ -1,10 +1,10 @@
 # Cómo Retirar De Tornado Cash
 Los usuarios pueden retirar sus tokens de la plataforma Tornado Cash en cualquier momento, pero para asegurar un nivel de privacidad alto se recomienda esperar hasta que haya algunos depósitos posteriores al suyo.
-Para las retiradas, se requeire que los usuarios dispongan de:
+Para las retiradas, se requiere que los usuarios dispongan de:
 - Note
 - Dirección de recepción 
  
-![wihdraw button](https://siasky.net/IAA0oMfBCz3vPgANvIUsGBS84y4eC0DFgrbuVWVDwX5i9Q)
+![withdraw button](https://siasky.net/IAA0oMfBCz3vPgANvIUsGBS84y4eC0DFgrbuVWVDwX5i9Q)
 
 Rellene los detalles obligatorios. Obtendrá los detalles de ***Note*** de la transacción de depósito original.
 Una vez haya cumplimentado los detalles de Note, los demás detalles sobre su depósito se mostrarán.
@@ -19,7 +19,7 @@ Usted puede escoger el método de retirada ***Web3 wallet*** pero necesitará un
 
   ![withdraw wallet](https://siasky.net/MACMuLY11IK0h2b1MON8k0gUjZHLNVqwDYdX5tW9-npAhw)
   
-Por tanto, es cemoendable escoger el metodo de retirada a traves de un ***Relayer***. Un relayer se usa para preservar la privacidad. Con la opción Relayer no hay manera de conectar las direcciones de ingreso y retirada.
+Por tanto, es recomendable escoger el metodo de retirada a traves de un ***Relayer***. Un relayer se usa para preservar la privacidad. Con la opción Relayer no hay manera de conectar las direcciones de ingreso y retirada.
 
   ![relayer](https://siasky.net/MAALGPo1Emw_K_-y6t6EaB6Ao--NPnSuIQfTfqI28qSUCw)
   

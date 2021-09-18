@@ -1,9 +1,9 @@
 # Cómo Realizar Un Depósito En Tornado Cash
 
-Para mejorar la privacidad, Tornado Cash rompe la cadena que une la direccion fuente y destino. La plataforma usa un smart contract que acepta depósttos de ETH. Cuanod el usuario quiere realizar un depósito, él/élla genera una clave y envia su hash correspondiente (llamado ***commitment***) junto con la cantidad que quiere depositar, al smart contract de Tornado. El contrato acepta el depósito y añade el ***commitment*** a la lista de depósitos. 
+Para mejorar la privacidad, Tornado Cash rompe la cadena que une la direccion fuente y destino. La plataforma usa un smart contract que acepta depósitos de ETH. Cuando el usuario quiere realizar un depósito, él/ella genera una clave y envia su hash correspondiente (llamado ***commitment***) junto con la cantidad que quiere depositar, al smart contract de Tornado. El contrato acepta el depósito y añade el ***commitment*** a la lista de depósitos. 
 
 ## Guía de uso
-Dirígase a la **[web](https://tornado.cash/)** Tornado Cash.
+Diríjase a la **[web](https://tornado.cash/)** Tornado Cash.
 La pagina principal es la siguiente.
 
 ![webpage](https://siasky.net/DADgpg5vPOF5JPwOxlFwYXPzT8vRFlR9leCDWqMBIWR9yg)
@@ -12,7 +12,7 @@ Clique en **Launch App** y será redirigido a la **[página](https://app.tornado
 
  ![wallet](https://siasky.net/KABpV33X84PCitszZpwa4thYvYOxPHw29Qlx0UqKxf4ioQ)
  
-Connecte su monedero Web3 (p.ej. Metamask).
+Conecte su monedero Web3 (p.ej. Metamask).
 
 ### Note Account
 Una vez haya conectado su monedero Web3 (Metamask), el siguiente paso que se le pide es configurar una ***Note account***.
@@ -28,12 +28,12 @@ La aplicación mostrará su clave Note Account, que deberá guardad de forma seg
 
 ![account setup](https://siasky.net/bAAPlh2vU89f5mFkssIFGLhXZJTPHivQDlrrWm0m-yn5ZQ)
 
-Clique en **Setup account** y se lanzará una trasacción en su monedero Web3 (Metamask)
-Una vez la trasacción haya finalizado, usted podrá ver que su Note Account se ha configurado correctamente. 
+Clique en **Setup account** y se lanzará una transacción en su monedero Web3 (Metamask)
+Una vez la transacción haya finalizado, usted podrá ver que su Note Account se ha configurado correctamente. 
 
  ![note account set](https://siasky.net/HAA4u3D5HkdPlE1de6e2n0NbKg4ANoW_qL5WBY0yGlE6gg)
  
-La configuración básica de su cuenta se ha completado. Ahora puede proceder con el Depóstito.
+La configuración básica de su cuenta se ha completado. Ahora puede proceder con el Depósito.
 
 ### Depósito
 Para mantener un nivel alto de anonimato, uno de los métodos que Tornado Cash usa es permitir que los usuarios depositen solamente unas cantidades fijas establecidas. Navegue a la pestaña de **Deposit** y seleccione el token que desea depositar, notará que se le permite depositar solamente algunas cantidades fijas del token. Por ejemplo, en el caso de ETH, usted puede depositar solamente valores de 0.1 ETH, 1 ETH, 10 ETH, or 100 ETH.
@@ -50,10 +50,10 @@ Podrá observar que su transacción de depósito se añade en la sección de ***
 
  ![statistics](https://siasky.net/rADt7GRpcVllIhlIoAiUpeqDoKUfVYFhXTiklNLMlXn31w)
 
-En la parte baja de la pestaña, usted puede comprobar su trasnacción de depósito junto con otros detalles clave:
-- Tiempo desde que se ha ralizado la transacción (Time passed)
+En la parte baja de la pestaña, usted puede comprobar su transacción de depósito junto con otros detalles clave:
+- Tiempo desde que se ha realizado la transacción (Time passed)
 - Cantidad depositada (amount)
-- Cualquier depósito siguiente posterior a su trasacción con la misma denominación o cantidad (Subsequent deposits)
+- Cualquier depósito siguiente posterior a su transacción con la misma denominación o cantidad (Subsequent deposits)
 - Hash de la transacción (Tx Hash)
 - Estado de la transacción (Status)
 - Recompensas ganadas (Rewards)
@@ -61,7 +61,7 @@ En la parte baja de la pestaña, usted puede comprobar su trasnacción de depós
 
 ![deposit details](https://siasky.net/OADOPSot2Tx_FAvtqKJz-jFwkUKbeqtG8YD2z4zNz7YTSA)
 
-La sección de recompensas muestra el ***Anonymity Point (AP)*** que el usuario gana al depositar y retirar en la pool ETH de anonimato. Puede ganar mas AP si su depósito permanece en diha pool.
+La sección de recompensas muestra el ***Anonymity Point (AP)*** que el usuario gana al depositar y retirar en la pool ETH de anonimato. Puede ganar mas AP si su depósito permanece en dicha pool.
 La Note puede utilizarse para retirar los fondos. Explicaremos en detalle cómo puede usar la Note para retirar sus fondos en la seccion ***How To Withdrawal From Tornado Cash***.
 
 

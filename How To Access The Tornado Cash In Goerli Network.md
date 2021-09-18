@@ -4,7 +4,7 @@ Los prerrequisito para probar la aplicación en la red de pruebas se listan a co
 
 ## Prerrequisito para la red Goerli Network
 - ETH de prueba que pueden ser obtenidos con el ***faucet*** de Goerli 
-- TORN de prueba, propocionados por el equipo del proyecto (no obligatorios)
+- TORN de prueba, proporcionados por el equipo del proyecto (no obligatorios)
 - Configurar su red en el monedero Metamask como **"Goerli Test Network"** 
 
 ### Paso 1: Recibir ETH de prueba en el monedero
