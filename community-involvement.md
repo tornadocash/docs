@@ -12,7 +12,7 @@ Tornado.Cash topluluğuyla kendi forumunda ve sosyal medyada tanışabilirsiniz.
 * [Tornado.Cash Discord Sunucusu](https://discord.com/invite/TFDrM8K42j)
 * [Tornado.Cash Telegram Sayfası](https://t.me/TornadoCashOfficial)
 
-Eğer ilgileniyorsanız, daha fazla bilgi için: [ Tornado.Cash yönetim kuralları ve işleyişi](https://docs.tornado.cash/governance)
+Eğer ilgileniyorsanız, daha fazla bilgi için: [ Tornado.Cash yönetim kuralları ve işleyişi](https://github.com/0xarmagan/docs/blob/1e0a49618749c5d0e614a9c5c6436be863eba5ef/governance.md)
 
 # **Nasıl katılırım?**
 
