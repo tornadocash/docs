@@ -52,5 +52,5 @@ Depozito notunuzu ilgili kutuya yapıştırarak kullanın. `withdraw`'a tıklay�
 
 Tamamlandı!
 
-İçeriğin yazarı @bt11ba [@ayefda]https://torn.community/u/bt11ba/)
+İçeriğin yazarı [@bt11ba](https://torn.community/u/bt11ba/)
 Türkçe versiyonunu hazırlayan [0xzkApe](https://twitter.com/0xzkape)
