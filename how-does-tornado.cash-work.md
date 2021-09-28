@@ -18,7 +18,7 @@ Böyle bir protokolün gücü, doğal olarak kullanıcı sayısından ve havuzun
 * Para yatırma ve çekme eylemi arasında bir zaman aralığı bırakmak;
 * Varlıklarını kurtarmadan önce birkaç işlemi bekleyerek fonlarını başka fonlarla karıştırmak.
 
-Daha fazla öneri için: Anonim kalma ipuçları.
+Daha fazla öneri için: [Anonim kalma ipuçları](https://github.com/0xarmagan/docs/blob/afe327a97fbb341501adeb2c3d12a314787b6824/tips-to-remain-anonymous.md/)
 
 **zk-SNARK ve Hash İşleminin Katkısı**
 
