@@ -10,7 +10,7 @@ Puede conocer a la comunidad Tornado.Cash en su propio foro y en las redes socia
 * [**Tornado.Cash Discord Server**](https://discord.com/invite/TFDrM8K42j)
 * [**Tornado.Cash Telegram Discussions**](https://t.me/TornadoCashOfficial)
 
-_Si está interesado, hay más información disponible al respecto en \[Tornado.Cash governance rules & functioning._\]\(governance.md\) -&gt; _**add link**_
+_Si está interesado, hay más información disponible al respecto en_ [_Gobernanza_](https://docs.tornado.cash/v/es/governance)_._
 
 ## ¿Cómo involucrarse?
 

@@ -16,7 +16,7 @@ La fortaleza del protocolo esta ligada naturalmente al número de usuarios y el 
 * Dejar un tiempo entre las acciones de depósito y el retiro de fondos.
 * Mezclar sus fondos con los demás esperando varias transacciones antes de recuperar sus activos. 
 
-_Más recomendaciones en:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_Más recomendaciones en:_ [_Tips to remain anonymous_](https://docs.tornado.cash/v/es/tips-to-remain-anonymous)_._
 
 ### Contribución de los zk-SNARK y el proceso de hashing
 

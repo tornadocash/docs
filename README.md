@@ -1,4 +1,4 @@
-# Introducción de Tornado.Cash edit
+# Introducción de Tornado.Cash
 
 
 
@@ -16,7 +16,7 @@ Tornado Cash mejora la privacidad de las transacciones rompiendo la cadena de un
 
 Para preservar la privacidad, es recomendable seguir algunas buenas prácticas, tales como el uso de un relayer para los pagos de gas en las retiradas de fondos mediante una dirección vacía o sin balance previo.
 
-Más detalles disponibles en _Behind the scenes:_ ¿Cómo funciona Tornado.Cash? __y Consejos para mantener anónimo.
+Más detalles disponibles en _Behind the scenes:_ [¿Cómo funciona Tornado.Cash?](https://docs.tornado.cash/v/es/how-does-tornado.cash-work) __y [Consejos para mantener anónimo](https://docs.tornado.cash/v/es/tips-to-remain-anonymous).
 
 ## ¿Donde esta actualmente Tornado.Cash?
 
@@ -32,7 +32,7 @@ Hoy en día, Tornado.Cash se puede usar con los tokens siguientes:
 
 El protocolo también incluye un **sistema de minado anónimo para algunos de sus tokens**, permitiendo a los usuarios ganar **tokens de gobernanza**. Gracias a los tokens TORN, los usuarios de Tornado Cash participan activamente en el modelado del protocolo. La comunidad tiene un peso importante en la evolución de Tornado Cash y la mejora de sus características. En efecto, a través de su gobernanza, la comunidad tiene pleno control sobre los parámetros del protocolo y la distribución de tokens.
 
-Mas información disponible en [Anonymity mining](anonymity-mining.md) y [Tornado.Cash token](torn.md).
+Mas información disponible en [Anonymity mining ](https://docs.tornado.cash/v/es/anonymity-mining)y [Tornado.Cash token](https://docs.tornado.cash/v/es/torn).
 
 ## ¿Como funciona Tornado.Cash?
 

@@ -78,7 +78,7 @@ Felicidades, ha participado de forma exitosa en _anonymity mining_!
 
 Siempre es recomendable planificar cuando decide minar cualquiera de los conjuntos, los usuarios deben también tener en cuenta que el cambio [AP/TORN](https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2) depende de la oferta y la demanda, por lo que **a más gente reclame, mayor será la relación de cambio, y viceversa; como menos se reclame, menor será la relación**.
 
-Para más información en anonymity mining, indague en los recursos siguientes:
+Para más información en anonymity mining, indague en los recursos siguientes \(inglés\):
 
 * [Tornado.Cash governance proposal article](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
 * [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a) 

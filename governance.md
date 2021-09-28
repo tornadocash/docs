@@ -22,15 +22,15 @@ Una propuesta puede ser de la naturaleza siguiente:
 
 Muchas más se pueden realizar. Para descubrir exactamente qué puede ser modificado a través de la gobernanza en el protocolo, busque las funciones con el modificador `onlyGovernance` en los smart contracts.
 
-Las funciones de gobierno se representan con una flecha roja en [este diagrama de arquitectura.](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
+Las funciones de gobierno se representan con una flecha roja en [este diagrama de arquitectura](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio).
 
-NOTA: Partes de este artículo se han recogido de [este artículo de Medium.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) El crédito es del equipo de Tornado Cash.
+NOTA: Partes de este artículo se han recogido de [este artículo de Medium](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703). El crédito es del equipo de Tornado Cash.
 
 ### How to vote ?
 
 Usted necesitará depositar \(o bloquear\) tokens TORN en el contrato de gobernanza.
 
-Vaya a:[https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Vaya a: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
 
 Haga clic en `Manage` -&gt; `Lock Tab`
 
@@ -38,7 +38,7 @@ Apruebe el contrato de gobernanza para transferir sus tokens TORN haciendo clic 
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
-Antes de votar, el paso siguiente fundamental es revisar la propuesta. Las propuestas legítimas deben tener una entrada dedicada en [Torn.community](https://torn.community/) bajo la categoría _"Proposal"_. El foro proporcionará contexto adicional y argumentos sobre la propuesta. Lea el hilo y fórmese su propia opinión sobre el asunto.
+Antes de votar, el paso siguiente fundamental es revisar la propuesta. Las propuestas legítimas deben tener una entrada dedicada en [torn.community](https://torn.community/) bajo la categoría _"Proposal"_. El foro proporcionará contexto adicional y argumentos sobre la propuesta. Lea el hilo y fórmese su propia opinión sobre el asunto.
 
 Cuando una propuesta haya sido presentada aparecerá en: [https://app.tornado.cash/governance](https://app.tornado.cash/governance) Las propuestas se implementan en la forma de smart contracts realizando cambios en el sistema. En consecuencia, es importante verificar la dirección del smart contract y revisar su código. Encuentre la dirección del contrato de la propuesta aquí:
 

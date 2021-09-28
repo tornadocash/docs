@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introducción de Tornado.Cash edit](README.md)
+* [Introducción de Tornado.Cash](README.md)
 * [¿Cómo funciona Tornado.Cash?](how-does-tornado.cash-work.md)
 * [Consejos para mantener anónimo](tips-to-remain-anonymous.md)
 * [Depósito y Retiro](untitled.md)

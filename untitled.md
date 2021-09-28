@@ -1,6 +1,6 @@
 # Depósito y Retiro
 
-Este tutorial es una guía paso a paso de cómo depositar y retirar sus fondos. Si quiere entender como funciona internamente Tornado.Cash, por favor diríjase a [este tutorial](https://docs.tornado.cash/how-does-tornado.cash-work).
+Este tutorial es una guía paso a paso de cómo depositar y retirar sus fondos. Si quiere entender como funciona internamente Tornado.Cash, por favor diríjase a [este tutorial](https://docs.tornado.cash/v/es/how-does-tornado.cash-work).
 
 ## Depósito
 
@@ -28,7 +28,7 @@ Haga clic en `Deposit` y guarde su nota en un lugar seguro antes de hacer clic e
 
 ### Tenga paciencia
 
-Como se ha explicado [aqui](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), a mayor espera, mayor grado de anonimato se obtiene.
+Como se ha explicado [aqui](https://docs.tornado.cash/tips-to-remain-anonymous), a mayor espera, mayor grado de anonimato se obtiene.
 
 Felicidades ! Lo ha conseguido. Ahora sus tokens están en la pool de Tornado.Cash.
 
