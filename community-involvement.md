@@ -1,111 +1,106 @@
-# Community Involvement
+# **Topluluk Katılımı**
 
-**\[Work In Progress\]**
+(Çalışma devam ediyor)
 
-In a Decentralized Autonomous Organization \(DAO\), significant elements such as protocol parameters & token distribution are controlled by the community through governance. This governance allows the community to shape & continuously improve the protocol.
+Bir Merkeziyetsiz Otonom Organizasyonda (DAO), protokol parametreleri ve token dağıtımı gibi önemli unsurlar, yönetim aracılığıyla topluluk tarafından kontrol edilir. Bu yönetişim, topluluğun protokolü şekillendirmesine ve sürekli olarak iyileştirmesine olanak tanır.
+ 
+Bununla birlikte, bir topluluğun rolü, önerilerde bulunmaktan ve oylama yoluyla görüşlerini ifade etmekten ibaret değildir. Topluluk ayrıca yapıcı tartışmalar, karşılıklı yardım ve belirli eylemler yoluyla protokollerinin başarısına ve refahına aktif olarak katkıda bulunabilir.
+ 
+Tornado.Cash topluluğuyla kendi forumunda ve sosyal medyada tanışabilirsiniz. İşte Tornado.Cash topluluğuna katılmak için bağlantılar
 
-However, the role of a community does not stop to suggesting proposals & expressing its opinion through votes. The community can also actively contribute to the success and prosperity of their protocol through constructive debates, mutual help and specific actions.
+* [Tornado.Cash topluluk forumu](https://torn.community/)
+* [Tornado.Cash Discord Sunucusu](https://discord.com/invite/TFDrM8K42j)
+* [Tornado.Cash Telegram Sayfası](https://t.me/TornadoCashOfficial)
 
-You can meet Tornado.Cash community on its very own forum & on social medias. Here are useful links to join Tornado.Cash community
+Eğer ilgileniyorsanız, daha fazla bilgi için: [ Tornado.Cash yönetim kuralları ve işleyişi](https://docs.tornado.cash/governance)
 
-* \*\*\*\*[**Tornado.Cash community forum**](https://torn.community/)\*\*\*\*
-* \*\*\*\*[**Tornado.Cash Discord Server**](https://discord.com/invite/TFDrM8K42j)\*\*\*\*
-* \*\*\*\*[**Tornado.Cash Telegram Discussions**](https://t.me/TornadoCashOfficial)\*\*\*\*
+# **Nasıl katılırım?**
 
-_If you are interested, more information is available about_ [_Tornado.Cash governance rules & functioning._ ](governance.md)\_\_
+Tornado.Cash'in geleceğine katkı yapacak ve yeni sürümlerinin oluşturulmasına yardımcı olacak tüm beceriler ve yetenekler memnuniyetle karşılanmaktadır. Katılım fırsatları neredeyse sınırsızdır. Bu fırsatlar, protokolü ve blockchain ekosistemindeki konumunu iyileştiren herhangi bir işlevi veya katkıyı içerir.
+ 
+Tornado.Cash topluluğu şunları arıyor:
 
-## How to Get Involved?
+* Protokolü ve araçlarını oluşturmaya devam etmeye yardımcı olabilecek geliştiriciler;
+* Hataları ve güvenlik açıklarını bulmak için kodu gözden geçirebilecek denetçiler;
+* Protokole yeni kullanıcıları çekmek için eğitici veya tanıtım amaçlı içerik oluşturucular (videolar, bloglar, memeler vb.)
+* Protokol mimarisini ve tasarımını geliştirebilecek tasarımcılar;
+* DAO için potansiyel işe alımlar;
+...
 
-To help building future enhanced versions of Tornado.Cash, all skills & talents are well welcomed. Involvement opportunities are almost unlimited. Those opportunities involve any function or contribution that improves the protocol and its position within the blockchain ecosystem.
 
-Tornado.Cash community is looking for:
+# Tornado.Cash Topluluk Fonu
 
-* developers that can help continue building the protocol & its tools;
-* auditors who can review code to find bugs and vulnerabilities;
-* content creators in order to make educational or promotional content to attract new users to the protocol \(videos, blogs, memes, etc.\)
-* designers that can refine protocol architecture & design;
-* potential hires for the DAO;
-* ...
+Haziran 2021'de Tornado.Cash topluluğu, kilit katkıda bulunanlarını ödüllendirmek için bir topluluk fonunun uygulanması yönünde oy verdi ( [öneri #7](https://app.tornado.cash/governance/7) ). Bu fonun yönetimi topluluğun elindedir. Kimin katkısının ödül almaya uygun olduğuna Tornado.Cash kullanıcıları karar verir.
+​
+**Fon Detayları**
 
-## Tornado.Cash Community Fund
+Tornado.Cash Topluluk Fonu, yönetişim hazinesinin toplam mevcut TORN'unun %5'i olarak tahsis edilmiştir ve aşağıdaki gibi ayrılmıştır:
 
-On June 2021, Tornado.Cash community has voted the implementation of a community fund to award its key contributors \([proposal \#7](https://app.tornado.cash/governance/7)\). The management of this fund lies between the hand of the community. Tornado.Cash users are the one who decide whose contribution is eligible for a compensation.
+* Zaten kazanılmış olan 485.3k TORN'un %5'i, ilk 22.9k TORN transferiyle sonuçlandı -> [İşlem Ayrıntıları](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47)
+* Önümüzdeki 12 ayda kazanılacak aylık 91,6k %5'i, bu da aylık yaklaşık 4,6k TORN ile sonuçlanır (bir yılda toplam yaklaşık 55k TORN)
+ 
+Fonun aylık tahsisi, 12 ay boyunca kalan TORN'ların (saniye saniye) canlı yayınına izin veren Ethereum üzerine inşa edilmiş bir protokol olan [Sablier](https://sablier.finance/) aracılığıyla programlandı.
+ 
+Toplamda Topluluk Fonuna yaklaşık olarak 78k TORN tahsis edildi. Ağustos 2021'in sonu itibariyle, Topluluk Fonu'nun bakiyesi, Sablier'e verilen ~ 12.6k TORN ve Gnosis kasasında 15.5k TORN'dur. 
 
-### 
-
-### Fund Details
-
-Tornado.Cash Community Fund has been allocated 5% of total available TORN of the governance treasury, broken down as follows:
-
-* 5% of the already vested 485.3k TORN at that time, resulting on an **initial transfer of 22.9k TORN** _-&gt;_ [_Transaction Details_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47) __
-* 5% of the monthly 91.6k that will be vested in the next 12 month, which result on **a monthly transfer of approx. 4.6k TORN** \(a total of approx. 55k TORN over a year\)
-
-The monthly allocation of the Fund was programmed through [Sablier](https://sablier.finance/), a protocol built on Ethereum that allows a live stream of remaining TORNs \(second by second\) over 12 months. 
-
-In total, an amount of approximatively **78k TORN** was allocated to this Community Fund. As of the end of August 2021, the balance of the Community Fund is about ~12.6k TORN vested in Sablier & 15.5k TORN in the Gnosis safe.
-
-Tornado.Cash Community Contract is: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances). 
-
-Funds are handled through a Multi-signature Wallet on Gnosis Safe. Keys to manage this wallet were put between the hand of 5 peer-elected community members. To validate a transaction, a consensus of 4-of-5 signatures is needed.
-
-Those multi-signatures key holders were chosen for their contribution & commitment to Tornado.Cash and its Community. They pledged to sign off transaction following the community instructions. Those guidelines are expressed through forum discussion and corroborated by a Snapshot vote. 
-
-All signers also pledged to resign if they no longer fulfill their allegiance to Tornado’s prosperity. They can also be dismissed from their role under the decision of the the community. To reward their commitment as signers & key contributors for Tornado.Cash community, 100 TORN per month have been deployed through Sablier
-
-The current 5 multi-signatures key holders are: 
-
+Tornado.Cash Topluluk Sözleşmesi: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4.](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances)
+ 
+Fonlar, Gnosis Safe'de Çok İmzalı bir Cüzdan aracılığıyla işlenir. Bu cüzdanı yönetmek için anahtarlar, eşler tarafından seçilen 5 topluluk üyesinin eline verildi. Bir işlemi doğrulamak için 4'te 5 imzadan oluşan bir konsensüs gereklidir. 
+ 
+Çok imzalı anahtar sahipleri, Tornado.Cash ve Topluluğuna katkıları ve bağlılıklarından dolayı seçildi. Topluluk talimatlarını izleyerek işlemi imzalamaya söz verdiler. Bu yönergeler forum tartışması yoluyla açıklanır ve bir snapshot oyuyla desteklenir.
+ 
+Tüm imzacılar, Tornado'nun refahına olan bağlılıklarını yerine getirmezlerse istifa etme sözü verdiler. Ayrıca topluluk kararıyla görevlerinden de çıkarılabilirler. Tornado.Cash topluluğu için imza atanlar ve önemli katkıda bulunanlara bağlılıklarını ödüllendirmek için Sablier aracılığıyla ayda 100 TORN dağıtıldı
+ 
+Güncel 5 çok imzalı anahtar sahipleri şunlardır:
+ 
 * [0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75](https://etherscan.io/address/0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75)
 * [0x0D5bbdBa8Fd6523102A0bb5a0E68b30441a3765F](https://etherscan.io/address/0x0D5bbdBa8Fd6523102A0bb5a0E68b30441a3765F)
 * [0xAf98Bb4bCeD00A17fFE020499C342CFC3511Fb10](https://etherscan.io/address/0xAf98Bb4bCeD00A17fFE020499C342CFC3511Fb10)
 * [0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d](https://etherscan.io/address/0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d)
 * [0xEA27752f7D6687CB3Be2F180B997713b784c9911](https://etherscan.io/address/0xEA27752f7D6687CB3Be2F180B997713b784c9911)
 
-### 
+**Ödül Nasıl Talep Edilir?**
 
-### How to Claim a Reward?
+Her üye, Tornado.Cash'e yaptığı katkıyı ödüllendirmek için topluluktan bu fondan bir tazminat talep etme hakkına sahiptir. Ayrıca her üye, başka bir üye adına, çalışmasının karşılığında kendisini ödüllendirmek üzere bir ücret talep etme hakkına sahiptir.
+ 
+Bu kapsamda Tornado.Cash tartışma forumunda « Finansman » başlıklı yeni bir kategori oluşturuldu. Kategoride yeni bir gönderi oluşturarak, tüm üyeler Topluluk Fonu'nu kullanmak için bir fon talebi açabilir. Bu tür bir talebin hüküm ve koşullarına ilişkin başlıklar bu gönderide tartışılmaktadır.
+ 
+Şartlar ve koşullar sağlandıktan sonra, böyle bir fon talebini onaylamak (veya onaylamamak) için SnapShot üzerinden bir oylama yapılır.
 
-Each member has the ability to ask the community for a compensation from this fund to reward his/her contribution to Tornado.Cash. Each member also has the ability to request a compensation on behalf of another member to reward him/her for his/her work.
+İşte Tornado.Cash SnapShot alanı: https://snapshot.org/#/torn-community.eth.
 
-To this extent, a new category titled **« Funding »** has been created on Tornado.Cash discussion forum. By creating a new post in the category, all members can open a funding request to use the Community Fund. Discussions regarding terms & conditions of such a request are discussed on this post. 
+![](https://i.imgur.com/I4uGECU.png)
 
-Once those terms & conditions are fixed, a vote is conducted on Snapshot to validate \(or not\) such a funding request.
+**SnapShot’ta Nasıl Oy Verilir?**
 
-Here is Tornado.Cash Snapshot space:[ https://snapshot.org/\#/torn-community.eth](%20https://snapshot.org/#/torn-community.eth).
+Her özel finansman talebine, TORN sahiplerinin kararlarını açıkça ifade edebilecekleri bir snapshot oyu eşlik eder. Snapshot oylamasının sonucu, çok imzalı anahtar sahiplerine karar verilen ödül miktarını ilgili üyeye aktarıp aktarmama konusunda nihai talimatı verir.
+ 
+Her snapshot oylamasının, TORN sahiplerinin oylarını toplamak için 3 günlük süresi `window of 3 days `vardır. Bitiş tarihine ulaşıldığında, Snapshot durumu Etkin'den `active` Kapalı'ya `closed` geçer. Topluluk üyeleri artık oy kullanamaz.
 
-![](.gitbook/assets/page-daccueil.png)
+Çok imzalı anahtar sahipleri, aşağıdaki durumlarda fon talebinin topluluk tarafından doğrulandığına karar verir:
+ 
+* TORN sahiplerinin çoğunluğu Reddet `refuse` yerine Kabul Et `accept` oyu kullanmıştır.
+* `5.000` TORN sayısına ulaşılmıştır.
 
+Tüm snapshot finansman talepleri aynı şekilde tasarlanmıştır: kullanıcıların verilen teklifin lehinde veya aleyhinde olduklarına karar verdikleri tek seçimli oylama sistemi olarak uygulanır.
+ 
+Snapshot’a oy verme adımları oldukça sezgiseldir. Topluluk üyesinin şunları yapması gerekir:
+ 
+* MetaMask, WalletConnect veya Torus ile TORN'larınızı tutan cüzdana bağlanın;
 
+![](https://i.imgur.com/93rVyv2.png)
 
-### How to Vote on Snapshot?
+* `accept` veya `refuse`'e tıklayarak oyunuzu verin;
 
-Each specific funding request is accompanied by a Snapshot vote, where TORN holders can explicitly express their position. The result of this Snapshot vote provides the final instruction to multi-signature key holders on wether to transfer the decided reward amount to the concerned member.
+![](https://i.imgur.com/SxCb06w.png)
 
-Each snapshot vote has a `window of 3 days` to accumulate TORN holders votes. When the end date is reached, the Snapshot status goes from`Active` to `Closed`. Community members can no longer vote. 
+* Onaylayın
 
-![](.gitbook/assets/time-window.png)
-
-Multi-signature key holders consider that the funding request is validated by the community if:
-
-* The majority of TORN holders have voted `Accept` rather than `Refuse`.
-* The `5,000` TORN quorum has been reached.
-
-All Snapshot funding request are designed the same way: a s**ingle choice voting system** where users decide wether they are **For or Against** the given proposition.
-
-Steps to vote on Snapshot are quite intuitive. The community member needs to:
-
-* Connect the wallet holding TORNs thanks to either MetaMask, WalletConnect or Torus;
-
-![](.gitbook/assets/connect-wallet.png)
-
-* Cast the vote, by either clicking on `Accept` or `Refuse`;
-
-![](.gitbook/assets/cast-the-vote.png)
-
-* Confirm the vote.
-
-![](.gitbook/assets/confirm-the-vote.png)
+![](https://i.imgur.com/InMc4mu.png)
 
 
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+
+
+
 
