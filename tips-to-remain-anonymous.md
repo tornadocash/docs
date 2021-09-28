@@ -28,3 +28,4 @@ Anonimliğiniz, para yatırmanızdan sonraki işlem sayısına da bağlıdır (b
 Bir adresten 7 x 10'uncu para yatırma ve tek bir adrese 7 x 10'uncu para çekme de bağlanabilir. Bu bir ihtimaldir. Bu yüzden para çekme adreslerinizi çarpmayı unutmayın.
 
 Bu metin [@bt11ba](https://torn.community/u/bt11ba/) tarafından yazılmıştır.
+Türkçe versiyonunu hazırlayan [0xzkApe](https://twitter.com/0xzkape)
