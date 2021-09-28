@@ -28,7 +28,7 @@ https://app.tornado.cash/compliance/
  
 Bir Uyumluluk Raporu almak için kullanıcının yalnızca para yatırma işleminden sonra oluşturulan notu özel kutuya kopyalaması gerekir.
 
-Çekim Yapmadan Önce
+**Çekim Yapmadan Önce**
 
  Not henüz harcanmadıysa (yani varlıklar hala çekilmediyse), Uyumluluk aracı size yalnızca depozito hakkında bilgi sağlayacaktır:
  
@@ -43,7 +43,7 @@ Taahhüt, işlemi karakterize etmek için Tornado.Cash akıllı sözleşmesine g
 
 *Tornado.Cash nasıl çalışır? bölümünü okuyarak Tornado.Cash'in gizliliği nasıl sağladığı hakkında daha fazla bilgi bulabilirsiniz.*
 
-Para Çekme Sonrası
+**Para Çekme Sonrası**
 
 Not harcandıysa (yani varlıklar not kullanılarak belirli bir adrese çekildiyse), Uyumluluk Aracı yukarıdaki bilgileri aşağıdakileri ekleyerek tamamlayacaktır:
  
