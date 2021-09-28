@@ -103,6 +103,6 @@ Anonim madencilik hakkında daha fazla bilgi için aşağıdaki kaynakları tık
 
 Makalenin yazımı için [_@sockawoo_](https://torn.community/u/sockawoo) ve [_@ethdev_](https://torn.community/u/ethdev) teşekkür ederiz.
 Bu dökümanın yazarı [@xgozzy__](https://torn.community/u/xgozzy/summary)
-Türkçe versiyonu için [@arm00g](https://twitter.com/0xzkape)'e teşekkürler.
+Türkçe versiyonu için [@0xzkape](https://twitter.com/0xzkape)'e teşekkürler.
 
 
