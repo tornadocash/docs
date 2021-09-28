@@ -1,12 +1,11 @@
-# Table of contents
+# İçerik
 
-* [Introduction of Tornado.Cash](README.md)
-* [How does Tornado.Cash work?](how-does-tornado.cash-work.md)
-* [Tips to remain anonymous](tips-to-remain-anonymous.md)
-* [Deposit & Withdraw](untitled.md)
-* [Anonymity mining](anonymity-mining.md)
+* [Tornado Cash'e Giriş](README.md)
+* [Tornado Cash nasıl çalışır?](how-does-tornado.cash-work.md)
+* [Anonim kalma ipuçları](tips-to-remain-anonymous.md)
+* [Yatırma & Çekim](untitled.md)
+* [Anonim Madencilik](anonymity-mining.md)
 * [TORN](torn.md)
-* [Governance](governance.md)
-* [Community Involvement](community-involvement.md)
-* [Compliance Tool](compliance-tool.md)
-
+* [Yönetişim](governance.md)
+* [Topluluk Katılımı](community-involvement.md)
+* [Uyumluluk Aracı](compliance-tool.md)
