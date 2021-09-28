@@ -17,7 +17,7 @@ Gözetim altında olmayan bir protokol olarak, kullanıcılar Tornado.Cash'i iş
 Tornado Cash, kaynak ve hedef adresler arasındaki on-chain bağlantısını keserek işlem gizliliğini sağlıyor. Bir adresten ETH ve diğer token mevduatlarını kabul eden ve farklı bir adresten çekilmelerini sağlayan akıllı bir sözleşme kullanır.
 Gizliliği korumak amacıyla önceden var olup bakiyesi olmayan bir adrese, para çekmek için gas ödemelerinde bir aktarıcının kullanılması gibi birkaç uygulamaya sahiptir.
 
-Daha fazla ayrıntı için: [Tornado.Cash nasıl çalışır?](https://) & [Anonim kalma ipuçları](https://) 
+Daha fazla ayrıntı için: [Tornado.Cash nasıl çalışır?](https://github.com/0xarmagan/docs/blob/6906bfbd2f1c74bcdbd4ea36a054d2824d6e7517/how-does-tornado.cash-work.md) & [Anonim kalma ipuçları](https://github.com/0xarmagan/docs/blob/6906bfbd2f1c74bcdbd4ea36a054d2824d6e7517/tips-to-remain-anonymous.md) 
 
 
 
