@@ -31,3 +31,4 @@ zk-SNARK sayesinde herhangi bir bilgiyi ifşa etmeden ilk taahhüdün ve nullifi
 Gönderim teknolojik açıdan ucuzdur ancak 20 mimc hash'i hesaplamaları ve Merkle ağacını güncellemeleri gerektiğinden gas açısından pahalıdır. Tersine, geri çekme işlemi daha karmaşıktır. Ancak gas yalnızca sıfırlayıcı hash ve zk proof için gerekli olduğundan daha ucuzdur.
 
 Bu metin [@ayefda__](https://torn.community/u/ayefda/) tarafından yazılmıştır. 
+Türkçe versiyonunu hazırlayan [0xzkApe](https://twitter.com/0xzkape)
