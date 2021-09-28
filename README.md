@@ -37,7 +37,7 @@ Bugün itibariyle Tornado.Cash aşağıdaki tokenlarla kullanılabilir:
 
 Protokol ayrıca, tokenlarının bir kısmı için, kullanıcılarının **yönetişim tokenı** kazanmalarına olanak tanıyan bir **anonim likidite madenciliği** sistemine de sahiptir. TORN tokenı sayesinde Tornado Cash kullanıcıları protokolün şekillendirilmesine aktif olarak katılır. Topluluk, Tornado Cash'in evrimi ve özelliklerinin iyileştirilmesi konusunda güçlü bir etkiye sahiptir. Aslında, protokol parametreleri ve token dağıtımı, bu yönetişim aracılığıyla tamamen topluluğun kontrolü altındadır.
 
-[Anonim likidite madenciliği](https://) ve [Tornado.Cash tokenı](https://) hakkında daha fazla bilgiye ulaşabilirsiniz.
+[Anonim likidite madenciliği](https://github.com/0xarmagan/docs/blob/08b0a08b53c821b385a18f8cb604099e8c291d7d/anonymity-mining.md) ve [Tornado.Cash tokenı](https://github.com/0xarmagan/docs/blob/08b0a08b53c821b385a18f8cb604099e8c291d7d/torn.md) hakkında daha fazla bilgiye ulaşabilirsiniz.
 
 
 ## Tornado.Cash Nasıl Çalışır?
