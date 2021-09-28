@@ -102,6 +102,6 @@ Anonim madencilik hakkında daha fazla bilgi için aşağıdaki kaynakları tık
 * [Anonim madenciliği detaylı açıklama (teknik)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
 Makalenin yazımı için [_@sockawoo_](https://torn.community/u/sockawoo) ve [_@ethdev_](https://torn.community/u/ethdev) teşekkür ederiz.
-Türkçe versiyonu [@arm00g](https://twitter.com/0xzkape) teşekkürler.
+Türkçe versiyonu için [@arm00g](https://twitter.com/0xzkape)'e teşekkürler.
 
 
