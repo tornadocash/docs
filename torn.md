@@ -44,5 +44,5 @@ Airdrop formülü aşağıdaki gibidir.
 
 
 
- _Bu metin_ [_Tornado Team_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) _ve &_ [_@bt11ba_](https://torn.community/u/bt11ba/) *tarafından yazılmıştır.*
-Türkçe versiyonunu hazırlayan: [0xzkpe](https://twitter.com/0xzkape/)
+ Bu metin [_Tornado Team_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) ve & [_@bt11ba_](https://torn.community/u/bt11ba/) tarafından yazılmıştır.
+Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.
