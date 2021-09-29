@@ -69,7 +69,7 @@ Topluluk üyelerinden biri, bir ödül talep etmek için gereken ücretleri tahm
 ![](https://i.imgur.com/6eBT9kF.png)
 
 
-Merkle Tree güncellemek pahalı bir süreç olabilir, **küçük mevduatı olan kullanıcıların daha büyük madencilerin Tree güncellemesini beklemeleri önerilir**, Süreç birkaç gün ile bir hafta arasında sürebilir. Etkinliğinizi mevcut bekleyen gruplara göre görüntülemek istiyorsanız. "Madencilik notu bilgilerini göster" bağlantısına tıklayın, burada ayrıca "Tree’leri güncelle" düğmesi aracılığıyla para çekme işleminize göre tree senkronize etmek için işlem ücretlerini de ödeyebilirsiniz.
+Merkle Tree güncellemek pahalı bir süreç olabilir. **Küçük mevduatı olan kullanıcıların daha büyük madencilerin Tree güncellemesini beklemeleri önerilir**. Süreç birkaç gün ile bir hafta arasında sürebilir. Etkinliğinizi mevcut bekleyen gruplara göre görüntülemek istiyorsanız. "Madencilik notu bilgilerini göster" bağlantısına tıklayın, burada ayrıca "Tree’leri güncelle" düğmesi aracılığıyla para çekme işleminize göre tree senkronize etmek için işlem ücretlerini de ödeyebilirsiniz.
 
 ![](https://i.imgur.com/50Qasy6.png)
 
