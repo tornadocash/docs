@@ -14,7 +14,7 @@ Bir kullanıcı bir havuza para yatırdığında (yani mevduat) özel bir not ol
  
 Böyle bir protokolün gücü, doğal olarak kullanıcı sayısından ve havuzunun büyüklüğünden gelir. Ne kadar çok kullanıcı havuza yatırım yaparsa o kadar güçlenir. Ancak, gizliliği ve anonimliği korumak için kullanıcının aşağıdaki gibi bazı temel kuralları dikkate alması gerekir:
  
-* Çekerken gas ödemek için bir röle kullanmak;
+* Çekerken gas ödemek için bir *relayer* kullanmak;
 * Para yatırma ve çekme eylemi arasında bir zaman aralığı bırakmak;
 * Varlıklarını kurtarmadan önce birkaç işlemi bekleyerek fonlarını başka fonlarla karıştırmak.
 
