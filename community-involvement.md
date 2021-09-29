@@ -101,7 +101,7 @@ Snapshot’a oy verme adımları oldukça sezgiseldir. Topluluk üyesinin şunla
 
 
 Bu dökümanın yazarı [@ayefda__](https://torn.community/u/ayefda)'ya teşekkürler. 
-Türkçe versiyonunu hazırlayan: [0xzkApe](https://twitter.com/0xzkape)
+Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.
 
 
 
