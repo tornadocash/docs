@@ -63,4 +63,4 @@ Bu bilgiler ayrıca PDF formatında indirilebilir, bu da istenen herhangi bir ü
 
 *Bu içerik [@ayefda](https://torn.community/u/ayefda) tarafından yazılmıştır.*
 
-*Türkçe versiyonunu hazırlayan [0xzkApe](https://twitter.com/0xzkape)*
+*Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.*
