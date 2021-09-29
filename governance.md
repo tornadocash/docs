@@ -111,4 +111,4 @@ Yetkiyi geri almak için, `Manage` -> `Undelegate` sekmesindeki `Undelegate` 'e 
 
 
 _Bu metnin yazarı_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_
-*Türkçe versiyonunu hazırlayan [0xzkApe](https://twitter.com/0xzkape)*
+*Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.*
