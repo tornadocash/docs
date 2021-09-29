@@ -49,4 +49,4 @@ Protokol ayrıca, zero knowledge proof’a olanak tanıyan zk-SNARK ile birlikte
 Kullanıcı arayüzü, topluluk tarafından IPFS'de bulundurularak verilerin silinme risklerini en aza indiriyor. Arayüz en az bir kullanıcı tarafından IPFS’de bulundurulduğu sürece çalışacaktır.
 
 Bu metin [_@ayefda_](https://torn.community/u/ayefda) tarafından yazılmıştır.
-Türkçe versiyonu için [armog](https://twitter.com/arm00g)'e teşekkürler.
+Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.
