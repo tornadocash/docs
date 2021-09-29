@@ -9,7 +9,7 @@ Bireyler, desteklenen anonimlik havuzlarından herhangi birine (ETH, WBTC, DAI v
 
 ### _Anonim Puanları_ \(AP\)
 
-*Okuyucular, yazım sırasında bazı düşük değerli mevduatların farkında olmalıdır, anonimlik puanlarını çekmek, kullanmak ve değiştirmek için gereken gas maliyetleri nedeniyle olumlu bir getiri sağlamaz.*
+*Okuyucular, yazım sırasında bazı düşük değerli mevduatların farkında olmalıdır. Anonimlik puanlarını çekmek, kullanmak ve değiştirmek için gereken gas maliyetleri nedeniyle olumlu bir getiri sağlamaz.*
  
 Topluluk üyelerinden biri, bir ödül talep etmek için gereken ücretleri tahmin ederek, her havuz için yıllık yüzde getirisini (APY'ler) hesaplamaya yardımcı olan bir [madencilik  tablosu 13'ün kaynağını oluşturdu](https:/https://torn.community/t/anonymity-mining-spreadsheet/720/). Verim kazanmayı beklemeden önce bu kaynağı incelemeniz ve hareket tarzınızı  planlamanız şiddetle tavsiye edilir. Tablonun alt kısmında, ilgili sekmeyi seçerek her bir havuzu görüntüleyebilirsiniz.
 
