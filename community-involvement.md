@@ -2,11 +2,11 @@
 
 (Çalışma devam ediyor)
 
-Bir Merkeziyetsiz Otonom Organizasyonda (DAO), protokol parametreleri ve token dağıtımı gibi önemli unsurlar, yönetim aracılığıyla topluluk tarafından kontrol edilir. Bu yönetişim, topluluğun protokolü şekillendirmesine ve sürekli olarak iyileştirmesine olanak tanır.
+Bir Merkeziyetsiz Otonom Organizasyonda (DAO), protokol parametreleri ve token dağıtımı gibi önemli unsurlar, yönetim aracılığıyla topluluk tarafından kontrol edilir. Bu yönetişim yöntemi topluluğun protokolü şekillendirmesine ve sürekli olarak iyileştirmesine olanak tanır.
  
 Bununla birlikte, bir topluluğun rolü, önerilerde bulunmaktan ve oylama yoluyla görüşlerini ifade etmekten ibaret değildir. Topluluk ayrıca yapıcı tartışmalar, karşılıklı yardım ve belirli eylemler yoluyla protokollerinin başarısına ve refahına aktif olarak katkıda bulunabilir.
  
-Tornado.Cash topluluğuyla kendi forumunda ve sosyal medyada tanışabilirsiniz. İşte Tornado.Cash topluluğuna katılmak için bağlantılar
+Tornado.Cash topluluğuyla kendi forumunda ve sosyal medyada tanışabilirsiniz. İşte Tornado.Cash topluluğuna katılmak için bağlantılar;
 
 * [Tornado.Cash topluluk forumu](https://torn.community/)
 * [Tornado.Cash Discord Sunucusu](https://discord.com/invite/TFDrM8K42j)
