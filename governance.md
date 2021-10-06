@@ -22,7 +22,7 @@ Bir teklif aşağıdaki nitelikte olabilir:
 
 Ve daha pek çok şey yapılabilir. Protokolde yönetişim yoluyla tam olarak nelerin değiştirilebileceğini öğrenmek için akıllı sözleşmelerde`onlyGovernance` değiştiricisine sahip işlevleri arayın.
 
-Yönetim fonksiyonları kırmızı okla temsil edilir. Detaylar için Tornado.Cash [mimarisi diyagramını](https://github.com/https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio/) inceleyin.
+Yönetim fonksiyonları kırmızı okla temsil edilir. Detaylar için Tornado.Cash [mimarisi diyagramını](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio) inceleyin.
 
 NOT: Bu makalenin bölümleri [medium](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703/) içeriğinden alınmıştır. Alkışlar Tornado Cash ekibine!
 

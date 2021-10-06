@@ -10,7 +10,7 @@ Bireyler, desteklenen anonimlik havuzlarından herhangi birine \(ETH, WBTC, DAI 
 
 _Okuyucular, yazım sırasında bazı düşük değerli mevduatların farkında olmalıdır. Anonimlik puanlarını çekmek, kullanmak ve değiştirmek için gereken gas maliyetleri nedeniyle olumlu bir getiri sağlamaz._
 
-Topluluk üyelerinden biri, bir ödül talep etmek için gereken ücretleri tahmin ederek, her havuz için yıllık yüzde getirisini \(APY'ler\) hesaplamaya yardımcı olan bir [madencilik tablosu 13'ün kaynağını oluşturdu](https://github.com/https://torn.community/t/anonymity-mining-spreadsheet/720/). Verim kazanmayı beklemeden önce bu kaynağı incelemeniz ve hareket tarzınızı planlamanız şiddetle tavsiye edilir. Tablonun alt kısmında, ilgili sekmeyi seçerek her bir havuzu görüntüleyebilirsiniz.
+Topluluk üyelerinden biri, bir ödül talep etmek için gereken ücretleri tahmin ederek, her havuz için yıllık yüzde getirisini \(APY'ler\) hesaplamaya yardımcı olan bir [madencilik tablosu 13'ün kaynağını oluşturdu](https://torn.community/t/anonymity-mining-spreadsheet/720). Verim kazanmayı beklemeden önce bu kaynağı incelemeniz ve hareket tarzınızı planlamanız şiddetle tavsiye edilir. Tablonun alt kısmında, ilgili sekmeyi seçerek her bir havuzu görüntüleyebilirsiniz.
 
 ### AP Nasıl Kazanılır?
 
@@ -76,7 +76,7 @@ Merkle Tree güncellemek pahalı bir süreç olabilir. **Küçük mevduatı olan
 
 Tebrikler, anonim madenciliğe başarıyla katıldınız!
 
-Anonimlik setlerinden herhangi birini kullanmaya karar verirken her zaman plan yapmanız önerilir. Kullanıcılar ayrıca [AP/TORN](https://github.com/https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2/) oranının arz ve talebe bağlı olduğunu da bilmelidir. Bu nedenle talep eden kişi sayısı arttıkça oran yükselir, azaldıkça oran düşer.
+Anonimlik setlerinden herhangi birini kullanmaya karar verirken her zaman plan yapmanız önerilir. Kullanıcılar ayrıca [AP/TORN](https://dune.xyz/luckyallocator/Daily-AP-TORN-Rate-v2) oranının arz ve talebe bağlı olduğunu da bilmelidir. Bu nedenle talep eden kişi sayısı arttıkça oran yükselir, azaldıkça oran düşer.
 
 Anonim madencilik hakkında daha fazla bilgi için aşağıdaki kaynakları tıklayın:
 

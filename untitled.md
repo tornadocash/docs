@@ -1,6 +1,6 @@
 # Yatırma ve Çekme
 
-Bu eğitim, paranızı nasıl yatıracağınızı ve çekeceğinizi adım adım anlatmaktadır. Tornado.cash'in dahili sisteminin nasıl çalıştığını anlamak istiyorsanız lütfen [bu eğitime](https://docs.tornado.cash/how-does-tornado.cash-work/) bakın.
+Bu eğitim, paranızı nasıl yatıracağınızı ve çekeceğinizi adım adım anlatmaktadır. Tornado.cash'in dahili sisteminin nasıl çalıştığını anlamak istiyorsanız lütfen [bu eğitime](https://docs.tornado.cash/v/tu/how-does-tornado.cash-work) bakın.
 
 ## **Para Yatırma**
 

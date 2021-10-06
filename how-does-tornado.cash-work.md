@@ -16,11 +16,11 @@ Böyle bir protokolün gücü, doğal olarak kullanıcı sayısından ve havuzun
 * Para yatırma ve çekme eylemi arasında bir zaman aralığı bırakmak;
 * Varlıklarını kurtarmadan önce birkaç işlemi bekleyerek fonlarını başka fonlarla karıştırmak.
 
-Daha fazla öneri için: [Anonim kalma ipuçları](https://github.com/0xarmagan/docs/blob/afe327a97fbb341501adeb2c3d12a314787b6824/tips-to-remain-anonymous.md/)
+Daha fazla öneri için: [Anonim kalma ipuçları](https://docs.tornado.cash/v/tu/tips-to-remain-anonymous)
 
 ### **zk-SNARK ve Hash İşleminin Katkısı**
 
-Tornado.Cash, işlemleri doğrulamak ve izin vermek için zero knowledge temelli zk-SNARK teknolojisini kullanır. Tornado.Cash, bir depozitoyu işlemek için rastgele bir bayt alanı oluşturur, bunu [Pederson Hash](https://github.com/https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html/) aracılığıyla hesaplar \(zk-SNARK ile yakın olduğu için\), ardından tokenı ve 20 mimc hash'i akıllı sözleşmeye gönderir. Sözleşme daha sonra onu Merkle ağacına ekleyecektir.
+Tornado.Cash, işlemleri doğrulamak ve izin vermek için zero knowledge temelli zk-SNARK teknolojisini kullanır. Tornado.Cash, bir depozitoyu işlemek için rastgele bir bayt alanı oluşturur, bunu [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) aracılığıyla hesaplar \(zk-SNARK ile yakın olduğu için\), ardından tokenı ve 20 mimc hash'i akıllı sözleşmeye gönderir. Sözleşme daha sonra onu Merkle ağacına ekleyecektir.
 
 Para çekme işlemini gerçekleştirmek için aynı bayt alanı iki ayrı parçaya bölünür: bir tarafta secret ve diğer tarafta nullifier. Nullifier hash edilir. Bu nullifier, akıllı sözleşme ve Merkle ağacı verileriyle kontrol edilmek üzere on-chainde gönderilen genel bir girdidir. Örneğin çifte harcamayı önler.
 
