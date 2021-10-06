@@ -41,7 +41,7 @@ Taahhüt, işlemi karakterize etmek için Tornado.Cash akıllı sözleşmesine g
 ![](https://i.imgur.com/9ZAkCgG.png)
 
 
-[Tornado.Cash nasıl çalışır?](https://github.com/tornadocash/docs/blob/tu/how-does-tornado.cash-work.md bölümünü okuyarak Tornado.Cash'in gizliliği nasıl sağladığı hakkında daha fazla bilgi bulabilirsiniz.
+[Tornado.Cash nasıl çalışır?](https://github.com/tornadocash/docs/blob/tu/how-does-tornado.cash-work.md) bölümünü okuyarak Tornado.Cash'in gizliliği nasıl sağladığı hakkında daha fazla bilgi bulabilirsiniz.
 
 **Para Çekme Sonrası**
 
