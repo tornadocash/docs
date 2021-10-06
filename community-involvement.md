@@ -77,6 +77,9 @@ Her özel finansman talebine, TORN sahiplerinin kararlarını açıkça ifade ed
  
 Her snapshot oylamasının, TORN sahiplerinin oylarını toplamak için 3 günlük süresi `window of 3 days `vardır. Bitiş tarihine ulaşıldığında, Snapshot durumu Etkin'den `active` Kapalı'ya `closed` geçer. Topluluk üyeleri artık oy kullanamaz.
 
+![image](https://user-images.githubusercontent.com/75987728/136219073-04016130-8f8d-4057-8a28-5d5ca5847b50.png)
+
+
 Çok imzalı anahtar sahipleri, aşağıdaki durumlarda fon talebinin topluluk tarafından doğrulandığına karar verir:
  
 * TORN sahiplerinin çoğunluğu Reddet `refuse` yerine Kabul Et `accept` oyu kullanmıştır.
