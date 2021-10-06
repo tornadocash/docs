@@ -24,7 +24,7 @@ https://app.tornado.cash/compliance/
 
 [Tornado.Cash](https://app.tornado.cash/) uygulaması aracılığıyla yapılan her para yatırma işleminde protokol tarafından yeni bir not oluşturulur. Bu not, yatırılan varlıkları daha sonra herhangi bir para çekme adresinden çekmek için gereklidir. Aynı not, gerekirse, kullanıcıların varlıklarının kaynağını kanıtlamak için bir Uyumluluk Raporu oluşturmasına imkan sağlar.
  
-*Tornado.Cash'te varlıkların nasıl yatırılacağı ve çekileceği hakkında daha fazla bilgiyi şu adreste bulabilirsiniz: Yatırma ve Çekme.*
+*Tornado.Cash'te varlıkların nasıl yatırılacağı ve çekileceği hakkında daha fazla bilgiyi şu adreste bulabilirsiniz: [Yatırma ve Çekme.](https://github.com/tornadocash/docs/blob/tu/untitled.md)*
  
 Bir Uyumluluk Raporu almak için kullanıcının yalnızca para yatırma işleminden sonra oluşturulan notu özel kutuya kopyalaması gerekir.
 
@@ -41,7 +41,7 @@ Taahhüt, işlemi karakterize etmek için Tornado.Cash akıllı sözleşmesine g
 ![](https://i.imgur.com/9ZAkCgG.png)
 
 
-*Tornado.Cash nasıl çalışır? bölümünü okuyarak Tornado.Cash'in gizliliği nasıl sağladığı hakkında daha fazla bilgi bulabilirsiniz.*
+[Tornado.Cash nasıl çalışır?](https://github.com/tornadocash/docs/blob/tu/how-does-tornado.cash-work.md bölümünü okuyarak Tornado.Cash'in gizliliği nasıl sağladığı hakkında daha fazla bilgi bulabilirsiniz.
 
 **Para Çekme Sonrası**
 
