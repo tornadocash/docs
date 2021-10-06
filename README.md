@@ -1,46 +1,43 @@
-# Introduction of Tornado.Cash
-
-**\[Work in progress\]**
+# Tornado.Cash'e Giriş
 
 ![](.gitbook/assets/image.png)
 
-Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space. 
+Tornado Cash, kripto alanında özel işlemlere olanak tanıyan **tamamen merkeziyetsiz ve sansürsüz** bir protokoldür.
 
-As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
+Merkeziyetsiz bir protokol olan Tornado.Cash akıllı sözleşmeleri Ethereum blockchaini içinde uygulanmıştır. Sözleşmeler değiştirilemez veya düzenlenemezdir. Bu nedenle, hiç kimse - ilk geliştiriciler dahil - bunları değiştiremez veya iptal edemez. Tüm yönetişim ve madencilik akıllı sözleşmeleri, topluluk tarafından merkezi olmayan bir şekilde işletilir.
 
-As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
+Gözetim altında olmayan bir protokol olarak, kullanıcılar Tornado.Cash'i işletirken kripto para birimlerinin gözetimini kendi ellerinde tutarlar. Her para yatırma işleminde kullanıcılara varlıkları üzerinde tam kontrol ve yatırılan fonlara erişim sağlayan özel imkan sağlanmış olur.
 
-## How privacy is achieved?
+## Gizlilik Nasıl Uygulanıyor?
 
-Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
+Tornado Cash, kaynak ve hedef adresler arasındaki on-chain bağlantısını keserek işlem gizliliğini sağlıyor. Bir adresten ETH ve diğer token mevduatlarını kabul eden ve farklı bir adresten çekilmelerini sağlayan akıllı bir sözleşme kullanır. Gizliliği korumak amacıyla önceden var olup bakiyesi olmayan bir adrese, para çekmek için gas ödemelerinde bir aktarıcının kullanılması gibi birkaç uygulamaya sahiptir.
 
-To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance. 
+Daha fazla ayrıntı için: [Tornado.Cash nasıl çalışır?](https://github.com/0xarmagan/docs/blob/6906bfbd2f1c74bcdbd4ea36a054d2824d6e7517/how-does-tornado.cash-work.md) & [Anonim kalma ipuçları](https://github.com/0xarmagan/docs/blob/6906bfbd2f1c74bcdbd4ea36a054d2824d6e7517/tips-to-remain-anonymous.md)
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) _****_& [Tips to remain anonymous](tips-to-remain-anonymous.md).
+## TORN Hangi Platformlarda Çalışıyor?
 
-## Where is Tornado.Cash at?
+Protokol, 2019'daki başlangıcından bu yana Ethereum blockchaininde çalışıyor. Haziran 2021'de Binance Smart Chain ve Polygon üzerinde konuşlandırıldı.
 
-The protocol has been operating on the **Ethereum blockchain** since its inception in 2019. It was recently deployed, in June 2021, on **Binance Smart Chain** & **Polygon**.
+Bugün itibariyle Tornado.Cash aşağıdaki tokenlarla kullanılabilir:
 
-As of today, Tornado.Cash can be used with the following tokens:
-
-* On Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
-* On Binance Smart Chain: **BNB** _\(Binance Coin\)_.
-* On Polygon Network: **MATIC** _\(Polygon\)_
+* Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
+* Binance Smart Chain: **BNB** _\(Binance Coin\)_.
+* Polygon Network: **MATIC** _\(Polygon\)_
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
-The protocol also includes an **anonymity mining system for some of its token**, allowing its users to earn a **governance token**. Thanks to TORN tokens, Tornado Cash users actively participate in shaping the protocol. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol para@eters & token distribution are completely under the community's control through this governance.
+Protokol ayrıca, tokenlarının bir kısmı için, kullanıcılarının **yönetişim tokenı** kazanmalarına olanak tanıyan bir **anonim likidite madenciliği** sistemine de sahiptir. TORN tokenı sayesinde Tornado Cash kullanıcıları protokolün şekillendirilmesine aktif olarak katılır. Topluluk, Tornado Cash'in evrimi ve özelliklerinin iyileştirilmesi konusunda güçlü bir etkiye sahiptir. Aslında, protokol parametreleri ve token dağıtımı, bu yönetişim aracılığıyla tamamen topluluğun kontrolü altındadır.
 
-More information about [Anonymity mining](anonymity-mining.md) & [Tornado.Cash token](torn.md) are available.
+[Anonim likidite madenciliği](https://github.com/0xarmagan/docs/blob/08b0a08b53c821b385a18f8cb604099e8c291d7d/anonymity-mining.md) ve [Tornado.Cash tokenı](https://github.com/0xarmagan/docs/blob/08b0a08b53c821b385a18f8cb604099e8c291d7d/torn.md) hakkında daha fazla bilgiye ulaşabilirsiniz.
 
-## How does Tornado.Cash run?
+## Tornado.Cash Nasıl Çalışır?
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain -  are fully **open sourced.** Working as a DAO \(Decentralized Autonomous Organization\), Tornado.Cash governance and mining smart contracts are deployed by its community.
+[Tornado.Cash’in işleyişinin arkasındaki kodlar](https://github.com/tornadocash) - akıllı sözleşmeler, devreler ve toolchain - **tamamen açık kaynaktır**. Bir DAO \(Merkezi Olmayan Otonom Organizasyon\) olarak çalışan Tornado.Cash’in yönetişimi ve madencilik akıllı sözleşmeleri topluluğu tarafından işletilir.
 
-The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
+Protokol ayrıca, zero knowledge proof’a olanak tanıyan zk-SNARK ile birlikte de çalışır ve kullanıcıların, bilgilerini ifşa etmeye gerek kalmadan sahip olduklarını göstermelerine olanak tanır. Bu teknolojinin kullanımı, **Ethereum topluluğunun yardımıyla Zcash ekibi** tarafından yapılan açık kaynak araştırmasına dayanmaktadır . zk-SNARK’i kurmak için [Tornado.Cash Güvenilir Kurulum Topluluğu](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) Mayıs 2020'de başlatıldı ve [1114](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa) kişi katıldı. Bu önemli sayıdaki katılımcı, zk prooflarını taklit ederek protokolün tehlikeye atılmasını imkansız hale getiriyor.
 
-User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it. 
+Kullanıcı arayüzü, topluluk tarafından IPFS'de bulundurularak verilerin silinme risklerini en aza indiriyor. Arayüz en az bir kullanıcı tarafından IPFS’de bulundurulduğu sürece çalışacaktır.
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+Bu metin [_@ayefda_](https://torn.community/u/ayefda) tarafından yazılmıştır.  
+Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.
 

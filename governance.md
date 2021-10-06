@@ -1,95 +1,100 @@
-# Governance
+# Yönetişim
 
-### How to suggest a proposal ?
+### Teklif nasıl yapılır?
 
-In order to participate in Tornado.Cash governance, users first need to lock tokens in the governance contract. If a user votes or creates a proposal, the tokens cannot be unlocked before the proposal execution period ends \(8.25 days from proposal creation\). The locked tokens can also be delegated to another address.
+Tornado.Cash yönetimine katılmak için, kullanıcıların öncelikle yönetişim sözleşmesine tokenlarını kilitlemesi gerekir. Bir kullanıcı bir teklifi oylarsa veya oluşturursa, teklif yürütme süresi sona ermeden \(teklif oluşturma tarihinden itibaren 8,25 gün\) tokenların kilidi açılamaz. Kilitli tokenlar başka bir adrese de devredilebilir.
 
-To create a proposal, a user needs to have at least `1,000 TORN`. All proposals must be smart contracts with verified code that are executed from the [governance contract ](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce)\(using `delegatecall`\). This way, it’s easy to audit and test any governance changes.
+Bir teklif oluşturmak için bir kullanıcının en az `1,000 TORN`a sahip olması gerekir. All proposals must be smart contracts with verified code that are executed from the Tüm teklifler [yönetişim kontratı](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce) \(using `delegatecall`\) olarak doğrulanmış akıllı sözleşmeler olmaldır. Bu şekilde, herhangi bir yönetim değişikliğini denetlemek ve test etmek kolay oluyor.
 
-The voting period for a proposal is 3 days. A proposal will succeed if it receives a simple majority of votes and there are at least `25,000 TORN` total votes \(if turnout is too low, the proposal automatically fails\).
+Bir teklif için oylama süresi 3 gündür. Bir teklif, oyların basit çoğunluğunu alırsa ve toplamda en az `25,000 TORN` oy kullanılırsa başarılı olacaktır \(katılım çok düşükse teklif otomatik olarak başarısız olur\).
 
-After a proposal succeeds, it is subject for a timelock of 2 days. After the timelock, any user is able to execute the proposal \(which initiates the changes\). If proposal is not executed for 3 days after that, it is considered _expired_ and can no longer be executed.
+Bir teklif başarılı olduktan sonra 2 günlük bir süreye tabidir. Zaman kilidinden sonra, herhangi bir kullanıcı teklifi \(değişiklikleri başlatan\) yürütebilir. Bu tarihten sonra 3 gün boyunca teklif yürütülmezse _süresi dolmuş_ kabul edilir ve artık yürütülemez.
 
-All of these initial parameters are relatively small, since there won’t be many TORN tokens in circulation early on. But as the circulating supply increases, governance may adjust these thresholds.
+Başlangıç ​​parametrelerinin tümü nispeten küçüktür çünkü dolaşımda erken dönemde çok fazla TORN olmayacaktır. Ancak dolaşımdaki arz arttıkça yönetim bu eşikleri ayarlayabilir.
 
-A proposal can be of the following nature:
+Bir teklif aşağıdaki nitelikte olabilir:
 
-* Adding a new Tornado Cash pool in the proxy
-* Changing the AP reward rates parameters
-* Unpause/Pause the TORN token
-* Change some core mining contracts such as the `TornadoTrees` contract
-* A combination of all of the above
+* Proxy'ye yeni bir Tornado Cash havuzu ekleme
+* AP ödül oranları parametrelerini değiştirme
+* TORN tokenını durdurma/durdurmama
+* `TornadoTrees` sözleşmesi gibi bazı temel madencilik sözleşmelerini değiştirme
+* Yukarıdakilerin hepsinin bir kombinasyonu
 
-And many more can be done. To find out exactly what can be changed through governance in the protocol, look for the functions with the modifier `onlyGovernance` in the smart contracts.
+Ve daha pek çok şey yapılabilir. Protokolde yönetişim yoluyla tam olarak nelerin değiştirilebileceğini öğrenmek için akıllı sözleşmelerde`onlyGovernance` değiştiricisine sahip işlevleri arayın.
 
-The governance functions are represented by a red arrow in [this architecture diagram.](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
+Yönetim fonksiyonları kırmızı okla temsil edilir. Detaylar için Tornado.Cash [mimarisi diyagramını](https://github.com/https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio/) inceleyin.
 
-NOTE: Parts of this article was taken from [this medium post.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) Credits goes to the Tornado cash team.
+NOT: Bu makalenin bölümleri [medium](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703/) içeriğinden alınmıştır. Alkışlar Tornado Cash ekibine!
 
-### How to vote ?
+### Nasıl oy verilir?
 
 You first need to deposit \(or lock\) TORN tokens into the governance contract.
 
-Go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+[https://app.tornado.cash/governance](https://app.tornado.cash/governance) adresine girin
 
-Click `Manage` -&gt; `Lock Tab`
+`Manage` -&gt; `Lock Tab` 'e tıklayın.
 
-Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
+`Approve` butonuna tıklayarak TORN tokenlarınızı aktarmak için yönetim sözleşmesini onaylayın. Onayladıktan sonra yatırmak istediğiniz tutarı seçin ve `Lock`'a tıklayın. Cüzdanınızdaki işlemi onaylayın ve onay için bekleyin.
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
-Before the vote, the next crucial step is to review the proposal.  
- Legitimate proposals should have a dedicated post on [Torn.community ](https://torn.community/)under the category “Proposal”. The forum post will provide additional context and arguments on the proposal. Read the thread and make your own mind on the issue.
+Oylamadan önce, bir sonraki önemli adım teklifi gözden geçirmek.
 
-Once a proposal was submitted it should appear on:  
-[https://app.tornado.cash/governance](https://app.tornado.cash/governance)  
- Proposal are implemented in the form of a smart contract making changes to the system. It is therefore important to verify the address of the smart-contract and review its code. Find the address of the proposal contract here:
+Meşru tekliflerin Torn.community'de "Teklif" kategorisi altında özel bir gönderisi olmalıdır. Forum gönderisi, teklifle ilgili ek bağlam ve argümanlar sağlayacaktır. Konuyu okuyun ve konu hakkında kendi kararınızı verin.
+
+Bir teklif gönderildikten sonra şu adreste görünmelidir: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+
+Teklif, sistemde değişiklik yapan akıllı bir sözleşme şeklinde uygulanır. Bu nedenle akıllı sözleşmenin adresini doğrulamak ve kodunu gözden geçirmek önemlidir. Teklif sözleşmesinin adresini burada bulabilirsiniz:
 
 ![](.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
 
-Look for the contract address on Etherscan and make sure that the source code is verified and readable.
+Etherscan'de sözleşme adresini aratın ve kaynak kodunun doğrulanmış ve okunabilir olduğundan emin olun.
 
 ![](.gitbook/assets/d2d37d169a94f09156e76fa522b7974cb7c9ac3f.png)
 
-Read the source code and make sure that it matches what is described in the forum post.
+Kaynak kodunu okuyun ve forum gönderisinde açıklananla eşleştiğinden emin olun.
 
-If you are not technical or not comfortable to read Solidity code, get someone you trust to review the contract for you.
+Teknik biri değilseniz veya Solidity kodunu okuyamıyorsanız güvendiğiniz birinden sözleşmeyi sizin için gözden geçirmesini isteyin.
 
-If you agree \(or disagree\) with the proposal code, it time to vote!
+Teklif koduna katılıyorsanız \(veya katılmıyorsanız\) oy verme zamanı!
 
-A proposal have a voting windows of 3 days. This means that we have 3 days to reach the vote quorum of 25k TORN.
+Bir teklifin 3 günlük oylama aralığı vardır. Bu, 25k TORN oy yeter sayısına ulaşmak için 3 günümüz olduğu anlamına geliyor.
 
-Important: Once you voted, your tokens will be locked for 8.25 days from the moment the proposal was submitted \(the start of the 3 days voting period\). After the 8.25 you can withdraw your tokens from the governance contract. Note that you can vote on 2 proposal at the same time without incurring additional lockup period \(Only the most recently submitted proposal will matter for the 8.25 lockup\).
+Önemli: Oy verdikten sonra, tokenlarınız teklifin sunulduğu andan itibaren \(8,25 gün boyunca\) \(3 günlük oylama döneminin başlangıcı\) kilitlenecektir. 8.25'ten sonra tokenlarınızı yönetim sözleşmesinden çekebilirsiniz. Ek kilitleme süresine maruz kalmadan aynı anda 2 teklife oy verebileceğinizi unutmayın \(8.25 kilitleme için yalnızca en son gönderilen teklif önemli olacaktır\).
 
-To vote, simply click on the Green check mark or the the red cross depending whether you accept or reject the proposal. Confirm the transaction with Metamask and your vote is in!
+Oy vermek için, teklifi kabul edip etmemenize bağlı olarak Yeşil onay işaretine veya kırmızı çarpıya tıklamanız yeterlidir. İşlemi Metamask ile onaylayın ve oyunuzu kullanın!
 
 ### How to delegate the vote ?
 
-If you are a TORN token holder, you can delegate your voting power to someone else without having to send him the tokens.
+Eğer bir TORN tokenı sahibiyseniz, tokenları göndermek zorunda kalmadan oylama gücünüzü başka birine devredebilirsiniz.
 
-IMPORTANT: If you delegate your tokens and that your delegate votes or initiate a proposal, your tokens will be locked for 8.25 days from the moment the proposal that the delegate voted on started. Note that that you can always undelegate at any time.
+ÖNEMLİ: Tokenlarınızı devrederseniz, temsilcinizin oy kullandığı veya bir öneri başlattığı takdirde tokenlarınız, temsilcinin oy verdiği teklifin başladığı andan itibaren 8.25 gün boyunca kilitlenir. İstediğiniz zaman yetki devrini geri alabileceğinizi unutmayın.
 
-To achieve delegation, go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Yetki vermek için şu adrese gidin: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
 
-You first need to lock your tokens in the governance contract. Click **`Manage`** -&gt; **`Lock`** tab
+Öncelikle yönetim sözleşmesinde tokenlarınızı kilitlemeniz gerekir. **`Manage`** -&gt; **`Lock`** 'e tıklayın.
 
-Approve the governance contract to transfer your TORN tokens by clicking on the **`Approve`** button. Once the approve is confirmed, chose the amount you want to delegate and click **`Lock`**. Confirm the transaction in your wallet and wait for the confirmation.
+**`Approve`** düğmesine tıklayarak TORN tokenlarınızı aktarmak için yönetim sözleşmesini onaylayın. Onayladıktan sonra, devretmek istediğiniz tutarı seçin ve **`Lock`**'a tıklayın. Cüzdanınızdaki işlemi onaylayın ve onay için bekleyin.
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2%20%281%29.png)
 
-The last step, is to make the actual delegation. Go again to [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Son adım, fiili delegasyonun yapılmasıdır.
 
-Click **`Manage`** -&gt; **`Delegate`** tab
+[https://app.tornado.cash/governance](https://app.tornado.cash/governance) adresine tekrar gidin
 
-Fill-in the address to which you want to delegate and click **`Delegate`**. Approve the transaction in your wallet and wait for confirmation.
+**`Manage`** -&gt; **`Delegate`** 'e tıklayın.
+
+Yetki vermek istediğiniz adresi girin ve **`Delegate`**'e tıklayın. Cüzdanınızdaki işlemi onaylayın ve onay için bekleyin.
+
+Kilitli bakiyenizin tamamı devredilecektir.
+
+İstediğiniz zaman yetki devrini iptal edebilirsiniz. Yetkiyi geri almak için,
 
 ![](.gitbook/assets/43c05d176d7f75a336af7a865565c9b23786b98c.png)
 
-The totality of your locked balance will be delegated.
+İstediğiniz zaman yetki devrini iptal edebilirsiniz.
 
-You can undelegate at anytime. To undelegate simply use the `Undelegate` Button in `Manage` -&gt; `Undelegate` Tab.
+Yetkiyi geri almak için, `Manage` -&gt; `Undelegate` sekmesindeki `Undelegate` 'e tıklayın
 
-
-
-_Written by_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_
+_Bu metnin yazarı_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_ _Türkçe versiyonu için_ [_armog_](https://twitter.com/arm00g)_'a teşekkürler._
 
