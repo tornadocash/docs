@@ -30,7 +30,7 @@ NOT: Bu makalenin bölümleri [medium](https://tornado-cash.medium.com/tornado-c
 
 ### Nasıl oy verilir?
 
-You first need to deposit \(or lock\) TORN tokens into the governance contract.
+Önce yönetim sözleşmesine TORN'ları yatırmanız veya kilitlemeniz gerekir.
 
 https://app.tornado.cash/governance adresine girin
 
@@ -44,7 +44,7 @@ https://app.tornado.cash/governance adresine girin
 
 Oylamadan önce, bir sonraki önemli adım teklifi gözden geçirmek.
 
-Meşru tekliflerin Torn.community'de "Teklif" kategorisi altında özel bir gönderisi olmalıdır. Forum gönderisi, teklifle ilgili ek bağlam ve argümanlar sağlayacaktır. Konuyu okuyun ve konu hakkında kendi kararınızı verin.
+Meşru tekliflerin [Torn.community](https://torn.community/)'de "Teklif" kategorisi altında özel bir gönderisi olmalıdır. Forum gönderisi, teklifle ilgili ek bağlam ve argümanlar sağlayacaktır. Konuyu okuyun ve konu hakkında kendi kararınızı verin.
  
 Bir teklif gönderildikten sonra şu adreste görünmelidir:
  https://app.tornado.cash/governance 
