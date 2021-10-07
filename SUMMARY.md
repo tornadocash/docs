@@ -7,6 +7,6 @@
 * [Anonim Madencilik](anonymity-mining.md)
 * [TORN](torn.md)
 * [Yönetişim](governance.md)
-* [Community Involvement](community-involvement.md)
-* [Compliance Tool](compliance-tool.md)
+* [Topluluk Katılımı](community-involvement.md)
+* [Uyumluluk Aracı](compliance-tool.md)
 
