@@ -121,14 +121,14 @@ are what would be expected to correspond to your proof.
 ## Circuits
 
 With that understanding of ZK proving circuits well-in-hand, let's delve into how Tornado.cash uses some very simple
-circuits to enable you to privately 
+circuits to enable you to privately and permissionlessly obscure the relationship between your deposit and withdrawal
+transactions on a public blockchain network, and then to later prove things *about* the relationship between your
+deposit and withdrawal (e.g. how long you waited before withdrawing).
 
-### Deposit
+### Core Deposit Contracts
 
-### Tornado Trees
+[\[Read more...\]](circuits/deposit.md)
 
+### Anonymity Mining
 
-
-### Tornado Anonymity Mining
-
-
+[\[Read more...\]](circuits/anonymity-mining.md)
