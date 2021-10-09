@@ -94,9 +94,29 @@ circuit, based on the circuit design, to satisfy all of the constraints imposed 
 witness generator produced by Circom as a circuit-specific decompression function which runs your inputs through the
 circuit, and snapshots all of the various intermediary values that are produced along the way.
 
+With this expanded form generated from your inputs, you know which values must be assigned to the constraints specified
+by the R1CS in order to construct a valid proof.
+
 #### Proof
 
+When you think of a "proof", you probably imagine that it's an incontrovertible guarantee that something is true.
+However, in the context of a SNARK, a "proof" actually represents an *argument* that something is *almost certainly*
+true. If we were to try to transmit the solution to every single polynomial constraint imposed by a circuit, we would
+end up with proofs that were orders of magnitude larger than if we simply show that certain sorts of relationships hold
+true between the intermediary values of state within the circuit.
 
+It's possible that for any given circuit, someone with sufficient computing power could generate a proof that satisfies
+the circuit's constraints in a malformed way, but this would be roughly equivalent in difficulty to
+[factoring large primes](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge).
+
+So, when generating a proof for a SNARK circuit, you're calculating the intermediate states of your circuit for a given
+input (witness generation), and then calculating the relationships between your inputs, the intermediary states, and
+the circuit's outputs.
+
+Once you have the proof that you've satisfied the necessary set of constraints, you can then publish that proof and 
+some subset of your inputs and outputs (a.k.a. public signals). Knowing the R1CS, your public signals, your proof, and
+the circuit's proving key, anyone can then verify that your proof satisfies the R1CS, and that your public signals
+are what would be expected to correspond to your proof.
 
 ## Circuits
 
