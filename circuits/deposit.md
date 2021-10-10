@@ -11,7 +11,8 @@ To make a deposit, you invoke the `deposit` method of a [Tornado contract](https
 instance, supplying a [Pedersen Commitment](https://crypto.stackexchange.com/questions/64437/what-is-a-pedersen-commitment),
 along with the asset denomination that you're depositing. This commitment is inserted into a specialized
 [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree), where the structure of the Merkle Tree is aligned to an
-elliptic curve associated with a prime in the order of the BN128 elliptic curve.
+elliptic curve associated with a prime in the order of the BN128 elliptic curve, and the labels of the tree are computed
+using MiMC hashing.
 
 ### Commitment Scheme
 
@@ -43,4 +44,37 @@ to verify, but infeasible to reverse back into the original message.
 ### Tornado Commitment
 
 To generate a commitment for a Tornado.cash deposit, you first generate two large random integers, each 31 bytes in
-length. The first value is a 
+length. The first value is a nullifier that you will later disclose in order to withdraw your deposit, and the second
+is a secret that secures the confidential relationship between your deposit and withdrawal.
+
+The preimage of your deposit note is the concatenation of these two values (`nullifier` + `secret`), resulting in a
+message 62 bytes in length. This message is Pedersen hashed, resulting in an output representing an element of the
+Baby Jubjub elliptic curve encoded as a 32-byte big-endian integer.
+
+If you want to see this in code form, you can reference the
+[tornado-cli deposit function](https://github.com/tornadocash/tornado-cli/blob/master/cli.js#L53-L112).
+
+### MiMC Merkle Tree
+
+The [Tornado contract](https://github.com/tornadocash/tornado-core/blob/master/contracts/Tornado.sol) is a specialized
+[Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree) which labels its nodes using MiMC hashes.
+
+For those not familiar with Merkle Trees, they are binary trees where each non-leaf node is labelled with the hash
+of the labels of its child nodes, and the leaf nodes are labelled with the hash of their data. Ordinarily, Merkle Trees
+use a one-way cryptographic hashing function like SHA-2, but in this case, we're using MiMC, which has some useful
+properties.
+
+One of the useful properties of MiMC is that it's well-suited to operating over prime fields, which is important to us
+because Zero Knowlege proofs are fundamentally based on prime fields, and Pedersen Hashes are points within a prime
+field defined by the Baby Jubjub elliptic curve - which is in turn within the order of the BN128 curve supported
+natively on Ethereum. Because Zero Knowledge proofs are operationally expensive, and each operation in an Ethereum
+transaction has a corresponding gas cost, the specific types of operations we design around need to be as gas-efficient
+as possible.
+
+The other particularly useful properties of MiMC are that it's non-parallelizable, and difficult to compute but easy to
+verify. These properties add to the security of the contract by making it computationally infeasible to calculate a
+forged "commitment" which has a colliding path within the merkle tree.
+
+### Inserting a Commitment
+
+
