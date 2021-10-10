@@ -120,15 +120,26 @@ are what would be expected to correspond to your proof.
 
 ## Circuits
 
-With that understanding of ZK proving circuits well-in-hand, let's delve into how Tornado.cash uses some very simple
+With that understanding of ZK proving circuits well-in-hand, let's delve into how Tornado.cash uses some relatively simple
 circuits to enable you to privately and permissionlessly obscure the relationship between your deposit and withdrawal
 transactions on a public blockchain network, and then to later prove things *about* the relationship between your
 deposit and withdrawal (e.g. how long you waited before withdrawing).
 
-### Core Deposit Contracts
+Tornado.cash is best understood as having two separate major components.
+
+### Core Deposit Circuit
+
+The core deposit circuit is what most users interact with, proving that a user has created a commitment representing the
+deposit of some corresponding asset denomination, that they haven't yet withdrawn that asset, and that they know the
+secret that they supplied when generating the initial commitment.
 
 [\[Read more...\]](circuits/deposit.md)
 
 ### Anonymity Mining
+
+The anonymity mining circuits form the basis for the [Anonymity Mining](anonymity-mining.md) program, which incentivizes
+users to leave their deposits in the contract for longer periods of time, so as to ensure that the Tornado.cash deposit
+pools maintain a large number of active deposits (thus increasing [k-anonymity](https://en.wikipedia.org/wiki/K-anonymity)
+for other users).
 
 [\[Read more...\]](circuits/anonymity-mining.md)
