@@ -77,4 +77,17 @@ forged "commitment" which has a colliding path within the merkle tree.
 
 ### Inserting a Commitment
 
+When you insert a commitment into the Tornado contract's merkle tree, you are adding a new leaf node whose label is the
+MiMC hash of your Pedersen commitment, and then traversing up the tree updating each subsequent parent node with a new
+label based on the label updates that your new leaf introduces below.
 
+Once your deposit has updated the tree, the label of the top-most node becomes the tree's new "root", and is added to
+a rolling history containing the labels of the last 100 roots, for later use in processing withdrawal transactions.
+
+The Tornado.cash deposit contracts are deployed with 20 "levels", with each level increasing the number of potential
+leaves by a power of 2. That means that the contract's merkle tree supports up to 2^20 leaves, allowing for up to
+1,048,576 deposits to be made into the contract before it needs to be replaced.
+
+The reason behind this seemingly-low number of levels is that every deposit has to perform as many updates to the tree
+as there are levels. A tree with more levels would require more gas per deposit, as well as correspondingly larger
+proof sizes when withdrawing notes.
