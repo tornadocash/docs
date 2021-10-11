@@ -108,19 +108,20 @@ public inputs that they used for the generation of their proof.
 
 The total set of public inputs for a withdrawal proof are:
 
-* A recent merkle root
-* The Pedersen hash of the nullifier component from their deposit commitment
-* The address of the recipient of their withdrawal
-* The address of the relayer that they've selected (or their own address)
-* The fee that they're paying the relayer (or zero)
-* The refund that they're paying the relayer (or zero)
+1.  A recent merkle root
+2.  The Pedersen hash of the nullifier component from their deposit commitment
+3.  The address of the recipient of their withdrawal
+4.  The address of the relayer that they've selected (or their own address)
+5.  The fee that they're paying the relayer (or zero)
+6.  The refund that they're paying the relayer (or zero)
 
 The additional private inputs for a withdrawal proof are:
 
-* The nullifier component from their deposit commitment
-* The secret component from their deposit commitment
-* The set of node labels that exist in the path between the root and the leaf nodes of the merkle tree
-* A set of 0/1 values indicating whether each specified path element is on the left or right side of its parent node
+7.  The nullifier component from their deposit commitment
+8.  The secret component from their deposit commitment
+9.  The set of node labels that exist in the path between the root and the leaf nodes of the merkle tree
+10. An array of `0/1` values indicating whether each specified path element is on the left or right side of its
+    parent node
 
 ### Proven Claims
 
@@ -130,10 +131,73 @@ the components of the Pedersen commitment, and that the merkle tree is just an e
 commitment hashes.
 
 What's special about this construction is that it enables us to prove not just that we know the components of a
-deposited commitment, but rather it enables us to prove simply that we _know the path to a commitment within the tree_,
-and _how to get there_.
+deposited commitment, but rather it enables us to prove simply that we __know the path to a commitment within the tree__,
+and __how to get there__ starting with a commitment preimage.
 
 If we were only to prove that we knew the preimage to a deposited hash, we would risk revealing which commitment is
 ours. Instead, we're not disclosing the commitment preimage, but instead we're simply proving that we have knowledge of
 a preimage to a commitment within the tree. Which commitment is ours remains completely indistinguishable on the
 withdrawal side of the circuit protocol.
+
+### Computing the Witness
+
+#### Nullifier Hash Check
+In order to compute the witness for the withdrawal proof, our circuit first takes the private deposit commitment inputs
+(nullifier + secret), and runs them through a circuit component which simultaneously computes the Pedersen hash of
+the full commitment message, and the Pedersen hash of the nullifier alone. The circuit then compares the resulting
+nullifier hash to the one you supplied as a public input, and asserts their equality.
+
+__This proves that the nullifier hash that you supplied publicly is in fact a component of your original commitment.__
+
+#### Merkle Tree Check
+Next, the circuit takes the commitment hash it has computed, the merkle root you have specified publicly, and the path
+elements and left/right selectors that you specified privately, as inputs to a component which checks your merkle tree
+path claim.
+
+The Merkle Tree Checker starts from the bottom of the path, inputting your commitment hash and the first element of your
+proposed path into a Muxer. The Muxer takes a third input, which is an element from your supplied left/right directions.
+The Muxer component uses these directions to inform an MiMC hashing component as to the order of its inputs. If the
+supplied direction is 0, then the supplied path element is on the left, and your commitment hash is on the right. If
+the direction is 1, then the order is reversed.
+
+The MiMC hasher outputs the resulting hash, and the Merkle Tree Checker proceeds to the next level. It repeats the last
+process, except this time, instead of using your commitment hash, it uses the hash of the last level. It continues to
+run through each level of the proposed path, until it ends up with a final hash output.
+
+The Merkle Tree Checker compares the hash that it has computed to the public merkle root input that you supplied, and
+asserts their equality.
+
+__This proves that your commitment exists within some path beneath the specified merkle root.__
+
+#### Extra Withdrawal Parameter Check
+
+Before finishing, the circuit takes each of the remaining four public inputs, and squares them into a public output.
+While this isn't strictly necessary, it creates a set of constraints within your proof that ensure that your transaction
+parameters can't be tampered with before your withdrawal transaction is processed. If any of those parameters were
+to change, your proof would no longer be valid.
+
+### Computing the Proof
+
+Now that we have a witness for our proof, we take those witnessed state values and input them into the R1CS corresponding
+to the Withdrawal circuit, and run the prover over it. Out of the prover comes two proof artifacts. The first is the
+proof itself, according to the SNARK protocol we're using, and the second is the set of public inputs and outputs
+corresponding to that proof.
+
+### Completing a Withdrawal Transaction
+
+With the withdrawal proof now generated, you supply that proof, along with its public inputs, to the `withdraw` method
+of the deposit contract. This method verifies that:
+
+1. The specified relayer fee does not exceed the value of the denomination of asset being withdrawn
+2. The supplied nullifier hash has not been spent before
+3. The supplied merkle root is known, using the 100-root historical record
+4. The supplied proof is valid
+
+One of the artifacts deployed as a dependency of the deposit contract is a Solidity contract that is generated using
+the proving key of the Withdrawal circuit as an input. This Verifier contract is an optimized proof verifier with a
+single public view function, which accepts a proof and the array of six public inputs as `uint256` values.
+
+This function returns `TRUE` if the proof is valid according to the public inputs.
+
+If the above preconditions are met, the supplied nullifier hash is inserted into the set of spent nullifiers, and then
+the value of the deposit is distributed amongst the recipient and relayer, according to the specified fee parameters.
