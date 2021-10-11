@@ -91,3 +91,49 @@ leaves by a power of 2. That means that the contract's merkle tree supports up t
 The reason behind this seemingly-low number of levels is that every deposit has to perform as many updates to the tree
 as there are levels. A tree with more levels would require more gas per deposit, as well as correspondingly larger
 proof sizes when withdrawing notes.
+
+## Making a Withdrawal
+
+Having made a deposit, you now have a set of truth claims that you can generate a proof based upon. Generally speaking,
+Zero Knowledge proofs are anchored to some value(s) known by both the prover and the verifier, to which a relationship
+is going to be proven to a set of values known only by the prover. The circuit verifier can confirm that the prover
+has used the value(s) that are known, and that the proof that they computed satisfies the constraints imposed by the
+circuit.
+
+### Inputs to a Withdrawal Proof
+
+In the case of Tornado.cash deposits, the prover (the person submitting a withdrawal transaction), and the verifier
+(the deposit contract's withdrawal method) both know a recent merkle root. The prover also supplies a set of other
+public inputs that they used for the generation of their proof.
+
+The total set of public inputs for a withdrawal proof are:
+
+* A recent merkle root
+* The Pedersen hash of the nullifier component from their deposit commitment
+* The address of the recipient of their withdrawal
+* The address of the relayer that they've selected (or their own address)
+* The fee that they're paying the relayer (or zero)
+* The refund that they're paying the relayer (or zero)
+
+The additional private inputs for a withdrawal proof are:
+
+* The nullifier component from their deposit commitment
+* The secret component from their deposit commitment
+* The set of node labels that exist in the path between the root and the leaf nodes of the merkle tree
+* A set of 0/1 values indicating whether each specified path element is on the left or right side of its parent node
+
+### Proven Claims
+
+It would be easy to miss the clever new piece of knowledge we created when we constructed and inserted our commitment
+into the merkle tree. You might be inclined to think that to make a withdrawal, we're simply going to prove that we know
+the components of the Pedersen commitment, and that the merkle tree is just an efficient way to store those
+commitment hashes.
+
+What's special about this construction is that it enables us to prove not just that we know the components of a
+deposited commitment, but rather it enables us to prove simply that we _know the path to a commitment within the tree_,
+and _how to get there_.
+
+If we were only to prove that we knew the preimage to a deposited hash, we would risk revealing which commitment is
+ours. Instead, we're not disclosing the commitment preimage, but instead we're simply proving that we have knowledge of
+a preimage to a commitment within the tree. Which commitment is ours remains completely indistinguishable on the
+withdrawal side of the circuit protocol.
