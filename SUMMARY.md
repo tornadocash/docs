@@ -9,4 +9,6 @@
 * [Governance](governance.md)
 * [Community Involvement](community-involvement.md)
 * [Compliance Tool](compliance-tool.md)
-
+* [Circuits](circuits/README.md)
+  * [Core Deposit Circuit](circuits/core-deposit-circuit.md)
+  * [Anonymity Mining](circuits/anonymity-mining.md)
