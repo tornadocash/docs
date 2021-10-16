@@ -66,6 +66,6 @@ The core deposit circuit is what most users interact with, proving that a user h
 
 The anonymity mining circuits form the basis for the Anonymity Mining program, which incentivizes users to leave their deposits in the contract for longer periods of time, so as to ensure that the Tornado.cash deposit pools maintain a large number of active deposits (thus increasing [k-anonymity](https://en.wikipedia.org/wiki/K-anonymity) for other users).
 
-{% content-ref url="anonymity-mining.md" %}
-[anonymity-mining.md](anonymity-mining.md)
+{% content-ref url="anonymity-mining/" %}
+[anonymity-mining](anonymity-mining/)
 {% endcontent-ref %}
