@@ -106,3 +106,18 @@ Taking the three fields of each pending event in the order (instance, commitment
 Lastly, we verify that inserting the subtree root at the proposed position results in the old root transforming to the new root. This works essentially the same way as for the [Merkle Tree Check](core-deposit-circuit.md#computing-the-witness) in the core deposit circuit, except using Poseidon instead of MiMC.
 
 The [Merkle Tree Updater](https://github.com/tornadocash/tornado-trees/blob/master/circuits/MerkleTreeUpdater.circom) first verifies that the specified path contains a zero leaf by computing what the root would be given the path elements, path indices, and a zero leaf. It compares this against the specified old root, and then repeats that process again with the proposed subtree leaf, comparing the resulting root to the new root.
+
+### Completing the Tree Update
+
+With the witness generated, and the proof generated from it, we can now call the corresponding `updateDepositTree` or `updateWithdrawalTree` method on the Tornado Trees contract.
+
+We pass the update method the proof, the args hash, the old root, the new root, path indices, and a list of events that we're batch inserting. The update method then verifies that:
+
+1. The old root specified is the current root of the corresponding tree
+2. The specified merkle path points to the first available subtree zero leaf
+3. The specified args hash corresponds to the supplied inputs and proposed events
+4. The proof is valid according to the circuit verifier, using the args hash as public input
+
+If these preconditions are met, then each inserted event is deleted from the queue. The corresponding contract fields indicating the current and previous roots are updated, as well as a pointer to the last event leaf.
+
+There is a special branch of logic in this method which also handles migrating events from the Tornado Trees V1 contract. After the initial migration, these paths are never visited, and can be safely ignored.
