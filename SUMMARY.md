@@ -1,12 +1,13 @@
 # Table of contents
 
-* [Introduction of Tornado.Cash](README.md)
-* [How does Tornado.Cash work?](how-does-tornado.cash-work.md)
-* [Tips to remain anonymous](tips-to-remain-anonymous.md)
-* [Deposit & Withdraw](untitled.md)
-* [Anonymity mining](anonymity-mining.md)
+* [Познайомтесь з Tornado.Cash](README.md)
+* [Як працює Tornado.Cash?](how-does-tornado.cash-work.md)
+* [Поради як залишатися анонімними](tips-to-remain-anonymous.md)
+* [Депозит та зняття](untitled.md)
+* [Майнінг анонімності](anonymity-mining.md)
 * [TORN](torn.md)
-* [Governance](governance.md)
-* [Community Involvement](community-involvement.md)
-* [Compliance Tool](compliance-tool.md)
+* [Управління проектом](governance.md)
+* [Роль громади в проекті](community-involvement.md)
+* [Інструмент відповідності](compliance-tool.md)
 
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)

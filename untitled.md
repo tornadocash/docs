@@ -1,56 +1,56 @@
-# Deposit & Withdraw
+# Депозит та вивід
 
-This tutorial is a step-by-step explanation of how to deposit & withdraw your funds. If you want to understand how the internal system of Tornado.cash works, please refer to [this tutorial](https://docs.tornado.cash/how-does-tornado.cash-work).
+Цей підручник є покроковим поясненням того, як внести та зняти кошти. Якщо ви хочете зрозуміти, як працює внутрішня система Tornado.cash, зверніться до [цього підручника] (https://docs.tornado.cash/how-does-tornado.cash-work).
 
-## **Deposit**
+## **Депозит**
 
-### Choose a chain
+### Виберіть мережу
 
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+Tornado.cash доступний у кількох блокчейнах, тому вам доведеться вибирати з 4 мереж:
 
 ![](.gitbook/assets/azpoj.gif)
 
-### Select a token
+### Виберіть токен
 
-Choose the token you want to deposit and its amount:
+Виберіть токен, який ви хочете внести, та його кількість:
 
 ![](.gitbook/assets/abdce.gif)
 
-### Connect your wallet
+### Підключіть свій гаманець
 
-Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
+Натисніть «Підключитися» і виберіть між такими провайдерами гаманців, як Metamask або WalletConnect.
 
-### Save your note
+### Збережіть нотатку (note)
 
-Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` \(top-right corner\).
+Натисніть `Депозит` і збережіть нотатку (note) в надійному місці, перш ніж натиснути` Я створив резервну копію нотатки (note). Ви також можете зберегти зашифровані нотатки (note) в ланцюжку, створивши обліковий запис нотаток (note), натиснувши `Налаштування` \ (верхній правий кут \).
 
 ![](.gitbook/assets/aaaab.gif)
 
-### Be patient
+### Будьте терплячі
 
-As explained [here](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), the longer you wait, the greater your anonymity set will be.
+Як пояснено [тут] (https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), чим довше ви чекатимете, тим більшим буде ваш набір анонімності.
 
-Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
+Вітаю! Ви зробили це. Тепер ваші токени знаходяться в пулі Tornado.Cash.
 
-## Withdraw
+## Зняття
 
-### Choose a chain
+### Виберіть мережу
 
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+Tornado.cash доступний у кількох блокчейнах, тому вам доведеться вибирати з 4 мереж:
 
 ![](.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
-### Paste your note
+### Вставте нотатку (note)
 
-Use your deposit note by pasting it in the corresponding box. Click on `Withdraw` and wait for the zksnark proof to be generated.
+Використовуйте свою депозитну нотатку (note), вставляючи її у відповідне поле. Натисніть "Вилучити" і зачекайте, поки буде створено доказ (proof) zksnark.
 
-### Confirm the withdrawal
+### Підтвердьте виведення
 
 ![](.gitbook/assets/abdaaaa.png)
 
-Done !
+Готово !
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)
 
 
 

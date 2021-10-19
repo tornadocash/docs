@@ -32,5 +32,5 @@ Deposits are simple on a technological point of view, but expensive in terms of 
 
 
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)
 

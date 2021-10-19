@@ -1,43 +1,41 @@
 # TORN
 
-## Token
+## Токен
 
-TORN is an ERC20-compatible token with a fixed supply that governs [Tornado.Cash](https://tornado.cash/). TORN holders can make proposals and vote to change the protocol via governance.
+TORN-це токен, сумісний з ERC20, з фіксованим постачанням, яким керує [Tornado.Cash] (https://tornado.cash/). Держателі TORN можуть вносити пропозиції та голосувати за зміну протоколу.
 
-**TORN is not a fundraising device or investment opportunity.**
+**TORN - це не засіб збору коштів або можливість інвестування.**
 
-**Here’s how the initial distribution of TORN would break down:**
+**Так буде відбуватися первинне розповсюдження TORN токенів:**
 
-* **5% \(500,000 TORN\):** Airdrop to early users of [Tornado.Cash](https://tornado.cash/) ETH pools
-* **10% \(1,000,000 TORN\):** Anonymity mining for [Tornado.Cash](https://tornado.cash/) ETH pools, distributed linearly over 1 year
-* **55% \(5,500,000 TORN\):** DAO treasury, will be unlocked linearly over 5 years with 3 month cliff
-* **30% \(3,000,000 TORN\):** Founding developers and early supporters, will be unlocked linearly over 3 years with 1 year cliff
+* **5% \(500,000 TORN\):** Airdrop першим користувачам ETH-пулов [Tornado.Cash](https://tornado.cash/)
+* **10% \(1,000,000 TORN\):** Майнінг анонімності для пулів ETH [Tornado.Cash] (https://tornado.cash/), лінійно розподілених протягом 1 року
+* **55% \(5,500,000 TORN\):** попрямує у Валютний запас DAO, буде розблоковано лінійно протягом 5 років з 3-місячною перервою
+* **30% \(3,000,000 TORN\):** Розробникам-засновникам та раннім прихильникам проекта, будуть розблоковані лінійно протягом 3-х років з розривом в 1 рік
 
 ![](.gitbook/assets/1-bjggju1rn4_qoxgcljfneq.png)
 
 ![](.gitbook/assets/1-gmc0jw8zr5xfvrk5zyqmya.png)
 
-## Airdrop <a id="f04d"></a>
+## Airdrop <a id="f04d"></a>Користувачі, які з самого початку вірили в [Tornado.Cash] (https://tornado.cash/), повинні мати право керувати протоколом. З цієї причини перші користувачі протоколу отримали Airdrop TORN.
 
-Users who have believed in [Tornado.Cash](https://tornado.cash/) from early on should have a say in governing the protocol. For this reason, early adopters of the protocol did receive an airdrop of TORN.
-
-TORN has been airdropped to [all addresses](https://github.com/tornadocash/airdrop/blob/master/airdrop.csv) that made deposits into [Tornado.Cash](https://tornado.cash/) ETH pools before block `11400000`. TORN were airdropped in the form of a non-transferable TORN voucher \(vTORN\) that can be redeemed 1:1 to TORN within 1 year, from December 18, 2020, to December 18, 2021. TORN that aren’t redeemed will be swept into the governance contract after 1 year and become part of the DAO Treasury. Redeemed TORN will be available immediately.
-
-The airdropped amount depends on users’ deposit size and age — larger deposits and older deposits will receive more TORN. Multipliers for deposit size are logarithmic:
+TORN був переданий на [усі адреси] (https://github.com/tornadocash/airdrop/blob/master/airdrop.csv), які здійснювали депозити в [Tornado.Cash] (https://tornado.cash/) ETH pool до `11400000` блоку.TORN були відправлені у вигляді ваучера TORN, що не передається, (vTORN \), який можна викупити 1:1 до TORN протягом 1 року, з 18 грудня 2020 року по 18 грудня 2021 року.TORN який не був отриманий протягом року, будуть переведені на контрактне управління та стануть частиною Валютного запасу DAO. Вибрані TORN будуть доступні миттєво. 
+Сума airdrop’а залежить від розміру депозиту та віку користувачів - більш великі та старі депозити отримають більше TORN. Множники для розміру депозиту є логарифмічними::
 
 ![](.gitbook/assets/1-ogfrad8p3gez14zh4jndiq-2x.png)
 
 
 
-So a 100 ETH deposit get twice as many tokens as a 1 ETH deposit. The multiplier allows large and small users of [Tornado.Cash](https://tornado.cash/) to both have a say in governance.
+Таким чином, депозит розміром в 100 ETH отримує вдвічі більше жетонів, ніж депозит в 1 ETH. Мультиплікатор дозволяє великим і маленьким користувачам [Tornado.Cash] (https://tornado.cash/)обом мати право голосу в управлінні.
 
-The exact curve for the time multiplier looks like this:
+Точна крива для множника покажчика часу виглядає наступним образом:
 
 ![](.gitbook/assets/1-bje88nlnkbe29-zcs5agkw-2x.png)
 
-The exact airdrop formula is the following:
+Точна формула airdrop’a виглядає наступним чином:
 
 ![](.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
 
-_Written by_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)
+
 
