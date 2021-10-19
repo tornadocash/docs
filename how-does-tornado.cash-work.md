@@ -1,20 +1,20 @@
-# How does Tornado.Cash work?
+# Як працює Tornado.Cash?
 
-Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
+Перш ніж зануритися в підручники, що пояснюють та полегшують використання Tornado.Cash, ось загальний огляд глобального функціонування протоколу.
 
-### Global overview of Tornado.Cash functioning
+### Глобальний огляд функціонування Tornado.Cash
 
-To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets. 
+Для забезпечення конфіденційності Tornado.Cash **використовує розумні контракти, які приймають депозити токенів з однієї адреси та дозволяють їх вилучати з іншої адреси**. Ці розумні контракти працюють як пули, які змішують усі депоновані активи. 
 
-Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized. 
+Як тільки засоби виводяться з пулу з нової адреси, зв'язок між джерелом і отримувачами в мережі блокчейн розривається. Таким чином, виведені криптоактиви анонімізуються. 
 
-When a user puts funds into a pool \(a.k.a. the deposit\), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
+Коли користувач вкладає кошти в пул \ (він же депозит \), генерується приватна нотатка (note). Ця приватна записка (note) працює як приватний ключ для доступу користувача до цих коштів пізніше. Щоб вивести їх, той самий користувач може використати іншу адресу - стару чи нову - і повернути свої кошти завдяки цьому приватному ключу.
 
-The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
+Сила захисту анонімності такого протоколу природно випливає з його кількості користувачів та розміру його пулу. Чим більше користувачів вносить гроші в пул, тим краще. Однак, щоб зберегти конфіденційність та анонімність, користувач повинен мати на увазі деякі основні правила, такі як:
 
-* Using a relayer to pay gas at withdrawal;
-* Leaving a lapse of time between the deposit & the withdrawal action;
-* Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
+* Використати ретранслятор (relayer) для оплати газу при знятті;
+* Залишати деякий проміжок часу між внесенням депозиту та виведенням коштів;
+* Змішувати свої активи разом із активами інших користувачів - чекаючи кількох транзакцій, перш ніж вивести свої активи.
 
 _More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
 
