@@ -11,5 +11,6 @@
 * [Compliance Tool](compliance-tool.md)
 * [Circuits](circuits/README.md)
   * [Core Deposit Circuit](circuits/core-deposit-circuit.md)
-  * [Anonymity Mining](circuits/anonymity-mining/README.md)
+  * [Anonymity Mining](circuits/anonymity-mining.md)
     * [Tornado Trees](circuits/anonymity-mining/tornado-trees.md)
+    * [Mining Rewards](circuits/anonymity-mining/mining-rewards.md)

@@ -1,12 +1,12 @@
 # Circuits
 
-Behind the Tornado.cash front-end sits a number of [Circom](https://docs.circom.io) circuits, which enable the fundamental privacy guarantees that Tornado.cash users enjoy. These circuits implement the [Zero Knowledge protocol](https://en.wikipedia.org/wiki/Zero-knowledge_proof) that Tornado.cash's smart contracts interface with to prove claims about a user's deposit, such as that it is valid, that is hasn't already been withdrawn, and in the context of Anonymity Mining, the number of blocks that exist between a note's deposit transaction and its withdrawal.
+Behind the Tornado.cash front-end sits a number of [Circom](https://docs.circom.io) circuits, which enable the fundamental privacy guarantees that Tornado.cash users enjoy. These circuits implement the [Zero Knowledge protocol](https://en.wikipedia.org/wiki/Zero-knowledge\_proof) that Tornado.cash's smart contracts interface with to prove claims about a user's deposit, such as that it is valid, that is hasn't already been withdrawn, and in the context of Anonymity Mining, the number of blocks that exist between a note's deposit transaction and its withdrawal.
 
 ### How ZK Circuits Work
 
 #### SNARKs and GROTH16
 
-Before trying to understand how Tornado.cash works under the hood, you first need to understand Zero Knowledge circuits, how they're constructed, and how proofs are generated client-side, then verified on-chain. While there are a [few different types](https://en.wikipedia.org/wiki/Zero-knowledge_proof#Zero_knowledge_types) of ZK systems, Tornado.cash relies upon a variant known as "succinct non-interactive arguments of knowledge" (SNARK), specifically a variant called GROTH16.
+Before trying to understand how Tornado.cash works under the hood, you first need to understand Zero Knowledge circuits, how they're constructed, and how proofs are generated client-side, then verified on-chain. While there are a [few different types](https://en.wikipedia.org/wiki/Zero-knowledge\_proof#Zero\_knowledge\_types) of ZK systems, Tornado.cash relies upon a variant known as "succinct non-interactive arguments of knowledge" (SNARK), specifically a variant called GROTH16.
 
 
 
@@ -14,7 +14,7 @@ Before trying to understand how Tornado.cash works under the hood, you first nee
 
 Because we're not all Vitalik, it's best if we have some simple tools that will abstract away the generation and execution of these complicated polynomial commitments. This is where [Circom](https://docs.circom.io) and [snarkjs](https://github.com/iden3/snarkjs) come in.
 
-Circom is easiest to think of as a compiler for a circuit language which acts very much like the kind of [hardware description language](https://en.wikipedia.org/wiki/Hardware_description_language) that electrical engineers would use to describe an electrical circuit. Except instead of an electrical circuit, we're describing an **arithmetic circuit**, which contains components, and the way that they connect together.
+Circom is easiest to think of as a compiler for a circuit language which acts very much like the kind of [hardware description language](https://en.wikipedia.org/wiki/Hardware\_description\_language) that electrical engineers would use to describe an electrical circuit. Except instead of an electrical circuit, we're describing an **arithmetic circuit**, which contains components, and the way that they connect together.
 
 When you compile a Circom circuit, the resulting output is an [R1CS constraint system](https://docs.circom.io/1.-an-introduction/background#rank-1-constraint-system) and a [Wasm](https://en.wikipedia.org/wiki/WebAssembly) executable that will be used to generate a [witness](https://docs.circom.io/1.-an-introduction/background#witness).
 
@@ -42,7 +42,7 @@ With this expanded form generated from your inputs, you know which values must b
 
 When you think of a "proof", you probably imagine that it's an incontrovertible guarantee that something is true. However, in the context of a SNARK, a "proof" actually represents an _argument_ that something is _almost certainly_ true. If we were to try to transmit the solution to every single polynomial constraint imposed by a circuit, we would end up with proofs that were orders of magnitude larger than if we simply show that certain sorts of relationships hold true between the intermediate state values within the circuit.
 
-It's possible that for any given circuit, someone with sufficient computing power could generate a proof that satisfies the circuit's constraints in a malformed way, but this would be roughly equivalent in difficulty to [factoring large primes](https://en.wikipedia.org/wiki/RSA_Factoring_Challenge).
+It's possible that for any given circuit, someone with sufficient computing power could generate a proof that satisfies the circuit's constraints in a malformed way, but this would be roughly equivalent in difficulty to [factoring large primes](https://en.wikipedia.org/wiki/RSA\_Factoring\_Challenge).
 
 So, when generating a proof for a SNARK circuit, you're calculating the intermediate states of your circuit for a given input (witness generation), and then calculating the relationships between your inputs, the intermediate states, and the circuit's outputs.
 
@@ -66,6 +66,6 @@ The core deposit circuit is what most users interact with, proving that a user h
 
 The anonymity mining circuits form the basis for the Anonymity Mining program, which incentivizes users to leave their deposits in the contract for longer periods of time, so as to ensure that the Tornado.cash deposit pools maintain a large number of active deposits (thus increasing [k-anonymity](https://en.wikipedia.org/wiki/K-anonymity) for other users).
 
-{% content-ref url="anonymity-mining/" %}
-[anonymity-mining](anonymity-mining/)
+{% content-ref url="anonymity-mining.md" %}
+[anonymity-mining.md](anonymity-mining.md)
 {% endcontent-ref %}
