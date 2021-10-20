@@ -12,23 +12,23 @@
 
 Сила захисту анонімності такого протоколу природно випливає з його кількості користувачів та розміру його пулу. Чим більше користувачів вносить гроші в пул, тим краще. Однак, щоб зберегти конфіденційність та анонімність, користувач повинен мати на увазі деякі основні правила, такі як:
 
-* Використати ретранслятор (relayer) для оплати газу при знятті;
+* Використовувати ретранслятор (relayer) для оплати газу при знятті;
 * Залишати деякий проміжок часу між внесенням депозиту та виведенням коштів;
 * Змішувати свої активи разом із активами інших користувачів - чекаючи кількох транзакцій, перш ніж вивести свої активи.
 
-_More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_Додаткові рекомендації:_ [_Поради як залишатися анонімними_](tips-to-remain-anonymous.md)_._
 
-### Contribution of zk-SNARK & hashing process
+### Внесок процесу zk-SNARK та хешування
 
-Tornado.Cash use Zero-Knowledge Succinct Non-Interactive Argument of Knowledge \(also called zk-SNARK\) to verify & allow transactions.
+Tornado.Cash використовує Zero-Knowledge Succinct Non-Interactive Argument of Knowledge \(також званий zk-SNARK\) для перевірки та дозволу транзакцій. 
 
-To process a deposit, Tornado.Cash generates a random area of bytes, computes it through the [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) \(as it is friendlier with zk-SNARK\), then send the token & the 20 mimc hash to the smart contract. The contract will then insert it into the Merkle tree.
+Щоб обробити депозит, Tornado.Cash генерує випадкову область байтів, обчислює її через [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) \(оскільки він більш сумісний з zk-SNARK\), а потім надішле токен та хеш 20 mimc до смарт-контракту. Потім контракт додасть його до дерева Merkle.
 
-To process a withdrawal, the same area of bytes is split into two separate parts: the **secret** on one side & the **nullifier** on the other side. The nullifier is hashed. This nullifier is a public input that is sent on-chain to get checked with the smart contrat & the Merkle tree data. It avoids double spending for instance.
+Для обробки виводу коштів одна і та ж область байтів поділяється на дві окремі частини: **секретну** з одного боку та **нульову** з іншого. Нуліфікатор хешований. Цей нуліфікатор-це загальнодоступний вхід, який надсилається по мережі (on-chain) для перевірки за допомогою розумного контракту та даних дерева Меркла. Це наприклад, дозволяє уникнути подвійних витрат.
 
-Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial commitment and of the nullifier without revealing any information. Even if the nullifier is public, privacy is sustained as there is no way to link the hashed nullifier to the initial commitment. Besides, even if the information that the transaction is present in the Merkle root, the information about the exact Merkle path, thus the location of the transaction, is still kept private.
+Завдяки zk-SNARK можна довести хеш 20 mimc вихідного зобов'язання та нуліфікатора без розкриття будь-якої інформації. Навіть якщо нуліфікатор є загальнодоступним, конфіденційність зберігається, оскільки неможливо пов’язати хешований нуліфікатор з початковим зобов’язанням. Крім того, навіть якщо інформація про те, що транзакція присутня в корені Merkle, інформація про точний шлях Merkle, тобто місцезнаходження транзакції, все ще залишається конфіденційною.
 
-Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
+Депозити прості з технологічної точки зору, але дорогі з точки зору газу, оскільки їм потрібно обчислити 20 mimc hash та оновити дерево Меркла. А ось процес виводу активів навпаки, більш складний, але дешевший, оскільки газ потрібен лише для хеша нулліфікатора та доказу з нульовим розголошенням.
 
 
 
