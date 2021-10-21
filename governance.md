@@ -1,38 +1,38 @@
-# Governance
+# Управління проектом
 
-### How to suggest a proposal ?
+### Як запропонувати пропозицію ?
 
-In order to participate in Tornado.Cash governance, users first need to lock tokens in the governance contract. If a user votes or creates a proposal, the tokens cannot be unlocked before the proposal execution period ends \(8.25 days from proposal creation\). The locked tokens can also be delegated to another address.
+Для участі в управлінні Tornado.Cash користувачам спочатку потрібно заблокувати токени в контракті управління. Якщо користувач голосує або створює пропозицію, токени не можна розблокувати до закінчення періоду виконання пропозиції \(8,25 днів з моменту створення пропозиції\). Заблоковані токени також можна делегувати на іншу адресу.
 
-To create a proposal, a user needs to have at least `1,000 TORN`. All proposals must be smart contracts with verified code that are executed from the [governance contract ](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce)\(using `delegatecall`\). This way, it’s easy to audit and test any governance changes.
+Щоб створити пропозицію, користувачеві необхідно мати принаймні `1000 TORN`. Усі пропозиції мають бути смарт-контрактами з перевіреним кодом, які виконуються з [контратку управління](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce) \ (за допомогою `delegatecall`\). Таким чином, легко перевірити та перевірити будь-які зміни в контрактах.
 
-The voting period for a proposal is 3 days. A proposal will succeed if it receives a simple majority of votes and there are at least `25,000 TORN` total votes \(if turnout is too low, the proposal automatically fails\).
+Період голосування за пропозицію - 3 дні. Пропозиція буде успішною, якщо вона набере більшість голосів і загальна кількість голосів не менше 25 000 токенів TORN \(якщо явка надто низька, пропозиція автоматично провалиться\).
 
-After a proposal succeeds, it is subject for a timelock of 2 days. After the timelock, any user is able to execute the proposal \(which initiates the changes\). If proposal is not executed for 3 days after that, it is considered _expired_ and can no longer be executed.
+Після приняття пропозиції, на неї почне поширюватися часове блокування в 2 дні. Після спливання цього часу будь-який користувач може імплементувати пропозицію \(яка ініціює зміни\). Якщо пропозиція не виконується протягом 3 днів після цього, вона вважається _просроченним_ і більше не може бути виконана.
 
-All of these initial parameters are relatively small, since there won’t be many TORN tokens in circulation early on. But as the circulating supply increases, governance may adjust these thresholds.
+Усі ці початкові параметри відносно прості, оскільки на початковому етапі не буде багато токенів TORN в обігу. Але зі зростанням пропозиції в обігу токенів TORN, керівництво може коригувати ці порогові значення.
 
-A proposal can be of the following nature:
+Пропозиція може мати такий характер:
 
-* Adding a new Tornado Cash pool in the proxy
-* Changing the AP reward rates parameters
-* Unpause/Pause the TORN token
-* Change some core mining contracts such as the `TornadoTrees` contract
-* A combination of all of the above
+* Додавання нового пулу Tornado Cash у проксі
+* Зміна параметрів ставок винагород AP
+* Поновити/призупинити токен TORN
+* Зміна деяких основних майнінг-контрактів, таких як контракт `TornadoTrees`
+* Поєднання всього перерахованого вище
 
-And many more can be done. To find out exactly what can be changed through governance in the protocol, look for the functions with the modifier `onlyGovernance` in the smart contracts.
+І ще багато чого можна зробити. Щоб точно дізнатися, що можна змінити за допомогою управління в протоколі, шукайте функції з модифікатором `onlyGovernance` у смарт-контрактах.
 
-The governance functions are represented by a red arrow in [this architecture diagram.](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
+Функції управління представлені червоною стрілкою на [цій схемі архітектури.](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
 
-NOTE: Parts of this article was taken from [this medium post.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) Credits goes to the Tornado cash team.
+ПРИМІТКА: Частини цієї статті були взяті з [цього засобу масової інформації.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703).
 
-### How to vote ?
+### Як голосувати?
 
-You first need to deposit \(or lock\) TORN tokens into the governance contract.
+Спочатку вам потрібно внести \(або заблокувати\) токени TORN в контракт управління.
 
-Go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Йдіть до: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
 
-Click `Manage` -&gt; `Lock Tab`
+Натисніть `Manage` -&gt; `Lock Tab`
 
 Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
 
