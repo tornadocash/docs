@@ -1,67 +1,67 @@
-# How To Make A Deposit In Tornado Cash
-To improve privacy, Tornado cash breaks the on-chain link between the source and the destination address. The platform uses a smart contract that accepts ETH deposits. Whenever the user wishes to deposit, he/she generates a secret and sends its hash (called a commitment) along with a deposit amount to the Tornado smart contract. The contract accepts the deposit and adds the commitment to its list of deposits. 
+# Як внести депозит в Tornado Cash
+Щоб покращити конфіденційність, Tornado cash розриває зв’язок в мережі (on-chain) між адресою джерела та адресою призначення. Платформа використовує смарт-контракт, який приймає депозити ETH. Коли користувач хоче внести депозит, він/вона генерує секрет і надсилає його хеш (так зване зобов’язання) разом із сумою депозиту до смарт-контракту Tornado. Контракт приймає депозит і додає зобов’язання до свого переліку депозитів.
 
-## Usage Guide
-Go to the Tornado Cash **[webpage](https://tornado.cash/)**.
-The landing page looks like this.
+## Посібник з використання
+Перейдіть до Tornado Cash **[webpage](https://tornado.cash/)**.
+Цільова сторінка виглядає так.
 
 ![webpage](https://siasky.net/DADgpg5vPOF5JPwOxlFwYXPzT8vRFlR9leCDWqMBIWR9yg)
 
-Click on **Launch App** and it will redirect you to the **[page](https://app.tornado.cash/account)**
+Натисніть на **Launch App** і він перенаправить вас на **[page](https://app.tornado.cash/account)**
 
  ![wallet](https://siasky.net/KABpV33X84PCitszZpwa4thYvYOxPHw29Qlx0UqKxf4ioQ)
  
-Connect your Web3 (Metamask) wallet.
-### Note Account
-Once you have connected your Metamask wallet, the next thing you are required to do is to set up the **Note account**.
-The Note Account key is used to encrypt and store your tornado.cash private notes on the ethereum blockchain.
+Підключіть свій Web3 (Metamask) гаманець.
+### Note account
+Після того, як ви підключили свій гаманець Metamask, наступне, що вам потрібно зробити, це налаштувати **Note account**.
+Ключ **Note Account** використовується для шифрування та зберігання ваших приватних нотаток tornado.cash у блокчейні ethereum.
 
  ![Note account](https://siasky.net/NAD6aVPWNrE4n1cUknhwZinCGWdCf8WlzBe2H_82i9G9CQ)
  
-Click on **Setup Account**.
+Натисніть на **Setup Account**.
 
  ![setup account](https://siasky.net/BABEIuEBVLR7kgiE6pOxVCKjIDgjdqK9mystttsRVzprhA)
  
-The application will show your Note Account key that you need to store safely. **Do not share your account key details with anyone**. 
+Додаток покаже ваш ключ Note Account, який потрібно зберігати в безпечному місці. ** Нікому не повідомляйте ключові дані свого облікового запису **.  
 
 ![account setup](https://siasky.net/bAAPlh2vU89f5mFkssIFGLhXZJTPHivQDlrrWm0m-yn5ZQ)
 
-Click on **Setup account** and a Metamask transaction is triggered. Confirm the transaction. 
-Once the transaction is finished, you can see your Note Account is successfully set up. 
+Натисніть на **Setup account** і запуститься транзакція в Metamask. Підтвердьте транзакцію.
+Після того, як транзакція буде завершена, ви побачите, що Note Account успішно створено. 
 
  ![note account set](https://siasky.net/HAA4u3D5HkdPlE1de6e2n0NbKg4ANoW_qL5WBY0yGlE6gg)
  
-The basic account setup is done. We can now proceed with Deposit.
-### Deposit
-To maintain a high level of anonymity,one of the method that Tornado cash uses is that it allows users to deposit only a fixed token value. 
-Once you go to the **Deposit** tab and select the token you want to deposit, you will find that you are allowed to deposit some fixed token value. For example, in the case of ETH, you can deposit only 0.1 ETH, 1 ETH, 10 ETH, or 100 ETH.
+Основне налаштування облікового запису виконано. Тепер можна переходити до депозиту.
+### Депозит
+Для підтримки високого рівня анонімності один із методів, який використовує Tornado cash, полягає в тому, що він дозволяє користувачам вносити лише фіксовану вартість токена. 
+Після того, як ви перейдете на вкладку **Депозит** і виберете токен, який хочете внести, ви побачите, що вам дозволено внести деяку фіксовану кількість токена. Наприклад, у випадку з ETH ви можете внести лише 0,1 ETH, 1 ETH, 10 ETH або 100 ETH.
 
 ![deposit](https://siasky.net/FAC3nA1tU50pw9JVeqLUy6TP5Cow42uhKp7pbtVrh20-gw)
 
-The Statistics section will show you the list of the latest deposits with the selected denomination.
-**Important:** Kindly note that the project is still in the experimental phase. Use at your own risk.
-To **Deposit**, select the token and the amount that you wish to deposit. The application will then ask you to save your note file (.txt). This note file can be used later to withdraw your deposit.
+Розділ «Статистика» покаже вам список останніх депозитів із вибраним номіналом.
+**Важливо:** Будь ласка, зверніть увагу, що проект ще знаходиться на експериментальній стадії. Використовуйте на свій страх і ризик.
+До розділу **Депозит**, виберіть токен та суму, яку ви бажаєте внести. Після цього програма попросить вас зберегти файл нотатки (note file) (.txt). Цей файл нотаток (note file) можна використовувати пізніше для зняття депозиту.
 
   ![send deposit](https://siasky.net/zACyy3T6bauKX5jrch1N5Nt3Hr3sK13JcAZyg7CGDNAVOA)
   
-Click on **Send Deposit** and confirm the Metamask transaction. 
-You can now see your deposit transactions will be added in the Statistics section.
+Натисніть на **Send Deposit** і підтвердьте транзакцію в Metamask. 
+Тепер ви можете побачити, що ваші депозитні транзакції будуть додані у розділі "Статистика".
 
  ![statistics](https://siasky.net/rADt7GRpcVllIhlIoAiUpeqDoKUfVYFhXTiklNLMlXn31w)
  
-From the bottom of the tab, you can check your deposit transactions along with other key details like:
-- Your Deposit amount
-- Any subsequent deposit after your transaction with the same denomination
-- Transaction Hash
-- Transaction status
-- Rewards Earned
-- Note
+У нижній частині вкладки ви можете перевірити свої депозитні транзакції разом з іншими ключовими реквізитами, такими як:
+- Сума вашого депозиту
+- Будь-який наступний депозит після вашої операції з тим же номіналом
+- Хеш транзакції 
+- Статус транзакції
+- Отримані винагороди
+- Нотатка (Note)
  
 
 ![deposit details](https://siasky.net/OADOPSot2Tx_FAvtqKJz-jFwkUKbeqtG8YD2z4zNz7YTSA)
 
-The rewards section shows the Anonymity Point (AP) that a user earns for depositing and withdrawing from the ETH anonymity pool. You can earn more AP for staying longer in the pool.
-The Note can be used to withdraw the funds. We will explain in detail how you can use the Note to withdraw your funds in the Withdraw section.
+У розділі "Винагороди" показано бал анонімності (AP), який користувач отримує за внесення та виведення з пулу анонімності ETH. Ви можете заробити більше AP, залишаючись в пулі на більший час.
+Нотатку (Note) можна використовувати для виведення коштів. Ми детально пояснимо, як ви можете використовувати Нотатку (Note) для виведення коштів у розділі "Виведення".
 
 _Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)
 
