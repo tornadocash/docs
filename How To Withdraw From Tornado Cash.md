@@ -1,46 +1,48 @@
-# How To Withdraw From Tornado Cash
-Users can withdraw their tokens from the Tornado cash platform at any time but to ensure high-level privacy it is recommended to wait until there are a few deposits after yours.
-For Withdraw, users are required to provide two details:
-- Note 
-- Recipient Address
+# Як зняти кошти з Tornado Cash
+Користувачі можуть вивести свої токени з платформи Tornado cash в будь-який час, але для забезпечення конфіденційності на високому рівні рекомендується почекати, поки після вас залишиться кілька депозитів.
+Для виведення коштів користувачі повинні надати дві речі:
+- Нотатку (Note) 
+- Адресу одержувача
  
 ![wihdraw button](https://siasky.net/IAA0oMfBCz3vPgANvIUsGBS84y4eC0DFgrbuVWVDwX5i9Q)
 
-Fill in the mandatory details. You can get the Note details from the deposit transaction.
-Once your fill in the note details, all details about your deposit get displayed.
+Заповніть обов’язкові реквізити. Ви можете отримати відомості про нотатку (Note) з операції депозиту.
+Після того, як ви заповните дані нотатки (Note), відобразяться всі дані про ваш депозит. 
 
  ![withdraw details](https://siasky.net/TAB6fl4n3yj1f_cd59CzRUEap6QvaPe3fslWThwC6KWBlQ)
  
-From the Withdraw setting tab, you can choose two options for withdrawal:
-- Via  Relayer 
-- Web3 wallet
+На вкладці Зняття, в налаштуваннях, можна вибрати два варіанти виведення:
+- Через ретранслятор (Relayer) 
+- Гаманець Web3
 
-You can choose the withdrawal method as Wallet but for that, you need to have a completely new Ethereum address with some ETH on it. But getting some ETH will eventually lead to the loss of anonymity. 
+Ви можете вибрати спосіб виведення коштів такий як гаманець, але для цього вам потрібно мати абсолютно нову адресу Ethereum з деякою кількістю ETH. Але отримання ETH в кінцевому підсумку призведе до втрати анонімності.
  
   ![withdraw wallet](https://siasky.net/MACMuLY11IK0h2b1MON8k0gUjZHLNVqwDYdX5tW9-npAhw)
   
-Thus, it is recommended to choose the withdrawal method as Relayer. A relayer is used to preserve privacy. With Relayer, there is no way to link a connection between the withdrawal and the deposit addresses.
+Таким чином, рекомендується вибрати метод виведення як Relayer. Для збереження конфіденційності використовується ретранслятор (Relayer). За допомогою Relayer немає можливості зв’язати зв’язок між адресами виведення та депозиту.
  
   ![relayer](https://siasky.net/MAALGPo1Emw_K_-y6t6EaB6Ao--NPnSuIQfTfqI28qSUCw)
   
-Once you select this method to withdraw, your zk-Snark proof gets generated. 
-The zkSnark technology is a method that helps the users to verify that they possess a secret to an unspent commitment from the list of deposit smart contracts without actually revealing the exact deposit corresponds to a secret.
+Як тільки ви виберете цей метод для виведення, згенерується доказ zk-Snark. 
+Технологія zkSnark - це метод, який допомагає користувачам перевірити, що вони володіють секретом нерастраченного зобов'язання зі списку депозитних смарт-контрактів без фактичного розкриття того, який саме депозит відповідає секрету.
  
   ![confirmation](https://siasky.net/GADcmOqr30fMXl7neBtSR6knAzPg8x_4mxQtUt96dQSa1w)
   
-Confirm the process.
-You can now see the withdrawal transaction details at the bottom. 
-One interesting thing you can note here is that the user’s reward is continuously increasing. 
+Підтвердьте процес.
+Тепер ви можете побачити деталі транзакції виведення внизу.
+Тут можна відзначити одну цікаву річ: винагорода користувача постійно зростає.
 
    ![final withdraw detail](https://siasky.net/KAAxcbm5QgjFr7mTKFqBU8uVKKNHKsaWz3-m85iQOP-6kg)
  
-To cross- verify the anonymity, click on the transaction hash and check the ethereum addresses mentioned on the log.
+Щоб перехресно перевірити анонімність, натисніть на хеш транзакції та перевірте адреси ethereum, зазначені у лог-файлі.
 
  ![txn hash](https://siasky.net/DADzeQWIwr8CkZIRyLyUJTzs8kdve1kNlvOwwc6WBz8gqg)
  
-You can easily check that the source address is something different from your wallet address. 
-Also, no transaction details will appear in the destination wallet address.
+Ви можете легко перевірити, чи вихідна адреса відрізняється від адреси вашого гаманця. 
+Крім того, у адресі цільового гаманця не відображатиметься інформація про транзакцію.
 
  ![metamask activity](https://siasky.net/VAAJZImmqf15RxJJp3nbgSrKUPaFpljsh6pQyvpxZavdIw)
  
-As a good practice, it is recommended to destroy the note data once you have successfully withdrawn your funds.
+Також щоб збільшити ступінь захисту ваших даних, рекомендується знищити дані нотатки (Note) після успішного виведення коштів.
+
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)

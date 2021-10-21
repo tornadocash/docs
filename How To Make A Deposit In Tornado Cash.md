@@ -63,7 +63,7 @@ From the bottom of the tab, you can check your deposit transactions along with o
 The rewards section shows the Anonymity Point (AP) that a user earns for depositing and withdrawing from the ETH anonymity pool. You can earn more AP for staying longer in the pool.
 The Note can be used to withdraw the funds. We will explain in detail how you can use the Note to withdraw your funds in the Withdraw section.
 
-
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)
 
 
 
