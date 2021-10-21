@@ -34,7 +34,7 @@
 
 Натисніть `Manage` -&gt; `Lock Tab`
 
-Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
+Підтвердіть контракт управління щоб передати ваші токени TORN, натиснувши кнопку «Затвердити». Як тільки підтвердження буде схвалене виберіть суму, яку ви хочете внести, і натисніть «Заблокувати». Підтвердьте транзакцію в гаманці та дочекайтеся підтвердження.
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
