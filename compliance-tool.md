@@ -34,21 +34,21 @@ _Докладніше про те, як депонувати та вилучат
 
 _Ви можете дізнатися більше про те, як Tornado.Cash досягає конфіденційності, прочитавши_ [_Як працює Tornado.Cash?_](how-does-tornado.cash-work.md)\_\_
 
-### After Withdrawal
+### Після зняття
 
-If the Note was spent \(i.e. assets were withdrawn to a given address using the Note\), the Compliance Tool will complete the information above by adding: 
+Якщо Нотатки (Note) була витрачена \(тобто активи були вилучені за вказаною адресою за допомогою Нотатки (Note)\), Інструмент відповідності доповнить наведену вище інформацію, додавши: 
 
-* Transaction hash of the withdrawal;
-* The destination address;
-* The Nullifier Hash.
+* Хеш транзакції виведення;
+* Адресу призначення;
+* Хеш нуліфікатора.
 
-The nullifier hash is a public input that is sent on-chain to get checked with the smart contract & the Merkle tree data to allow the withdrawal.
+Хеш-нуліфікатор-це публічний масив даних, який надсилається всередині мережі для перевірки смарт-контракту та даних дерева Меркла, щоб схвалити операцію виведення коштів.
 
 ![https://app.tornado.cash/compliance/](.gitbook/assets/capture-de-cran-2021-09-02-a-15.12.23.png)
 
-Therefore, the tool allows users to re-link source & destination addresses in order to prove transaction history for assets used on Tornado.Cash.
+Таким чином, інструмент дозволяє користувачам повторно зв’язати адреси джерел, та призначення щоб довести історію транзакцій щодо активів, що використовуються на Tornado.Cash.
 
-This information can also be downloaded under a PDF format, making it is easier to get sent to any desired third part:
+Цю інформацію також можна завантажити у форматі PDF, що полегшує її надсилання будь-якій третій стороні:
 
 ![https://app.tornado.cash/compliance/](.gitbook/assets/capture-de-cran-2021-09-02-a-15.12.53.png)
 
