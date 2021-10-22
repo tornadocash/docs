@@ -38,56 +38,56 @@
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
-Before the vote, the next crucial step is to review the proposal.  
- Legitimate proposals should have a dedicated post on [Torn.community ](https://torn.community/)under the category “Proposal”. The forum post will provide additional context and arguments on the proposal. Read the thread and make your own mind on the issue.
+Перед голосуванням не менш важливим кроком є розгляд пропозиції. 
+ Для легітимних пропозицій має бути окрема публікація на [Torn.community ](https://torn.community/)у категорії «Пропозиція». Повідомлення на форумі надасть додатковий контекст та аргументи щодо пропозиції. Прочитайте тему та вирішуйте проблему. 
 
-Once a proposal was submitted it should appear on:  
+Після того, як пропозиція була подана, вона має з’явитися на:  
 [https://app.tornado.cash/governance](https://app.tornado.cash/governance)  
- Proposal are implemented in the form of a smart contract making changes to the system. It is therefore important to verify the address of the smart-contract and review its code. Find the address of the proposal contract here:
+ Пропозиція реалізована у вигляді смарт-контракту, що вносить зміни в систему. Тому важливо перевірити адресу смарт-контракту та переглянути його код. Адресу договору пропозиції можна знайти тут:
 
 ![](.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
 
-Look for the contract address on Etherscan and make sure that the source code is verified and readable.
+Знайдіть адресу контракту на Etherscan і переконайтеся, що вихідний код перевірений і читабельний.
 
 ![](.gitbook/assets/d2d37d169a94f09156e76fa522b7974cb7c9ac3f.png)
 
-Read the source code and make sure that it matches what is described in the forum post.
+Прочитайте вихідний код і переконайтеся, що він відповідає тому, що описано в дописі на форумі.
 
-If you are not technical or not comfortable to read Solidity code, get someone you trust to review the contract for you.
+Якщо ви не є технічним спеціалістом або вам не зручно читати код Solidity, попросіть когось, кому ви довіряєте, переглянути контракт за вас.
 
-If you agree \(or disagree\) with the proposal code, it time to vote!
+Якщо ви згодні (або не згодні) з кодом пропозиції, час голосувати!
 
-A proposal have a voting windows of 3 days. This means that we have 3 days to reach the vote quorum of 25k TORN.
+Пропозиція має три дні для голосування. Це означає, що у нас є 3 дні, щоб досягти кворуму голосів у 25 тисяч TORN.
 
-Important: Once you voted, your tokens will be locked for 8.25 days from the moment the proposal was submitted \(the start of the 3 days voting period\). After the 8.25 you can withdraw your tokens from the governance contract. Note that you can vote on 2 proposal at the same time without incurring additional lockup period \(Only the most recently submitted proposal will matter for the 8.25 lockup\).
+Важливо: після того, як ви проголосували, ваші токени будуть заблоковані на 8,25 днів з моменту подання пропозиції \(початок 3-денного періоду голосування\). Після 8.25 днів ви можете зняти свої токени з контракту управління. Зауважте, що ви можете проголосувати за 2 пропозиції одночасно без додаткового періоду блокування \(Лише остання подана пропозиція матиме значення для блокування на 8.25 днів\).
 
-To vote, simply click on the Green check mark or the the red cross depending whether you accept or reject the proposal. Confirm the transaction with Metamask and your vote is in!
+Щоб проголосувати, просто натисніть зелену галочку або червоний хрест, в залежності від того, приймаєте ви пропозицію чи відхиляєте. Підтвердьте транзакцію за допомогою Metamask, і ваш голос - прийнятий!
 
-### How to delegate the vote ?
+### Як делегувати голосування?
 
-If you are a TORN token holder, you can delegate your voting power to someone else without having to send him the tokens.
+Якщо ви є власником токенів TORN, ви можете делегувати свої права голосу комусь іншому, не надсилаючи йому жетонів.
 
-IMPORTANT: If you delegate your tokens and that your delegate votes or initiate a proposal, your tokens will be locked for 8.25 days from the moment the proposal that the delegate voted on started. Note that that you can always undelegate at any time.
+ВАЖЛИВО: якщо ви делегуєте свої токени і ваш делегат проголосує або ініціює пропозицію, ваші токени будуть заблоковані на 8,25 дня з моменту початку пропозиції, за яку проголосував делегат. Зауважте, що ви завжди можете скасувати повноваження в будь-який час.
 
-To achieve delegation, go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Щоб отримати делегування, перейдіть до: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
 
-You first need to lock your tokens in the governance contract. Click **`Manage`** -&gt; **`Lock`** tab
+Спочатку потрібно заблокувати свої токени в контракті управління. Натисніть **`Manage`** -&gt; **`Lock`** вкладку
 
-Approve the governance contract to transfer your TORN tokens by clicking on the **`Approve`** button. Once the approve is confirmed, chose the amount you want to delegate and click **`Lock`**. Confirm the transaction in your wallet and wait for the confirmation.
+Підтвердьте контракт управління для передачі ваших токенів TORN, натиснувши кнопку **`Approve`** . Після підтвердження схвалення виберіть суму, яку ви хочете делегувати, і натисніть **`Lock`**. Підтвердьте транзакцію у гаманці та дочекайтеся підтвердження.
 
 ![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2%20%281%29.png)
 
-The last step, is to make the actual delegation. Go again to [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Останнім кроком є фактичне делегування. Перейдіть знову до [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
 
-Click **`Manage`** -&gt; **`Delegate`** tab
+Натисніть **`Manage`** -&gt; **`Delegate`** вкладку
 
-Fill-in the address to which you want to delegate and click **`Delegate`**. Approve the transaction in your wallet and wait for confirmation.
+Введіть адресу, на яку ви хочете делегувати, і натисніть **`Delegate`**. Підтвердьте транзакцію в гаманці та дочекайтеся підтвердження.
 
 ![](.gitbook/assets/43c05d176d7f75a336af7a865565c9b23786b98c.png)
 
-The totality of your locked balance will be delegated.
+Буде делеговано повну суму вашого заблокованого балансу.
 
-You can undelegate at anytime. To undelegate simply use the `Undelegate` Button in `Manage` -&gt; `Undelegate` Tab.
+Ви можете скасувати повноваження в будь-який час. Щоб скасувати делегування, просто скористайтеся кнопкою `Undelegate` у розділі `Manage` -&gt; `Undelegate` вкладці.
 
 
 
