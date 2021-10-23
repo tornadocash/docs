@@ -10,37 +10,37 @@ _Цей інструмент почав діяти 18 грудня 2020 року
 
 _Читачі повинні знати, що деякі депозити нижчого номіналу на момент написання статті не приносять позитивного прибутку через витрати на газ, необхідні для вилучення, викупу та обміну балів анонімності_
 
-One of the community members created the resource of [a mining spreadsheet 13](https://torn.community/t/anonymity-mining-spreadsheet/720) that helps calculate annual percentage yield’s \(APY’s\) for each pool and each denomination set within, through estimating the fees required to claim a reward. **It is highly recommended to view this resource and plan one’s course of action before expecting to earn yield.** At the bottom of the spreadsheet, you can view each pool by selecting the associated tab.
+Один із членів спільноти створив ресурс у вигляді [електронна майнінг таблиця 13](https://torn.community/t/anonymity-mining-spreadsheet/720) який допоможе розрахувати річну процентну доходність \(APY’s\) для кожного пула та кожного номінального засобу, встановленого в них, шляхом отримання комісійних, необхідних для визнання. **Настійно рекомендується переглянути цей ресурс і спланувати свої дії,перш ніж розраховувати доходність.** У нижній частині електронної таблиці можна переглянути кожен пул, вибравши відповідну вкладку.
 
-### How to earn AP
+### Як заробити AP
 
-1. Decide what amount and asset to deposit by selecting it through the dropdown menu, before clicking on "Connect" and "Deposit".
+1. Вирішіть, яку суму та актив покласти на депозит, вибравши їх у спадному меню, перш ніж натискати "Connect" та "Deposit".
 
 ![](.gitbook/assets/m3fh0gl.png)
 
-2. Take a record of your depositing note and back it up safely, **do not share this with anyone or risk losing your deposit and reward.**
+2. Запишіть свою депозитну нотатку (Note) та зебережіть її в безпечному місці,**не повідомляйте її нікому,в іншому випадку ви ризикуєте втратити свій депозит та винагороду.**
 
 ![](.gitbook/assets/vhustru.png)
 
-3. Generate the proof and submit the transaction.
+3. Створіть доказ та відправьте транзакцію.
 
-4. Your deposit should now be viewable on the bottom of the page, you can track how much AP it earns here; remember the longer your deposit remains active, the more AP you earn.
+4. Тепер ваш депозит повинен відображатись у нижній частині сторінки, тут ви можете відстежувати, скільки AP він заробляє; пам’ятайте, чим довше ваш депозит залишається активним, тим більше AP ви заробляєте.
 
 ![](.gitbook/assets/k6juetp.png)
 
-_Notes that are active \(not withdrawn\) are known as “unspent” notes._
+_Активні нотатки (Note) \(не вилучені\) відомі як "unspent" (невитрачені) нотатки (Note)._
 
-### How to claim AP
+### Як отримати AP
 
-1. First you must create a mining account and store those credentials on-chain for easy recovery \(requires a transaction\), **like depositing notes, you should never share your mining recovery key with anyone** and ensure to back it up in a safe place. This feature is not supported by hardware wallets so it’s encouraged to store the information as presented_._
+1. Спочатку ви повинні створити початковий запис для майнинга та зберегти ці початкові дані в мережі блокчейн для легкого відновлення \(потрібно провести транзакцію\), **Як і в разі отримання приватної записки при внесенні депозиту - ви ніколи і никому не повинні передавати свій ключ для відновлення майнінг-аккаунта** і обов'язково зберігати його в надійному місці. Ця функція не підтримує аппаратними кошельками, тому рекомендується зберігати інформацію у представленому вигляді_._
 
 ![](.gitbook/assets/lskzkgk.png)
 
-2. Take an active deposit through providing an unspent note and withdraw to an address of preference and decide whether to use a relayer or not \(_to maintain a deposit’s anonymity it is always advised to use a relayer_\), this will bring the note into a “spent” state.
+2. Введіть активний депозит, надавши невитрачену нотатку (Note) та виводьте засоби на бажану адресу гаманця та вирішивши, використовувати ретранслятор чи ні\(_для збереження анонімності депозиту завжди рекомендується використовувати ретранслятор_\), після цього записка стане "витраченою".
 
 ![](.gitbook/assets/aid86cj.png)
 
-**Remember to still keep your depositing notes a secret even after withdrawing, as they still retain the ability to redeem AP.**
+**Не забувайте зберігати в таємниці свої депозитні нотатки (Note) навіть після зняття, оскільки вони все ще зберігають можливість викупити AP.**
 
 ![](.gitbook/assets/bpsqxxr.png)
 
