@@ -1,14 +1,14 @@
-# Anonymity mining
+# Майнінг анонімності
 
-Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points \(AP\) dependent on how long they hedge their assets in a pool.
+Видобуток анонімності-це стимул для підвищення рівня конфіденційності в будь-яких протоколах приєднання або змішування монет, винагороджуючи учасників балами анонімності \(AP\) залежно від того, як довго вони тримають свої активи в пулі.
 
-_This incentive began on December 18, 2020 and will end on December 18, 2021._
+_Цей інструмент почав діяти 18 грудня 2020 року і закінчить свою дію 18 грудня 2021 року._
 
-Individuals deposit to any one of the anonymity pools that are supported \(ETH, WBTC, DAI or cDAI\) and are rewarded a fixed amount of AP per block, over the period their deposit remains in the pool. These points can then be exchanged for TORN once claimed.
+Учасники вносять депозит у будь-який із підтримуваних пулів анонімності (ETH, WBTC, DAI або cDAI) і отримують фіксовану кількість очків AP для кожного блоку протягом усього періоду, поки їх депозит залишається в пуле. Ці бали можна обміняти на токени TORN.
 
-### Anonymity points \(AP\)
+### Очки анонімності \(AP\)
 
-_Readers should be aware some lower denomination deposits at the time of writing, do not produce a positive return due to the gas costs required to withdraw, redeem and exchange anonymity points_
+_Читачі повинні знати, що деякі депозити нижчого номіналу на момент написання статті не приносять позитивного прибутку через витрати на газ, необхідні для вилучення, викупу та обміну балів анонімності_
 
 One of the community members created the resource of [a mining spreadsheet 13](https://torn.community/t/anonymity-mining-spreadsheet/720) that helps calculate annual percentage yield’s \(APY’s\) for each pool and each denomination set within, through estimating the fees required to claim a reward. **It is highly recommended to view this resource and plan one’s course of action before expecting to earn yield.** At the bottom of the spreadsheet, you can view each pool by selecting the associated tab.
 
@@ -86,5 +86,5 @@ For more information on anonymity mining, seek the following resources:
 
 _Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
 
-_Written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)
 
