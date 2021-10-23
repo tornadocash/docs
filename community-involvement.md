@@ -105,5 +105,5 @@ Steps to vote on Snapshot are quite intuitive. The community member needs to:
 
 
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+_Translated by_ [_**@chieftalion**_](https://torn.community/u/chieftalion/)
 
