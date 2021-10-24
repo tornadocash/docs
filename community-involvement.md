@@ -1,56 +1,55 @@
-# Community Involvement
+# Залучення громади 
 
-In a Decentralized Autonomous Organization \(DAO\), significant elements such as protocol parameters & token distribution are controlled by the community through governance. This governance allows the community to shape & continuously improve the protocol.
+У децентралізованій автономній організації  \(DAO\), важливі елементи, такі як параметри протоколу та розподіл токенів, контролюються спільнотою через управління. Таке управління дозволяє громаді формувати та постійно вдосконалювати протокол. 
 
-However, the role of a community does not stop to suggesting proposals & expressing its opinion through votes. The community can also actively contribute to the success and prosperity of their protocol through constructive debates, mutual help and specific actions.
+Однак роль громади не обмежується пропозиціями та висловленням своєї думки шляхом голосування. Громада також може активно сприяти успіху та процвітанню свого протоколу шляхом конструктивних дебатів, взаємодопомоги та конкретних дій.
 
-You can meet Tornado.Cash community on its very own forum & on social medias. Here are useful links to join Tornado.Cash community
+Ви можете зустріти спільноту Tornado.Cash на її власному форумі та у соціальних мережах. Ось корисні посилання для приєднання до спільноти Tornado.Cash
 
 * \*\*\*\*[**Tornado.Cash community forum**](https://torn.community/)\*\*\*\*
 * \*\*\*\*[**Tornado.Cash Discord Server**](https://discord.com/invite/TFDrM8K42j)\*\*\*\*
 * \*\*\*\*[**Tornado.Cash Telegram Discussions**](https://t.me/TornadoCashOfficial)\*\*\*\*
 
-_If you are interested, more information is available about_ [_Tornado.Cash governance rules & functioning._ ](governance.md)\_\_
+_Якщо вас цікавить, доступна додаткова інформація про_ [_Управління проектом Tornado.Cash._](governance.md)\_\_
 
-## How to Get Involved?
+## Як долучитися?
 
-To help building future enhanced versions of Tornado.Cash, all skills & talents are well welcomed. Involvement opportunities are almost unlimited. Those opportunities involve any function or contribution that improves the protocol and its position within the blockchain ecosystem.
+Надати допомогу в створенні майбутніх вдосконалених версії Tornado.Cash, можуть користувачі з  будь-які навиками та талантами. Можливості залучення в проект практично необмежені. Ці можливості передбачають будь-яку функцію або внесок, які покращують протокол і його позицію в екосистемі блокчейн.
 
-Tornado.Cash community is looking for:
+Спільнота Tornado.Cash шукає:
 
-* developers that can help continue building the protocol & its tools;
-* auditors who can review code to find bugs and vulnerabilities;
-* content creators in order to make educational or promotional content to attract new users to the protocol \(videos, blogs, memes, etc.\)
-* designers that can refine protocol architecture & design;
-* potential hires for the DAO;
+* розробники, які можуть допомогти продовжити вдосконалення протоколу та його інструментів;
+* аудитори, які можуть переглядати код для пошуків помилок та вразливостей;
+* творці контенту з метою створення навчального або рекламного контенту для залучення нових користувачів до протоколу \(відео, блоги, меми, тощо\);
+* дизайнери, які можуть покращити архітектуру та дизайн протоколe;
+* потенційних співробітників для DAO;
 * ...
 
-## Tornado.Cash Community Fund
-
-On June 2021, Tornado.Cash community has voted the implementation of a community fund to award its key contributors \([proposal \#7](https://app.tornado.cash/governance/7)\). The management of this fund lies between the hand of the community. Tornado.Cash users are the one who decide whose contribution is eligible for a compensation.
+## Фонд спільноти Tornado.Cash
+У червні 2021 року спільнота Tornado.Cash проголосувала за реалізацію фонду спільноти для нагородження його ключових внесків \([пропозиція \#7](https://app.tornado.cash/governance/7)\). Управління цим фондом знаходиться в руках громади. Користувачі Tornado.Cash вирішують, чий внесок підлягає компенсації.
 
 ### 
 
-### Fund Details
+### Інформація про фонд
 
-Tornado.Cash Community Fund has been allocated 5% of total available TORN of the governance treasury, broken down as follows:
+Фонду спільноти Tornado.Cash було виділено 5% від загальної кількості доступних TORN - вони розподілені наступним чином:
 
-* 5% of the already vested 485.3k TORN at that time, resulting on an **initial transfer of 22.9k TORN** _-&gt;_ [_Transaction Details_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47) __
-* 5% of the monthly 91.6k that will be vested in the next 12 month, which result on **a monthly transfer of approx. 4.6k TORN** \(a total of approx. 55k TORN over a year\)
+* 5% від уже отриманого на той час 485.3k TORN, що призвело до **початкової передачі 22.9k TORN** _-&gt;_ [_Transaction Details_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47) __
+* 5% від щомісячних 91,6 тис., які будуть передані протягом наступних 12 місяців, що призведе до **щомісячного переказу прибл. 4,6 тис. TORN** \(загалом приблизно 55 тис. TORN за рік\)
 
-The monthly allocation of the Fund was programmed through [Sablier](https://sablier.finance/), a protocol built on Ethereum that allows a live stream of remaining TORNs \(second by second\) over 12 months. 
+Щомісячний розподіл Фонду було запрограмовано за допомогою протоколу [Sablier](https://sablier.finance/), побудованого на Ethereum, що дозволяє в режимі реального часу (секунди в секунду) передавати решту TORN протягом 12 місяців. 
 
-In total, an amount of approximatively **78k TORN** was allocated to this Community Fund. As of the end of August 2021, the balance of the Community Fund is about ~12.6k TORN vested in Sablier & 15.5k TORN in the Gnosis safe.
+Загалом на цей фонд громади було виділено приблизно **78 тис. TORN**. Станом на кінець серпня 2021 р. Залишок Фонду Співтовариства становить приблизно 12,6 тис. TORN, що належить компанії Sablier, та 15,5 тис. TORN у сейфі Gnosis.
 
-Tornado.Cash Community Contract is: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances). 
+Контракт спільноти Tornado.Cash: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances). 
 
-Funds are handled through a Multi-signature Wallet on Gnosis Safe. Keys to manage this wallet were put between the hand of 5 peer-elected community members. To validate a transaction, a consensus of 4-of-5 signatures is needed.
+Кошти обробляються через Гаманець з декількома підписками на Gnosis Safe. Ключі для управління цим гаманцем були передані в руки 5 членам спільнот, які були обрані коллегами. Щоб підтвердити транзакцію, потрібен консенсус із 4 з 5 підписів.
 
-Those multi-signatures key holders were chosen for their contribution & commitment to Tornado.Cash and its Community. They pledged to sign off transaction following the community instructions. Those guidelines are expressed through forum discussion and corroborated by a Snapshot vote. 
+Власники ключів із кількома підписами були обрані за їхній внесок і відданість Tornado.Cash та його спільноті. Вони пообіцяли підписати транзакцію, дотримуючись інструкцій спільноти. Ці вказівки висловлюються під час обговорення на форумі та підтверджуються голосуванням на Snapshot.
 
-All signers also pledged to resign if they no longer fulfill their allegiance to Tornado’s prosperity. They can also be dismissed from their role under the decision of the the community. To reward their commitment as signers & key contributors for Tornado.Cash community, 100 TORN per month have been deployed through Sablier
+Усі підписанти також пообіцяли піти у відставку, якщо більше не будуть виконувати свої зобов’язання щодо процвітання Tornado. Вони також можуть бути звільнені зі своєї ролі за рішенням громади. В якості винагороди за їх прихильність як підписантів та ключових співавторів спільноти Tornado.Cash, 100 TORN на місяць було розгорнуто через Sablier.
 
-The current 5 multi-signatures key holders are: 
+Нині володарами п'яти підписів є наступні адреси:  
 
 * [0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75](https://etherscan.io/address/0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75)
 * [0x0D5bbdBa8Fd6523102A0bb5a0E68b30441a3765F](https://etherscan.io/address/0x0D5bbdBa8Fd6523102A0bb5a0E68b30441a3765F)
@@ -60,46 +59,46 @@ The current 5 multi-signatures key holders are:
 
 ### 
 
-### How to Claim a Reward?
+### Як отримати винагороду?
 
-Each member has the ability to ask the community for a compensation from this fund to reward his/her contribution to Tornado.Cash. Each member also has the ability to request a compensation on behalf of another member to reward him/her for his/her work.
+Кожен учасник має можливість попросити у спільноти компенсацію з цього фонду, щоб винагородити його/її внесок у Tornado.Cash. Кожен учасник також має можливість вимагати компенсацію від імені іншого учасника, щоб нагородити його/її за його/її роботу.
 
-To this extent, a new category titled **« Funding »** has been created on Tornado.Cash discussion forum. By creating a new post in the category, all members can open a funding request to use the Community Fund. Discussions regarding terms & conditions of such a request are discussed on this post. 
+Тому на дискусійному форумі Tornado.Cash створено нову категорію під назвою **« Funding »**. Створивши нову посаду в категорії, усі учасники можуть відкрити запит на фінансування для використання Фонду спільноти. Створивши нове повідомлення в категорії, усі учасники можуть відкрити запит на фінансування для використання Фонду спільноти. Правила обговорення положеннь і умов таких запитів визначені в цьому повідомленні.
 
-Once those terms & conditions are fixed, a vote is conducted on Snapshot to validate \(or not\) such a funding request.
+Щойно ці умови та положення будуть зафіксовані, на Snapshot проводиться голосування, щоб підтвердити \(або ні\) такий запит на фінансування.
 
-Here is Tornado.Cash Snapshot space:[ https://snapshot.org/\#/torn-community.eth](%20https://snapshot.org/#/torn-community.eth).
+Ось простір Tornado.Cash на Snapshot:[ https://snapshot.org/\#/torn-community.eth](%20https://snapshot.org/#/torn-community.eth).
 
 ![](.gitbook/assets/page-daccueil.png)
 
 
 
-### How to Vote on Snapshot?
+### Як проголосувати на Snapshot?
 
-Each specific funding request is accompanied by a Snapshot vote, where TORN holders can explicitly express their position. The result of this Snapshot vote provides the final instruction to multi-signature key holders on wether to transfer the decided reward amount to the concerned member.
+Кожен конкретний запит на фінансування супроводжується  голосуванням на Snapshot, де власники TORN можуть чітко висловити свою позицію. Результат цього голосування надає остаточну інструкцію власникам ключів з кількома підписами щодо того, чи передати вирішену суму винагороди зацікавленому учаснику. 
 
-Each snapshot vote has a `window of 3 days` to accumulate TORN holders votes. When the end date is reached, the Snapshot status goes from`Active` to `Closed`. Community members can no longer vote. 
+Кожне snapshot-голосування має `вікно в 3 дні` для накопичення голосів власників TORN. Коли настає кінцева дата, статус знімка змінюється з `Active` на `Closed`. Члени спільноти більше не можуть голосувати. 
 
 ![](.gitbook/assets/time-window.png)
 
-Multi-signature key holders consider that the funding request is validated by the community if:
+Власники ключів із підписами вважатимуть, що запит на фінансування підтверджено громадою, якщо:
 
-* The majority of TORN holders have voted `Accept` rather than `Refuse`.
-* The `5,000` TORN quorum has been reached.
+* Більшість власників TORN проголосували за `Accept`, а не `Refuse`. 
+* Кворум в 5000 TORN досягнуто.
 
-All Snapshot funding request are designed the same way: a s**ingle choice voting system** where users decide wether they are **For or Against** the given proposition.
+Усі запити на фінансування в Snapshot розроблені однаково: система **голосування з вибором**, де користувачі вирішують, чи є вони **За або проти** даної пропозиції.
 
-Steps to vote on Snapshot are quite intuitive. The community member needs to:
+Дії для голосування в Snapshot досить інтуїтивно зрозумілі. Член спільноти повинен:
 
-* Connect the wallet holding TORNs thanks to either MetaMask, WalletConnect or Torus;
+* Підключіть гаманець, що містить TORN, за допомогою MetaMask, WalletConnect або Torus;
 
 ![](.gitbook/assets/connect-wallet.png)
 
-* Cast the vote, by either clicking on `Accept` or `Refuse`;
+* Проголосуйте, натиснувши `Accept` або `Refuse`;
 
 ![](.gitbook/assets/cast-the-vote.png)
 
-* Confirm the vote.
+* Підтвердіть свій голос.
 
 ![](.gitbook/assets/confirm-the-vote.png)
 

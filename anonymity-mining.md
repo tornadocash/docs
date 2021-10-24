@@ -44,41 +44,41 @@ _Активні нотатки (Note) \(не вилучені\) відомі я�
 
 ![](.gitbook/assets/bpsqxxr.png)
 
-3. Visit the mining route of the application and enter your spent note, you may be faced with one of the following situations.
+3. Перейдіть по посиланню з маршрутом майнінга в додатку та введіть інформацію з витраченої нотатки (Note), можливо, ви зіткнетеся з однією з наведених нижче ситуацій.
 
-* **The ability to claim your spent note**: click the “Claim reward” button and submitting the transaction either by using a relayer or not, once confirmed your AP balance should update to reflect the action.
+* **Можливість використання витраченої нотатки (Note)**: натисніть на кнопку “Claim reward” та підтвердіть транзакцію використовуючи або не використовуючи ретранслятор (relayer), після підтвердження, ваш баланс AP повинен оновитися.
 
 ![](.gitbook/assets/e9jyqhu.png)
 
  
 
-* **The inability to claim a spent note:** _“Warning: The note is not yet ready for anonymity mining. You can wait few days before trying again”_ - This means the Merkle trees are out of sync and require a transaction to be updated.
+* **Неможливість отримати витрачену нотатку (Note):** _“Попередження: Нотатка (Note) ще не готова для майнінгу анонімності. Ви можете почекати кілька днів, перш ніж повторити спробу”_ - Це означає, що дерева Меркла не синхронізовані і потребують оновлення транзакції..
 
 ![](.gitbook/assets/i6qtr0f.png)
 
-Updating the trees can be an expensive process, **it is recommended that users with small deposits wait for the larger miners to update the trees, this could take anywhere from a few days to a week**. If you want to view your event relative to the current pending batches. Click the _“Show mining note information”_ hyperlink, here you can also pay the transaction fees to sync the tree relative to your withdrawal through the “Update trees” button.
+Оновлення дерев може бути дорогим процесом, **рекомендується, щоб користувачі з невеликими депозитами чекали, поки великі майнери оновлять дерева, це може зайняти від кількох днів до тижня**. Якщо ви хочете переглянути свою подію щодо поточних очікуваних транзакцій, що очікують на розгляд. Натисніть на гіперпосилання _“Show mining note information”_ , тут ви також можете оплатити транзакційні збори для синхронізації дерева, потрібного для досягнення вашого виводу за допомогою кнопок “Update trees”.
 
 ![](.gitbook/assets/d8dmxjj.png)
 
-### How to exchange AP
+### Як обміняти AP
 
-1. Navigate over to the “Swap” tab on the mining page which can be accessed through the second navigation bar from the top of the page.
+1. Перейдіть на вкладку “Swap” на сторінці майнінгу, доступ до якої можна отримати через другу панель навігації у верхній частині сторінки. 
 
 ![](.gitbook/assets/ahrjxbq.png)
 
-2. Enter the amount of AP requested to exchange or select the “Maximum” option to convert your active balance. Below this input, information regarding the current AP/TORN rate and reward output will be displayed. Provide an address of preference to receive the reward, finalise by generating the proof and submitting the transaction through a relayer or not.
+2. Введіть кількість AP, яке ви хочете обміняти, або виберіть опцію "Максимум" для конвертації всього активного балансу. Під цим вводом буде відображатися інформація щодо поточної ставки AP/TORN та результату винагороди. Вкажіть бажану адресу для отримання винагороди та завершіть операцію, створивши доказ та подавши транзакцію через ретранслятора чи ні.
 
 ![](.gitbook/assets/wo55lao.png)
 
-3. If all steps were followed correctly, TORN will be transferred to the address of preference provided in step 2 of this section.
+3. Якщо всі кроки були виконані правильно, TORN буде переведено на бажану адресу, зазначену в кроці 2 цього розділу.
 
-### Closing remarks
+### Заключне слово
 
-Congratulations, you have successfully participated in anonymity mining!
+Вітаємо, Ви успішно взяли участь у майнінгу анонімності!
 
-It is always recommended to plan when deciding to mine any of the anonymity sets, users should also be aware that the [AP/TORN rate](https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2) is dependent on supply and demand, therefore, **the more people that claim the higher the rate becomes, and the less people that claim the lower it becomes**.
+Рекомендується планувати час для майнінгу будь-якого з комплексів анонімності заздалегідь, користувачі також повинні знати, що [AP/TORN ставка](https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2) залежить від попиту та пропозиції, отже, **чим більше людей виводять очки анонімності, тим вище стає ставка, і чим менше людей, які виводять, тим нижчою стає**.
 
-For more information on anonymity mining, seek the following resources:
+Для отримання додаткової інформації про майнінг анонімності зверніться до таких ресурсів:
 
 * [Tornado.Cash governance proposal article](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
 * [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a) 
