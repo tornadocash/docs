@@ -24,7 +24,7 @@
 
 Функції управління представлені червоною стрілкою на [цій схемі архітектури.](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
 
-ПРИМІТКА: Частини цієї статті були взяті з [цього засобу масової інформації.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703).
+ПРИМІТКА: Частини цієї статті були взяті з [цього посту medium.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703).
 
 ### Як голосувати?
 
