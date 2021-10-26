@@ -6,11 +6,11 @@
 
 Ви можете зустріти спільноту Tornado.Cash на її власному форумі та у соціальних мережах. Ось корисні посилання для приєднання до спільноти Tornado.Cash
 
-* \*\*\*\*[**Tornado.Cash community forum**](https://torn.community/)\*\*\*\*
-* \*\*\*\*[**Tornado.Cash Discord Server**](https://discord.com/invite/TFDrM8K42j)\*\*\*\*
-* \*\*\*\*[**Tornado.Cash Telegram Discussions**](https://t.me/TornadoCashOfficial)\*\*\*\*
+* [**Tornado.Cash community forum**](https://torn.community/)
+* [**Tornado.Cash Discord Server**](https://discord.com/invite/TFDrM8K42j)
+* [**Tornado.Cash Telegram Discussions**](https://t.me/TornadoCashOfficial)
 
-_Якщо вас цікавить, доступна додаткова інформація про_ [_Управління проектом Tornado.Cash._](governance.md)\_\_
+_Якщо вас цікавить, доступна додаткова інформація про_ [_Управління проектом Tornado.Cash._](governance.md)\_\
 
 ## Як долучитися?
 

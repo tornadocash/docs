@@ -32,7 +32,7 @@ _Докладніше про те, як депонувати та вилучат
 
 ![https://app.tornado.cash/compliance/](.gitbook/assets/capture-de-cran-2021-09-02-a-15.07.01.png)
 
-_Ви можете дізнатися більше про те, як Tornado.Cash досягає конфіденційності, прочитавши_ [_Як працює Tornado.Cash?_](how-does-tornado.cash-work.md)\_\_
+_Ви можете дізнатися більше про те, як Tornado.Cash досягає конфіденційності, прочитавши_ [_Як працює Tornado.Cash?_](how-does-tornado.cash-work.md)\_\
 
 ### Після зняття
 
