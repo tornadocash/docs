@@ -22,7 +22,7 @@ Clique en `Connect` y escoja entre los diversos proveedores de monederos, tales 
 
 ### Guarde su nota
 
-Haga clic en `Deposit` y guarde su nota en un lugar seguro antes de hacer clic en `I backed up the note` \(_He guardado la nota_\). Incluso puede guardar notas encriptadas _on-chain_ configurando una _Note Account_, haciendo clic en `Settings` \(esquina superiora derecha\).
+Haga clic en `Deposit` y guarde su nota en un lugar seguro antes de hacer clic en `I backed up the note` (_He guardado la nota_). Incluso puede guardar notas encriptadas _on-chain_ configurando una _Note Account_, haciendo clic en `Settings` (esquina superiora derecha).
 
 ![](.gitbook/assets/aaaab.gif)
 
@@ -42,7 +42,7 @@ Tornado.Cash esta disponible en diferentes blockchains, deberá escoger entre 4 
 
 ### Pegue su nota
 
-Pegue su nota de depósito en el cuadro correspondiente. Haga clic en `Withdraw` y espere a que la zk-SNARK proof \(prueba de conocimiento cero\) se genere.
+Pegue su nota de depósito en el cuadro correspondiente. Haga clic en `Withdraw` y espere a que la zk-SNARK proof (prueba de conocimiento cero) se genere.
 
 ### Confirme tu retiro
 
@@ -50,6 +50,5 @@ Pegue su nota de depósito en el cuadro correspondiente. Haga clic en `Withdraw`
 
 ¡Hecho!
 
-_Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)  
+_Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)_****_\
 _****Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09)
-

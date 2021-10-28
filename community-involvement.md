@@ -1,16 +1,16 @@
 # Comunidad y participación
 
-En una Organización Descentralizada Autónoma \(DAO por sus siglas en inglés\), elementos significativos tales como parámetros del protocolo y la distribución de los tokens están controlados por la comunidad a través de su gobernanza. Esta gobernanza permite a la comunidad moldear y mejorar continuamente el protocolo.
+En una Organización Descentralizada Autónoma (DAO por sus siglas en inglés), elementos significativos tales como parámetros del protocolo y la distribución de los tokens están controlados por la comunidad a través de su gobernanza. Esta gobernanza permite a la comunidad moldear y mejorar continuamente el protocolo.
 
 No obstante, el rol de la comunidad no termina en la sugerencia de propuestas y expresando su opinión a través de votos. La comunidad también puede contribuir activamente en el éxito y la prosperidad de su protocolo mediante debates constructivos, ayuda mutua y acciones específicas.
 
 Puede conocer a la comunidad Tornado.Cash en su propio foro y en las redes sociales. Aqui hay enlaces útiles para unirse a la comunidad Tornado.Cash
 
-* [**Tornado.Cash community forum**](https://torn.community/)
+* [**Tornado.Cash community forum**](https://torn.community)
 * [**Tornado.Cash Discord Server**](https://discord.com/invite/TFDrM8K42j)
 * [**Tornado.Cash Telegram Discussions**](https://t.me/TornadoCashOfficial)
 
-_Si está interesado, hay más información disponible al respecto en_ [_Gobernanza_](https://docs.tornado.cash/v/es/governance)_._
+_Si está interesado, hay más información disponible al respecto en _[_Gobernanza_](https://docs.tornado.cash/v/es/governance)_._
 
 ## ¿Cómo involucrarse?
 
@@ -20,25 +20,25 @@ La comunidad Tornado.Cash busca:
 
 * desarrolladores que puedan ayudar a continuar construyendo el protocolo y sus herramientas;
 * auditores que puedan revisar el código para encontrar fallos y vulnerabilidades;
-* creadores de contenido para crear contenido educativo y promocional que atraiga a nuevos usuarios al protocolo \(videos, blogs, memes, etc.\)
+* creadores de contenido para crear contenido educativo y promocional que atraiga a nuevos usuarios al protocolo (videos, blogs, memes, etc.)
 * diseñadores que puedan refinar la arquitectura del protocolo y su diseño;
 * vacantes potenciales para la DAO;
 * ...
 
 ## Fondo Comunitario Tornado.Cash
 
-En junio de 2021, la comunidad Tornado.Cash ha votado la implementación de un fondo de la comunidad para premiar a sus contribuidores clave \([propuesta \#7](https://app.tornado.cash/governance/7)\). El control de este fondo queda en manos de la propia comunidad. Los usuarios de Tornado.Cash son los que deciden qué contribuidores son elegibles para una compensación.
+En junio de 2021, la comunidad Tornado.Cash ha votado la implementación de un fondo de la comunidad para premiar a sus contribuidores clave ([propuesta #7](https://app.tornado.cash/governance/7)). El control de este fondo queda en manos de la propia comunidad. Los usuarios de Tornado.Cash son los que deciden qué contribuidores son elegibles para una compensación.
 
 ### Detalles del fondo
 
 El Fondo Comunitario Tornado.Cash ha asignado un total del 5% de tokens TORN disponibles en al tesorería de gobierno, desglosados como sigue:
 
-* 5% del total de 485.3k TORN concedidos hasta la fecha, resultando en una **transferencia inicial de 22.9k TORN** _-&gt;_ [_Detalles de transacción_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47)
-* 5% del total mensual de 91.6k que se concederán en los siguientes 12 meses, resultando en **una transferencia mensual de aprox. 4.6k TORN** \(un total de aprox. 55k TORN durante un año\)
+* 5% del total de 485.3k TORN concedidos hasta la fecha, resultando en una **transferencia inicial de 22.9k TORN** _->_ [_Detalles de transacción_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47)
+* 5% del total mensual de 91.6k que se concederán en los siguientes 12 meses, resultando en **una transferencia mensual de aprox. 4.6k TORN** (un total de aprox. 55k TORN durante un año)
 
-La asignación mensual del Fondo se ha programado mediante [Sablier](https://sablier.finance/), un protocolo construido sobre Ethereum que permite la transmisión continua de los tokens TRON restantes \(segundo a segundo\) durante 12 meses.
+La asignación mensual del Fondo se ha programado mediante [Sablier](https://sablier.finance), un protocolo construido sobre Ethereum que permite la transmisión continua de los tokens TRON restantes (segundo a segundo) durante 12 meses.
 
-En total, un montante de aproximadamente **78k TORN** se han asignado a este Fondo Comunitario. A finales de agosto de 2021, el balance del Fondo Comunitario está alrededor de ~12.6k TORN dispuestos en Sablier y 15.5k TORN en Gnosis Safe.
+En total, un montante de aproximadamente **78k TORN** se han asignado a este Fondo Comunitario. A finales de agosto de 2021, el balance del Fondo Comunitario está alrededor de \~12.6k TORN dispuestos en Sablier y 15.5k TORN en Gnosis Safe.
 
 El Contrato del Tornado.Cash Fondo Comunitario es:[ 0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances).
 
@@ -56,7 +56,7 @@ Los propietarios de las 5 multi-firmas son actualmente:
 * [0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d](https://etherscan.io/address/0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d)
 * [0xEA27752f7D6687CB3Be2F180B997713b784c9911](https://etherscan.io/address/0xEA27752f7D6687CB3Be2F180B997713b784c9911)
 
-### 
+###
 
 ### ¿Cómo Reclamar una Recompensa?
 
@@ -64,9 +64,9 @@ Cada miembro tiene la posibilidad de pedir a la comunidad una compensación del 
 
 En estos términos, una nueva categoría titulada **« Funding »** se ha creado en el foro de Tornado.Cash. Creando una nueva entrada en la categoría, todos los miembros pueden abrir una petición de financiación para usar el Fondo Comunitario. Los debates referentes a los términos y condiciones sobre la petición se discuten en esa entrada.
 
-Cuando los términos y condiciones se han fijado, una votación tiene lugar en _Snapshot_ para validar \(o no\) la financiación de la petición.
+Cuando los términos y condiciones se han fijado, una votación tiene lugar en _Snapshot_ para validar (o no) la financiación de la petición.
 
-Este es el espacio de Tornado.Cash Snapshot: [https://snapshot.org/\#/torn-community.eth](https://snapshot.org/#/torn-community.eth).
+Este es el espacio de Tornado.Cash Snapshot: [https://snapshot.org/#/torn-community.eth](https://snapshot.org/#/torn-community.eth).
 
 ![](.gitbook/assets/page-daccueil.png)
 
@@ -99,6 +99,5 @@ Los pasos ara votar en un Snapshot son bastante intuitivos. El miembro de la com
 
 ![](.gitbook/assets/confirm-the-vote.png)
 
-_Escrito por_ [_**@ayefda**_](https://torn.community/u/ayefda)  
+_Escrito por_ [_**@ayefda**_](https://torn.community/u/ayefda)_****_\
 _****Traducido por_ [_@EeXavi_](https://twitter.com/EeXavi?s=09)
-
