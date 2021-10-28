@@ -25,8 +25,8 @@ As of today, Tornado.Cash can be used with the following tokens:
 * On Ethereum : **ETH** _(Ethereum)_, **DAI** _(Dai)_, **cDAI** _(Compound Dai)_, **USDC** _(USD Coin)_, **USDT** _(Tether)_ & **WBTC** _(Wrapped Bitcoin)_
 * On Binance Smart Chain: **BNB** _(Binance Coin)_.
 * On Polygon Network: **MATIC** _(Polygon)_
-* On xDai Chain : XDAI (Stake)
-* On Avalanche : AVAX
+* On xDai Chain : **XDAI** (_Stake_)
+* On Avalanche : **AVAX**
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
