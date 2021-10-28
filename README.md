@@ -24,9 +24,11 @@ Tornado Cash повышает конфиденциальность транза�
 
 На сегодняшний день Tornado.Cash можно использовать со следующими токенами:
 
-* На Ethereum: ETH (Ethereum), DAI (Dai), cDAI (Compound Dai), USDC (USD Coin), USDT (Tether) и WBTC (Wrapped Bitcoin).
-* На блокчейне Binance: BNB (Binance Coin)
-* В сети Polygon: MATIC (Polygon).
+* На Ethereum: **ETH** (_Ethereum_), **DAI** (_Dai_), **cDAI** (_Compound Dai_), **USDC** (_USD Coin_), **USDT** (_Tether_) и **WBTC** (_Wrapped Bitcoin_).
+* На блокчейне Binance: **BNB** (_Binance Coin_)
+* В сети Polygon: **MATIC** (_Polygon_)
+* На блокчейне xDai: **XDAI** (_Stake_)
+* На блокчейне Avalanche: **AVAX**
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
