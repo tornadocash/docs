@@ -22,7 +22,7 @@ Click on `Connect` and choose between wallet providers such as Metamask or Walle
 
 ### Save your note
 
-Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` \(top-right corner\).
+Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` (top-right corner).
 
 ![](.gitbook/assets/aaaab.gif)
 
@@ -50,9 +50,7 @@ Use your deposit note by pasting it in the corresponding box. Click on `Withdraw
 
 Done !
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
-
-
+_Written by _[_**@bt11ba**_](https://torn.community/u/bt11ba/)
 
 
 
