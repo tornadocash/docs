@@ -16,15 +16,15 @@ Bu nedenle, Tornado.Cash havuzlarından birinden çekilen elde tutulan varlıkla
 
 ## **Uyumluluk Aracı Nasıl Kullanılır?**
 
-[Tornado.Cash](https://app.tornado.cash/) uygulaması aracılığıyla yapılan her para yatırma işleminde protokol tarafından yeni bir not oluşturulur. Bu not, yatırılan varlıkları daha sonra herhangi bir para çekme adresinden çekmek için gereklidir. Aynı not, gerekirse, kullanıcıların varlıklarının kaynağını kanıtlamak için bir Uyumluluk Raporu oluşturmasına imkan sağlar.
+[Tornado.Cash](https://app.tornado.cash) uygulaması aracılığıyla yapılan her para yatırma işleminde protokol tarafından yeni bir not oluşturulur. Bu not, yatırılan varlıkları daha sonra herhangi bir para çekme adresinden çekmek için gereklidir. Aynı not, gerekirse, kullanıcıların varlıklarının kaynağını kanıtlamak için bir Uyumluluk Raporu oluşturmasına imkan sağlar.
 
-_Tornado.Cash'te varlıkların nasıl yatırılacağı ve çekileceği hakkında daha fazla bilgiyi şu adreste bulabilirsiniz:_ [_Yatırma ve Çekme._](https://github.com/tornadocash/docs/blob/tu/untitled.md)
+_Tornado.Cash'te varlıkların nasıl yatırılacağı ve çekileceği hakkında daha fazla bilgiyi şu adreste bulabilirsiniz: _[_Yatırma ve Çekme._](untitled.md)
 
 Bir Uyumluluk Raporu almak için kullanıcının yalnızca para yatırma işleminden sonra oluşturulan notu özel kutuya kopyalaması gerekir.
 
 ### **Çekim Yapmadan Önce**
 
-Not henüz harcanmadıysa \(yani varlıklar hala çekilmediyse\), Uyumluluk aracı size yalnızca depozito hakkında bilgi sağlayacaktır:
+Not henüz harcanmadıysa (yani varlıklar hala çekilmediyse), Uyumluluk aracı size yalnızca depozito hakkında bilgi sağlayacaktır:
 
 * Mevduatın işlem hash’i
 * Kaynak adresi
@@ -38,7 +38,7 @@ Taahhüt, işlemi karakterize etmek için Tornado.Cash akıllı sözleşmesine g
 
 **Para Çekme Sonrası**
 
-Not harcandıysa \(yani varlıklar not kullanılarak belirli bir adrese çekildiyse\), Uyumluluk Aracı yukarıdaki bilgileri aşağıdakileri ekleyerek tamamlayacaktır:
+Not harcandıysa (yani varlıklar not kullanılarak belirli bir adrese çekildiyse), Uyumluluk Aracı yukarıdaki bilgileri aşağıdakileri ekleyerek tamamlayacaktır:
 
 * Para çekme işleminin işlem hash’i;
 * Varış adresi;
@@ -53,6 +53,5 @@ Bu bilgiler ayrıca PDF formatında indirilebilir, bu da istenen herhangi bir ü
 
 ![https://app.tornado.cash/compliance/](.gitbook/assets/capture-de-cran-2021-09-02-a-15.12.53.png)
 
-_Bu içerik_ [_@ayefda_](https://torn.community/u/ayefda) _tarafından yazılmıştır.  
-Türkçe versiyonu için_ [_armog_](https://twitter.com/arm00g)_'a teşekkürler._
-
+_Bu içerik _[_@ayefda_](https://torn.community/u/ayefda)_ tarafından yazılmıştır._\
+_Türkçe versiyonu için _[_armog_](https://twitter.com/arm00g)_'a teşekkürler._

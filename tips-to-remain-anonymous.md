@@ -1,32 +1,32 @@
-# Tips to remain anonymous
+# Anonim Kalma İpuçları
 
-The Tornado Cash tool allows you to remain anonymous on-chain. However, if the tool is used without protecting oneself upstream and downstream, there is no point and the anonymity would only be partial. There are practices to avoid this.
+Tornado Cash, on-chainde anonim kalmanıza olanak tanır. Bununla birlikte, Tornado Cash ekstra önlem alınmadan kullanılırsa hiçbir anlamı yoktur ve anonimlik yalnızca kısmi olarak kalır. Bunu önlemek için bazı uygulamalar mevcuttur.
 
-### Use a VPN
+### **VPN kullanın**
 
-Your internet service provider \(ISP\) identifies you with an IP address. To prevent third parties from knowing that you are using Tornado.cash, you should consider using TOR and/or a VPN for your transfers. Avoid using free VPNs, they tend to keep or even sell your data. There are several VPNs on the market boasting a "no-log policy".
+İnternet servis sağlayıcınız (ISS) sizi bir IP adresiyle tanımlar. Üçüncü şahısların Tornado.cash kullandığınızı bilmesini önlemek için transferleriniz için TOR ve/veya bir VPN kullanmayı düşünmelisiniz. Ücretsiz VPN kullanmaktan kaçının, verilerinizi saklama ve hatta satma eğilimindedirler. Piyasada "kayıt tutmama politikası" ile övünen birkaç VPN var.
 
-### Save your note in a safe place <a id="save-your-note-in-a-safe-place"></a>
+### S**ize özel kelimelerden oluşan notu güvenli bir yere kaydedin** <a href="save-your-note-in-a-safe-place" id="save-your-note-in-a-safe-place"></a>
 
-Your note provides a record of your original transaction. Anyone who has it can withdraw the funds deposited, but also know the deposit address. Be sure to keep this note away from prying eyes and store it in a secure environment.
+Kelimeleriniz, orijinal işleminizin bir kaydını sağlar. Sahip olan herkes yatırılan parayı çekebilir ancak para yatırma adresini de bilir. Bu notu meraklı gözlerden uzak tutun ve güvenli bir ortamda saklayın.
 
-### Delete data <a id="delete-data"></a>
+### **Verileri silin** <a href="delete-data" id="delete-data"></a>
 
-Your browser is a real source of information for the extensions you use. Delete your data after each deposit or withdrawal. If two transfers are made with the same cookies, the extension you are using will be able to link these two transactions.
+Tarayıcınız, kullandığınız uzantılar için gerçek bir bilgi kaynağıdır. Her para yatırma veya çekme işleminden sonra verilerinizi silin. Aynı çerezler ile iki transfer yapılırsa, kullandığınız uzantı bu iki işlemi birbirine bağlayabilecektir.
 
-### Avoid using the same API token <a id="avoid-using-the-same-api-token"></a>
+### **Aynı API tokenını kullanmaktan kaçının** <a href="avoid-using-the-same-api-token" id="avoid-using-the-same-api-token"></a>
 
-If you use the same API token for two transactions, you will be easily recognized by your extension. For Metamask users, be aware that this extension will use the same token for each of your transactions. To avoid this problem, don't hesitate to uninstall and reinstall Metamask for each transfer, making sure to create a new account each time.
+İki işlem için aynı API tokenı kullanırsanız, uzantılar tarafından kolayca tanınırsınız. Metamask kullanıcıları için bu uzantının her işleminiz için aynı tokenı kullanacağını unutmayın. Bu sorunu önlemek için, her aktarım için Metamask'ı kaldırıp yeniden yüklemekten çekinmeyin, her seferinde yeni bir hesap oluşturduğunuzdan emin olun.
 
-### Be patient <a id="be-patient"></a>
+### **Sabırlı olun** <a href="be-patient" id="be-patient"></a>
 
-![](https://gblobscdn.gitbook.com/assets%2F-MXflGk4w5pDjjlmPCuF%2F-MgQVRqU6Ff6ypW_Q-fV%2F-MgQW0ko2bOUYlnsuG0F%2Fozxj.png?alt=media&token=1debad58-aa3c-4638-9d18-1636e87e3d0a)
+![](https://gblobscdn.gitbook.com/assets%2F-MXflGk4w5pDjjlmPCuF%2F-MgQVRqU6Ff6ypW\_Q-fV%2F-MgQW0ko2bOUYlnsuG0F%2Fozxj.png?alt=media\&token=1debad58-aa3c-4638-9d18-1636e87e3d0a)
 
-Your anonymity also depends on the number of transactions after your deposit \(cf. Statistics tab above\). If you withdraw your funds immediately after depositing them, it is possible to link your deposit to your transfer using correlation probabilities. The longer you wait, the greater your anonymity set will be.
+Anonimliğiniz, para yatırmanızdan sonraki işlem sayısına da bağlıdır (bkz. yukarıda yer alan İstatistikler sekmesi). Paranızı yatırdıktan hemen sonra çekerseniz korelasyon olasılıklarını kullanarak yatırdığınız parayı transferinize bağlamanız mümkün olur. Ne kadar uzun süre beklerseniz anonimlik setiniz o kadar büyük olacaktır.
 
-### Use multiple addresses
+### **Birden fazla adres kullanın**
 
-A 7 x 10eth deposit from one address and a 7 x 10eth withdrawal to a single address can also be linked. Remember to multiply your withdrawal addresses.
+Bir adresten 7 x 10'uncu para yatırma ve tek bir adrese 7 x 10'uncu para çekme de bağlanabilir. Bu bir ihtimaldir. Bu yüzden para çekme adreslerinizi çarpmayı unutmayın.
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
-
+Bu metin [@bt11ba](https://torn.community/u/bt11ba/) tarafından yazılmıştır. \
+Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.

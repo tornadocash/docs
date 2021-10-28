@@ -2,13 +2,13 @@
 
 ### Teklif nasıl yapılır?
 
-Tornado.Cash yönetimine katılmak için, kullanıcıların öncelikle yönetişim sözleşmesine tokenlarını kilitlemesi gerekir. Bir kullanıcı bir teklifi oylarsa veya oluşturursa, teklif yürütme süresi sona ermeden \(teklif oluşturma tarihinden itibaren 8,25 gün\) tokenların kilidi açılamaz. Kilitli tokenlar başka bir adrese de devredilebilir.
+Tornado.Cash yönetimine katılmak için, kullanıcıların öncelikle yönetişim sözleşmesine tokenlarını kilitlemesi gerekir. Bir kullanıcı bir teklifi oylarsa veya oluşturursa, teklif yürütme süresi sona ermeden (teklif oluşturma tarihinden itibaren 8,25 gün) tokenların kilidi açılamaz. Kilitli tokenlar başka bir adrese de devredilebilir.
 
-Bir teklif oluşturmak için bir kullanıcının en az `1,000 TORN`a sahip olması gerekir. All proposals must be smart contracts with verified code that are executed from the Tüm teklifler [yönetişim kontratı](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce) \(using `delegatecall`\) olarak doğrulanmış akıllı sözleşmeler olmaldır. Bu şekilde, herhangi bir yönetim değişikliğini denetlemek ve test etmek kolay oluyor.
+Bir teklif oluşturmak için bir kullanıcının en az `1,000 TORN`a sahip olması gerekir. All proposals must be smart contracts with verified code that are executed from the Tüm teklifler [yönetişim kontratı](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce) (using `delegatecall`) olarak doğrulanmış akıllı sözleşmeler olmaldır. Bu şekilde, herhangi bir yönetim değişikliğini denetlemek ve test etmek kolay oluyor.
 
-Bir teklif için oylama süresi 3 gündür. Bir teklif, oyların basit çoğunluğunu alırsa ve toplamda en az `25,000 TORN` oy kullanılırsa başarılı olacaktır \(katılım çok düşükse teklif otomatik olarak başarısız olur\).
+Bir teklif için oylama süresi 3 gündür. Bir teklif, oyların basit çoğunluğunu alırsa ve toplamda en az `25,000 TORN` oy kullanılırsa başarılı olacaktır (katılım çok düşükse teklif otomatik olarak başarısız olur).
 
-Bir teklif başarılı olduktan sonra 2 günlük bir süreye tabidir. Zaman kilidinden sonra, herhangi bir kullanıcı teklifi \(değişiklikleri başlatan\) yürütebilir. Bu tarihten sonra 3 gün boyunca teklif yürütülmezse _süresi dolmuş_ kabul edilir ve artık yürütülemez.
+Bir teklif başarılı olduktan sonra 2 günlük bir süreye tabidir. Zaman kilidinden sonra, herhangi bir kullanıcı teklifi (değişiklikleri başlatan) yürütebilir. Bu tarihten sonra 3 gün boyunca teklif yürütülmezse _süresi dolmuş_ kabul edilir ve artık yürütülemez.
 
 Başlangıç ​​parametrelerinin tümü nispeten küçüktür çünkü dolaşımda erken dönemde çok fazla TORN olmayacaktır. Ancak dolaşımdaki arz arttıkça yönetim bu eşikleri ayarlayabilir.
 
@@ -22,17 +22,17 @@ Bir teklif aşağıdaki nitelikte olabilir:
 
 Ve daha pek çok şey yapılabilir. Protokolde yönetişim yoluyla tam olarak nelerin değiştirilebileceğini öğrenmek için akıllı sözleşmelerde`onlyGovernance` değiştiricisine sahip işlevleri arayın.
 
-Yönetim fonksiyonları kırmızı okla temsil edilir. Detaylar için Tornado.Cash [mimarisi diyagramını](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio) inceleyin.
+Yönetim fonksiyonları kırmızı okla temsil edilir. Detaylar için Tornado.Cash [mimarisi diyagramını](https://viewer.diagrams.net/?highlight=0000ff\&edit=\_blank\&layers=1\&nav=1\&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio) inceleyin.
 
 NOT: Bu makalenin bölümleri [medium](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703/) içeriğinden alınmıştır. Alkışlar Tornado Cash ekibine!
 
 ### Nasıl oy verilir?
 
-You first need to deposit \(or lock\) TORN tokens into the governance contract.
+You first need to deposit (or lock) TORN tokens into the governance contract.
 
 [https://app.tornado.cash/governance](https://app.tornado.cash/governance) adresine girin
 
-`Manage` -&gt; `Lock Tab` 'e tıklayın.
+`Manage` -> `Lock Tab` 'e tıklayın.
 
 `Approve` butonuna tıklayarak TORN tokenlarınızı aktarmak için yönetim sözleşmesini onaylayın. Onayladıktan sonra yatırmak istediğiniz tutarı seçin ve `Lock`'a tıklayın. Cüzdanınızdaki işlemi onaylayın ve onay için bekleyin.
 
@@ -56,11 +56,11 @@ Kaynak kodunu okuyun ve forum gönderisinde açıklananla eşleştiğinden emin 
 
 Teknik biri değilseniz veya Solidity kodunu okuyamıyorsanız güvendiğiniz birinden sözleşmeyi sizin için gözden geçirmesini isteyin.
 
-Teklif koduna katılıyorsanız \(veya katılmıyorsanız\) oy verme zamanı!
+Teklif koduna katılıyorsanız (veya katılmıyorsanız) oy verme zamanı!
 
 Bir teklifin 3 günlük oylama aralığı vardır. Bu, 25k TORN oy yeter sayısına ulaşmak için 3 günümüz olduğu anlamına geliyor.
 
-Önemli: Oy verdikten sonra, tokenlarınız teklifin sunulduğu andan itibaren \(8,25 gün boyunca\) \(3 günlük oylama döneminin başlangıcı\) kilitlenecektir. 8.25'ten sonra tokenlarınızı yönetim sözleşmesinden çekebilirsiniz. Ek kilitleme süresine maruz kalmadan aynı anda 2 teklife oy verebileceğinizi unutmayın \(8.25 kilitleme için yalnızca en son gönderilen teklif önemli olacaktır\).
+Önemli: Oy verdikten sonra, tokenlarınız teklifin sunulduğu andan itibaren (8,25 gün boyunca) (3 günlük oylama döneminin başlangıcı) kilitlenecektir. 8.25'ten sonra tokenlarınızı yönetim sözleşmesinden çekebilirsiniz. Ek kilitleme süresine maruz kalmadan aynı anda 2 teklife oy verebileceğinizi unutmayın (8.25 kilitleme için yalnızca en son gönderilen teklif önemli olacaktır).
 
 Oy vermek için, teklifi kabul edip etmemenize bağlı olarak Yeşil onay işaretine veya kırmızı çarpıya tıklamanız yeterlidir. İşlemi Metamask ile onaylayın ve oyunuzu kullanın!
 
@@ -72,17 +72,17 @@ Eğer bir TORN tokenı sahibiyseniz, tokenları göndermek zorunda kalmadan oyla
 
 Yetki vermek için şu adrese gidin: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
 
-Öncelikle yönetim sözleşmesinde tokenlarınızı kilitlemeniz gerekir. **`Manage`** -&gt; **`Lock`** 'e tıklayın.
+Öncelikle yönetim sözleşmesinde tokenlarınızı kilitlemeniz gerekir. **`Manage`** -> **`Lock`** 'e tıklayın.
 
 **`Approve`** düğmesine tıklayarak TORN tokenlarınızı aktarmak için yönetim sözleşmesini onaylayın. Onayladıktan sonra, devretmek istediğiniz tutarı seçin ve **`Lock`**'a tıklayın. Cüzdanınızdaki işlemi onaylayın ve onay için bekleyin.
 
-![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2%20%281%29.png)
+![](<.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
 Son adım, fiili delegasyonun yapılmasıdır.
 
 [https://app.tornado.cash/governance](https://app.tornado.cash/governance) adresine tekrar gidin
 
-**`Manage`** -&gt; **`Delegate`** 'e tıklayın.
+**`Manage`** -> **`Delegate`** 'e tıklayın.
 
 Yetki vermek istediğiniz adresi girin ve **`Delegate`**'e tıklayın. Cüzdanınızdaki işlemi onaylayın ve onay için bekleyin.
 
@@ -94,7 +94,6 @@ Kilitli bakiyenizin tamamı devredilecektir.
 
 İstediğiniz zaman yetki devrini iptal edebilirsiniz.
 
-Yetkiyi geri almak için, `Manage` -&gt; `Undelegate` sekmesindeki `Undelegate` 'e tıklayın
+Yetkiyi geri almak için, `Manage` -> `Undelegate` sekmesindeki `Undelegate` 'e tıklayın
 
-_Bu metnin yazarı_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_ _Türkçe versiyonu için_ [_armog_](https://twitter.com/arm00g)_'a teşekkürler._
-
+_Bu metnin yazarı_ [_@rezan_](https://torn.community/u/Rezan/summary)\_\_ _Türkçe versiyonu için _[_armog_](https://twitter.com/arm00g)_'a teşekkürler._

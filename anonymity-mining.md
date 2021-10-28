@@ -1,42 +1,42 @@
 # Anonim Madencilik
 
-Anonim madencilik, bir havuzdaki varlıklarını ne kadar süreyle koruduklarına bağlı olarak katılımcılara anonimlik puanları \(AP\) vererek herhangi bir token birleştirme veya token karıştırma protokollerinde gizlilik düzeyini artırmaya yönelik bir teşviktir.
+Anonim madencilik, bir havuzdaki varlıklarını ne kadar süreyle koruduklarına bağlı olarak katılımcılara anonimlik puanları (AP) vererek herhangi bir token birleştirme veya token karıştırma protokollerinde gizlilik düzeyini artırmaya yönelik bir teşviktir.
 
 _Bu teşvik 18 Aralık 2020'de başladı ve 18 Aralık 2021'de sona erecek._
 
-Bireyler, desteklenen anonimlik havuzlarından herhangi birine \(ETH, WBTC, DAI veya cDAI\) para yatırır ve mevduatlarının havuzda kaldığı süre boyunca block başına sabit bir AP miktarı ile ödüllendirilir. Bu puanlar daha sonra talep edildiğinde TORN ile değiştirilebilir.
+Bireyler, desteklenen anonimlik havuzlarından herhangi birine (ETH, WBTC, DAI veya cDAI) para yatırır ve mevduatlarının havuzda kaldığı süre boyunca block başına sabit bir AP miktarı ile ödüllendirilir. Bu puanlar daha sonra talep edildiğinde TORN ile değiştirilebilir.
 
-### _Anonim Puanları_ \(AP\)
+### _Anonim Puanları_ (AP)
 
 _Okuyucular, yazım sırasında bazı düşük değerli mevduatların farkında olmalıdır. Anonimlik puanlarını çekmek, kullanmak ve değiştirmek için gereken gas maliyetleri nedeniyle olumlu bir getiri sağlamaz._
 
-Topluluk üyelerinden biri, bir ödül talep etmek için gereken ücretleri tahmin ederek, her havuz için yıllık yüzde getirisini \(APY'ler\) hesaplamaya yardımcı olan bir [madencilik tablosu 13'ün kaynağını oluşturdu](https://torn.community/t/anonymity-mining-spreadsheet/720). Verim kazanmayı beklemeden önce bu kaynağı incelemeniz ve hareket tarzınızı planlamanız şiddetle tavsiye edilir. Tablonun alt kısmında, ilgili sekmeyi seçerek her bir havuzu görüntüleyebilirsiniz.
+Topluluk üyelerinden biri, bir ödül talep etmek için gereken ücretleri tahmin ederek, her havuz için yıllık yüzde getirisini (APY'ler) hesaplamaya yardımcı olan bir [madencilik tablosu 13'ün kaynağını oluşturdu](https://torn.community/t/anonymity-mining-spreadsheet/720). Verim kazanmayı beklemeden önce bu kaynağı incelemeniz ve hareket tarzınızı planlamanız şiddetle tavsiye edilir. Tablonun alt kısmında, ilgili sekmeyi seçerek her bir havuzu görüntüleyebilirsiniz.
 
 ### AP Nasıl Kazanılır?
 
-1. "Bağlan" ve "Para Yatır"a tıklamadan önce menüden hangi tutar ve varlığı yatıracağınızı seçin.
+1\. "Bağlan" ve "Para Yatır"a tıklamadan önce menüden hangi tutar ve varlığı yatıracağınızı seçin.
 
 ![](.gitbook/assets/m3fh0gl.png)
 
-2. Yatırma kanıtınızın \(bir nevi dekont\) kaydını alın ve güvenli bir şekilde yedekleyin, **bunu kimseyle paylaşmayın** veya yatırdığınız parayı ve ödülünüzü kaybetme riskiyle karşı karşıya kalmayın.
+2\. Yatırma kanıtınızın (bir nevi dekont) kaydını alın ve güvenli bir şekilde yedekleyin, **bunu kimseyle paylaşmayın** veya yatırdığınız parayı ve ödülünüzü kaybetme riskiyle karşı karşıya kalmayın.
 
 ![](.gitbook/assets/vhustru.png)
 
-3. Kanıtı oluşturun ve işlemi gönderin.
+3\. Kanıtı oluşturun ve işlemi gönderin.
 
-4. Para yatırma işleminiz artık sayfanın alt kısmında görüntülenebilir, ne kadar AP kazandığını buradan takip edebilirsiniz; unutmayın, yatırdığınız para ne kadar uzun süre aktif kalırsa, o kadar çok AP kazanırsınız.
+4\. Para yatırma işleminiz artık sayfanın alt kısmında görüntülenebilir, ne kadar AP kazandığını buradan takip edebilirsiniz; unutmayın, yatırdığınız para ne kadar uzun süre aktif kalırsa, o kadar çok AP kazanırsınız.
 
 ![](.gitbook/assets/k6juetp.png)
 
-_Aktif olan \(geri çekilmeyen\) miktarlar, "harcanmamış" miktar olarak bilinir._
+_Aktif olan (geri çekilmeyen) miktarlar, "harcanmamış" miktar olarak bilinir._
 
 ### AP nasıl talep edilir?
 
-1. İlk önce bir madencilik hesabı oluşturmalı ve kimlik bilgilerini kolay kurtarma için \(bir işlem gerektirir\) on-chainde saklamanız gerekir, örneğin not yatırmak gibi, madencilik kurtarma anahtarınızı asla kimseyle paylaşmamalı ve güvenli bir yerde yedeklediğinizden emin olmalısınız. Bu özellik donanım cüzdanları tarafından desteklenmez, bu nedenle bilgilerin sunulduğu şekilde saklanması önerilir.
+1\. İlk önce bir madencilik hesabı oluşturmalı ve kimlik bilgilerini kolay kurtarma için (bir işlem gerektirir) on-chainde saklamanız gerekir, örneğin not yatırmak gibi, madencilik kurtarma anahtarınızı asla kimseyle paylaşmamalı ve güvenli bir yerde yedeklediğinizden emin olmalısınız. Bu özellik donanım cüzdanları tarafından desteklenmez, bu nedenle bilgilerin sunulduğu şekilde saklanması önerilir.
 
 ![](.gitbook/assets/lskzkgk.png)
 
-2. Harcanmamış bir depozito sağlayarak aktif bir depozito alın ve bir tercih adresine çekin ve bir aktarıcı kullanıp kullanmamaya karar verin. _\(bir mevduatın anonimliğini korumak için her zaman bir aktarıcı kullanılması tavsiye edilir\)_
+2\. Harcanmamış bir depozito sağlayarak aktif bir depozito alın ve bir tercih adresine çekin ve bir aktarıcı kullanıp kullanmamaya karar verin. _(bir mevduatın anonimliğini korumak için her zaman bir aktarıcı kullanılması tavsiye edilir)_
 
 ![](.gitbook/assets/aid86cj.png)
 
@@ -44,13 +44,13 @@ _Aktif olan \(geri çekilmeyen\) miktarlar, "harcanmamış" miktar olarak bilini
 
 ![](.gitbook/assets/bpsqxxr.png)
 
-3. Uygulamanın madencilik sayfasını ziyaret edin ve harcanan notunuzu girin, aşağıdaki durumlardan biriyle karşı karşıya kalabilirsiniz.
+3\. Uygulamanın madencilik sayfasını ziyaret edin ve harcanan notunuzu girin, aşağıdaki durumlardan biriyle karşı karşıya kalabilirsiniz.
 
 * **Harcanan notunuzu talep edebilme**: "Ödülü talep et" düğmesini tıklayın ve bir aktarıcı kullanarak veya kullanmayarak işlemi gönderdiğinizde, AP bakiyenizin eylemi yansıtacak şekilde güncellenmesi gerekir.
 
 ![](.gitbook/assets/e9jyqhu.png)
 
- 
+&#x20;
 
 * **Harcanmış bir notu talep edememe**: _“Uyarı: Not, anonim madencilik için henüz hazır değil. Tekrar denemeden önce birkaç gün bekleyebilirsiniz”_ Bu mesaj, Merkle Tree’nin senkronize olmadığı ve bir işlemin güncellenmesi gerektiği anlamına gelir.
 
@@ -62,15 +62,15 @@ Merkle Tree güncellemek pahalı bir süreç olabilir. **Küçük mevduatı olan
 
 ### AP Nasıl Değiştirilir?
 
-1. Sayfanın üst kısmındaki ikinci gezinti çubuğundan erişilebilen madencilik sayfasındaki "Swap" sekmesine gidin.
+1\. Sayfanın üst kısmındaki ikinci gezinti çubuğundan erişilebilen madencilik sayfasındaki "Swap" sekmesine gidin.
 
 ![](.gitbook/assets/ahrjxbq.png)
 
-2. Değiştirilmesi istenen AP miktarını girin veya aktif bakiyenizi dönüştürmek için “Maksimum” seçeneğini seçin. Bu girişin altında mevcut AP/TORN oranı ve ödül çıktısı ile ilgili bilgiler görüntülenecektir. Ödülü almak için bir tercih adresi sağlayın, kanıtı oluşturarak işlemi bir aktarıcı aracılığıyla gönderip kesinleştirin.
+2\. Değiştirilmesi istenen AP miktarını girin veya aktif bakiyenizi dönüştürmek için “Maksimum” seçeneğini seçin. Bu girişin altında mevcut AP/TORN oranı ve ödül çıktısı ile ilgili bilgiler görüntülenecektir. Ödülü almak için bir tercih adresi sağlayın, kanıtı oluşturarak işlemi bir aktarıcı aracılığıyla gönderip kesinleştirin.
 
 ![](.gitbook/assets/wo55lao.png)
 
-3. Tüm adımlar doğru bir şekilde takip edildiyse bu bölümün 2. adımında verilen tercih adresine TORN aktarılacaktır.
+3\. Tüm adımlar doğru bir şekilde takip edildiyse bu bölümün 2. adımında verilen tercih adresine TORN aktarılacaktır.
 
 ### Tüm İşlemler Bitince
 
@@ -82,10 +82,9 @@ Anonim madencilik hakkında daha fazla bilgi için aşağıdaki kaynakları tık
 
 * [Tornado.Cash yönetim önerisi hakkında makale](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
 * [Tornado.Cash anonim madencilik optimizasyonu hakkında makale](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)
-* [Anonim madenciliği detaylı açıklama \(teknik\)](https://torn.community/t/anonymity-mining-technical-overview/15)
+* [Anonim madenciliği detaylı açıklama (teknik)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
 Makalenin yazımı için [_@sockawoo_](https://torn.community/u/sockawoo) ve [_@ethdev_](https://torn.community/u/ethdev) teşekkür ederiz.
 
-Bu dökümanın yazarı [@xgozzy](https://torn.community/u/xgozzy/summary).  
+Bu dökümanın yazarı [@xgozzy](https://torn.community/u/xgozzy/summary).\
 Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.
-
