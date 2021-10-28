@@ -20,9 +20,11 @@ Protokol, 2019'daki başlangıcından bu yana Ethereum blockchaininde çalışı
 
 Bugün itibariyle Tornado.Cash aşağıdaki tokenlarla kullanılabilir:
 
-* Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
-* Binance Smart Chain: **BNB** _\(Binance Coin\)_.
-* Polygon Network: **MATIC** _\(Polygon\)_
+* Ethereum : **ETH** _(Ethereum)_, **DAI** _(Dai)_, **cDAI** _(Compound Dai)_, **USDC** _(USD Coin)_, **USDT** _(Tether)_ & **WBTC** _(Wrapped Bitcoin)_
+* Binance Smart Chain: **BNB** _(Binance Coin)_.
+* Polygon Network: **MATIC** _(Polygon)_
+* xDai Chain : **XDAI** (_Stake_)
+* Avalanche : **AVAX**
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
@@ -32,12 +34,11 @@ Protokol ayrıca, tokenlarının bir kısmı için, kullanıcılarının **yöne
 
 ## Tornado.Cash Nasıl Çalışır?
 
-[Tornado.Cash’in işleyişinin arkasındaki kodlar](https://github.com/tornadocash) - akıllı sözleşmeler, devreler ve toolchain - **tamamen açık kaynaktır**. Bir DAO \(Merkezi Olmayan Otonom Organizasyon\) olarak çalışan Tornado.Cash’in yönetişimi ve madencilik akıllı sözleşmeleri topluluğu tarafından işletilir.
+[Tornado.Cash’in işleyişinin arkasındaki kodlar](https://github.com/tornadocash) - akıllı sözleşmeler, devreler ve toolchain - **tamamen açık kaynaktır**. Bir DAO (Merkezi Olmayan Otonom Organizasyon) olarak çalışan Tornado.Cash’in yönetişimi ve madencilik akıllı sözleşmeleri topluluğu tarafından işletilir.
 
 Protokol ayrıca, zero knowledge proof’a olanak tanıyan zk-SNARK ile birlikte de çalışır ve kullanıcıların, bilgilerini ifşa etmeye gerek kalmadan sahip olduklarını göstermelerine olanak tanır. Bu teknolojinin kullanımı, **Ethereum topluluğunun yardımıyla Zcash ekibi** tarafından yapılan açık kaynak araştırmasına dayanmaktadır . zk-SNARK’i kurmak için [Tornado.Cash Güvenilir Kurulum Topluluğu](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) Mayıs 2020'de başlatıldı ve [1114](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa) kişi katıldı. Bu önemli sayıdaki katılımcı, zk prooflarını taklit ederek protokolün tehlikeye atılmasını imkansız hale getiriyor.
 
 Kullanıcı arayüzü, topluluk tarafından IPFS'de bulundurularak verilerin silinme risklerini en aza indiriyor. Arayüz en az bir kullanıcı tarafından IPFS’de bulundurulduğu sürece çalışacaktır.
 
-Bu metin [_@ayefda_](https://torn.community/u/ayefda) tarafından yazılmıştır.  
+Bu metin [_@ayefda_](https://torn.community/u/ayefda) tarafından yazılmıştır.\
 Türkçe versiyonu için [armog](https://twitter.com/arm00g)'a teşekkürler.
-
