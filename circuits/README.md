@@ -8,8 +8,6 @@ Behind the Tornado.cash front-end sits a number of [Circom](https://docs.circom.
 
 Before trying to understand how Tornado.cash works under the hood, you first need to understand Zero Knowledge circuits, how they're constructed, and how proofs are generated client-side, then verified on-chain. While there are a [few different types](https://en.wikipedia.org/wiki/Zero-knowledge\_proof#Zero\_knowledge\_types) of ZK systems, Tornado.cash relies upon a variant known as "succinct non-interactive arguments of knowledge" (SNARK), specifically a variant called GROTH16.
 
-
-
 #### Circom and snarkjs
 
 Because we're not all Vitalik, it's best if we have some simple tools that will abstract away the generation and execution of these complicated polynomial commitments. This is where [Circom](https://docs.circom.io) and [snarkjs](https://github.com/iden3/snarkjs) come in.
@@ -66,6 +64,6 @@ The core deposit circuit is what most users interact with, proving that a user h
 
 The anonymity mining circuits form the basis for the Anonymity Mining program, which incentivizes users to leave their deposits in the contract for longer periods of time, so as to ensure that the Tornado.cash deposit pools maintain a large number of active deposits (thus increasing [k-anonymity](https://en.wikipedia.org/wiki/K-anonymity) for other users).
 
-{% content-ref url="anonymity-mining.md" %}
-[anonymity-mining.md](anonymity-mining.md)
+{% content-ref url="anonymity-mining/" %}
+[anonymity-mining](anonymity-mining/)
 {% endcontent-ref %}

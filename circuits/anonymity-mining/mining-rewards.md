@@ -5,7 +5,7 @@ description: >-
   accounts until swapped for TORN.
 ---
 
-# Mining Rewards
+# Reward Claim
 
 ## Account Tree
 
@@ -112,3 +112,29 @@ As a last step, the args hash is squared into a public output, to ensure that th
 
 ## Completing the Reward Transaction
 
+Using the generated proof, we can now call the `reward` method of the Miner contract.
+
+The reward method takes the proof, and the public inputs to the proof, and verifies:
+
+1. The input account nullifier has not already been used
+2. The output account path corresponds to the input root leaf index
+3. The deposit and withdrawal roots are the current or previous roots of the Tornado Trees contract (are known roots)
+4. The args hash is correct with respect to the extData args
+5. The relayer fee is within a valid 248-bit integer range
+6. The reward rate equals what is expected for the Tornado instance specified
+7. The reward has not already been claimed according to the reward nullifier
+8. The proof is valid according to the Reward verifier, using the public inputs provided
+
+If these preconditions are met, then:
+
+1. The input account is nullified
+2. The reward is nullified
+3. The account tree root is updated to the specified output account root
+4. If applicable, the relayer is rewarded TORN using the fee AP at the current AMM rate
+5. A New Account event is emitted
+
+#### Batch Rewards
+
+There is an alternate method in the Miner contract which deals with "batch rewards". While most transactions claim rewards individually, batch reward transactions claim multiple rewards at once. This avoids having to wait for the next block for each reward claim, since each claim has to insert a new leaf from the last account root.
+
+A batch reward transaction specifies a sequence of `reward` method parameter sets, which are executed incrementally.
