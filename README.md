@@ -10,7 +10,7 @@ As a decentralized protocol, Tornado.Cash smart contracts have been implemented 
 
 As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
 
-## How privacy is achieved?
+## How is privacy achieved?
 
 Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
 
@@ -18,7 +18,7 @@ To preserve privacy, few good practices are in order, such as the use of a relay
 
 More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) _****_& [Tips to remain anonymous](tips-to-remain-anonymous.md).
 
-## Where is Tornado.Cash at?
+## What is Tornado.Cash running on?
 
 The protocol has been operating on the **Ethereum blockchain** since its inception in 2019. It was recently deployed, in June 2021, on **Binance Smart Chain** & **Polygon**.
 
@@ -34,7 +34,7 @@ The protocol also includes an **anonymity mining system for some of its token**,
 
 More information about [Anonymity mining](anonymity-mining.md) & [Tornado.Cash token](torn.md) are available.
 
-## How does Tornado.Cash run?
+## How does Tornado.Cash work?
 
 [Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain -  are fully **open sourced.** Working as a DAO \(Decentralized Autonomous Organization\), Tornado.Cash governance and mining smart contracts are deployed by its community.
 
