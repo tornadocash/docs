@@ -13,11 +13,11 @@ TORN is an ERC20-compatible token with a fixed supply that governs [Tornado.Cash
 * **55% (5,500,000 TORN):** DAO treasury, will be unlocked linearly over 5 years with 3 month cliff
 * **30% (3,000,000 TORN):** Founding developers and early supporters, will be unlocked linearly over 3 years with 1 year cliff
 
-![](.gitbook/assets/1-bjggju1rn4\_qoxgcljfneq.png)
+![](../.gitbook/assets/1-bjggju1rn4\_qoxgcljfneq.png)
 
-![](.gitbook/assets/1-gmc0jw8zr5xfvrk5zyqmya.png)
+![](../.gitbook/assets/1-gmc0jw8zr5xfvrk5zyqmya.png)
 
-## Airdrop <a href="f04d" id="f04d"></a>
+## Airdrop <a href="#f04d" id="f04d"></a>
 
 Users who have believed in [Tornado.Cash](https://tornado.cash) from early on should have a say in governing the protocol. For this reason, early adopters of the protocol did receive an airdrop of TORN.
 
@@ -25,7 +25,7 @@ TORN has been airdropped to [all addresses](https://github.com/tornadocash/airdr
 
 The airdropped amount depends on users’ deposit size and age — larger deposits and older deposits will receive more TORN. Multipliers for deposit size are logarithmic:
 
-![](.gitbook/assets/1-ogfrad8p3gez14zh4jndiq-2x.png)
+![](../.gitbook/assets/1-ogfrad8p3gez14zh4jndiq-2x.png)
 
 
 
@@ -33,10 +33,10 @@ So a 100 ETH deposit get twice as many tokens as a 1 ETH deposit. The multiplier
 
 The exact curve for the time multiplier looks like this:
 
-![](.gitbook/assets/1-bje88nlnkbe29-zcs5agkw-2x.png)
+![](../.gitbook/assets/1-bje88nlnkbe29-zcs5agkw-2x.png)
 
 The exact airdrop formula is the following:
 
-![](.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
+![](../.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
 
-_Written by _[_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
+_Written by_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)

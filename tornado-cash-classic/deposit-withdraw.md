@@ -8,13 +8,13 @@ This tutorial is a step-by-step explanation of how to deposit & withdraw your fu
 
 Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
 
-![](.gitbook/assets/azpoj.gif)
+![](../.gitbook/assets/azpoj.gif)
 
 ### Select a token
 
 Choose the token you want to deposit and its amount:
 
-![](.gitbook/assets/abdce.gif)
+![](../.gitbook/assets/abdce.gif)
 
 ### Connect your wallet
 
@@ -24,7 +24,7 @@ Click on `Connect` and choose between wallet providers such as Metamask or Walle
 
 Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` (top-right corner).
 
-![](.gitbook/assets/aaaab.gif)
+![](../.gitbook/assets/aaaab.gif)
 
 ### Be patient
 
@@ -38,7 +38,7 @@ Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
 
 Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
 
-![](.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
+![](../.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
 ### Paste your note
 
@@ -46,11 +46,11 @@ Use your deposit note by pasting it in the corresponding box. Click on `Withdraw
 
 ### Confirm the withdrawal
 
-![](.gitbook/assets/abdaaaa.png)
+![](../.gitbook/assets/abdaaaa.png)
 
 Done !
 
-_Written by _[_**@bt11ba**_](https://torn.community/u/bt11ba/)
+_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
 
 
 

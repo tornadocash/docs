@@ -1,4 +1,4 @@
-# How does Tornado.Cash work?
+# How Does Tornado Cash Work?
 
 Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
 
@@ -8,7 +8,16 @@ To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens depos
 
 Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized.&#x20;
 
-When a user puts funds into a pool (a.k.a. the deposit), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
+While tokens are in a Tornado Cash pool, the custody remains in users’ hands. Users, therefore, have a complete control over their tokens.
+
+**For traditional Tornado Cash fixed amount pools**:
+
+* When a user puts funds into a pool (a.k.a. the deposit), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
+
+**For Tornado Cash Nova, the new ETH pool with arbitrary amounts & shielded transfers**:
+
+* Funds are directly linked to a given wallet address. There is no private note or key. Users can access their funds by connecting to the pool with the appropriate address.
+* Custody is either acquired by the act of depositing tokens into the pool or by registering to the pool & receiving shielded transfers from another address.
 
 The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
 
@@ -16,7 +25,7 @@ The strength of such a protocol comes naturally from its number of users and the
 * Leaving a lapse of time between the deposit & the withdrawal action;
 * Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
 
-_More recommendations are provided on: _[_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
 
 ### Contribution of zk-SNARK & hashing process
 
@@ -32,4 +41,4 @@ Deposits are simple on a technological point of view, but expensive in terms of 
 
 
 
-_Written by _[_@ayefda_](https://torn.community/u/ayefda)__
+_Written & edited by_ [_@ayefda_](https://torn.community/u/ayefda)__

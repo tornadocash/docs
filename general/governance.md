@@ -1,5 +1,7 @@
 # Governance
 
+The following governance rules apply to all Tornado Cash pools (including Tornado Cash Nova).
+
 ### How to suggest a proposal ?
 
 In order to participate in Tornado.Cash governance, users first need to lock tokens in the governance contract. If a user votes or creates a proposal, the tokens cannot be unlocked before the proposal execution period ends (8.25 days from proposal creation). The locked tokens can also be delegated to another address.
@@ -36,7 +38,7 @@ Click `Manage` -> `Lock Tab`
 
 Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
 
-![](.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
+![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
 Before the vote, the next crucial step is to review the proposal.\
 &#x20;Legitimate proposals should have a dedicated post on [Torn.community ](https://torn.community)under the category “Proposal”. The forum post will provide additional context and arguments on the proposal. Read the thread and make your own mind on the issue.
@@ -45,11 +47,11 @@ Once a proposal was submitted it should appear on:\
 [https://app.tornado.cash/governance](https://app.tornado.cash/governance)\
 &#x20;Proposal are implemented in the form of a smart contract making changes to the system. It is therefore important to verify the address of the smart-contract and review its code. Find the address of the proposal contract here:
 
-![](.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
+![](../.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
 
 Look for the contract address on Etherscan and make sure that the source code is verified and readable.
 
-![](.gitbook/assets/d2d37d169a94f09156e76fa522b7974cb7c9ac3f.png)
+![](../.gitbook/assets/d2d37d169a94f09156e76fa522b7974cb7c9ac3f.png)
 
 Read the source code and make sure that it matches what is described in the forum post.
 
@@ -75,7 +77,7 @@ You first need to lock your tokens in the governance contract. Click **`Manage`*
 
 Approve the governance contract to transfer your TORN tokens by clicking on the **`Approve`** button. Once the approve is confirmed, chose the amount you want to delegate and click **`Lock`**. Confirm the transaction in your wallet and wait for the confirmation.
 
-![](<.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
+![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
 The last step, is to make the actual delegation. Go again to [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
 
@@ -83,7 +85,7 @@ Click **`Manage`** -> **`Delegate`** tab
 
 Fill-in the address to which you want to delegate and click **`Delegate`**. Approve the transaction in your wallet and wait for confirmation.
 
-![](.gitbook/assets/43c05d176d7f75a336af7a865565c9b23786b98c.png)
+![](../.gitbook/assets/43c05d176d7f75a336af7a865565c9b23786b98c.png)
 
 The totality of your locked balance will be delegated.
 
@@ -91,4 +93,4 @@ You can undelegate at anytime. To undelegate simply use the `Undelegate` Button 
 
 
 
-_Written by _[_@rezan_](https://torn.community/u/Rezan/summary)__
+_Written by_ [_@rezan_](https://torn.community/u/Rezan/summary)__
