@@ -123,10 +123,12 @@
 
 * Governance Contract: [0x5efda50f22d34f262c29268506c5fa42cb56a1ce](https://etherscan.io/address/0x5efda50f22d34f262c29268506c5fa42cb56a1ce)
 * Governance Vault (for locked TORN): [0x2f50508a8a3d323b91336fa3ea6ae50e55f32185](https://etherscan.io/address/0x2f50508a8a3d323b91336fa3ea6ae50e55f32185#tokentxns)
+* Deployer Contract: [0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80](https://etherscan.io/address/0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80)
 * Governance Impl: [0xffbac21a641dcfe4552920138d90f3638b3c9fba](https://etherscan.io/address/0xffbac21a641dcfe4552920138d90f3638b3c9fba)
 * Governance Vesting: [0x179f48c78f57a3a78f0608cc9197b8972921d1d2](https://etherscan.io/address/0x179f48c78f57a3a78f0608cc9197b8972921d1d2)
+* Community Fund: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/eth:0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances)
 * TORN token:[0x77777feddddffc19ff86db637967013e6c6a116c](https://etherscan.io/address/0x77777feddddffc19ff86db637967013e6c6a116c)
-* vTORN token: [0x3efa30704d2b8bbac821307230376556cf8cc39e](https://etherscan.io/address/0x3efa30704d2b8bbac821307230376556cf8cc39e)
+* Voucher TORN token: [0x3efa30704d2b8bbac821307230376556cf8cc39e](https://etherscan.io/address/0x3efa30704d2b8bbac821307230376556cf8cc39e)
 * Mining v2: [0x746aebc06d2ae31b71ac51429a19d54e797878e9](https://etherscan.io/address/0x746aebc06d2ae31b71ac51429a19d54e797878e9)
 
 ### Team Vesting Contracts:
@@ -142,8 +144,8 @@
 
 * Tornado.Cash Trees: [0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce](https://etherscan.io/address/0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce)
 * Tree Update Verifier: [0x653477c392c16b0765603074f157314cc4f40c32](https://etherscan.io/address/0x653477c392c16b0765603074f157314cc4f40c32)
-* Withdraw Verifier: [0x09193888b3f38c82dedfda55259a82c0e7de875e](https://etherscan.io/address/0x09193888b3f38c82dedfda55259a82c0e7de875e)
 * Reward Verifier: [0x88fd245fedec4a936e700f9173454d1931b4c307](https://etherscan.io/address/0x88fd245fedec4a936e700f9173454d1931b4c307)
+* Withdraw Verifier: [0x09193888b3f38c82dedfda55259a82c0e7de875e](https://etherscan.io/address/0x09193888b3f38c82dedfda55259a82c0e7de875e)
 * Reward Swap: [0x5cab7692d4e94096462119ab7bf57319726eed2a](https://etherscan.io/address/0x5cab7692d4e94096462119ab7bf57319726eed2a)
 * Echoer: [0x756c4628e57f7e7f8a459ec2752968360cf4d1aa](https://etherscan.io/address/0x756c4628e57f7e7f8a459ec2752968360cf4d1aa)
 * Proxy: [0x722122df12d4e14e13ac3b6895a86e84145b6967](https://etherscan.io/address/0x722122df12d4e14e13ac3b6895a86e84145b6967)
