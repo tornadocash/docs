@@ -141,18 +141,6 @@
 | Voucher TORN Token                 | [0x3efa30704d2b8bbac821307230376556cf8cc39e](https://etherscan.io/address/0x3efa30704d2b8bbac821307230376556cf8cc39e)            |
 | Mining v2                          | [0x746aebc06d2ae31b71ac51429a19d54e797878e9](https://etherscan.io/address/0x746aebc06d2ae31b71ac51429a19d54e797878e9)            |
 
-### Team Vesting Contracts:
-
-
-
-| Contract     | Address                                                                                                               |
-| ------------ | --------------------------------------------------------------------------------------------------------------------- |
-| <p>1<br></p> | [0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2](https://etherscan.io/address/0x5f48c2a71b2cc96e3f0ccae4e39318ff0dc375b2) |
-| 2            | [0x00d5ec4cdf59374b2a47e842b799027356eac02b](https://etherscan.io/address/0x00d5ec4cdf59374b2a47e842b799027356eac02b) |
-| 3            | [0x77c08248c93ab53ff734ac555c932f8b9089d4c9](https://etherscan.io/address/0x77c08248c93ab53ff734ac555c932f8b9089d4c9) |
-| 4            | [0xc3877028655ebe90b9447dd33de391c955ead267](https://etherscan.io/address/0xc3877028655ebe90b9447dd33de391c955ead267) |
-| 5            | [0xb43432ec23e228fb7cb0fa52968949458b509f4f](https://etherscan.io/address/0xb43432ec23e228fb7cb0fa52968949458b509f4f) |
-
 ### Other Contracts
 
 | Contract             | Address                                                                                                               |
