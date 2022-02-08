@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/image.png)
 
-Torxnado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space.
+Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space.
 
 As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
 
