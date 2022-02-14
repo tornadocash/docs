@@ -1,6 +1,6 @@
 # Introducción de Tornado Cash
 
-![](.gitbook/activos/imagen.png)
+![](.gitbook/assets/image.png)
 
 Tornado Cash es un **protocolo totalmente descentralizado** y **sin custodia** que permite transacciones privadas en el espacio cripto.
 
@@ -14,7 +14,7 @@ Tornado Cash mejora la privacidad de las transacciones al romper el vínculo que
 
 Para preservar la privacidad, se recomiendan algunas buenas prácticas, como el uso de un repetidor para los pagos de gas para retirar fondos hacia una dirección sin saldo preexistente.
 
-Hay más detalles disponibles en _Detrás de escena:_ [_¿Cómo funciona Tornado.Cash?_](general/how-does-tornado.cash-work.md) _\*\*\*\*_ & [Consejos para permanecer anónimo](general/consejos-para-permanecer-anónimo.md).
+Hay más detalles disponibles en _Detrás de escena:_ [_¿Cómo funciona Tornado.Cash?_](general/how-does-tornado.cash-work.md) _\*\*\*\*_ & [Consejos para permanecer anónimo](general/tips-to-remain-anonymous.md).
 
 ## ¿Dónde está Tornado.Cash?
 
@@ -32,7 +32,7 @@ Por lo tanto, a partir de hoy, Tornado Cash está operando actualmente en:
 * **Optimism**, como Layer-2 "L2" para **ETH** (Ethereum),
 * **Arbitrum One**, como Layer-2 "L2" de **ETH** (Ethereum).
 
-![](.gitbook/assets/logotipos.png)
+![](.gitbook/assets/logos.png)
 
 Hasta diciembre de 2021, el protocolo incluía un sistema de extracción de anonimato para algunos de estos tokens, lo que permitía a sus usuarios obtener un token de gobernanza llamado (**TORN**). Los usuarios finalmente pudieron ganar TORN depositando en los pools de ETH, DAI, cDAI y WBTC.
 
