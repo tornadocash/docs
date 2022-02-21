@@ -4,9 +4,9 @@ Before diving in tutorials explaining & easing the use of Tornado.Cash, here is 
 
 ### Global overview of Tornado.Cash functioning
 
-To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets.&#x20;
+To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets.
 
-Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized.&#x20;
+Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized.
 
 While tokens are in a Tornado Cash pool, the custody remains in users’ hands. Users, therefore, have a complete control over their tokens.
 
@@ -39,6 +39,4 @@ Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial comm
 
 Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
 
-
-
-_Written & edited by_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Written & updated by_ [_@ayefda_](https://torn.community/u/ayefda)

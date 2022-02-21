@@ -58,4 +58,4 @@ The protocol also functions with zk-SNARK, which enables zero-knowledge proofs a
 
 User interface is hosted on **IPFS** (InterPlanetary File System) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it.
 
-_Written & edited by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+_Written & updated by_ [_@ayefda_](https://torn.community/u/ayefda)

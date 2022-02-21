@@ -6,9 +6,10 @@
 * [Tornado Cash Smart Contracts](general/tornado-cash-smart-contracts.md)
 * [How Does Tornado Cash Work?](general/how-does-tornado.cash-work.md)
 * [Tips to Remain Anonymous](general/tips-to-remain-anonymous.md)
-* [Governance](general/governance.md)
-* [Community Involvement](general/community-involvement.md)
 * [TORN](general/torn.md)
+* [Governance](general/governance.md)
+* [Staking](general/staking.md)
+* [Community Involvement](general/community-involvement.md)
 * [Minified UI Hosted Locally](general/minified-ui-hosted-locally.md)
 
 ## Tornado Cash Classic

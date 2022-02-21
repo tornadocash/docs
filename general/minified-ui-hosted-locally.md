@@ -64,6 +64,8 @@ services:
 
 Enjoy your Tornado Cash UI 🌪
 
-
-
 _This tutorial is inspired from the_[ _README.md document_](https://github.com/tornadocash/ui-minified/blob/gh-pages/README.md) _present in the Github repository._
+
+__
+
+_Written by_ [_@ayefda_](https://torn.community/u/ayefda)
