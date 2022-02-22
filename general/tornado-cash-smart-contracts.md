@@ -1,14 +1,14 @@
-# Tornado Cash Smart Contracts
+# Tornado Cash Akıllı Kontratları
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain - are fully **open sourced.** This page regroups all information regarding Tornado Cash smart contracts.
+[Tornado.Cash işleyişinin arkasındaki kodlar](https://github.com/tornadocash) - akıllı kontaklar, devreler ve araç bilgileri - tamamen açık kaynaklıdır. Bu sayfa, Tornado Cash akıllı sözleşmeleriyle ilgili tüm bilgileri yeniden gruplandırır.
 
-## Smart Contracts Adresses
+## Akıllı Kontrat Adresleri
 
-### Tornado Cash Classic - Pools Contracts
+### Tornado Cash Classic - Havuz Sözleşmeleri
 
 * Ethereum Mainnet
 
-| Contract       | Address                                                                                                                                                                                                                                                                     |
+| Kontrat        | Adres                                                                                                                                                                                                                                                                       |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH        | [0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc](https://etherscan.io/address/0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc)                                                                                                                                                       |
 | 1 ETH          | [0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936](https://etherscan.io/address/0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936)                                                                                                                                                       |
@@ -32,7 +32,7 @@
 
 * Arbitrum
 
-| Contract | Address                                                                                                              |
+| Kontrat  | Adres                                                                                                                |
 | -------- | -------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH  | [0x84443CFd09A48AF6eF360C6976C5392aC5023a1F](https://arbiscan.io/address/0x84443CFd09A48AF6eF360C6976C5392aC5023a1F) |
 | 1 ETH    | [0xd47438C816c9E7f2E2888E060936a499Af9582b3](https://arbiscan.io/address/0xd47438C816c9E7f2E2888E060936a499Af9582b3) |
@@ -41,7 +41,7 @@
 
 * Optimism
 
-| Contract | Address                                                                                                                          |
+| Kontrat  | Adres                                                                                                                            |
 | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH  | [0x84443CFd09A48AF6eF360C6976C5392aC5023a1F](https://optimistic.etherscan.io/address/0x84443CFd09A48AF6eF360C6976C5392aC5023a1F) |
 | 1 ETH    | [0xd47438C816c9E7f2E2888E060936a499Af9582b3](https://optimistic.etherscan.io/address/0xd47438C816c9E7f2E2888E060936a499Af9582b3) |
@@ -50,16 +50,16 @@
 
 * BSC
 
-| Contract | Address                                                                                                              |
+| Kontrat  | Adres                                                                                                                |
 | -------- | -------------------------------------------------------------------------------------------------------------------- |
 | 0.1 BNB  | [0x84443CFd09A48AF6eF360C6976C5392aC5023a1F](https://bscscan.com/address/0x84443CFd09A48AF6eF360C6976C5392aC5023a1F) |
 | 1 BNB    | [0xd47438C816c9E7f2E2888E060936a499Af9582b3](https://bscscan.com/address/0xd47438C816c9E7f2E2888E060936a499Af9582b3) |
 | 10 BNB   | [0x330bdFADE01eE9bF63C209Ee33102DD334618e0a](https://bscscan.com/address/0x330bdFADE01eE9bF63C209Ee33102DD334618e0a) |
 | 100 BNB  | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://bscscan.com/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD) |
 
-* xDAI
+* Gnosis Chain
 
-| Contract     | Address                                                                                                                                           |
+| Kontrat      | Adres                                                                                                                                            |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 100 xDAI     | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://blockscout.com/xdai/mainnet/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD/transactions) |
 | 1,000 xDAI   | [0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178](https://blockscout.com/xdai/mainnet/address/0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178/transactions) |
@@ -68,7 +68,7 @@
 
 * MATIC
 
-| Contract      | Address                                                                                                                  |
+| Kontrat       | Adres                                                                                                                    |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | 100 MATIC     | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://polygonscan.com/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD) |
 | 1,000 MATIC   | [0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178](https://polygonscan.com/address/0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178) |
@@ -77,7 +77,7 @@
 
 * AVAX
 
-| Contract | Address                                                                                                               |
+| Kontrat  | Adre  s                                                                                                               |
 | -------- | --------------------------------------------------------------------------------------------------------------------- |
 | 10 AVAX  | [0x330bdFADE01eE9bF63C209Ee33102DD334618e0a](https://snowtrace.io/address/0x330bdFADE01eE9bF63C209Ee33102DD334618e0a) |
 | 100 AVAX | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://snowtrace.io/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD) |
@@ -85,7 +85,7 @@
 
 * Goerli
 
-| Contract       | Address                                                                                                                      |
+| Kontrat        | Adres                                                                                                                        |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH        | [0x6Bf694a291DF3FeC1f7e69701E3ab6c592435Ae7](https://goerli.etherscan.io/address/0x6Bf694a291DF3FeC1f7e69701E3ab6c592435Ae7) |
 | 1 ETH          | [0x3aac1cC67c2ec5Db4eA850957b967Ba153aD6279](https://goerli.etherscan.io/address/0x3aac1cC67c2ec5Db4eA850957b967Ba153aD6279) |
@@ -107,9 +107,9 @@
 | 1 WBTC         | [0x776198CCF446DFa168347089d7338879273172cF](https://goerli.etherscan.io/address/0x776198CCF446DFa168347089d7338879273172cF) |
 | 10 WBTC        | [0xeDC5d01286f99A066559F60a585406f3878a033e](https://goerli.etherscan.io/address/0xeDC5d01286f99A066559F60a585406f3878a033e) |
 
-### Tornado Cash Nova - Pool contracts (beta)
+### Tornado Cash Nova - Havuz Kontratları (beta)
 
-| Contract             | Address                                                                                                                                           |
+| Kontrat              | Adres                                                                                                                                             |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Contract             | [0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696](https://blockscout.com/xdai/mainnet/address/0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696/transactions) |
 | L1 Omnibridge Helper | [0xca0840578f57fe71599d29375e16783424023357](https://etherscan.io/address/0xca0840578f57fe71599d29375e16783424023357)                             |
@@ -117,21 +117,21 @@
 | Verifier 16          | [0x743494b60097A2230018079c02fe21a7B687EAA5](https://blockscout.com/xdai/mainnet/address/0x743494b60097A2230018079c02fe21a7B687EAA5/transactions) |
 | Hasher               | [0x94C92F096437ab9958fC0A37F09348f30389Ae79](https://blockscout.com/xdai/mainnet/address/0x94C92F096437ab9958fC0A37F09348f30389Ae79/transactions) |
 
-### Governance Contracts:
+### Yönetişim Kontratları:
 
-| Contract                           | Address                                                                                                                          |
+| Kontrat                            | Adres                                                                                                                            |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Governance Contract                | [0x5efda50f22d34f262c29268506c5fa42cb56a1ce](https://etherscan.io/address/0x5efda50f22d34f262c29268506c5fa42cb56a1ce)            |
-| Governance Vault (for locked TORN) | [0x2f50508a8a3d323b91336fa3ea6ae50e55f32185](https://etherscan.io/address/0x2f50508a8a3d323b91336fa3ea6ae50e55f32185#tokentxns)  |
-| Deployer Contract                  | [0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80](https://etherscan.io/address/0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80)            |
-| Governance Impl                    | [0xffbac21a641dcfe4552920138d90f3638b3c9fba](https://etherscan.io/address/0xffbac21a641dcfe4552920138d90f3638b3c9fba)            |
+| Yönetişim Kontratı                 | [0x5efda50f22d34f262c29268506c5fa42cb56a1ce](https://etherscan.io/address/0x5efda50f22d34f262c29268506c5fa42cb56a1ce)            |
+| Yönetişim Kasası (TORN kilitli)    | [0x2f50508a8a3d323b91336fa3ea6ae50e55f32185](https://etherscan.io/address/0x2f50508a8a3d323b91336fa3ea6ae50e55f32185#tokentxns)  |
+| Deployer Kontratı                  | [0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80](https://etherscan.io/address/0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80)            |
+| Yönetişim Impl                     | [0xffbac21a641dcfe4552920138d90f3638b3c9fba](https://etherscan.io/address/0xffbac21a641dcfe4552920138d90f3638b3c9fba)            |
 | Governance Vesting                 | [0x179f48c78f57a3a78f0608cc9197b8972921d1d2](https://etherscan.io/address/0x179f48c78f57a3a78f0608cc9197b8972921d1d2)            |
-| Community Fund                     | [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/eth:0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances) |
+| Topluluk Fonu                      | [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/eth:0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances) |
 | TORN Token                         | [0x77777feddddffc19ff86db637967013e6c6a116c](https://etherscan.io/address/0x77777feddddffc19ff86db637967013e6c6a116c)            |
 | Voucher TORN Token                 | [0x3efa30704d2b8bbac821307230376556cf8cc39e](https://etherscan.io/address/0x3efa30704d2b8bbac821307230376556cf8cc39e)            |
-| Mining v2                          | [0x746aebc06d2ae31b71ac51429a19d54e797878e9](https://etherscan.io/address/0x746aebc06d2ae31b71ac51429a19d54e797878e9)            |
+| Madencilik v2                      | [0x746aebc06d2ae31b71ac51429a19d54e797878e9](https://etherscan.io/address/0x746aebc06d2ae31b71ac51429a19d54e797878e9)            |
 
-### Relayer Registry
+### Relayer Girişleri
 
 | Contract                          | Address                                                                                                               |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -145,7 +145,7 @@
 | Proxy of instanceRegistryContract | [0xB20c66C4DE72433F3cE747b58B86830c459CA911](https://etherscan.io/address/0xB20c66C4DE72433F3cE747b58B86830c459CA911) |
 | InstanceRegistry                  | [0x2573BAc39EBe2901B4389CD468F2872cF7767FAF](https://etherscan.io/address/0x2573BAc39EBe2901B4389CD468F2872cF7767FAF) |
 
-### Other Contracts
+### Diğer Kontratlar
 
 | Contract             | Address                                                                                                               |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -162,9 +162,9 @@
 | Poseidon 3           | [0xd82ed8786d7c69dc7e052f7a542ab047971e73d2](https://etherscan.io/address/0xd82ed8786d7c69dc7e052f7a542ab047971e73d2) |
 | Gitcoin Grants       | [0xdd4c48c0b24039969fc16d1cdf626eab821d3384](https://etherscan.io/address/0xdd4c48c0b24039969fc16d1cdf626eab821d3384) |
 
-## GitHub links
+## GitHub Linkleri
 
-* Tornado Cash core code:
+* Tornado Cash çekirdek kod:
 
 {% embed url="https://github.com/tornadocash/tornado-core" %}
 
@@ -188,4 +188,5 @@
 
 {% embed url="https://github.com/tornadocash/tornado-anonymity-mining" %}
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda) _&_ [_@bt11ba_](https://torn.community/u/bt11ba/)
+Bu makale [@ayefda](https://torn.community/u/ayefda) ve [@bt11ba](https://torn.community/u/bt11ba/) tarafından yazılmıştır.
+Türkçe versiyonu için [armog](https://twitter.com/armogedd0n)'a teşekkürler.
