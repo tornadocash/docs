@@ -1,26 +1,26 @@
-# Table of contents
+# İçindekiler
 
-## General
+## Genel İçerikler
 
-* [Introduction of Tornado Cash](README.md)
-* [Tornado Cash Smart Contracts](general/tornado-cash-smart-contracts.md)
-* [How Does Tornado Cash Work?](general/how-does-tornado.cash-work.md)
-* [Tips to Remain Anonymous](general/tips-to-remain-anonymous.md)
-* [TORN](general/torn.md)
-* [Governance](general/governance.md)
+* [Tornado.Cash'e Giriş](README.md)
+* [Tornado Cash Akıllı Kontratları](general/tornado-cash-smart-contracts.md)
+* [Tornado.Cash nasıl çalışır?](general/how-does-tornado.cash-work.md)
+* [Anonim Kalma İpuçları](general/tips-to-remain-anonymous.md)
+* [Yönetişim](general/governance.md)
+* [Topluluk Katılımı](general/community-involvement.md)
 * [Staking](general/staking.md)
-* [Community Involvement](general/community-involvement.md)
-* [Minified UI Hosted Locally](general/minified-ui-hosted-locally.md)
+* [TORN](general/torn.md)
+* [Lokalde Tutulan Kullanıcı Arayüzü](general/minified-ui-hosted-locally.md)
 
 ## Tornado Cash Classic
 
-* [Deposit & Withdraw](tornado-cash-classic/deposit-withdraw.md)
-* [Anonymity Mining](tornado-cash-classic/anonymity-mining.md)
-* [Compliance Tool](tornado-cash-classic/compliance-tool.md)
+* [Yatırma ve Çekme](tornado-cash-classic/deposit-withdraw.md)
+* [Anonim Madencilik](tornado-cash-classic/anonymity-mining.md)
+* [Uyumluluk Aracı](tornado-cash-classic/compliance-tool.md)
 
 ## Tornado Cash Nova
 
-* [Logging In Tornado Cash Nova](tornado-cash-nova/logging-in-tornado-cash-nova.md)
-* [Fund & Withdraw on Nova](tornado-cash-nova/fund-and-withdraw-on-nova.md)
-* [Shielded Transfers on Nova](tornado-cash-nova/shielded-transfers-on-nova.md)
-* [More Anonymity Tips](tornado-cash-nova/more-anonymity-tips.md)
+* [Tornado Cash Nova’da Oturum Açma](tornado-cash-nova/logging-in-tornado-cash-nova.md)
+* [Nova’da Yatırma ve Çekim](tornado-cash-nova/fund-and-withdraw-on-nova.md)
+* [Nova’da Korumalı Transferler](tornado-cash-nova/shielded-transfers-on-nova.md)
+* [Daha Fazla Anonim Kalma İpuçları](tornado-cash-nova/more-anonymity-tips.md)
