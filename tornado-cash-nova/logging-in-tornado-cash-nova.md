@@ -1,66 +1,67 @@
-# Logging In Tornado Cash Nova
+# Tornado Cash Nova'da Oturum Açma
 
-Launched in December 2021, Tornado Cash Nova offers the freedom to choose customized amounts for transactions, as well as the ability to transfer tokens without leaving the anonymity pool. With such unique features, this new pool requires its own set of instructions.
+Aralık 2021'de piyasaya sürülen Tornado Cash Nova, işlemler için özelleştirilmiş miktar seçme özgürlüğünün yanı sıra anonimlik havuzundan ayrılmadan token transfer etme olanağı sunar. Bu benzersiz özelliklere sahip yeni havuz, kendi özel talimatlarını gerektirir.
 
-Tornado Cash Nova (beta version) can be accessed through its own decentralized app at[ nova.tornadocash.eth.link](https://nova.tornadocash.eth.link).
+Tornado Cash Nova'ya (beta sürümü) kendi merkeziyetsiz uygulaması aracılığıyla[ nova.tornadocash.eth.link](https://nova.tornadocash.eth.link) adresinden erişilebilir.
 
 ![](https://i.imgur.com/F8pojDs.png)
 
-First of all, welcome to Tornado Cash Nova pool & let’s discover how this brand new tool functions 🌪
+Her şeyden önce, Tornado Cash Nova havuzuna hoş geldiniz ve bu yepyeni aracın nasıl çalıştığını keşfedelim 🌪
 
-## Log In <a href="#log-in-nova" id="log-in-nova"></a>
+## Oturum Açın <a href="#log-in-nova" id="log-in-nova"></a>
 
 ![](https://i.imgur.com/uHPTk13.png)
 
-You can log into your Tornado Cash Nova account either by:
+Tornado Cash Nova hesabınıza şu yollarla giriş yapabilirsiniz:
 
-* **connecting the MetaMask Wallet** with the address linked to your Nova account,
-* **using the Shielded Key** that was generated alongside the creation of your account.
+* **MetaMask Cüzdanını** Nova hesabınıza bağlı adrese bağlama,
+* **Hesabınızın oluşturulmasıyla birlikte oluşturulan Korumalı Anahtarı** kullanarak.
 
-Each account is connected to a unique **shielded address** (as well as a unique **shielded key**) that can both be used to log in & manage your balance within the Nova pool.
+Her hesap benzersiz bir **korumalı adrese** (aynı zamanda benzersiz bir **korumalı anahtar**) bağlıdır; bu, hem oturum açmak hem de Nova havuzundaki bakiyenizi yönetmek için kullanılabilir.
 
-### Tornado Cash Nova Account <a href="#tornado-cash-nova-account" id="tornado-cash-nova-account"></a>
+### Tornado Cash Nova Hesabı <a href="#tornado-cash-nova-account" id="tornado-cash-nova-account"></a>
 
-Logging into the Nova pool will allow you to:
+Nova havuzuna giriş yapmak şunları yapmanızı sağlar:
 
-* **check your shielded balance** which represents the amount of tokens currently owned in the Nova pool,
-* **fund your balance** with further tokens,
-* **transfer the custody of tokens** to another shielded address registered to the pool,
-* **withdraw any desired amount of tokens** through the destination address of your chosing.
+* **şu anda Nova havuzunda sahip olunan token miktarını temsil eden korumalı bakiyenizi kontrol edin**,
+* **bakiyenizi** daha fazla tokenla finanse edin,
+* **tokenlerin muhafazasını** havuza kayıtlı başka bir korumalı adrese devretmek,
+* **istediğiniz miktarda tokenı** seçtiğiniz hedef adres üzerinden çekin.
 
-Only those who have access to your Metamask wallet or to your Shielded key will be able to access these informations regarding your account (i.e. your shielded balance).\
-⚠️ Be aware of which information you share with whom.
+Yalnızca Metamask cüzdanınıza veya Korumalı anahtarınıza erişimi olanlar hesabınızla (yani korumalı bakiyeniz) ilgili bu bilgilere erişebilir.\
+⚠️ Hangi bilgileri kiminle paylaştığınızın farkında olun.
 
-### MetaMask Wallet <a href="#metamask-wallet" id="metamask-wallet"></a>
+### MetaMask Cüzdanı <a href="#metamask-cüzdan" id="metamask-cüzdan"></a>
 
-Each Tornado Cash Nova account is linked to a shielded address. As mentionned above, users have two ways to access their account & its balance. One of these ways is **through a MetaMask wallet connected to the appropriate shielded address**.
+Her Tornado Cash Nova hesabı, korumalı bir adrese bağlıdır. Yukarıda belirtildiği gibi, kullanıcıların hesaplarına ve bakiyesine erişmenin iki yolu vardır. Bu yollardan biri **uygun korumalı adrese bağlı bir MetaMask cüzdanıdır**.
 
 ![](https://i.imgur.com/idXaco8.png)
 
-A shielded address is automatically created when users log in a given address, then deposit tokens to funs this address’ pool balance.
+Kullanıcılar belirli bir adrese giriş yaptığında, korumalı bir adres otomatik olarak oluşturulur ve ardından bu adresin havuz bakiyesini işlemek için token yatırır.
 
-_More information about the Funding action is availaible on “Fund & Withdraw on Nova (put link)”_
+_Finansman eylemi hakkında daha fazla bilgi "Nova'da Yatırma ve Para Çekme (bağlantıyı koy)" sayfasında mevcuttur_
 
-However, shielded addresses can also be created from scratch as a separate action by logging in a new address with no prior link to Tornado Cash Nova, then by clicking on `Set up account`.
+Bununla birlikte, korumalı adresler, Tornado Cash Nova'ya önceden bağlantı olmadan yeni bir adreste oturum açarak ve ardından "`Set up account`"a tıklayarak ayrı bir işlem olarak sıfırdan da oluşturulabilir.
 
-By confirming this action through your Metamask account, your shielded address will be crypted & created with the generation of a shielded key.
+Bu eylemi Metamask hesabınız aracılığıyla onayladığınızda, korumalı adresiniz şifrelenecek ve korumalı bir anahtar oluşturulacaktır.
 
 ![](https://i.imgur.com/8q7DYeh.png)
 
-Once the account set, you will be able to receive shielded transfers of tokens from any another address registered to the pool. You will also be able to fund, transfer & withdraw tokens as you wish.
+Hesap ayarlandıktan sonra, havuza kayıtlı başka herhangi bir adresten korumalı token transferleri alabileceksiniz. Ayrıca tokenları dilediğiniz gibi yatırabilir, aktarabilir ve çekebilirsiniz.
 
-### Shielded Key <a href="#shielded-key" id="shielded-key"></a>
+### Korumalı Anahtar <a href="#shielded-key" id="shielded-key"></a>
 
-As seen above, the other way to log in is **through the generated Shielded Key** that is created when an account is created through the set up of a new shielded address.
+Yukarıda görüldüğü gibi, oturum açmanın diğer yolu, yeni bir korumalı adresin ayarlanması yoluyla bir hesap oluşturulduğunda oluşturulan **oluşturulan Korumalı Anahtar** aracılığıyladır.
 
-Once you are logged in with your address & your account is set up, you can download this shielded key at any time by accessing your account data (by clicking on your address, next to your shielded balance).
+Adresinizle oturum açtıktan ve hesabınız ayarlandıktan sonra, bu korumalı anahtarı istediğiniz zaman hesap verilerinize erişerek (korumalı bakiyenizin yanındaki adresinize tıklayarak) indirebilirsiniz.
 
 ![](https://i.imgur.com/RFac1HU.png)
 
 ![](https://i.imgur.com/F2Scf8w.png)
 
-To obtain full privacy, the same good practices that were recommended for traditional Tornado Cash pools are still required. _You can find guidelines to maintain privacy in the protocol’s documentation:_ [_Tips to remain anonymous_](../general/tips-to-remain-anonymous.md) _&_ [_More anonymity tips_](more-anonymity-tips.md)_._
+Tam mahremiyet elde etmek için geleneksel Tornado Cash havuzları için önerilen aynı iyi uygulamalar hala gereklidir. _Gizliliği korumak için kuralları protokolün belgelerinde bulabilirsiniz:_ [_Anonim kalma ipuçları_](../general/tips-to-remain-anonymous.md) _&_ [_Daha fazla anonimlik ipuçları_](more-anonymity-tips.md) _._
 
 __
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+Yazan [@ayefda](https://torn.community/u/ayefda)
+Türkçe çeviri için [armog](https://twitter.com/armogedd0n)'a teşekkürler
