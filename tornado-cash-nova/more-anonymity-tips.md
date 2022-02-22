@@ -1,46 +1,47 @@
-# More Anonymity Tips
+# Daha Fazla Anonim Kalma İpuçları
 
-For this section, we refer you to the [tips-to-remain-anonymous.md](../general/tips-to-remain-anonymous.md "mention") tutorial as a first step. All points mentioned in this tutorial still apply to Tornado Cash Nova.
+Bu bölüm için, ilk adım olarak sizi [tips-to-remain-anonymous.md](../general/tips-to-remain-anonymous.md "mention") eğitimine yönlendiriyoruz. Bu eğitimde bahsedilen tüm noktalar Tornado Cash Nova için geçerlidir.
 
-As a quick reminder, these tips include:
+Hızlı bir hatırlatma olarak, bu ipuçlar şunları içerir:
 
-* Using of a VPN,
-* Not sharing the shielded key or the access to this shielded address
-* If downloaded, keeping this shielded key in a safe place,
-* Deleting data after use,
-* Avoiding the use of the same API token for all transactions,
-* Being patient between the moment of deposit & withdrawal,
-* Using multiple addresses for withdrawal.
+* VPN kullanımı,
+* Korumalı anahtarı veya bu korumalı adrese erişimi paylaşmamak
+* İndirildiyse, bu korumalı anahtarı güvenli bir yerde saklamak,
+* Kullanım sonrası verilerin silinmesi,
+* Tüm işlemlerde aynı API kullanılmasından kaçınılması,
+* Para yatırma ve çekme anları arasında sabırlı olmak,
+* Para çekmek için birden fazla adres kullanmak.
 
-However, with its new features, Tornado Cash Nova requires further precautions to maintain anonymity.
+Ancak yeni özellikleriyle Tornado Cash Nova, anonimliği korumak için daha fazla önlem gerektiriyor.
 
-## Use of Relayers <a href="#use-of-relayers" id="use-of-relayers"></a>
+## Aktarıcıların Kullanımı <a href="#use-of-relayers" id="use-of-relayers"></a>
 
-Gas fees payments are necessary for transactions. For shielded transfers & withdrawals, two payment methods are available to provide ETH for gas fee. You can either **connect your wallet or use a Relayer**.
+İşlemler için gaz ücreti ödemeleri gereklidir. Korumalı transferler ve para çekme işlemleri için, gas ücreti karşılığında ETH sağlamak için iki ödeme yöntemi mevcuttur. **Cüzdanınızı bağlayabilir veya bir Relayer** kullanabilirsiniz.
 
-Going through your wallet for this gas fee can compromise the anonymity of the transaction if used ETH are linkable to your identity. Therefore, **it is recommended to use a Relayer to preserve privacy**
+Bu gas ücreti için cüzdanınızı gözden geçirmek, kullanılan ETH kimliğinizle bağlantılıysa işlemin gizliliğini tehlikeye atabilir. Bu nedenle, **gizliliği korumak için Aktarıcı kullanılması önerilir**
 
 ![Tips1](https://i.imgur.com/PsZ89Ym.png)
 
-## Choice of Withdrawal Amounts <a href="#choice-of-withdrawal-amounts" id="choice-of-withdrawal-amounts"></a>
+## Para Çekme Tutarlarının Seçimi <a href="#çekilme-seçimi-miktarları" id="çekilme-seçimi-tutarları"></a>
 
-The customized amounts feature offers more flexibility & freedom of usage. However, it can compromise your privacy if used carelessly.
+Özelleştirilmiş miktarlar özelliği, daha fazla esneklik ve kullanım özgürlüğü sunar. Ancak dikkatsizce kullanılırsa gizliliğinizi tehlikeye atabilir.
 
-### Choosing predefined amounts for withdrawals <a href="#choosing-predefined-amounts-for-withdrawals" id="choosing-predefined-amounts-for-withdrawals"></a>
+### Para çekme işlemleri için önceden tanımlanmış tutarları seçme <a href="#choosing-predefined-amounts-for-drawals" id="choosing-predefined-amounts-for-drawals"></a>
 
-![Tips2](https://i.imgur.com/dKYvNQT.png)
+![İpuçları2](https://i.imgur.com/dKYvNQT.png)
 
-Choosing one of the four predefined amounts is strongly recommended as it will allow your withdrawal to blend with the crowd and remain anonymous.
+Önceden tanımlanmış dört miktardan birini seçmeniz, para çekme işleminizin kalabalık işlem grubuna karışmasına ve anonim kalmasına izin vereceği için şiddetle tavsiye edilir.
 
-You still have the freedom to `Set custom` to withdraw a customized amount of you choice. However, depending on the chosen amount, a connection might be deduced between your initial fund transaction and your withdrawal if:
+Seçtiğiniz özelleştirilmiş bir miktarı çekmek için "Özel ayarla" özgürlüğüne hala sahipsiniz. Ancak, seçilen miktara bağlı olarak, aşağıdaki durumlarda ilk fon işleminiz ile para çekme işleminiz arasında bir bağlantı kurulabilir:
 
-* the initially funded amount & the withdrawn amount are exactly the same,
-* the funded & withdrawn amounts can easily be linked through a sum.
+* başlangıçta yatırılan miktar ve çekilen miktar tamamen aynıdır,
+* yatırılan ve çekilen tutarlar bir meblağ aracılığıyla kolayca ilişkilendirilebilir.
 
-For instance, a deposit of 0.42 ETH can be linked to a withdrawal of exactly 0.42 ETH or two times 0.21 ETH, which might compromise anonymity. However, with a withdrawal of 0.391 ETH, privacy is better preserved as there is no obvious link between the 0.42 & 0.391 amounts.
+Örneğin, 0,42 ETH'lik bir depozito, tam olarak 0,42 ETH'nin veya iki kez 0,21 ETH'nin çekilmesiyle ilişkilendirilebilir ve bu da anonimliği tehlikeye atabilir. Bununla birlikte, 0,391 ETH'lik bir para çekme ile, 0,42 ve 0,391 miktarları arasında belirgin bir bağlantı olmadığı için gizlilik daha iyi korunur.
 
-The custom option should only be chosen with full knowledge of these facts and in complete confidence in your actions.
+Özel seçenek, yalnızca bu gerçekler hakkında tam bilgi sahibi olarak ve eylemlerinize tamamen güvenerek seçilmelidir.
 
 
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+Yazan [@ayefda](https://torn.community/u/ayefda)
+Türkçe versiyonu [armog](https://twitter.com/armogedd0n)
