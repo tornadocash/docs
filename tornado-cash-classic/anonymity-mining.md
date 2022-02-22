@@ -1,89 +1,96 @@
-# Anonymity Mining
+# Anonim Madencilik
 
-Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points (AP) dependent on how long they hedge their assets in a pool.
+Anonim madencilik, bir havuzdaki varlıklarını ne kadar süreyle koruduklarına bağlı olarak katılımcılara anonimlik puanları (AP) vererek herhangi bir token birleştirme veya token karıştırma protokollerinde gizlilik düzeyini artırmaya yönelik bir teşviktir.
 
-_Tornado Cash anonymity mining program began on December 18, 2020 and has ended on December 18, 2021._
+*Bu teşvik 18 Aralık 2020'de başladı ve 18 Aralık 2021'de sona erdi.*
 
-Individuals deposit to any one of the anonymity pools that are supported (ETH, WBTC, DAI or cDAI) and are rewarded a fixed amount of AP per block, over the period their deposit remains in the pool. These points can then be exchanged for TORN once claimed.
+Bireyler, desteklenen anonimlik havuzlarından herhangi birine (ETH, WBTC, DAI veya cDAI) para yatırır ve mevduatlarının havuzda kaldığı süre boyunca block başına sabit bir AP miktarı ile ödüllendirilir. Bu puanlar daha sonra talep edildiğinde TORN ile değiştirilebilir.
 
-### Anonymity points (AP)
+### _Anonim Puanları_ (AP)
 
-_Readers should be aware some lower denomination deposits at the time of writing, do not produce a positive return due to the gas costs required to withdraw, redeem and exchange anonymity points_
+_Okuyucular, yazım sırasında bazı düşük değerli mevduatların farkında olmalıdır. Anonimlik puanlarını çekmek, kullanmak ve değiştirmek için gereken gas maliyetleri nedeniyle olumlu bir getiri sağlamaz._
 
-One of the community members created the resource of [a mining spreadsheet 13](https://torn.community/t/anonymity-mining-spreadsheet/720) that helps calculate annual percentage yield’s (APY’s) for each pool and each denomination set within, through estimating the fees required to claim a reward. **It is highly recommended to view this resource and plan one’s course of action before expecting to earn yield.** At the bottom of the spreadsheet, you can view each pool by selecting the associated tab.
+Topluluk üyelerinden biri, bir ödül talep etmek için gereken ücretleri tahmin ederek, her havuz için yıllık yüzde getirisini (APY'ler) hesaplamaya yardımcı olan bir [madencilik tablosu 13'ün kaynağını oluşturdu](https://torn.community/t/anonymity-mining-spreadsheet/720). Verim kazanmayı beklemeden önce bu kaynağı incelemeniz ve hareket tarzınızı planlamanız şiddetle tavsiye edilir. Tablonun alt kısmında, ilgili sekmeyi seçerek her bir havuzu görüntüleyebilirsiniz.
 
-### How to earn AP
+### AP Nasıl Kazanılır?
 
-1\. Decide what amount and asset to deposit by selecting it through the dropdown menu, before clicking on "Connect" and "Deposit".
+1\. "Bağlan" ve "Para Yatır"a tıklamadan önce menüden hangi tutar ve varlığı yatıracağınızı seçin.
 
-![](../.gitbook/assets/m3fh0gl.png)
+![](https://i.imgur.com/UJv2yQF.png)
 
-2\. Take a record of your depositing note and back it up safely, **do not share this with anyone or risk losing your deposit and reward.**
+2\. Yatırma kanıtınızın (bir nevi dekont) kaydını alın ve güvenli bir şekilde yedekleyin, **bunu kimseyle paylaşmayın** veya yatırdığınız parayı ve ödülünüzü kaybetme riskiyle karşı karşıya kalmayın.
 
-![](../.gitbook/assets/vhustru.png)
+![](https://i.imgur.com/c2wZ7X2.png)
 
-3\. Generate the proof and submit the transaction.
+3\. Kanıtı oluşturun ve işlemi gönderin.
 
-4\. Your deposit should now be viewable on the bottom of the page, you can track how much AP it earns here; remember the longer your deposit remains active, the more AP you earn.
+4\. Para yatırma işleminiz artık sayfanın alt kısmında görüntülenebilir, ne kadar AP kazandığını buradan takip edebilirsiniz; unutmayın, yatırdığınız para ne kadar uzun süre aktif kalırsa, o kadar çok AP kazanırsınız.
 
-![](../.gitbook/assets/k6juetp.png)
+![](https://i.imgur.com/n6wignT.png)
 
-_Notes that are active (not withdrawn) are known as “unspent” notes._
+_Aktif olan (geri çekilmeyen) miktarlar, "harcanmamış" miktar olarak bilinir._
 
-### How to claim AP
+### AP nasıl talep edilir?
 
-1\. First you must create a mining account and store those credentials on-chain for easy recovery (requires a transaction), **like depositing notes, you should never share your mining recovery key with anyone** and ensure to back it up in a safe place. This feature is not supported by hardware wallets so it’s encouraged to store the information as presented_._
+1\. İlk önce bir madencilik hesabı oluşturmalı ve kimlik bilgilerini kolay kurtarma için (bir işlem gerektirir) on-chainde saklamanız gerekir, örneğin not yatırmak gibi, madencilik kurtarma anahtarınızı asla kimseyle paylaşmamalı ve güvenli bir yerde yedeklediğinizden emin olmalısınız. Bu özellik donanım cüzdanları tarafından desteklenmez, bu nedenle bilgilerin sunulduğu şekilde saklanması önerilir.
 
-![](../.gitbook/assets/lskzkgk.png)
+![](https://i.imgur.com/QGAc6EU.png)
 
-2\. Take an active deposit through providing an unspent note and withdraw to an address of preference and decide whether to use a relayer or not (_to maintain a deposit’s anonymity it is always advised to use a relayer_), this will bring the note into a “spent” state.
+2\. Harcanmamış bir depozito sağlayarak aktif bir depozito alın ve bir tercih adresine çekin ve bir aktarıcı kullanıp kullanmamaya karar verin. _(bir mevduatın anonimliğini korumak için her zaman bir aktarıcı kullanılması tavsiye edilir)_
 
-![](../.gitbook/assets/aid86cj.png)
+![](https://i.imgur.com/KvDhONu.png)
 
-**Remember to still keep your depositing notes a secret even after withdrawing, as they still retain the ability to redeem AP.**
 
-![](../.gitbook/assets/bpsqxxr.png)
+**AP'yi kullanma yeteneğini hala korudukları için, para çekildikten sonra bile para yatırma notlarınızın gizli tutmayı unutmayın.**
 
-3\. Visit the mining route of the application and enter your spent note, you may be faced with one of the following situations.
+![](https://i.imgur.com/sETDHt4.png)
 
-* **The ability to claim your spent note**: click the “Claim reward” button and submitting the transaction either by using a relayer or not, once confirmed your AP balance should update to reflect the action.
+3\. Uygulamanın madencilik sayfasını ziyaret edin ve harcanan notunuzu girin, aşağıdaki durumlardan biriyle karşı karşıya kalabilirsiniz.
 
-![](../.gitbook/assets/e9jyqhu.png)
+* **Harcanan notunuzu talep edebilme**: "Ödülü talep et" düğmesini tıklayın ve bir aktarıcı kullanarak veya kullanmayarak işlemi gönderdiğinizde, AP bakiyenizin eylemi yansıtacak şekilde güncellenmesi gerekir.
+
+![](https://i.imgur.com/TNJRYJA.png)
+
 
 &#x20;
 
-* **The inability to claim a spent note:** _“Warning: The note is not yet ready for anonymity mining. You can wait few days before trying again”_ - This means the Merkle trees are out of sync and require a transaction to be updated.
+* **Harcanmış bir notu talep edememe**: _“Uyarı: Not, anonim madencilik için henüz hazır değil. Tekrar denemeden önce birkaç gün bekleyebilirsiniz”_ Bu mesaj, Merkle Tree’nin senkronize olmadığı ve bir işlemin güncellenmesi gerektiği anlamına gelir.
 
-![](../.gitbook/assets/i6qtr0f.png)
+![](https://i.imgur.com/twSXTLg.png)
 
-Updating the trees can be an expensive process, **it is recommended that users with small deposits wait for the larger miners to update the trees, this could take anywhere from a few days to a week**. If you want to view your event relative to the current pending batches. Click the _“Show mining note information”_ hyperlink, here you can also pay the transaction fees to sync the tree relative to your withdrawal through the “Update trees” button.
 
-![](../.gitbook/assets/d8dmxjj.png)
+Merkle Tree güncellemek pahalı bir süreç olabilir. **Küçük mevduatı olan kullanıcıların daha büyük madencilerin Tree güncellemesini beklemeleri önerilir**. Süreç birkaç gün ile bir hafta arasında sürebilir. Etkinliğinizi mevcut bekleyen gruplara göre görüntülemek istiyorsanız. "Madencilik notu bilgilerini göster" bağlantısına tıklayın, burada ayrıca "Tree’leri güncelle" düğmesi aracılığıyla para çekme işleminize göre tree senkronize etmek için işlem ücretlerini de ödeyebilirsiniz.
 
-### How to exchange AP
+![](https://i.imgur.com/daq6GBh.png)
 
-1\. Navigate over to the “Swap” tab on the mining page which can be accessed through the second navigation bar from the top of the page.
 
-![](../.gitbook/assets/ahrjxbq.png)
+### AP Nasıl Değiştirilir?
 
-2\. Enter the amount of AP requested to exchange or select the “Maximum” option to convert your active balance. Below this input, information regarding the current AP/TORN rate and reward output will be displayed. Provide an address of preference to receive the reward, finalise by generating the proof and submitting the transaction through a relayer or not.
+1\. Sayfanın üst kısmındaki ikinci gezinti çubuğundan erişilebilen madencilik sayfasındaki "Swap" sekmesine gidin.
 
-![](../.gitbook/assets/wo55lao.png)
+![](https://i.imgur.com/qjlap8O.png)
 
-3\. If all steps were followed correctly, TORN will be transferred to the address of preference provided in step 2 of this section.
 
-### Closing remarks
+2\. Değiştirilmesi istenen AP miktarını girin veya aktif bakiyenizi dönüştürmek için “Maksimum” seçeneğini seçin. Bu girişin altında mevcut AP/TORN oranı ve ödül çıktısı ile ilgili bilgiler görüntülenecektir. Ödülü almak için bir tercih adresi sağlayın, kanıtı oluşturarak işlemi bir aktarıcı aracılığıyla gönderip kesinleştirin.
 
-Congratulations, you have successfully participated in anonymity mining!
+![](https://i.imgur.com/5OscZgY.png)
 
-It is always recommended to plan when deciding to mine any of the anonymity sets, users should also be aware that the [AP/TORN rate](https://duneanalytics.com/luckyallocator/Daily-AP-TORN-Rate-v2) is dependent on supply and demand, therefore, **the more people that claim the higher the rate becomes, and the less people that claim the lower it becomes**.
 
-For more information on anonymity mining, seek the following resources:
+3\. Tüm adımlar doğru bir şekilde takip edildiyse bu bölümün 2. adımında verilen tercih adresine TORN aktarılacaktır.
 
-* [Tornado.Cash governance proposal article](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
-* [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)&#x20;
-* [Anonymity mining explained (technical)](https://torn.community/t/anonymity-mining-technical-overview/15)
+### Tüm İşlemler Bitince
 
-_Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
+Tebrikler, anonim madenciliğe başarıyla katıldınız!
 
-_Written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)__
+Anonimlik setlerinden herhangi birini kullanmaya karar verirken her zaman plan yapmanız önerilir. Kullanıcılar ayrıca [AP/TORN](https://dune.xyz/luckyallocator/Daily-AP-TORN-Rate-v2) oranının arz ve talebe bağlı olduğunu da bilmelidir. Bu nedenle talep eden kişi sayısı arttıkça oran yükselir, azaldıkça oran düşer.
+
+Anonim madencilik hakkında daha fazla bilgi için aşağıdaki kaynakları tıklayın:
+
+* [Tornado.Cash yönetim önerisi hakkında makale](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
+* [Tornado.Cash anonim madencilik optimizasyonu hakkında makale](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)
+* [Anonim madenciliği detaylı açıklama (teknik)](https://torn.community/t/anonymity-mining-technical-overview/15)
+
+Makalenin yazımı için [_@sockawoo_](https://torn.community/u/sockawoo) ve [_@ethdev_](https://torn.community/u/ethdev) teşekkür ederiz.
+
+Bu dökümanın yazarı [@xgozzy](https://torn.community/u/xgozzy/summary).\
+Türkçe versiyonu için [armog](https://twitter.com/armogedd0n)'a teşekkürler.
