@@ -1,61 +1,59 @@
-# Introduction of Tornado Cash
+# Tornado.Cash'e Giriş
 
-![](.gitbook/assets/image.png)
+![](https://i.imgur.com/ruCVisJ.png)
 
-Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space.
+Tornado Cash, kripto alanında özel işlemlere olanak tanıyan **tamamen merkeziyetsiz ve sansürsüz** bir protokoldür.
 
-As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
+Merkeziyetsiz bir protokol olan Tornado.Cash akıllı sözleşmeleri Ethereum blockchaini içinde uygulanmıştır. Sözleşmeler değiştirilemez veya düzenlenemezdir. Bu nedenle, hiç kimse - ilk geliştiriciler dahil - bunları değiştiremez veya iptal edemez. Tüm yönetişim ve madencilik akıllı sözleşmeleri, topluluk tarafından merkezi olmayan bir şekilde işletilir.
 
-As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
+Gözetim altında olmayan bir protokol olarak, kullanıcılar Tornado.Cash'i işletirken kripto para birimlerinin gözetimini kendi ellerinde tutarlar. Her para yatırma işleminde kullanıcılara varlıkları üzerinde tam kontrol ve yatırılan fonlara erişim sağlayan özel imkan sağlanmış olur.
 
-## How privacy is achieved?
+## Gizlilik Nasıl Uygulanıyor?
 
-Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
+Tornado Cash, kaynak ve hedef adresler arasındaki on-chain bağlantısını keserek işlem gizliliğini sağlıyor. Bir adresten ETH ve diğer token mevduatlarını kabul eden ve farklı bir adresten çekilmelerini sağlayan akıllı bir sözleşme kullanır. Gizliliği korumak amacıyla önceden var olup bakiyesi olmayan bir adrese, para çekmek için gas ödemelerinde bir aktarıcının kullanılması gibi birkaç uygulamaya sahiptir.
 
-To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance.
+Daha fazla ayrıntı için: [Tornado.Cash nasıl çalışır?](https://docs.tornado.cash/v/tu/how-does-tornado.cash-work) & [Anonim kalma ipuçları](https://docs.tornado.cash/v/tu/tips-to-remain-anonymous)
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](general/how-does-tornado.cash-work.md) _\*\*\*\*_ & [Tips to remain anonymous](general/tips-to-remain-anonymous.md).
+## TORN Hangi Platformlarda Çalışıyor?
 
-## Where is Tornado.Cash at?
+Protokol, 2019'daki başlangıcından bu yana Ethereum blockchaininde çalışıyor. Haziran 2021'de Binance Smart Chain ve Polygon üzerinde konuşlandırıldı.
 
-Since its inception in 2019, Tornado Cash has been operating **on the Ethereum blockchain**. The protocol has been offering diversified fixed amount pools for six tokens (ETH, DAI, cDAI, USDC, USDT & WBTC) handled by the Ethereum blockchain.
+Bugün itibariyle Tornado.Cash aşağıdaki tokenlarla kullanılabilir:
 
-From June 2021, in addition to the Ethereum blockchain, Tornado Cash smart contracts **have also been deployed on other side-chains & blockchains**. Theses deployments enabled the tool to either support new tokens or benefit from Layer-2 advantages such as faster and cheaper transactions.
+* Ethereum Blockchain : ETH (Ethereum), DAI (Dai), cDAI (Compound Dai), USDC (USD Coin), USDT (Tether) & WBTC (Wrapped Bitcoin),
+* Binance Smart Chain: BNB (Binance Coin),
+* Polygon Network: MATIC (Polygon),
+* Gnosis Chain (eski adıyla xDAI Chain): xDAI (xDai),
+* Avalanche Mainnet: AVAX (Avalanche),
+* Optimism, Layer-2 ETH (Ethereum),
+* Arbitrum One, Layer-2 ETH (Ethereum)
 
-Therefore, as of today, Tornado Cash is currently operating on:
+![](https://i.imgur.com/eZwQzl2.png)
 
-* **Ethereum Blockchain** : **ETH** (Ethereum), **DAI** (Dai), **cDAI** (Compound Dai), **USDC** (USD Coin), **USDT** (Tether) & **WBTC** (Wrapped Bitcoin),
-* **Binance Smart Chain**: **BNB** (Binance Coin),
-* **Polygon Network**: **MATIC** (Polygon),
-* **Gnosis Chain (former xDAI Chain)**: **xDAI** (xDai),
-* **Avalanche Mainnet**: **AVAX** (Avalanche),
-* **Optimism**, as a Layer-2 for **ETH** (Ethereum),
-* **Arbitrum One**, as a Layer-2 **ETH** (Ethereum).
 
-![](.gitbook/assets/logos.png)
+Aralık 2021'e kadar protokol, bu tokenların bazıları için bir anonimlik madenciliği sistemi içeriyordu ve kullanıcılarının bir yönetişim tokenı (TORN) kazanmasına olanak tanıyordu. Kullanıcılar ETH, DAI, cDAI ve WBTC havuzlarına para yatırarak Blockchain ağında TORN kazanabildiler.
 
-Until December 2021, the protocol included an anonymity mining system for some of these tokens, allowing its users to earn a governance token (**TORN**). Users were able to ultimately earn TORN on the Blockchain network by depositing in the ETH, DAI, cDAI & WBTC pools.
+[Anonim madenciliği](https://github.com/tornadocash/docs/blob/en/tornado-cash-classic/anonymity-mining.md) ve [Tornado.Cash tokenı](https://github.com/tornadocash/docs/blob/en/general/torn.md) hakkında daha fazla bilgi linklerde mevcuttur.
 
-_More information about_ [_Anonymity mining_](tornado-cash-classic/anonymity-mining.md) _&_ [_Tornado.Cash token_](general/torn.md) _are available._
+TORN sayesinde Tornado Cash kullanıcıları protokolün şekillendirilmesine aktif olarak katılabilirler. Topluluk, Tornado Cash'in evrimi ve özelliklerinin iyileştirilmesi konusunda güçlü bir ağırlığa sahiptir. Aslında, **protokol parametreleri ve token dağıtımı, bu yönetişim aracılığıyla tamamen topluluğun kontrolü altındadır.**
 
-**Thanks to the TORN token, Tornado Cash users can actively participate in shaping the protocol**. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol parameters & token distribution are completely under the community’s control through this governance.
+Yukarıda bahsedilen tüm havuzlara [tornadocash.eth.link](https://tornadocash.eth.link/) üzerinden erişilebilir. Sabit tutarda para yatırma ve çekme prensibi ile çalışırlar. Bu, her tokenin 2 ila 4 farklı havuza sahip olduğu ve yalnızca 2 ila 4 farklı sabit miktarda işlem yapılmasına izin verdiği anlamına gelir (örneğin, ETH'nin dört farklı havuzu vardır, bu miktarların her biri için bir tane: 0.1, 1, 10 ve 100 ETH).
 
-All pools mentioned above can be accessed on [tornadocash.eth.link](https://tornadocash.eth.link). They operates **under the principle of fixed amount deposits & withdrawals**. It means that each token has 2 to 4 different pools, allowing transactions of only 2 to 4 different fixed amounts _(e.g. ETH has four different pools, one for each of these amounts: 0.1, 1, 10 & 100 ETH)_.
+**Tornado Cash Nova**
 
-### Tornado Cash Nova
+[Tornado Cash Nova'nın (beta sürümü) Aralık 2021'de piyasaya sürülmesiyle](https://tornado-cash.medium.com/tornado-cash-introduces-arbitrary-amounts-shielded-transfers-8df92d93c37c), protokole benzersiz yeni özelliklere sahip yükseltilmiş bir havuz eklendi. Kullanıcılar artık sabit tutar işlemleriyle kısıtlanmıyor. Tornado Cash Nova'nın eklenmesiyle, isteğe bağlı bir miktar havuzu ve korumalı transferlerin kullanımından yararlanabilirler.
 
-With the [**release of Tornado Cash Nova** (beta version) on December 2021](https://tornado-cash.medium.com/tornado-cash-introduces-arbitrary-amounts-shielded-transfers-8df92d93c37c), an **upgraded pool with unique new features** has been added to the protocol. Users are no longer constrained by fixed amount transactions. With the addition of Tornado Cash Nova, they can benefit from the use of **an arbitrary amount pool & shielded transfers**.
+Tornado Cash Nova, hızı ve maliyeti optimize etmek için Gnosis Zinciri (eski xDai Zinciri) üzerinde Katman2 olarak çalışır. ETH'de tamamen özelleştirilmiş tutarların yatırılmasına ve çekilmesine izin verir. Bu havuz ayrıca, kullanıcıların havuzda kalırken tokenlerinin velayetini aktarabilecekleri korumalı işlemlere de olanak tanır.
 
-Tornado Cash Nova operates on the Gnosis Chain (former xDai Chain) as a Layer2 to optimize speed and cost. It allows **deposits and withdrawals of completely customized amounts in ETH**. This pool also enables shielded transactions where users can **transfer the custody of their token while remaining in the pool**.
+Tornado Cash Nova'ya (beta versiyonu) [nova.tornadocash.eth.link](https://nova.tornadocash.eth.link/) adresinden erişilebilir. Tornado Cash Nova'nın işleyişiyle ilgili daha fazla bilgiyi belgelerimizin özel bölümünde bulabilirsiniz.
 
-Tornado Cash Nova (beta version) can be accessed on [nova.tornadocash.eth.link](https://nova.tornadocash.eth.link). You can find further informations related to the functioning of Tornado Cash Nova in the dedicated section of our docs.
+## Tornado.Cash Nasıl Çalışır?
 
-## How does Tornado.Cash run?
+[Tornado.Cash’in işleyişinin arkasındaki kodlar](https://github.com/tornadocash) - akıllı sözleşmeler, devreler ve toolchain - **tamamen açık kaynaktır**. Bir DAO (Merkezi Olmayan Otonom Organizasyon) olarak çalışan Tornado.Cash’in yönetişimi ve madencilik akıllı sözleşmeleri topluluğu tarafından işletilir.
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain - are fully **open sourced.** Working as a DAO (Decentralized Autonomous Organization), Tornado.Cash governance and mining smart contracts are deployed by its community.
+Protokol ayrıca, zero knowledge proof’a olanak tanıyan zk-SNARK ile birlikte de çalışır ve kullanıcıların, bilgilerini ifşa etmeye gerek kalmadan sahip olduklarını göstermelerine olanak tanır. Bu teknolojinin kullanımı, **Ethereum topluluğunun yardımıyla Zcash ekibi** tarafından yapılan açık kaynak araştırmasına dayanmaktadır . zk-SNARK’i kurmak için [Tornado.Cash Güvenilir Kurulum Topluluğu](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) Mayıs 2020'de başlatıldı ve [1114](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa) kişi katıldı. Bu önemli sayıdaki katılımcı, zk prooflarını taklit ederek protokolün tehlikeye atılmasını imkansız hale getiriyor.
 
-The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
+Kullanıcı arayüzü, topluluk tarafından IPFS'de bulundurularak verilerin silinme risklerini en aza indiriyor. Arayüz en az bir kullanıcı tarafından IPFS’de bulundurulduğu sürece çalışacaktır.
 
-User interface is hosted on **IPFS** (InterPlanetary File System) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it.
-
-_Written & updated by_ [_@ayefda_](https://torn.community/u/ayefda)
+Bu metin [_@ayefda_](https://torn.community/u/ayefda) tarafından yazılmıştır.\
+Türkçe versiyonu için [armog](https://twitter.com/armogedd0n)'a teşekkürler.
