@@ -2,41 +2,40 @@
 
 ## Token
 
-TORN is an ERC20-compatible token with a fixed supply that governs [Tornado.Cash](https://tornado.cash). TORN holders can make proposals and vote to change the protocol via governance.
+TORN [Tornado.Cash](https://tornado.cash)'i yöneten sabit bir kaynağa sahip ERC20 uyumlu bir tokendır. TORN sahipleri, yönetişim yoluyla protokolü değiştirmek için teklifte bulunabilir ve oy kullanabilir.
 
-**TORN is not a fundraising device or investment opportunity.**
+**TORN bir bağış toplama aracı veya yatırım fırsatı değildir..**
 
-**Here’s how the initial distribution of TORN would break down:**
+**HTORN’un ilk dağılımının nasıl olacağını inceleyelim:**
 
-* **5% (500,000 TORN):** Airdrop to early users of [Tornado.Cash](https://tornado.cash) ETH pools
-* **10% (1,000,000 TORN):** Anonymity mining for [Tornado.Cash](https://tornado.cash) ETH pools, distributed linearly over 1 year
-* **55% (5,500,000 TORN):** DAO treasury, will be unlocked linearly over 5 years with 3 month cliff
-* **30% (3,000,000 TORN):** Founding developers and early supporters, will be unlocked linearly over 3 years with 1 year cliff
+* **5% (500,000 TORN):** [Tornado.Cash](https://tornado.cash) ETH havuzlarının ilk kullanıcılarına Airdrop
+* **10% (1,000,000 TORN):** 1 yıl boyunca doğrusal olarak dağıtılan [Tornado.Cash](https://tornado.cash) ETH havuzları için anonim madencilik
+* **55% (5,500,000 TORN):** DAO hazinesi, 3 aylık dağıtım ile 5 yılda doğrusal olarak açılacak
+* **30% (3,000,000 TORN):** Kurucu geliştiriciler ve erken destekçiler 1 yıllık dağıtımla 3 yılda doğrusal olarak açılacak
 
 ![](../.gitbook/assets/1-bjggju1rn4\_qoxgcljfneq.png)
 
 ![](../.gitbook/assets/1-gmc0jw8zr5xfvrk5zyqmya.png)
 
-## Airdrop <a href="#f04d" id="f04d"></a>
+## Airdrop 
 
-Users who have believed in [Tornado.Cash](https://tornado.cash) from early on should have a say in governing the protocol. For this reason, early adopters of the protocol did receive an airdrop of TORN.
+[Tornado.Cash](https://tornado.cash)'e en başından beri inanan kullanıcılar protokolün yönetiminde söz sahibi olmalıdır. Bu nedenle, protokolün ilk kullanıcıları bir TORN airdrop’u aldı.
 
-TORN has been airdropped to [all addresses](https://github.com/tornadocash/airdrop/blob/master/airdrop.csv) that made deposits into [Tornado.Cash](https://tornado.cash) ETH pools before block `11400000`. TORN were airdropped in the form of a non-transferable TORN voucher (vTORN) that can be redeemed 1:1 to TORN within 1 year, from December 18, 2020, to December 18, 2021. TORN that aren’t redeemed will be swept into the governance contract after 1 year and become part of the DAO Treasury. Redeemed TORN will be available immediately.
+TORN, block 11400000’den önce [Tornado.Cash](https://tornado.cash) ETH havuzlarına fon yatıran [tüm adreslere ](https://github.com/tornadocash/airdrop/blob/master/airdrop.csv) airdrop olarak gönderildi. TORN, 18 Aralık 2020’den 18 Aralık 2021’e kadar 1 yıl içinde 1:1 TORN’a çevirilebilecek devredilemez bir TORN kuponu (vTORN) biçiminde airdrop yaptı. Kullanılmayan TORN’lar 1 yıl sonra yönetişim sözleşmesine girecek ve DAO Hazinesinin bir parçası olacak. Çevirilmiş TORN hemen kullanılabilir olacak.
 
-The airdropped amount depends on users’ deposit size and age — larger deposits and older deposits will receive more TORN. Multipliers for deposit size are logarithmic:
+Airdrop miktarı, kullanıcıların mevduat boyutuna ve katılım süresine bağlıdır - daha büyük mevduatlar ve daha eski mevduatlar daha fazla TORN alacaktır. Mevduat büyüklüğü çarpanları logaritmiktir:
 
 ![](../.gitbook/assets/1-ogfrad8p3gez14zh4jndiq-2x.png)
 
+Yani 100 ETH depozitosu, 1 ETH depozitosundan iki kat daha fazla token alır. Çarpan, [Tornado.Cash](https://tornado.cash)’in büyük ve küçük kullanıcılarının her ikisinin de yönetimde söz sahibi olmasını sağlar.
 
-
-So a 100 ETH deposit get twice as many tokens as a 1 ETH deposit. The multiplier allows large and small users of [Tornado.Cash](https://tornado.cash) to both have a say in governance.
-
-The exact curve for the time multiplier looks like this:
+Zaman çarpanının tam eğrisi şöyle görünür:
 
 ![](../.gitbook/assets/1-bje88nlnkbe29-zcs5agkw-2x.png)
 
-The exact airdrop formula is the following:
+Airdrop formülü aşağıdaki gibidir.
 
 ![](../.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
 
-_Written by_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
+Bu yazı[**Tornado Takımı**](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) tarafından yazılmıştır.
+Türkçe versiyonu için [Armog](https://twitter.com/armogedd0n)'a teşekkürler.
