@@ -1,56 +1,56 @@
-# Deposit & Withdraw
+# Para Yatırma
 
-This tutorial is a step-by-step explanation of how to deposit & withdraw your funds. If you want to understand how the internal system of Tornado.cash works, please refer to [this tutorial](https://docs.tornado.cash/how-does-tornado.cash-work).
+Bu eğitim, paranızı nasıl yatıracağınızı ve çekeceğinizi adım adım anlatmaktadır. Tornado.cash'in dahili sisteminin nasıl çalıştığını anlamak istiyorsanız lütfen [bu eğitime](https://docs.tornado.cash/v/tu/how-does-tornado.cash-work) bakın.
 
-## **Deposit**
+## **Para Yatırma**
 
-### Choose a chain
+### Bir chain seçin
 
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+Tornado.cash birkaç blockchainde mevcuttur, bu nedenle 4 chain arasından seçim yapmanız gerekecektir:
 
 ![](../.gitbook/assets/azpoj.gif)
 
-### Select a token
+### Bir token seçin
 
-Choose the token you want to deposit and its amount:
+Yatırmak istediğiniz tokenı ve tutarını seçin:
 
 ![](../.gitbook/assets/abdce.gif)
 
-### Connect your wallet
+### Cüzdanınızı bağlayın
 
-Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
+`Connect`'e tıklayın ve Metamask veya WalletConnect gibi cüzdan sağlayıcıları arasından seçim yapın.
 
-### Save your note
+### Notunuzu kaydedin
 
-Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` (top-right corner).
+Para Yatır'a tıklayın ve `I backed up the note`'a tıklamadan önce notunuzu güvenli bir yerde saklayın. Ayrıca, Settings'e \(sağ üst köşe\) tıklayarak bir Not Hesabı oluşturarak on-chainde şifrelenmiş notları kaydedebilirsiniz.
 
 ![](../.gitbook/assets/aaaab.gif)
 
-### Be patient
+### Sabırlı olun
 
-As explained [here](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), the longer you wait, the greater your anonymity set will be.
+[Burada](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient) açıklandığı gibi, ne kadar uzun süre beklerseniz anonimlik setiniz o kadar büyük olacaktır.
+Tebrikler! Başardın. Artık tokenların Tornado.Cash havuzunda.
 
-Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
+## Para Çekme
 
-## Withdraw
+### Bir chain seçin
 
-### Choose a chain
-
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+Tornado.cash birkaç blockchainde mevcuttur, bu nedenle 4 chain arasından seçim yapmanız gerekecektir:
 
 ![](../.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
-### Paste your note
+### Notunuzu yapıştırın
 
-Use your deposit note by pasting it in the corresponding box. Click on `Withdraw` and wait for the zksnark proof to be generated.
+Depozito notunuzu ilgili kutuya yapıştırarak kullanın. `withdraw`'a tıklayın ve zksnark kanıtının oluşturulmasını bekleyin.
 
-### Confirm the withdrawal
+### Para çekme işlemini onaylayın
 
 ![](../.gitbook/assets/abdaaaa.png)
 
-Done !
+Tamamlandı!
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
+İçeriğin yazarı [@bt11ba](https://torn.community/u/bt11ba/)  
+Türkçe versiyonu için [armog](https://twitter.com/armogedd0n)'a teşekkürler.
 
 
 
