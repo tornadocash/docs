@@ -1,35 +1,35 @@
-# Minified UI Hosted Locally
+# Lokalde Tutulan Kullanıcı Arayüzü
 
-Tornado Cash protocol can be launched locally on your computer through a minified User Interface version made available by the core developers team.
+Tornado Cash protokolü, çekirdek geliştiriciler ekibi tarafından sağlanan küçültülmüş bir Kullanıcı Arayüzü sürümü aracılığıyla bilgisayarınızda lokal olarak başlatılabilir.
 
 {% embed url="https://github.com/tornadocash/ui-minified" %}
 
-### Step #1: Clone the Github repository on your computer
+### Adım 1: Bilgisayarınıza Github deposunu klonlayın
 
-By opening your Command Line Interface, you can run the following commands to, first, clone the repository, then go inside the newly copied folder:
+Command Line Arayüzünüzü açarak, önce depoyu klonlamak, ardından yeni kopyalanan klasörün içine girmek için aşağıdaki komutları çalıştırabilirsiniz:
 
 ```
 git clone https://github.com/tornadocash/ui-minified.git
 cd ui-minified
 ```
 
-### Step #2: Serve the Folder with Your Favorite HTTP Server
+### Adım #2: Klasörü HTTP Sunucunuza Servis Edin
 
 ```
 python -m SimpleHTTPServer 8080
 ```
 
-You can obviously use any other http web server, such as[ npmjs.com/package/http-server](https://www.npmjs.com/package/http-server).
+Başka herhangi bir http web sunucusunu kullanabilirsiniz, örneğin [ npmjs.com/package/http-server](https://www.npmjs.com/package/http-server).
 
-### Step #3: Run the UI on Localhost on your Favorite Web Browser
+### Adım #3: Kullanıcı Arayüzünü Web Tarayıcınızda Localhost’ta çalıştırın
 
-To finish, you just need to run [http://localhost:8080](http://localhost:8080) on your Web Browser & let the magic happens 🪄
+Bitirmek için Web Tarayıcınızda [http://localhost:8080](http://localhost:8080) çalıştırmanız ve sihrin gerçekleşmesine izin vermeniz yeterlidir 🪄
 
-## Running a TOR service
+## TOR’da çalıştırma
 
-If you wish to serve tornado cash UI on an .onion domain, there is an easy way to do it using docker-compose.
+Bir .onion etki alanında Tornado nakit kullanıcı arabirimi sunmak istiyorsanız, bunu docker-compose kullanarak yapmanın kolay bir yolu vardır.
 
-* You need to paste the following into `docker-compose.yml`
+* Aşağıdakileri yapıştırmanız gerekir `docker-compose.yml`
 
 ```
 version: '2'
@@ -60,12 +60,13 @@ services:
         -----END RSA PRIVATE KEY-----
 ```
 
-* Then, just run the following command:`docker-compose up -d`
+* Ardından, aşağıdaki komutu çalıştırmanız yeterlidir:`docker-compose up -d`
 
-Enjoy your Tornado Cash UI 🌪
+Tornado Cash UI’in tadını çıkarın 🌪 🌪
 
-_This tutorial is inspired from the_[ _README.md document_](https://github.com/tornadocash/ui-minified/blob/gh-pages/README.md) _present in the Github repository._
+_Bu rehberde, Github’da bulunan_[ _README.md document_](https://github.com/tornadocash/ui-minified/blob/gh-pages/README.md) _dökümanında esinlenilmiştir.._
 
 __
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)
+[@ayefda](https://torn.community/u/ayefda) tarafından yazılmıştır.
+Türkçe çeviri için [@armog](https://twitter.com/armogedd0n) teşekkürler.
