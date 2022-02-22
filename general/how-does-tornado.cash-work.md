@@ -1,42 +1,41 @@
-# How Does Tornado Cash Work?
+# Tornado.Cash Nasıl Çalışır?
 
-Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
+Tornado.Cash’in kullanımını açıklayan ve kolaylaştıran maddelere girmeden önce protokolün küresel işleyişine genel olarak bir bakalım.
 
-### Global overview of Tornado.Cash functioning
+### Tornado.Cash işleyişine genel bakış
 
-To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets.
+Gizliliği sağlamak için Tornado.Cash, bir adresten token mevduatlarını kabul eden ve farklı bir adresten çekilmelerini sağlayan akıllı sözleşmeler kullanır. Bu akıllı sözleşmeler, yatırılan tüm varlıkları karıştıran havuzlar olarak çalışır.
 
-Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized.
+Fonlar, bu havuzlardan tamamen yeni bir adres tarafından çekildiğinde, kaynak ve hedef arasındaki on-chain bağlantısı kopar. Bu sayede çekilen kripto varlıkları anonimleştirilir.
 
-While tokens are in a Tornado Cash pool, the custody remains in users’ hands. Users, therefore, have a complete control over their tokens.
+Tokenlar bir Tornado Cash havuzundayken, saklama kullanıcıların elinde kalır. Bu nedenle, kullanıcılar tokenlar üzerinde tam kontrole sahiptir.
 
-**For traditional Tornado Cash fixed amount pools**:
+**Geleneksel Tornado Cash sabit tutar havuzları için:**:
 
-* When a user puts funds into a pool (a.k.a. the deposit), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
+* Bir kullanıcı bir havuza para yatırdığında (yani mevduat), özel bir not oluşturulur. Bu özel not, kullanıcının daha sonra bu fonlara erişmesi için özel bir anahtar olarak çalışır. Aynı kullanıcı, bunları çekmek için eski veya yeni bir adres kullanarak farklı bir adres kullanabilir ve bu özel anahtar sayesinde parasını geri alabilir.
 
-**For Tornado Cash Nova, the new ETH pool with arbitrary amounts & shielded transfers**:
+**Tornado Cash Nova için, isteğe bağlı tutarlar ve korumalı transferler içeren yeni ETH havuzu**:
 
-* Funds are directly linked to a given wallet address. There is no private note or key. Users can access their funds by connecting to the pool with the appropriate address.
-* Custody is either acquired by the act of depositing tokens into the pool or by registering to the pool & receiving shielded transfers from another address.
+* Fonlar doğrudan belirli bir cüzdan adresine bağlıdır. Özel not veya anahtar yoktur. Kullanıcılar uygun adres ile havuza bağlanarak fonlarına ulaşabilirler.
+* Saklama, ya havuza token yatırma eylemiyle ya da havuza kaydolarak ve başka bir adresten korumalı transferler alarak elde edilir.
 
-The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
+Böyle bir protokolün gücü, doğal olarak kullanıcı sayısından ve havuzunun büyüklüğünden gelir. Ne kadar çok kullanıcı havuza yatırırsa o kadar mutlu olur. Ancak, gizliliği ve anonimliği korumak için kullanıcının aşağıdakiler gibi bazı temel kuralları akılda tutması gerekir:
 
-* Using a relayer to pay gas at withdrawal;
-* Leaving a lapse of time between the deposit & the withdrawal action;
-* Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
+* Çekerken gas ödemek için bir relayer kullanmak;
+* Para yatırma ve çekme eylemi arasında bir zaman aralığı bırakmak;
+* Varlıklarını kurtarmadan önce birkaç işlemi bekleyerek fonlarını başka fonlarla karıştırmak.
 
-_More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_Daha fazla öneri için:_ [_Anonim Kalma İpuçları_](tips-to-remain-anonymous.md)_._
 
-### Contribution of zk-SNARK & hashing process
+### zk-SNARK ve Hash İşleminin Katkısı
 
-Tornado.Cash use Zero-Knowledge Succinct Non-Interactive Argument of Knowledge (also called zk-SNARK) to verify & allow transactions.
+Tornado.Cash, işlemleri doğrulamak ve izin vermek için zero knowledge temelli zk-SNARK teknolojisini kullanır. Tornado.Cash, bir depozitoyu işlemek için rastgele bir bayt alanı oluşturur, bunu [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3\_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) aracılığıyla hesaplar (zk-SNARK ile yakın olduğu için), ardından tokenı ve 20 mimc hash’i akıllı sözleşmeye gönderir. Sözleşme daha sonra onu Merkle ağacına ekleyecektir.
 
-To process a deposit, Tornado.Cash generates a random area of bytes, computes it through the [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3\_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) (as it is friendlier with zk-SNARK), then send the token & the 20 mimc hash to the smart contract. The contract will then insert it into the Merkle tree.
+Para çekme işlemini gerçekleştirmek için aynı bayt alanı iki ayrı parçaya bölünür: bir tarafta secret ve diğer tarafta nullifier. Nullifier hash edilir. Bu nullifier, akıllı sözleşme ve Merkle ağacı verileriyle kontrol edilmek üzere on-chainde gönderilen genel bir girdidir. Örneğin çifte harcamayı önler.
 
-To process a withdrawal, the same area of bytes is split into two separate parts: the **secret** on one side & the **nullifier** on the other side. The nullifier is hashed. This nullifier is a public input that is sent on-chain to get checked with the smart contrat & the Merkle tree data. It avoids double spending for instance.
+zk-SNARK sayesinde herhangi bir bilgiyi ifşa etmeden ilk taahhüdün ve nullifier’ın 20 mimc hash’ini kanıtlamak mümkündür. Çekim işlemi herkese açık olsa bile, hash sıfırlayıcıyı ilk taahhütle ilişkilendirmenin bir yolu olmadığından gizlilik korunur. Ayrıca, işlemin Merkle kökünde mevcut olduğu bilgisi olsa bile işlemin konumu hakkındaki bilgiler gizli tutulur.
 
-Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial commitment and of the nullifier without revealing any information. Even if the nullifier is public, privacy is sustained as there is no way to link the hashed nullifier to the initial commitment. Besides, even if the information that the transaction is present in the Merkle root, the information about the exact Merkle path, thus the location of the transaction, is still kept private.
+Gönderim teknolojik açıdan ucuzdur ancak 20 mimc hash’i hesaplamaları ve Merkle ağacını güncellemeleri gerektiğinden gas açısından pahalıdır. Tersine, geri çekme işlemi daha karmaşıktır. Ancak gas yalnızca sıfırlayıcı hash ve zk proof için gerekli olduğundan daha ucuzdur.
 
-Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
-
-_Written & updated by_ [_@ayefda_](https://torn.community/u/ayefda)
+_Bu metin [_@ayefda_](https://torn.community/u/ayefda)tarafından yazılmıştır.
+_Türkçe versiyonu için armog’a teşekkürler_ 
