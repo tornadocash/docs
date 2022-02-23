@@ -1,29 +1,29 @@
-# How To Access The Tornado Cash In Goerli Network
-Welcome everyone to the Tornado Cash testnet, and thank you for your interest in participating in the pilot phase of the application. The application is available for testing in the Goerli Network. In this article, we will explain to you in detail how you can test and use the Tornado Cash testnet platform in the Goerli network.
-The prerequisite for testing the application is testnet is listed below. Please follow the below steps:
+# Goerli Network'ten Tornado Cash'e Nasıl Erişilir
+Tornado Cash test ağına hoş geldiniz. Uygulamanın pilot aşamasına katılmaya gösterdiğiniz ilgi için teşekkür ederiz. Uygulama Goerli Ağında test için kullanılabilir. Bu yazımızda sizlere Goerli ağında Tornado Cash testnet platformunu nasıl test edebileceğinizi ve kullanabileceğinizi detaylı olarak anlatacağız.
+Uygulamayı test etmek için ön koşul testnet'tir, aşağıda listelenmiştir. Lütfen aşağıdaki adımları izleyin:
 
 
-## Prerequisites for Goerli Test Network
+## Goerli Test Ağı için Ön Koşullar
 
-- Test ETH that can be claimed from the Goerli faucet
-- Test TORN, provided by the project team (not mandatory)
-- Set your network in the Metamask wallet to **“Goerli Test Network”**
+- Goerli musluğundan talep edilebilecek ETH'yi test edin
+- Proje ekibi tarafından sağlanan Test TORN (zorunlu değil)
+- Metamask cüzdanındaki ağınızı **“Goerli Test Network”** olarak ayarlayın
 
-### Step 1: Receive test ETH token in your Wallet
-Users can request the test ETH tokens from the Goerli network faucet.
-Go to the **[Goerli faucet](https://goerli-faucet.slock.it/)**, enter your ethereum address, and just hit the Request button. You will receive your test ETH tokens shortly at your wallet address.
+### 1. Adım: Cüzdanınıza test ETH alın
+Kullanıcılar, Goerli ağ musluğundan test ETH talep edebilir.
+**[Goerli faucet](https://goerli-faucet.slock.it/)** adresine gidin, Ethereum adresinizi girin ve Talep düğmesine basın. Test ETH tokenlarınızı kısa süre içinde cüzdan adresinize alacaksınız.
 
-![goerli faucet](https://siasky.net/XADTOSmJfX6bQVhZ5-ZRivkzCPloyiHLHdShM8wsZNxM1Q)
+![goerli musluk](https://siasky.net/XADTOSmJfX6bQVhZ5-ZRivkzCPloyiHLHdShM8wsZNxM1Q)
 
-### Step 2: Get Test TORN Token
-The TORN token is not mandatorily required to test the application and it's working. You can use Ethereum (ETH) and examine the Tornado Cash application in testnet.
-However, if you want, you can request and get the test TORN token from the project team. Once received, open your Metamask wallet and check for the tokens.
-If you are using this token for the first time, then the token will not be directly visible to you in the wallet, and you have to add it manually. You can add the token contract address manually by going to the **Custom Token** tab.
-**TORN Contract Address - 0x77777feddddffc19ff86db637967013e6c6a116c**
+### 2. Adım: Test TORN Alın
+TORN, uygulamayı test etmek için zorunlu olarak gerekli değildir. Testnet üzerinden Ethereum (ETH) kullanabilir ve Tornado Cash uygulamasını inceleyebilirsiniz.
+Ancak dilerseniz proje ekibinden test TORN talep edebilir ve alabilirsiniz. Aldıktan sonra Metamask cüzdanınızı açın ve tokenları kontrol edin.
+Bu tokenı ilk kez kullanıyorsanız, token cüzdanda doğrudan sizin için görünmez ve manuel olarak eklemeniz gerekir. **Custom Token** sekmesine giderek token sözleşme adresini manuel olarak ekleyebilirsiniz.
+**Sözleşme Adresi - 0x77777feddddffc19ff86db637967013e6c6a116c**
 
-![user wallet](https://siasky.net/TAD5yMM_XuB3BGv0jP0plWg01qrMSgOeivR4N_7KOOVL7g)
+![kullanıcı cüzdanı](https://siasky.net/TAD5yMM_XuB3BGv0jP0plWg01qrMSgOeivR4N_7KOOVL7g)
 
-We now have the test ETH and test TORN tokens in our Metamask wallet. We can proceed with testing and depositing tokens into the Tornado application.
+Artık Metamask cüzdanımızda test ETH ve test TORN tokenlerine sahibiz. Tornado uygulamasına jetonları test etmeye ve yatırmaya devam edebiliriz.
 
-### Step 3:  Select the network as Goerli Network 
-As we have mentioned earlier that the Tornado Cash application is available in the Georli network, so set up your network connection to the Goerli network as shown in the above screenshot. [](https://)
+### Adım 3: Ağı Goerli Ağı olarak seçin
+Daha önce Tornado Cash uygulamasının Georli ağında mevcut olduğundan bahsettiğimiz gibi, Goerli ağına ağ bağlantınızı yukarıdaki ekran görüntüsünde gösterildiği gibi kurun. [](https://)
