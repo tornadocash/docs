@@ -1,35 +1,35 @@
 # Staking
 
-Thanks to [Proposal #10](https://tornadocash.eth.link/governance/10), any [$TORN](torn.md) holder can lock their [$TORN](torn.md) token into Governance contract like before, but are now able to receive a portion of the fees collected by relayers proportionately to their stake.
+[Proposal #10](https://tornadocash.eth.link/governance/10) sayesinde, daha önce olduğu gibi herhangi bir [$TORN](torn.md) sahibi [$TORN](torn.md) tokenı Yönetim sözleşmesine kilitleyebilir. Farklı olarak aktarıcılar tarafından toplanan ücretlerin paylarını orantılı olarak bir kısmını alabiliyorlar.
 
-As explained [here](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134), on every withdrawal via relayer, the relayer has to pay a fee from his staked balance. Currently, this fee is fixed at 0.3% and can be changed at any time by a governance vote.
+[Burada](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) açıklandığı gibi, aktarıcı aracılığıyla yapılan her para çekme işleminde, aktarıcı, stake konusu bakiyesinden bir ücret ödemek zorundadır. Şu anda bu ücret %0,3 olarak sabitlenmiştir ve herhangi bir zamanda bir yönetim oylamasıyla değiştirilebilir.
 
-### How to lock $TORN token ?
+### $TORN nasıl kilitlenir?
 
-In order to lock $TORN token,
+$TORN tokenı kilitlemek için,
 
-Go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+[https://app.tornado.cash/governance](https://app.tornado.cash/governance) adresine gidin.
 
-Click `Manage` -> `Lock Tab`
+`Manage` -> `Lock Tab`tıklayın
 
-Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
+`Approve` tıklayarak TORN tokenlarınızı aktarmak için yönetim sözleşmesini onaylayın. Onaylandıktan sonra, yatırmak istediğiniz tutarı seçin ve `Lock`'a tıklayın. Cüzdanınızdaki işlemi onaylayın ve onay için bekleyin.
 
 ![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
-### How to claim staking reward ?
+### Staking ödülü nasıl talep edilir?
 
-To claim staking reward, go to [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Stake ödülü talep etmek için [https://app.tornado.cash/governance](https://app.tornado.cash/governance) adresine gidin.
 
-You will be able to see your staking reward at the top of the page:
+Stake ödülünüzü sayfanın üst kısmında görebileceksiniz:
 
 ![](../.gitbook/assets/head.png)
 
-Click **`Manage`** -> **`Claim`** tab -> **`Claim`** _button._
+**`Manage`** -> **`Claim`** tab -> **`Claim`** _button._ tıklayın.
 
 ![](<../.gitbook/assets/claim (1).png>)
 
-_That's it, we're done._ :wink:__
+_İşte bu kadar, işimiz bitti._ :wink:__
 
 __
 
-_Written by_ [_@bt11ba_](https://torn.community/u/bt11ba/)
+[@bt11ba](https://torn.community/u/bt11ba/) tarafından yazılmıştır. Türkçe versiyonu için [armog](https://twitter.com/armogedd0n)'a teşekkür ederiz.
