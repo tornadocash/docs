@@ -28,7 +28,7 @@ Stake ödülünüzü sayfanın üst kısmında görebileceksiniz:
 
 ![](<../.gitbook/assets/claim (1).png>)
 
-_İşte bu kadar, işimiz bitti._ :wink:__
+_İşte bu kadar, işimiz bitti._ :wink:
 
 __
 
