@@ -1,67 +1,67 @@
-# How To Make A Deposit In Tornado Cash
-To improve privacy, Tornado cash breaks the on-chain link between the source and the destination address. The platform uses a smart contract that accepts ETH deposits. Whenever the user wishes to deposit, he/she generates a secret and sends its hash (called a commitment) along with a deposit amount to the Tornado smart contract. The contract accepts the deposit and adds the commitment to its list of deposits. 
+# Tornado Cash'e Nasıl Para Yatırılır?
+Gizliliği artırmak için Tornado Cash, kaynak ve hedef adres arasındaki zincir üzerindeki bağlantıyı keser. Platform, ETH mevduatlarını kabul eden akıllı bir sözleşme kullanır. Kullanıcı ne zaman para yatırmak isterse, bir sır oluşturur ve karmasını (taahhüt olarak adlandırılır) depozito miktarıyla birlikte Tornado akıllı sözleşmesine gönderir. Sözleşme mevduatı kabul eder ve taahhüdü mevduat listesine ekler.
 
-## Usage Guide
-Go to the Tornado Cash **[webpage](https://tornado.cash/)**.
-The landing page looks like this.
+## Kullanım Kılavuzu
+Tornado Cash **[web sayfasına](https://tornado.cash/)** gidin.
+Açılış sayfası böyle görünüyor.
 
 ![webpage](https://siasky.net/DADgpg5vPOF5JPwOxlFwYXPzT8vRFlR9leCDWqMBIWR9yg)
 
-Click on **Launch App** and it will redirect you to the **[page](https://app.tornado.cash/account)**
+**Uygulamayı Başlat**'a tıklayın, sizi **[sayfaya](https://app.tornado.cash/account)** yönlendirecektir.
 
- ![wallet](https://siasky.net/KABpV33X84PCitszZpwa4thYvYOxPHw29Qlx0UqKxf4ioQ)
+ ![cüzdan](https://siasky.net/KABpV33X84PCitszZpwa4thYvYOxPHw29Qlx0UqKxf4ioQ)
  
-Connect your Web3 (Metamask) wallet.
-### Note Account
-Once you have connected your Metamask wallet, the next thing you are required to do is to set up the **Note account**.
-The Note Account key is used to encrypt and store your tornado.cash private notes on the ethereum blockchain.
+Web3 (Metamask) cüzdanınızı bağlayın.
+### Not Hesabı
+Metamask cüzdanınızı bağladıktan sonra yapmanız gereken bir sonraki şey **Not hesabı** oluşturmaktır.
+Not Hesabı anahtarı, tornado.cash özel notlarınızı ethereum blok zincirinde şifrelemek ve saklamak için kullanılır.
 
- ![Note account](https://siasky.net/NAD6aVPWNrE4n1cUknhwZinCGWdCf8WlzBe2H_82i9G9CQ)
+ ![Not hesabı](https://siasky.net/NAD6aVPWNrE4n1cUknhwZinCGWdCf8WlzBe2H_82i9G9CQ)
  
-Click on **Setup Account**.
+**Hesap Kur**'a tıklayın.
 
- ![setup account](https://siasky.net/BABEIuEBVLR7kgiE6pOxVCKjIDgjdqK9mystttsRVzprhA)
+ ![hesap kurulumu](https://siasky.net/BABEIuEBVLR7kgiE6pOxVCKjIDgjdqK9mystttsRVzprhA)
  
-The application will show your Note Account key that you need to store safely. **Do not share your account key details with anyone**. 
+Uygulama, güvenli bir şekilde saklamanız gereken Not Hesap anahtarınızı gösterecektir. **Hesap anahtarı bilgilerinizi kimseyle paylaşmayın**.
 
 ![account setup](https://siasky.net/bAAPlh2vU89f5mFkssIFGLhXZJTPHivQDlrrWm0m-yn5ZQ)
 
-Click on **Setup account** and a Metamask transaction is triggered. Confirm the transaction. 
-Once the transaction is finished, you can see your Note Account is successfully set up. 
+**Kurulum hesabı** üzerine tıklayın ve bir Metamask işlemi tetiklenir. İşlemi onaylayın.
+İşlem bittiğinde, Not Hesabınızın başarıyla kurulduğunu görebilirsiniz.
 
- ![note account set](https://siasky.net/HAA4u3D5HkdPlE1de6e2n0NbKg4ANoW_qL5WBY0yGlE6gg)
+ ![hesap kümesini not edin](https://siasky.net/HAA4u3D5HkdPlE1de6e2n0NbKg4ANoW_qL5WBY0yGlE6gg)
  
-The basic account setup is done. We can now proceed with Deposit.
-### Deposit
-To maintain a high level of anonymity,one of the method that Tornado cash uses is that it allows users to deposit only a fixed token value. 
-Once you go to the **Deposit** tab and select the token you want to deposit, you will find that you are allowed to deposit some fixed token value. For example, in the case of ETH, you can deposit only 0.1 ETH, 1 ETH, 10 ETH, or 100 ETH.
+Temel hesap kurulumu yapılır. Artık Para Yatırma işlemine geçebiliriz.
+### Yatırma
+Yüksek düzeyde anonimlik sağlamak için Tornado Cash'in kullandığı yöntemlerden biri, kullanıcıların yalnızca sabit bir jeton değeri yatırmasına izin vermesidir.
+**Para Yatırma** sekmesine gidip yatırmak istediğiniz jetonu seçtiğinizde, sabit bir jeton değeri yatırmanıza izin verildiğini göreceksiniz. Örneğin, ETH durumunda yalnızca 0.1 ETH, 1 ETH, 10 ETH veya 100 ETH yatırabilirsiniz.
 
-![deposit](https://siasky.net/FAC3nA1tU50pw9JVeqLUy6TP5Cow42uhKp7pbtVrh20-gw)
+![yatırma](https://siasky.net/FAC3nA1tU50pw9JVeqLUy6TP5Cow42uhKp7pbtVrh20-gw)
 
-The Statistics section will show you the list of the latest deposits with the selected denomination.
-**Important:** Kindly note that the project is still in the experimental phase. Use at your own risk.
-To **Deposit**, select the token and the amount that you wish to deposit. The application will then ask you to save your note file (.txt). This note file can be used later to withdraw your deposit.
+İstatistikler bölümü, seçilen değere sahip en son mevduatların listesini size gösterecektir.
+**Önemli:** Lütfen projenin hala deneysel aşamada olduğunu unutmayın. Kendi sorumluluğunuzda kullanın.
+**Para Yatırmak** için jetonu ve yatırmak istediğiniz tutarı seçin. Uygulama daha sonra not dosyanızı (.txt) kaydetmenizi isteyecektir. Bu not dosyası daha sonra depozitonuzu çekmek için kullanılabilir.
 
-  ![send deposit](https://siasky.net/zACyy3T6bauKX5jrch1N5Nt3Hr3sK13JcAZyg7CGDNAVOA)
+  ![parayı yükle](https://siasky.net/zACyy3T6bauKX5jrch1N5Nt3Hr3sK13JcAZyg7CGDNAVOA)
   
-Click on **Send Deposit** and confirm the Metamask transaction. 
-You can now see your deposit transactions will be added in the Statistics section.
+**Depozito Gönder**'e tıklayın ve Metamask işlemini onaylayın.
+Artık para yatırma işlemlerinizin İstatistikler bölümünde eklendiğini görebilirsiniz.
 
- ![statistics](https://siasky.net/rADt7GRpcVllIhlIoAiUpeqDoKUfVYFhXTiklNLMlXn31w)
+ ![istatistik](https://siasky.net/rADt7GRpcVllIhlIoAiUpeqDoKUfVYFhXTiklNLMlXn31w)
  
-From the bottom of the tab, you can check your deposit transactions along with other key details like:
-- Your Deposit amount
-- Any subsequent deposit after your transaction with the same denomination
-- Transaction Hash
-- Transaction status
-- Rewards Earned
-- Note
+Sekmenin altından, para yatırma işlemlerinizi aşağıdakiler gibi diğer önemli ayrıntılarla birlikte kontrol edebilirsiniz:
+- Yatırdığınız tutar
+- Aynı para birimiyle yaptığınız işlemin ardından yapılan herhangi bir para yatırma
+- İşlem Hash'i
+- İşlem Durumu
+- Kazanılan Ödüller
+- Not
  
 
-![deposit details](https://siasky.net/OADOPSot2Tx_FAvtqKJz-jFwkUKbeqtG8YD2z4zNz7YTSA)
+![para yatırma detayları](https://siasky.net/OADOPSot2Tx_FAvtqKJz-jFwkUKbeqtG8YD2z4zNz7YTSA)
 
-The rewards section shows the Anonymity Point (AP) that a user earns for depositing and withdrawing from the ETH anonymity pool. You can earn more AP for staying longer in the pool.
-The Note can be used to withdraw the funds. We will explain in detail how you can use the Note to withdraw your funds in the Withdraw section.
+Ödüller bölümü, bir kullanıcının ETH anonimlik havuzundan para yatırma ve çekme karşılığında kazandığı Anonimlik Puanını (AP) gösterir. Havuzda daha uzun süre kalarak daha fazla AP kazanabilirsiniz.
+Not, fonları çekmek için kullanılabilir. Para Çekmek için Notu nasıl kullanabileceğinizi Para Çekme bölümünde ayrıntılı olarak açıklayacağız.
 
 
 
