@@ -1,4 +1,4 @@
-# Goerli Network'ten Tornado Cash'e Nasıl Erişilir
+# Goerli Network'ten Tornado Cash'e Nasıl Erişilir?
 Tornado Cash test ağına hoş geldiniz. Uygulamanın pilot aşamasına katılmaya gösterdiğiniz ilgi için teşekkür ederiz. Uygulama Goerli Ağında test için kullanılabilir. Bu yazımızda sizlere Goerli ağında Tornado Cash testnet platformunu nasıl test edebileceğinizi ve kullanabileceğinizi detaylı olarak anlatacağız.
 Uygulamayı test etmek için ön koşul testnet'tir, aşağıda listelenmiştir. Lütfen aşağıdaki adımları izleyin:
 
