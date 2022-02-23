@@ -27,7 +27,7 @@ Tornado.Cash community is looking for:
 
 ## Tornado.Cash Community Fund
 
-On June 2021, Tornado.Cash community has voted the implementation of a community fund to award its key contributors ([proposal #7](https://app.tornado.cash/governance/7)). The management of this fund lies between the hand of the community. Tornado.Cash users are the one who decide whose contribution is eligible for a compensation.
+On June 2021, Tornado.Cash community has voted the implementation of a community fund to award its key contributors ([proposal #7](https://tornadocash.eth.link/governance/7)). The management of this fund lies between the hand of the community. Tornado.Cash users are the one who decide whose contribution is eligible for a compensation.
 
 ###
 
@@ -35,7 +35,7 @@ On June 2021, Tornado.Cash community has voted the implementation of a community
 
 Tornado.Cash Community Fund has been allocated 5% of total available TORN of the governance treasury, broken down as follows:
 
-* 5% of the already vested 485.3k TORN at that time, resulting on an **initial transfer of 22.9k TORN** _->_ [_Transaction Details_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47)\_\_\
+* 5% of the already vested 485.3k TORN at that time, resulting on an **initial transfer of 22.9k TORN** _->_ [_Transaction Details_](https://etherscan.io/tx/0xbe95f4268df2023d9ef234c1eedbb597b99e4c6e7d396d8f521ee482a1d93d47)\
   \_\_
 * 5% of the monthly 91.6k that will be vested in the next 12 month, which result on **a monthly transfer of approx. 4.6k TORN** (a total of approx. 55k TORN over a year)
 

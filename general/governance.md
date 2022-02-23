@@ -32,7 +32,7 @@ NOTE: Parts of this article was taken from [this medium post.](https://tornado-c
 
 You first need to deposit (or lock) TORN tokens into the governance contract.
 
-Go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Go to: [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
 Click `Manage` -> `Lock Tab`
 
@@ -44,7 +44,7 @@ Before the vote, the next crucial step is to review the proposal.\
 Legitimate proposals should have a dedicated post on [Torn.community ](https://torn.community)under the category “Proposal”. The forum post will provide additional context and arguments on the proposal. Read the thread and make your own mind on the issue.
 
 Once a proposal was submitted it should appear on:\
-[https://app.tornado.cash/governance](https://app.tornado.cash/governance)\
+[https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)\
 Proposal are implemented in the form of a smart contract making changes to the system. It is therefore important to verify the address of the smart-contract and review its code. Find the address of the proposal contract here:
 
 ![](../.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
@@ -71,7 +71,7 @@ If you are a TORN token holder, you can delegate your voting power to someone el
 
 IMPORTANT: If you delegate your tokens and that your delegate votes or initiate a proposal, your tokens will be locked for 8.25 days from the moment the proposal that the delegate voted on started. Note that that you can always undelegate at any time.
 
-To achieve delegation, go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+To achieve delegation, go to: [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
 You first need to lock your tokens in the governance contract. Click **`Manage`** -> **`Lock`** tab
 
@@ -79,7 +79,7 @@ Approve the governance contract to transfer your TORN tokens by clicking on the 
 
 ![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
-The last step, is to make the actual delegation. Go again to [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+The last step, is to make the actual delegation. Go again to [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
 Click **`Manage`** -> **`Delegate`** tab
 

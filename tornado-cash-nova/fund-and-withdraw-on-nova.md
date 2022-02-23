@@ -68,6 +68,4 @@ For cheaper transactions, Gnosis Chain (former xDAI Chain) is used as a Layer-2.
 
 Therefore, to prevent spam attacks that will overload the bridge, the withdrawal amount has to be larger than 0.05 ETH.
 
-
-
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Written by_ [_@ayefda_](https://torn.community/u/ayefda)

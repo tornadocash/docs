@@ -8,7 +8,7 @@ As explained [here](https://torn.community/t/proposal-relayer-registry-setting-p
 
 In order to lock $TORN token,
 
-Go to: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Go to: [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
 Click `Manage` -> `Lock Tab`
 
@@ -18,7 +18,7 @@ Approve the governance contract to transfer your TORN tokens by clicking on the 
 
 ### How to claim staking reward ?
 
-To claim staking reward, go to [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+To claim staking reward, go to [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
 You will be able to see your staking reward at the top of the page:
 

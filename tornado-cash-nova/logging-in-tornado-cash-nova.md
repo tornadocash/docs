@@ -61,6 +61,6 @@ Once you are logged in with your address & your account is set up, you can downl
 
 To obtain full privacy, the same good practices that were recommended for traditional Tornado Cash pools are still required. _You can find guidelines to maintain privacy in the protocol’s documentation:_ [_Tips to remain anonymous_](../general/tips-to-remain-anonymous.md) _&_ [_More anonymity tips_](more-anonymity-tips.md)_._
 
-__
+\_\_
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Written by_ [_@ayefda_](https://torn.community/u/ayefda)

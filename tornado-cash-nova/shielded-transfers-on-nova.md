@@ -12,6 +12,4 @@ As a reminder, a shielded address is registered either through the `Set up accou
 
 We advise you to double-check the shielded address to which you transfer tokens as this action is irreversible.
 
-
-
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Written by_ [_@ayefda_](https://torn.community/u/ayefda)

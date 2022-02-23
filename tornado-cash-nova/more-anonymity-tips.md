@@ -41,6 +41,4 @@ For instance, a deposit of 0.42 ETH can be linked to a withdrawal of exactly 0.4
 
 The custom option should only be chosen with full knowledge of these facts and in complete confidence in your actions.
 
-
-
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Written by_ [_@ayefda_](https://torn.community/u/ayefda)
