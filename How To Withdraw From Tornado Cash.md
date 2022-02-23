@@ -1,46 +1,46 @@
-# How To Withdraw From Tornado Cash
-Users can withdraw their tokens from the Tornado cash platform at any time but to ensure high-level privacy it is recommended to wait until there are a few deposits after yours.
-For Withdraw, users are required to provide two details:
-- Note 
-- Recipient Address
+# Tornado Cash'ten Nasıl Fon Çekilir
+Kullanıcılar tokenlerini istedikleri zaman Tornado nakit platformundan çekebilirler, ancak üst düzey gizlilik sağlamak için sizinkinden sonra birkaç para yatırma işlemi olana kadar beklemeniz önerilir.
+Para Çekme için kullanıcıların iki ayrıntı sağlaması gerekir:
+- Not
+- Alıcı adresi
  
-![wihdraw button](https://siasky.net/IAA0oMfBCz3vPgANvIUsGBS84y4eC0DFgrbuVWVDwX5i9Q)
+![Çekim butonu](https://siasky.net/IAA0oMfBCz3vPgANvIUsGBS84y4eC0DFgrbuVWVDwX5i9Q)
 
-Fill in the mandatory details. You can get the Note details from the deposit transaction.
-Once your fill in the note details, all details about your deposit get displayed.
+Zorunlu ayrıntıları doldurun. Senet detaylarını para yatırma işleminden alabilirsiniz.
+Senet ayrıntılarını doldurduğunuzda, para yatırma işleminizle ilgili tüm ayrıntılar görüntülenir.
 
- ![withdraw details](https://siasky.net/TAB6fl4n3yj1f_cd59CzRUEap6QvaPe3fslWThwC6KWBlQ)
+ ![çekim detayları](https://siasky.net/TAB6fl4n3yj1f_cd59CzRUEap6QvaPe3fslWThwC6KWBlQ)
  
-From the Withdraw setting tab, you can choose two options for withdrawal:
-- Via  Relayer 
-- Web3 wallet
+Para çekme ayarı sekmesinden, para çekme için iki seçenek seçebilirsiniz:
+- Aktarıcı ile
+- Web3 cüzdanı
 
-You can choose the withdrawal method as Wallet but for that, you need to have a completely new Ethereum address with some ETH on it. But getting some ETH will eventually lead to the loss of anonymity. 
+Para çekme yöntemini Cüzdan olarak seçebilirsiniz, ancak bunun için üzerinde bir miktar ETH bulunan tamamen yeni bir Ethereum adresine sahip olmanız gerekir. Bir miktar ETH almak, sonunda anonimlik kaybına yol açacaktır.
  
-  ![withdraw wallet](https://siasky.net/MACMuLY11IK0h2b1MON8k0gUjZHLNVqwDYdX5tW9-npAhw)
+  ![çekim cüzdanı](https://siasky.net/MACMuLY11IK0h2b1MON8k0gUjZHLNVqwDYdX5tW9-npAhw)
   
-Thus, it is recommended to choose the withdrawal method as Relayer. A relayer is used to preserve privacy. With Relayer, there is no way to link a connection between the withdrawal and the deposit addresses.
+Bu nedenle para çekme yönteminin Relayer olarak seçilmesi önerilir. Gizliliği korumak için bir aktarıcı kullanılır. Relayer ile para çekme ve para yatırma adresleri arasında bir bağlantı kurmanın bir yolu yoktur.
  
   ![relayer](https://siasky.net/MAALGPo1Emw_K_-y6t6EaB6Ao--NPnSuIQfTfqI28qSUCw)
   
-Once you select this method to withdraw, your zk-Snark proof gets generated. 
-The zkSnark technology is a method that helps the users to verify that they possess a secret to an unspent commitment from the list of deposit smart contracts without actually revealing the exact deposit corresponds to a secret.
+Çekmek için bu yöntemi seçtiğinizde, zk-Snark kanıtınız oluşturulur.
+zkSnark teknolojisi, kullanıcıların para yatırma akıllı sözleşmeleri listesinden harcanmamış bir taahhüdün bir kopyasına sahip olduklarını doğrulamalarına yardımcı olan bir yöntemdir.
  
-  ![confirmation](https://siasky.net/GADcmOqr30fMXl7neBtSR6knAzPg8x_4mxQtUt96dQSa1w)
+  ![onay](https://siasky.net/GADcmOqr30fMXl7neBtSR6knAzPg8x_4mxQtUt96dQSa1w)
   
-Confirm the process.
-You can now see the withdrawal transaction details at the bottom. 
-One interesting thing you can note here is that the user’s reward is continuously increasing. 
+İşlemi onaylayın.
+Artık para çekme işlemi detaylarını altta görebilirsiniz.
+Burada dikkat edebileceğiniz ilginç bir şey, kullanıcının ödülünün sürekli olarak artmasıdır. 
 
-   ![final withdraw detail](https://siasky.net/KAAxcbm5QgjFr7mTKFqBU8uVKKNHKsaWz3-m85iQOP-6kg)
+   ![Çekimin final hali](https://siasky.net/KAAxcbm5QgjFr7mTKFqBU8uVKKNHKsaWz3-m85iQOP-6kg)
  
-To cross- verify the anonymity, click on the transaction hash and check the ethereum addresses mentioned on the log.
+Anonimliği çapraz doğrulamak için işlem karmasına tıklayın ve günlükte belirtilen Ethereum adreslerini kontrol edin.
 
  ![txn hash](https://siasky.net/DADzeQWIwr8CkZIRyLyUJTzs8kdve1kNlvOwwc6WBz8gqg)
  
-You can easily check that the source address is something different from your wallet address. 
-Also, no transaction details will appear in the destination wallet address.
+Kaynak adresin cüzdan adresinizden farklı olup olmadığını kolayca kontrol edebilirsiniz.
+Ayrıca, hedef cüzdan adresinde hiçbir işlem detayı görünmeyecektir.
 
  ![metamask activity](https://siasky.net/VAAJZImmqf15RxJJp3nbgSrKUPaFpljsh6pQyvpxZavdIw)
  
-As a good practice, it is recommended to destroy the note data once you have successfully withdrawn your funds.
+Son olarak, paranızı başarıyla çektikten sonra banknot verilerini imha etmeniz önerilir.
