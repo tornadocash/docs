@@ -1,35 +1,42 @@
 # Staking
 
-Thanks to [Proposal #10](https://tornadocash.eth.link/governance/10), any [$TORN](torn.md) holder can lock their [$TORN](torn.md) token into Governance contract like before, but are now able to receive a portion of the fees collected by relayers proportionately to their stake.
+Since its inception, the TORN token is used by Tornado Cash users for governance. Its main utility is to allow the suggestion of proposals & voting both in-chain (through locked TORN for governance proposals) and off-chain (on Snapshot).
 
-As explained [here](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134), on every withdrawal via relayer, the relayer has to pay a fee from his staked balance. Currently, this fee is fixed at 0.3% and can be changed at any time by a governance vote.
+Since the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), TORN token has gained one other useful utility. Indeed, **with the introduction of a decentralized relayer register,** **a staking reward has been implemented for all holders with locked TORN in the governance contract.**&#x20;
 
-### How to lock $TORN token ?
+[TORN](torn.md) holders can still lock their tokens into the governance contract as they used to for governance purposes. The significant difference is that they are now able to receive a portion of the fees collected by the protocol from relayers. Obviously, the proportion of the reward will be equal to the proportion of their locked TORN.
 
-In order to lock $TORN token,
+#### FROM WHERE THESE COLLECTED FEES COME FROM ?
 
-Go to: [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
+The collection of these fees was made possible by the implementation of a decentralized relayer registry. In order to be listed on the protocol, relayers need to stake a given amount of TORN (currently set by governance at `300 TORN`). The functioning of this relayer registry is more extensively explained [on this forum post](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) & on the [Relayer Registry documentation page](broken-reference).
 
-Click `Manage` -> `Lock Tab`
+In a nutshell, for each withdrawal through the relayer method, the chosen relayer has to pay a fee to the protocol from the staked balance (that should still be maintained above the `300 TORN` threshold). Currently, this fee has been fixed at `0.3%` by the governance and can be changed at any time through an on-chain proposal & vote.
 
-Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
+### How to Stake TORN token ?
+
+As mentioned above, the process to lock TORN tokens has remained unchanged.
+
+* It happens here ➡️ [https://app.tornado.cash/governance](https://app.tornado.cash/governance) ⬅️, by clicking on **`Manage`**, then going on the **`Lock`** tab
+* The governance contract need to be approved in order to allow the transfer of your tokens to the smart contract. To do so, you need to click on the **`Approve`** button
+* Once the approval is confirmed, you can chose the amount of token to lock, then click on **`Lock`**
+* All you have to do after that is to confirm the transaction in your wallet & wait for the confirmation to come through
 
 ![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
-### How to claim staking reward ?
+### How to Claim Your Staking Reward ?
 
-To claim staking reward, go to [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
+Now that your TORN tokens have stayed nice & warm locked in the governance contract, you are able to claim your staking reward. How to do that? Everything is still happening here ➡️ [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance) ⬅️
 
-You will be able to see your staking reward at the top of the page:
+As soon as you log in the page, you will be able to see your staking reward at the top, just waiting for you to collect it 💰
 
 ![](../.gitbook/assets/head.png)
 
-Click **`Manage`** -> **`Claim`** tab -> **`Claim`** _button._
+* Click **`Manage`** -> **`Claim`** tab -> **`Claim`** _button._
 
 ![](<../.gitbook/assets/claim (1).png>)
 
-_That's it, we're done._ :wink:__
+_That's it, we're done, easy peasy lemon squeezy_ :wink:__
 
 __
 
-_Written by_ [_@bt11ba_](https://torn.community/u/bt11ba/)
+_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _**** &_ [_**@ayefda**_](https://torn.community/u/ayefda)****
