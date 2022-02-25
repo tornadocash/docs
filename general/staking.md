@@ -8,7 +8,7 @@ Since the execution of [Tornado Cash 10th governance proposal](https://tornadoca
 
 #### FROM WHERE THESE COLLECTED FEES COME FROM ?
 
-The collection of these fees was made possible by the implementation of a decentralized relayer registry. In order to be listed on the protocol, relayers need to stake a given amount of TORN (currently set by governance at `300 TORN`). The functioning of this relayer registry is more extensively explained [on this forum post](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) & on the [Relayer Registry documentation page](broken-reference).
+The collection of these fees was made possible by the implementation of a decentralized relayer registry. In order to be listed on the protocol, relayers need to stake a given amount of TORN (currently set by governance at `300 TORN`). The functioning of this relayer registry is more extensively explained [on this forum post](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) & on the [Relayer Registry documentation page](how-to-become-a-relayer.md).
 
 In a nutshell, for each withdrawal through the relayer method, the chosen relayer has to pay a fee to the protocol from the staked balance (that should still be maintained above the `300 TORN` threshold). Currently, this fee has been fixed at `0.3%` by the governance and can be changed at any time through an on-chain proposal & vote.
 
@@ -16,7 +16,7 @@ In a nutshell, for each withdrawal through the relayer method, the chosen relaye
 
 As mentioned above, the process to lock TORN tokens has remained unchanged.
 
-* It happens here ➡️ [https://app.tornado.cash/governance](https://app.tornado.cash/governance) ⬅️, by clicking on **`Manage`**, then going on the **`Lock`** tab
+* It happens here ➡️ [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance) ⬅️, by clicking on **`Manage`**, then going on the **`Lock`** tab
 * The governance contract need to be approved in order to allow the transfer of your tokens to the smart contract. To do so, you need to click on the **`Approve`** button
 * Once the approval is confirmed, you can chose the amount of token to lock, then click on **`Lock`**
 * All you have to do after that is to confirm the transaction in your wallet & wait for the confirmation to come through

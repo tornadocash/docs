@@ -14,7 +14,7 @@ Tornado Cash improves transaction privacy by breaking the on-chain link between 
 
 To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance.
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](general/how-does-tornado.cash-work.md) _\*\*\*\*_ & [Tips to remain anonymous](general/tips-to-remain-anonymous.md).
+More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](general/how-does-tornado.cash-work.md) & [Tips to remain anonymous](general/tips-to-remain-anonymous.md).
 
 ## Where is Tornado.Cash at?
 
