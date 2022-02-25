@@ -1,5 +1,12 @@
 # How to Become a Relayer?
 
+{% hint style="warning" %}
+25 February 2022 - Information\
+This feature is not yet available on Tornado Cash UI.\
+\
+(Only a few days to wait.. :cloud\_tornado:)
+{% endhint %}
+
 Following the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), anyone can become a relayer for Tornado Cash users.
 
 {% hint style="success" %}
