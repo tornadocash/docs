@@ -1,11 +1,6 @@
 # Staking
 
-{% hint style="warning" %}
-25 February 2022 - Information\
-This feature is not yet available on Tornado Cash UI.\
-\
-(Only a few days to wait.. :cloud\_tornado:)
-{% endhint %}
+
 
 Since its inception, the TORN token is used by Tornado Cash users for governance. Its main utility is to allow the suggestion of proposals & voting both in-chain (through locked TORN for governance proposals) and off-chain (on Snapshot).
 
