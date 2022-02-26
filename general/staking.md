@@ -1,7 +1,5 @@
 # Staking
 
-
-
 Since its inception, the TORN token is used by Tornado Cash users for governance. Its main utility is to allow the suggestion of proposals & voting both in-chain (through locked TORN for governance proposals) and off-chain (on Snapshot).
 
 Since the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), TORN token has gained one other useful utility. Indeed, **with the introduction of a decentralized relayer register,** **a staking reward has been implemented for all holders with locked TORN in the governance contract.**&#x20;
@@ -10,7 +8,7 @@ Since the execution of [Tornado Cash 10th governance proposal](https://tornadoca
 
 #### FROM WHERE THESE COLLECTED FEES COME FROM ?
 
-The collection of these fees was made possible by the implementation of a decentralized relayer registry. In order to be listed on the protocol, relayers need to stake a given amount of TORN (currently set by governance at `300 TORN`). The functioning of this relayer registry is more extensively explained [on this forum post](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) & on the [Relayer Registry documentation page](how-to-become-a-relayer.md).
+The collection of these fees was made possible by the implementation of a decentralized relayer registry. In order to be listed on the protocol UI, relayers need to stake a given amount of TORN (currently set by governance at `300 TORN`). The functioning of this relayer registry is more extensively explained [on this forum post](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) & on the [Relayer Registry documentation page](how-to-become-a-relayer.md).
 
 In a nutshell, for each withdrawal through the relayer method, the chosen relayer has to pay a fee to the protocol from the staked balance (that should still be maintained above the `300 TORN` threshold). Currently, this fee has been fixed at `0.3%` by the governance and can be changed at any time through an on-chain proposal & vote.
 
