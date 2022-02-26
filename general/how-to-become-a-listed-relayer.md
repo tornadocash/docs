@@ -1,4 +1,4 @@
-# How to Become a Relayer?
+# How to Become a listed Relayer?
 
 {% hint style="warning" %}
 25 February 2022 - Information\
@@ -21,9 +21,9 @@ Since [Relayer Registry proposal](https://tornadocash.eth.link/governance/10), t
 
 It’s fixed at **** `0.3%` for now. Some pools remain without fees, either because the instance is too small to assign a fee (0.1 ETH, 100 DAI/USDT, 1000 DAI/USDT), or because there is not enough liquidity on Uni v3 (all cDAI instances).
 
-## How to Become a Relayer ?
+## How to Become a listed Relayer ?
 
-Any TORN holder can become a relayer for the protocol in **6 simple steps** through a Relayer Registry User Interface (UI).
+Anyone can become a relayer for the protocol in **6 simple steps** through a Relayer Registry User Interface (UI).
 
 You will find below everything your need to join our relayers' club & be listed on Tornado Cash decentralized relayer registry.
 
