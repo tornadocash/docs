@@ -19,7 +19,7 @@ Therefore, relayers act as a third parties and take care of the whole withdrawal
 
 Since [Relayer Registry proposal](https://tornadocash.eth.link/governance/10), the protocol will collect a fee directly from the relayer’s staked balance through the `StakingReward` contract for each withdrawal. This fee percentage may vary from one pool to the other and is also subject to change through on-chain governance.
 
-It’s fixed at **** `0.3%` for now and it can be changed at any time by a governance vote. Some pools remain without fees, either because the instance is too small to assign a fee (0.1 ETH, 100 DAI/USDT, 1000 DAI/USDT), or because there is not enough liquidity on Uni v3 (all cDAI instances).
+It’s fixed at **** `0.3%` for now. Some pools remain without fees, either because the instance is too small to assign a fee (0.1 ETH, 100 DAI/USDT, 1000 DAI/USDT), or because there is not enough liquidity on Uni v3 (all cDAI instances).
 
 ## How to Become a Relayer ?
 
