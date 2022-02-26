@@ -9,7 +9,7 @@
 * [TORN](general/torn.md)
 * [Governance](general/governance.md)
 * [Staking](general/staking.md)
-* [How to Become a listed Relayer?](general/how-to-become-a-listed-relayer.md)
+* [How to Become a Relayer?](general/how-to-become-a-relayer.md)
 * [Community Involvement](general/community-involvement.md)
 * [Minified UI Hosted Locally](general/minified-ui-hosted-locally.md)
 

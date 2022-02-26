@@ -1,4 +1,4 @@
-# How to Become a listed Relayer?
+# How to Become a Relayer?
 
 {% hint style="warning" %}
 25 February 2022 - Information\
@@ -21,7 +21,7 @@ Since [Relayer Registry proposal](https://tornadocash.eth.link/governance/10), t
 
 It’s fixed at **** `0.3%` for now. Some pools remain without fees, either because the instance is too small to assign a fee (0.1 ETH, 100 DAI/USDT, 1000 DAI/USDT), or because there is not enough liquidity on Uni v3 (all cDAI instances).
 
-## How to Become a listed Relayer ?
+## How to Become a Relayer ?
 
 Anyone can become a relayer for the protocol in **6 simple steps** through a Relayer Registry User Interface (UI).
 
@@ -91,7 +91,7 @@ Only the mainnet requires you to register workers. All other networks do not req
 
 #### 5. Stake
 
-With the implementation of a decentralized relayer registry, a staking condition has been introduced to become a relayer for Tornado Cash users. Indeed, **staking TORN is now necessary to be added to the recommended list of relayers.**
+With the implementation of a decentralized relayer registry, a staking condition has been introduced to become listed on Tornado Cash UI. Indeed, **staking TORN is now necessary to be added to the recommended list of relayers.**
 
 The minimum stacked amount is currently set by Tornado Cash governance at **`300 TORN`**. This threshold can be changed by Tornado Cash governance at all time.
 
