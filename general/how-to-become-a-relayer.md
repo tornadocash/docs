@@ -13,7 +13,7 @@ Following the execution of [Tornado Cash 10th governance proposal](https://torna
 The only condition to be included on the Tornado Cash UI is to hold a min. of `300 TORN`. This minimum stake can be changed by a governance vote at all time.
 {% endhint %}
 
-Relayers form an essential & necessary part of the Tornado.Cash ecosystem. Their use guarantees privacy as they solve the infamous “fee payment dilemma” : how to pay fees for token withdrawals from a pool while maintaining anonymity?
+Relayers form an essential & necessary part of the Tornado Cash ecosystem. Their use guarantees privacy as they solve the infamous “fee payment dilemma” : how to pay fees for token withdrawals from a pool while maintaining anonymity?
 
 Therefore, relayers act as a third parties and take care of the whole withdrawal. They pay for transaction fees by deducing them directly from the transferred amount. They also take an additional fee for their services.
 
@@ -89,9 +89,9 @@ Only the mainnet requires you to register workers. All other networks do not req
 
 #### 5. Stake
 
-With the implementation of a decentralized relaye registry, a staking condition has been introduced to become a relayer for Tornado Cash users. Indeed, **staking TORN is now necessary to be added to the recommended list of relayers.**
+With the implementation of a decentralized relayer registry, a staking condition has been introduced to become a relayer for Tornado Cash users. Indeed, **staking TORN is now necessary to be added to the recommended list of relayers.**
 
-The minimum stacked amount is currently set by Tornado Cash governance at **`300 TORN`**. This threshold can be changed by Tornado.Cash governance at all time.
+The minimum stacked amount is currently set by Tornado Cash governance at **`300 TORN`**. This threshold can be changed by Tornado Cash governance at all time.
 
 When a relayer is used on a Tornado Cash pool, a small amount of TORN is automatically collected from this staked balance by the `StakingReward` contract. This element is essential to keep in mind as relayers will need to maintain their stakes balance above `300 TORN` at all time.
 
