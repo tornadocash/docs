@@ -2,7 +2,9 @@
 
 Anonymity mining is an incentive to increase the level of privacy in any coin-joining or coin-mixing protocols by rewarding participants anonymity points (AP) dependent on how long they hedge their assets in a pool.
 
+{% hint style="warning" %}
 _Tornado Cash anonymity mining program began on December 18, 2020 and has ended on December 18, 2021._
+{% endhint %}
 
 Individuals deposit to any one of the anonymity pools that are supported (ETH, WBTC, DAI or cDAI) and are rewarded a fixed amount of AP per block, over the period their deposit remains in the pool. These points can then be exchanged for TORN once claimed.
 
@@ -32,7 +34,7 @@ _Notes that are active (not withdrawn) are known as “unspent” notes._
 
 ### How to claim AP
 
-1\. First you must create a mining account and store those credentials on-chain for easy recovery (requires a transaction), **like depositing notes, you should never share your mining recovery key with anyone** and ensure to back it up in a safe place. This feature is not supported by hardware wallets so it’s encouraged to store the information as presented_._
+1\. First you must create a mining account and store those credentials on-chain for easy recovery (requires a transaction), **like depositing notes, you should never share your mining recovery key with anyone** and ensure to back it up in a safe place. This feature is not supported by hardware wallets so it’s encouraged to store the information as presented\_.\_
 
 ![](../.gitbook/assets/lskzkgk.png)
 
@@ -49,8 +51,6 @@ _Notes that are active (not withdrawn) are known as “unspent” notes._
 * **The ability to claim your spent note**: click the “Claim reward” button and submitting the transaction either by using a relayer or not, once confirmed your AP balance should update to reflect the action.
 
 ![](../.gitbook/assets/e9jyqhu.png)
-
-&#x20;
 
 * **The inability to claim a spent note:** _“Warning: The note is not yet ready for anonymity mining. You can wait few days before trying again”_ - This means the Merkle trees are out of sync and require a transaction to be updated.
 
@@ -81,9 +81,9 @@ It is always recommended to plan when deciding to mine any of the anonymity sets
 For more information on anonymity mining, seek the following resources:
 
 * [Tornado.Cash governance proposal article](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
-* [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)&#x20;
+* [Tornado.Cash anonymity mining optimisation article](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)
 * [Anonymity mining explained (technical)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
 _Regards to_ [_@sockawoo_](https://torn.community/u/sockawoo) _and_ [_@ethdev_](https://torn.community/u/ethdev) _for assisting in peer-reviewing_
 
-_Written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)__
+_Written by_ [_**@xgozzy**_](https://torn.community/u/xgozzy/summary)\_\_
