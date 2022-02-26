@@ -10,7 +10,7 @@ This feature is not yet available on Tornado Cash UI.\
 Following the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), anyone can become a relayer for Tornado Cash users.
 
 {% hint style="success" %}
-The only condition to be included on the Tornado Cash Relayer Registry UI is to hold a min. of `300 TORN`. This minimum stake can be changed by Tornado.Cash governance at all time.
+The only condition to be included on the Tornado Cash UI is to hold a min. of `300 TORN`. This minimum stake can be changed by a governance vote at all time.
 {% endhint %}
 
 Relayers form an essential & necessary part of the Tornado.Cash ecosystem. Their use guarantees privacy as they solve the infamous “fee payment dilemma” : how to pay fees for token withdrawals from a pool while maintaining anonymity?
