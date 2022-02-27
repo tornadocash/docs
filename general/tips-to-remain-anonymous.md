@@ -4,7 +4,7 @@ The Tornado Cash tool allows you to remain anonymous on-chain. However, if the t
 
 ### Use TOR and/or a VPN
 
-Your internet service provider (ISP) identifies you with an IP address. To prevent third parties from knowing that you are using Tornado.cash, you should consider using TOR and/or a VPN for your transfers. Avoid using free VPNs, they tend to keep or even sell your data. There are several VPNs on the market boasting a "no-log policy".
+Your internet service provider (ISP) identifies you with an IP address. To prevent third parties from knowing that you are using Tornado.cash, you should consider [using TOR](how-to-use-tornado-cash-with-tor.md) and/or a VPN for your transfers. Avoid using free VPNs, they tend to keep or even sell your data. There are several VPNs on the market boasting a "no-log policy".
 
 ### Save your note in a safe place <a href="#save-your-note-in-a-safe-place" id="save-your-note-in-a-safe-place"></a>
 
