@@ -6,7 +6,7 @@ This tutorial is a step-by-step explanation of how to deposit & withdraw your fu
 
 ### Choose a chain
 
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+[Tornado cash](https://tornadocash.eth.link) is available on several blockchains, so you will have to choose among 4 chains:
 
 ![](../.gitbook/assets/azpoj.gif)
 
@@ -36,7 +36,7 @@ Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
 
 ### Choose a chain
 
-Tornado.cash is available on several blockchains, so you will have to choose among 4 chains:
+[Tornado cash](https://tornadocash.eth.link) is available on several blockchains, so you will have to choose among 4 chains:
 
 ![](../.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
