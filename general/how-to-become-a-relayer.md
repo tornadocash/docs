@@ -1,4 +1,4 @@
-# How to Become a Relayer?
+# ¿Cómo convertirse en un repetidor?
 
 {% hint style="warning" %}
 25 de febrero de 2022 - Información\
