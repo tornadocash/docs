@@ -6,9 +6,11 @@
 * [Tornado Cash Akıllı Kontratları](general/tornado-cash-smart-contracts.md)
 * [Tornado.Cash nasıl çalışır?](general/how-does-tornado.cash-work.md)
 * [Anonim Kalma İpuçları](general/tips-to-remain-anonymous.md)
+* [Tornado Cash ile TOR nasıl kullanılır?](how-to-use-tornado-cash-with-tor.md)
 * [Yönetişim](general/governance.md)
 * [Topluluk Katılımı](general/community-involvement.md)
 * [Staking](general/staking.md)
+* [Nasıl Aktarıcı-Relayer Olunur?](general/how-to-become-a-relayer.md)
 * [TORN](general/torn.md)
 * [Lokalde Tutulan Kullanıcı Arayüzü](general/minified-ui-hosted-locally.md)
 
