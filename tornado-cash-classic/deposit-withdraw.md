@@ -6,7 +6,7 @@ Bu eğitim, paranızı nasıl yatıracağınızı ve çekeceğinizi adım adım 
 
 ### Bir chain seçin
 
-Tornado.cash birkaç blockchainde mevcuttur, bu nedenle 4 chain arasından seçim yapmanız gerekecektir:
+[Tornado cash](https://tornadocash.eth.link) birkaç blok zincirinde mevcuttur, bu nedenle 4 zincir arasından seçim yapmanız gerekecektir:
 
 ![](../.gitbook/assets/azpoj.gif)
 
