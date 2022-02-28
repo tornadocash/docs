@@ -2,9 +2,9 @@
 
 Tornado Cash, on-chainde anonim kalmanıza olanak tanır. Bununla birlikte, Tornado Cash ekstra önlem alınmadan kullanılırsa hiçbir anlamı yoktur ve anonimlik yalnızca kısmi olarak kalır. Bunu önlemek için bazı uygulamalar mevcuttur.
 
-### VPN kullanın
+### TOR ve/veya bir VPN kullanın
 
-İnternet servis sağlayıcınız (ISS) sizi bir IP adresiyle tanımlar. Üçüncü şahısların Tornado.cash kullandığınızı bilmesini önlemek için transferleriniz için TOR ve/veya bir VPN kullanmayı düşünmelisiniz. Ücretsiz VPN kullanmaktan kaçının, verilerinizi saklama ve hatta satma eğilimindedirler. Piyasada “kayıt tutmama politikası” ile övünen birkaç VPN var.
+İnternet servis sağlayıcınız (ISS) sizi bir IP adresiyle tanımlar. Üçüncü şahısların Tornado.cash kullandığınızı bilmesini önlemek için transferleriniz için TOR ve/veya bir VPN kullanmayı düşünmelisiniz. Ücretsiz VPN kullanmaktan kaçının, verilerinizi saklama ve hatta satma eğilimindedirler. Piyasada "kayıt tutmama politikası" ile övünen birkaç VPN var.
 
 ### Size özel kelimelerden oluşan notu güvenli bir yere kaydedin
 
