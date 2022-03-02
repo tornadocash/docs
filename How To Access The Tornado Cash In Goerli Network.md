@@ -1,29 +1,25 @@
-# How To Access The Tornado Cash In Goerli Network
-Welcome everyone to the Tornado Cash testnet, and thank you for your interest in participating in the pilot phase of the application. The application is available for testing in the Goerli Network. In this article, we will explain to you in detail how you can test and use the Tornado Cash testnet platform in the Goerli network.
-The prerequisite for testing the application is testnet is listed below. Please follow the below steps:
+# 如何在Goerli测试网中使用Tornado Cash
+欢迎大家使用Tornado Cash测试网，并感谢您有兴趣参与该应用程序的试点阶段。该应用程序可用于在 Goerli网络中进行测试。在本文中，我们将向您详细说明如何在Goerli网络中测试和使用Tornado Cash 测试网平台。下面列出了测试应用程序的先决条件是 在测试网。请按照以下步骤操作：
 
 
-## Prerequisites for Goerli Test Network
+## Goerli测试网络的先决条件
 
-- Test ETH that can be claimed from the Goerli faucet
-- Test TORN, provided by the project team (not mandatory)
-- Set your network in the Metamask wallet to **“Goerli Test Network”**
+- 测试Goerli水龙头可领取的ETH
+- 测试TORN，由项目团队提供（非强制性）
+- 将您在Metamask钱包中的网络设置为 **“Goerli测试网络”**
 
-### Step 1: Receive test ETH token in your Wallet
-Users can request the test ETH tokens from the Goerli network faucet.
-Go to the **[Goerli faucet](https://goerli-faucet.slock.it/)**, enter your ethereum address, and just hit the Request button. You will receive your test ETH tokens shortly at your wallet address.
+### 第1步：在您的钱包中接收ETH测试代币
+用户可以从Goerli网络水龙头申请ETH测试代币。转到 **[Goerli faucet](https://goerli-faucet.slock.it/)**，输入你的以太坊地址，然后点击请求按钮。您将很快在您的钱包地址收到您的ETH测试代币。
 
 ![goerli faucet](https://siasky.net/XADTOSmJfX6bQVhZ5-ZRivkzCPloyiHLHdShM8wsZNxM1Q)
 
-### Step 2: Get Test TORN Token
-The TORN token is not mandatorily required to test the application and it's working. You can use Ethereum (ETH) and examine the Tornado Cash application in testnet.
-However, if you want, you can request and get the test TORN token from the project team. Once received, open your Metamask wallet and check for the tokens.
-If you are using this token for the first time, then the token will not be directly visible to you in the wallet, and you have to add it manually. You can add the token contract address manually by going to the **Custom Token** tab.
-**TORN Contract Address - 0x77777feddddffc19ff86db637967013e6c6a116c**
+### 第2步：获取测试TORN代币
+TORN代币不是强制要求，测试应用程序照样正常工作。您可以使用以太坊 (ETH) 并在测试网中检查 Tornado Cash应用程序。但是，如果您愿意，您可以向项目团队请求并获取测试TORN代币。收到后，打开您的Metamask钱包并检查代币。如果您是第一次使用该代币，那么您在钱包中将无法直接看到该代币，您必须手动添加它。您可以通过转到 **自定义代币** 选项卡手动添加代币合约地址。 
+**TORN 合约地址 - 0x77777feddddffc19ff86db637967013e6c6a116c**
 
 ![user wallet](https://siasky.net/TAD5yMM_XuB3BGv0jP0plWg01qrMSgOeivR4N_7KOOVL7g)
 
-We now have the test ETH and test TORN tokens in our Metamask wallet. We can proceed with testing and depositing tokens into the Tornado application.
+现在，我们的Metamask钱包中有测试ETH和测试 TORN代币。我们可以继续测试并将代币存入Tornado应用程序。
 
-### Step 3:  Select the network as Goerli Network 
-As we have mentioned earlier that the Tornado Cash application is available in the Georli network, so set up your network connection to the Goerli network as shown in the above screenshot. [](https://)
+### 第3步：选择网络为Goerli网络
+正如我们之前提到的，Tornado Cash应用程序在 Georli网络中可用，因此请按照上面的屏幕截图所示设置与Goerli网络连接。

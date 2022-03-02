@@ -1,14 +1,14 @@
-# Tornado Cash Smart Contracts
+# Tornado Cash的智能合约
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain - are fully **open sourced.** This page regroups all information regarding Tornado Cash smart contracts.
+[Tornado.Cash背后的运作代码](https://github.com/tornadocash) - 智能合约、线路和工具链 - **完全开源**。此页面重新组合有关Tornado Cash智能合约的所有信息。
 
-## Smart Contracts Adresses
+## 智能合约地址
 
-### Tornado Cash Classic - Pools Contracts
+### Tornado Cash Classic - 池合约
 
-* Ethereum Mainnet
+* 以太坊主网
 
-| Contract       | Address                                                                                                                                                                                                                                                                     |
+| 合约       | 地址                                                                                                                                                                                                                                                                     |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH        | [0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc](https://etherscan.io/address/0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc)                                                                                                                                                       |
 | 1 ETH          | [0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936](https://etherscan.io/address/0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936)                                                                                                                                                       |
@@ -32,7 +32,7 @@
 
 * Arbitrum
 
-| Contract | Address                                                                                                              |
+| 合约 | 地址                                                                                                              |
 | -------- | -------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH  | [0x84443CFd09A48AF6eF360C6976C5392aC5023a1F](https://arbiscan.io/address/0x84443CFd09A48AF6eF360C6976C5392aC5023a1F) |
 | 1 ETH    | [0xd47438C816c9E7f2E2888E060936a499Af9582b3](https://arbiscan.io/address/0xd47438C816c9E7f2E2888E060936a499Af9582b3) |
@@ -41,7 +41,7 @@
 
 * Optimism
 
-| Contract | Address                                                                                                                          |
+| 合约 | 地址                                                                                                                          |
 | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH  | [0x84443CFd09A48AF6eF360C6976C5392aC5023a1F](https://optimistic.etherscan.io/address/0x84443CFd09A48AF6eF360C6976C5392aC5023a1F) |
 | 1 ETH    | [0xd47438C816c9E7f2E2888E060936a499Af9582b3](https://optimistic.etherscan.io/address/0xd47438C816c9E7f2E2888E060936a499Af9582b3) |
@@ -50,7 +50,7 @@
 
 * BSC
 
-| Contract | Address                                                                                                              |
+| 合约 | 地址                                                                                                              |
 | -------- | -------------------------------------------------------------------------------------------------------------------- |
 | 0.1 BNB  | [0x84443CFd09A48AF6eF360C6976C5392aC5023a1F](https://bscscan.com/address/0x84443CFd09A48AF6eF360C6976C5392aC5023a1F) |
 | 1 BNB    | [0xd47438C816c9E7f2E2888E060936a499Af9582b3](https://bscscan.com/address/0xd47438C816c9E7f2E2888E060936a499Af9582b3) |
@@ -59,7 +59,7 @@
 
 * xDAI
 
-| Contract     | Address                                                                                                                                           |
+| 合约     | 地址                                                                                                                                           |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 100 xDAI     | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://blockscout.com/xdai/mainnet/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD/transactions) |
 | 1,000 xDAI   | [0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178](https://blockscout.com/xdai/mainnet/address/0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178/transactions) |
@@ -68,7 +68,7 @@
 
 * MATIC
 
-| Contract      | Address                                                                                                                  |
+| 合约      | 地址                                                                                                                  |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | 100 MATIC     | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://polygonscan.com/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD) |
 | 1,000 MATIC   | [0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178](https://polygonscan.com/address/0xdf231d99Ff8b6c6CBF4E9B9a945CBAcEF9339178) |
@@ -77,7 +77,7 @@
 
 * AVAX
 
-| Contract | Address                                                                                                               |
+| 合约 | 地址                                                                                                               |
 | -------- | --------------------------------------------------------------------------------------------------------------------- |
 | 10 AVAX  | [0x330bdFADE01eE9bF63C209Ee33102DD334618e0a](https://snowtrace.io/address/0x330bdFADE01eE9bF63C209Ee33102DD334618e0a) |
 | 100 AVAX | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://snowtrace.io/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD) |
@@ -85,7 +85,7 @@
 
 * Goerli
 
-| Contract       | Address                                                                                                                      |
+| 合约       | 地址                                                                                                                      |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | 0.1 ETH        | [0x6Bf694a291DF3FeC1f7e69701E3ab6c592435Ae7](https://goerli.etherscan.io/address/0x6Bf694a291DF3FeC1f7e69701E3ab6c592435Ae7) |
 | 1 ETH          | [0x3aac1cC67c2ec5Db4eA850957b967Ba153aD6279](https://goerli.etherscan.io/address/0x3aac1cC67c2ec5Db4eA850957b967Ba153aD6279) |
@@ -107,9 +107,9 @@
 | 1 WBTC         | [0x776198CCF446DFa168347089d7338879273172cF](https://goerli.etherscan.io/address/0x776198CCF446DFa168347089d7338879273172cF) |
 | 10 WBTC        | [0xeDC5d01286f99A066559F60a585406f3878a033e](https://goerli.etherscan.io/address/0xeDC5d01286f99A066559F60a585406f3878a033e) |
 
-### Tornado Cash Nova - Pool contracts (beta)
+### Tornado Cash Nova - 池合约 (测试版)
 
-| Contract             | Address                                                                                                                                           |
+| 合约             | 地址                                                                                                                                           |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Contract             | [0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696](https://blockscout.com/xdai/mainnet/address/0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696/transactions) |
 | L1 Omnibridge Helper | [0xca0840578f57fe71599d29375e16783424023357](https://etherscan.io/address/0xca0840578f57fe71599d29375e16783424023357)                             |
@@ -117,9 +117,9 @@
 | Verifier 16          | [0x743494b60097A2230018079c02fe21a7B687EAA5](https://blockscout.com/xdai/mainnet/address/0x743494b60097A2230018079c02fe21a7B687EAA5/transactions) |
 | Hasher               | [0x94C92F096437ab9958fC0A37F09348f30389Ae79](https://blockscout.com/xdai/mainnet/address/0x94C92F096437ab9958fC0A37F09348f30389Ae79/transactions) |
 
-### Governance Contracts:
+### 治理合约
 
-| Contract                           | Address                                                                                                                          |
+| 合约                           | 地址                                                                                                                          |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Governance Contract                | [0x5efda50f22d34f262c29268506c5fa42cb56a1ce](https://etherscan.io/address/0x5efda50f22d34f262c29268506c5fa42cb56a1ce)            |
 | Governance Vault (for locked TORN) | [0x2f50508a8a3d323b91336fa3ea6ae50e55f32185](https://etherscan.io/address/0x2f50508a8a3d323b91336fa3ea6ae50e55f32185#tokentxns)  |
@@ -131,9 +131,9 @@
 | Voucher TORN Token                 | [0x3efa30704d2b8bbac821307230376556cf8cc39e](https://etherscan.io/address/0x3efa30704d2b8bbac821307230376556cf8cc39e)            |
 | Mining v2                          | [0x746aebc06d2ae31b71ac51429a19d54e797878e9](https://etherscan.io/address/0x746aebc06d2ae31b71ac51429a19d54e797878e9)            |
 
-### Relayer Registry
+### 中继器注册表
 
-| Contract                          | Address                                                                                                               |
+| 合约                          | 地址                                                                                                               |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | TornadoRooter                     | [0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b](https://etherscan.io/address/0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b) |
 | Proxy of feeManagerContract       | [0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7](https://etherscan.io/address/0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7) |
@@ -145,9 +145,9 @@
 | Proxy of instanceRegistryContract | [0xB20c66C4DE72433F3cE747b58B86830c459CA911](https://etherscan.io/address/0xB20c66C4DE72433F3cE747b58B86830c459CA911) |
 | InstanceRegistry                  | [0x2573BAc39EBe2901B4389CD468F2872cF7767FAF](https://etherscan.io/address/0x2573BAc39EBe2901B4389CD468F2872cF7767FAF) |
 
-### Other Contracts
+### 其它合约
 
-| Contract             | Address                                                                                                               |
+| 合约             | 地址                                                                                                               |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | Tornado.Cash Trees   | [0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce](https://etherscan.io/address/0x527653ea119f3e6a1f5bd18fbf4714081d7b31ce) |
 | Tree Update Verifier | [0x653477c392c16b0765603074f157314cc4f40c32](https://etherscan.io/address/0x653477c392c16b0765603074f157314cc4f40c32) |
@@ -162,30 +162,30 @@
 | Poseidon 3           | [0xd82ed8786d7c69dc7e052f7a542ab047971e73d2](https://etherscan.io/address/0xd82ed8786d7c69dc7e052f7a542ab047971e73d2) |
 | Gitcoin Grants       | [0xdd4c48c0b24039969fc16d1cdf626eab821d3384](https://etherscan.io/address/0xdd4c48c0b24039969fc16d1cdf626eab821d3384) |
 
-## GitHub links
+## GitHub链接
 
-* Tornado Cash core code:
+* Tornado Cash核心代码：
 
 {% embed url="https://github.com/tornadocash/tornado-core" %}
 
-* Tornado Cash Command Line to make transactions in the protocol:
+* Tornado Cash协议交互的命令行工具：
 
 {% embed url="https://github.com/tornadocash/tornado-cli" %}
 
-* To become a relayer for Tornado Cash:
+* Tornado Cash中继器代码：
 
 {% embed url="https://github.com/tornadocash/tornado-relayer" %}
 
-* Minified web UI for Tornado Cash protocol:
+* Tornado Cash协议简化版网站UI:
 
 {% embed url="https://github.com/tornadocash/ui-minified" %}
 
-* All about the TORN token:
+* 关于TORN令牌的所有信息：
 
 {% embed url="https://github.com/tornadocash/torn-token" %}
 
-* All about the anonymity mining program (this program has ended mid-December 2021):
+* 关于匿名挖矿程序（该程序已于2021年12月中旬结束）：
 
 {% embed url="https://github.com/tornadocash/tornado-anonymity-mining" %}
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda) _&_ [_@bt11ba_](https://torn.community/u/bt11ba/)
+_编写_ [_@ayefda_](https://torn.community/u/ayefda) _和_ [_@bt11ba_](https://torn.community/u/bt11ba/)

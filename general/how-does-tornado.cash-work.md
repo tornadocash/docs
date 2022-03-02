@@ -1,42 +1,42 @@
-# How Does Tornado Cash Work?
+# Tornado Cash是如何工作的？
 
-Before diving in tutorials explaining & easing the use of Tornado.Cash, here is an overall overview of the protocol global functioning.
+在深入通俗理解Tornado Cash的使用教程前，以下是协议全面运作的总体概况。
 
-### Global overview of Tornado.Cash functioning
+### Tornado.Cash功能的全面概述
 
-To achieve privacy, Tornado.Cash **uses smart contracts that accept tokens deposits from one address and enable their withdrawal from a different address**. Those smart contracts work as pools that mix all deposited assets.
+为了实现隐私，Tornado.Cash **使用智能合约来接受来自一个地址的代币存款，并允许他们从另一个地址提款**。这些智能合约作为混合所有已存资产的池。
 
-Once the funds are withdrawn by a complete new address from those pools, the on-chain link between the source & the destination is broken. The withdrawn crypto-assets are therefore anonymized.
+一旦从这些池中通过一个全新的地址提取资金，来源地址和目的地址之间的链上关联就会断开。因此，被提取的加密资产是匿名的。
 
-While tokens are in a Tornado Cash pool, the custody remains in users’ hands. Users, therefore, have a complete control over their tokens.
+虽然代币在 Tornado Cash池中，但保管权仍掌握在用户手中。因此，用户可以完全控制他们的代币。
 
-**For traditional Tornado Cash fixed amount pools**:
+**对于传统的 Tornado Cash 固定金额池：**
 
-* When a user puts funds into a pool (a.k.a. the deposit), a private note is generated. This private note works as a private key for the user to access those funds later. To withdraw them, the same user can use a different address - an old or a new one - and recover his/her funds thanks to this private key.
+* •	当用户将资金存入池（也称为存款）时，会生成私人票据。此私人票据用作用户稍后访问这些资金的私人密钥。要提取资金，用户可以使用不同的地址 - 旧地址或新地址 - 并通过此私人票据提取资金。
 
-**For Tornado Cash Nova, the new ETH pool with arbitrary amounts & shielded transfers**:
+**对于Tornado Cash Nova，新的ETH池具有任意数量和隐蔽转账：**
 
-* Funds are directly linked to a given wallet address. There is no private note or key. Users can access their funds by connecting to the pool with the appropriate address.
-* Custody is either acquired by the act of depositing tokens into the pool or by registering to the pool & receiving shielded transfers from another address.
+* 资金直接链接到给定的钱包地址。没有私人票据或密钥。用户可以连接到指定的地址来访问他们的资金。
+* 资金托管是通过将代币存入池中或通过从已注册到Nova的账户隐蔽转账来获得的。
 
-The strength of such a protocol comes naturally from its number of users and the size of its pool. The more users deposit into the pool the merrier. However, to preserve privacy & anonymity, the user must keep some basic rules in mind such as:
+这种协议的优势自然来自它的用户数量和池的大小。存入池中的用户越多越好。但是，为了保护隐私和匿名性，用户必须牢记一些基本规则，例如：
 
-* Using a relayer to pay gas at withdrawal;
-* Leaving a lapse of time between the deposit & the withdrawal action;
-* Mixing its funds with the crowd by waiting for several transactions before recovering its assets.
+* 提款时使用中继器支付gas；
+* 在存款和取款操作之间留有充足的时间间隔；
+* 通过等待几笔交易再提取资产，将其资金与其它人的资金混合一起。
 
-_More recommendations are provided on:_ [_Tips to remain anonymous_](tips-to-remain-anonymous.md)_._
+_更多的窍门可以在这找到：_[_保持匿名的窍门_](tips-to-remain-anonymous.md)_。_
 
-### Contribution of zk-SNARK & hashing process
+### zk-SNARK和哈希过程的贡献
 
-Tornado.Cash use Zero-Knowledge Succinct Non-Interactive Argument of Knowledge (also called zk-SNARK) to verify & allow transactions.
+Tornado.Cash使用零知识简洁的非互动知识论证(也称为zk-SNARK)，以验证和允许交易。
 
-To process a deposit, Tornado.Cash generates a random area of bytes, computes it through the [Pederson Hash](https://iden3-docs.readthedocs.io/en/latest/iden3\_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) (as it is friendlier with zk-SNARK), then send the token & the 20 mimc hash to the smart contract. The contract will then insert it into the Merkle tree.
+来处理一笔存款，Tornado Cash生成一个随机的字节区域，通过[Pederson哈希](https://iden3-docs.readthedocs.io/en/latest/iden3\_repos/research/publications/zkproof-standards-workshop-2/pedersen-hash/pedersen.html) （因为它与zk-SNARK更友好）， 计算它，然后将代币和20 mimc哈希发送到智能合约。然后合同将把它插入到Merkle树中。
 
-To process a withdrawal, the same area of bytes is split into two separate parts: the **secret** on one side & the **nullifier** on the other side. The nullifier is hashed. This nullifier is a public input that is sent on-chain to get checked with the smart contrat & the Merkle tree data. It avoids double spending for instance.
+为了处理提款，相同区域的字节被分成两个独立的部分：一边是**secret**，另一边是**nullifier** 。nullifier被散列。这个nullifier是链上发送的公共输入，用于用智能合约和Merkle树数据进行检查。例如，它避免了双重支付。
 
-Thanks to zk-SNARK, it is possible to prove the 20 mimc hash of the initial commitment and of the nullifier without revealing any information. Even if the nullifier is public, privacy is sustained as there is no way to link the hashed nullifier to the initial commitment. Besides, even if the information that the transaction is present in the Merkle root, the information about the exact Merkle path, thus the location of the transaction, is still kept private.
+多亏了zk-SNARK，可以在不透露任何信息的情况下证明20 mimc哈希的初始承诺和nullifier。即使nullifier是公开的，隐私性也会得到维护，因为没有办法将散列的nullifier关联到初始承诺。此外，即使交易的信息存在于Merkle根中，关于确切的Merkle路径的信息，即交易的位置，仍然是保密的。
 
-Deposits are simple on a technological point of view, but expensive in terms of gas as they need to compute the 20 mimc hash & update the Merkle tree. At the opposite, the withdrawal process is complex, but cheaper as gas is only needed for the nullifier hash and the zero-knowledge proof.
+从技术角度来看，存款是简单的，但在gas方面昂贵，因为他们需要计算20 mimc哈希和更新Merkle树。相反，提款过程很复杂，但成本更低，因为只有进行nullifier哈希和零知识证明才需要使用gas。
 
-_Written & updated by_ [_@ayefda_](https://torn.community/u/ayefda)
+_编写_ [_@ayefda_](https://torn.community/u/ayefda)

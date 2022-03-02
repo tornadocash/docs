@@ -1,98 +1,98 @@
-# Governance
+# 治理
 
-The following governance rules apply to all Tornado Cash pools (including Tornado Cash Nova).
+以下治理规则适用于所有Tornado Cash池（包括 Tornado Cash Nova）。
 
-### How to suggest a proposal ?
+### 如何提出提案？
 
-In order to participate in Tornado.Cash governance, users first need to lock tokens in the governance contract. If a user votes or creates a proposal, the tokens cannot be unlocked before the proposal execution period ends (8.25 days from proposal creation). The locked tokens can also be delegated to another address.
+为了参加Tornado.Cash治理，用户首先需要在治理合约中锁仓代币。如果用户投票或创建提案，那么在提案执行周期结束(提案创建后的8.25天)之前，代币无法解锁。锁仓的代币也可以委托给另一个地址。
 
-To create a proposal, a user needs to have at least `1,000 TORN`. All proposals must be smart contracts with verified code that are executed from the [governance contract ](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce)(using `delegatecall`). This way, it’s easy to audit and test any governance changes.
+要创建提案，用户至少需要拥有 `1000个TORN`。所有提案都必须是带有经过验证的智能合约，这些代码是从[治理合约](https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce)执行的（使用 `delegatecall`）。这样，审计和测试任何治理更改都很容易。
 
-The voting period for a proposal is 5 days. A proposal will succeed if it receives a simple majority of votes and there are at least `25,000 TORN` total votes (if turnout is too low, the proposal automatically fails).
+提案的投票期为5天。如果一个提案获得多数的投票，并且至少有`25000个TORN`的投票，那么提案就通过（如果投票率过低，提案就会自动失败）。
 
-After a proposal succeeds, it is subject for a timelock of 2 days. After the timelock, any user is able to execute the proposal (which initiates the changes). If proposal is not executed for 3 days after that, it is considered _expired_ and can no longer be executed.
+提案成功后，将有2天的锁定时间。在时间锁定之后，任何用户都可以执行提案（启动更改）。如果提案在此之后3天仍未执行，则视为 _已过期_ ，无法再执行。
 
-All of these initial parameters are relatively small, since there won’t be many TORN tokens in circulation early on. But as the circulating supply increases, governance may adjust these thresholds.
+所有这些初始参数都相对较小，因为早期流通中的TORN代币不会很多。但随着流通供应量的增加，治理可能会调整这些阈值。
 
-A proposal can be of the following nature:
+提案可以是以下性质：
 
-* Adding a new Tornado Cash pool in the proxy
-* Changing the AP reward rates parameters
-* Unpause/Pause the TORN token
-* Change some core mining contracts such as the `TornadoTrees` contract
-* A combination of all of the above
+* 在代理中添加新的Tornado Cash池
+* 更改AP奖励率参数
+* 取消暂停/暂停 TORN 代币
+* 更改合约等一些核心挖矿 `TornadoTrees` 合约
+* 以上所有的组合
 
-And many more can be done. To find out exactly what can be changed through governance in the protocol, look for the functions with the modifier `onlyGovernance` in the smart contracts.
+还有很多事情可以做。要确切地找出在协议中通过治理可以更改什么，请在智能合约中查找`onlyGovernance`修饰符的函数。
 
-The governance functions are represented by a red arrow in [this architecture diagram.](https://viewer.diagrams.net/?highlight=0000ff\&edit=\_blank\&layers=1\&nav=1\&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)
+治理功能在[此架构图中红色箭头表示](https://viewer.diagrams.net/?highlight=0000ff\&edit=\_blank\&layers=1\&nav=1\&title=tornado-cash-contract-overview.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FRezan-vm%2Ftornado-cash-edu%2Fmain%2Ftornado-cash-contract-overview.drawio)。
 
-NOTE: Parts of this article was taken from [this medium post.](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) Credits goes to the Tornado cash team.
+注意：本文的部分内容摘自[这篇medium文章](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) 。归功于Tornado cash团队。
 
-### How to vote ?
+### 如何投票？
 
-You first need to deposit (or lock) TORN tokens into the governance contract.
+首先您需要将TORN代币存入(或锁入)治理合约。
 
-Go to: [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
+前往：[https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
-Click `Manage` -> `Lock Tab`
+点击 `管理` -> `锁入`标签
 
-Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
+通过点击 `批准` 按钮，批准治理合约来转移你的TORN代币。一旦确认批准，选择你想要存入的金额，并单击 `锁入`。确认你钱包中的交易，并等待确认。
 
 ![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
-Before the vote, the next crucial step is to review the proposal.\
-Legitimate proposals should have a dedicated post on [Torn.community ](https://torn.community)under the category “Proposal”. The forum post will provide additional context and arguments on the proposal. Read the thread and make your own mind on the issue.
+在投票之前，下一个关键步骤是审阅该提案。\
+合法的提案应该在[Torn.community ](https://torn.community)的“Proposal”类别下有一个专门的帖子。论坛帖子将提供有关该提案的更多背景和论据。阅读主题并在这个问题上做出自己的想法。
 
-Once a proposal was submitted it should appear on:\
+提交提案后，它应该出现在：\
 [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)\
-Proposal are implemented in the form of a smart contract making changes to the system. It is therefore important to verify the address of the smart-contract and review its code. Find the address of the proposal contract here:
+提案以智能合约的形式实施，对系统进行更改。因此，验证智能合约的地址并查看其代码非常重要。在此处找到提案的合约地址：
 
 ![](../.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
 
-Look for the contract address on Etherscan and make sure that the source code is verified and readable.
+在Etherscan上查找合约地址，并确保源代码经过验证且可读。
 
 ![](../.gitbook/assets/d2d37d169a94f09156e76fa522b7974cb7c9ac3f.png)
 
-Read the source code and make sure that it matches what is described in the forum post.
+阅读源代码，并确保它与论坛帖子中的描述相匹配。
 
-If you are not technical or not comfortable to read Solidity code, get someone you trust to review the contract for you.
+如果你不是技术人员，或者不喜欢阅读solidity代码，那就找你信任的人帮你检查合约。
 
-If you agree (or disagree) with the proposal code, it time to vote!
+如果你同意(或不同意)提案的代码，是时候投票了！
 
-A proposal have a voting windows of 5 days. This means that we have 5 days to reach the vote quorum of 25k TORN.
+提案有5天的投票窗口。这意味着我们有5天时间达到2万5千的投票规定人数。
 
-Important: Once you voted, your tokens will be locked for 8.25 days from the moment the proposal was submitted (the start of the 5 days voting period). After the 8.25 you can withdraw your tokens from the governance contract. Note that you can vote on 2 proposal at the same time without incurring additional lockup period (Only the most recently submitted proposal will matter for the 8.25 lockup).
+重要提示：一旦您投票了，您的代币将从提案提交之日起锁定8.25天（5天投票期的开始）。在8.25天之后，您可以从治理合约中提取您的代币。请注意，您可以同时对2个提案进行投票，而不会产生额外的锁定期（只有最近提交的提案才对8.25天锁定很重要）。
 
-To vote, simply click on the Green check mark or the the red cross depending whether you accept or reject the proposal. Confirm the transaction with Metamask and your vote is in!
+如要投票，只需点击绿色打勾标记或红十字标记，这取决于你是接受还是拒绝提案。与Metamask确认交易，你的投票就会生效！
 
-### How to delegate the vote ?
+### 如何委托投票？
 
-If you are a TORN token holder, you can delegate your voting power to someone else without having to send him the tokens.
+如果您是TORN代币持有者，您可以将您的投票权委托给其他人，而无需向他发送代币。
 
-IMPORTANT: If you delegate your tokens and that your delegate votes or initiate a proposal, your tokens will be locked for 8.25 days from the moment the proposal that the delegate voted on started. Note that that you can always undelegate at any time.
+重要提示：如果您委托代币并且您的代表投票或发起提案，您的代币将在代表投票的提案开始后锁定 8.25 天。请注意，您始终可以随时取消委托。
 
-To achieve delegation, go to: [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
+要实现委托，请访问： [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
-You first need to lock your tokens in the governance contract. Click **`Manage`** -> **`Lock`** tab
+你首先需要在治理合约中锁定你的代币。单击 **`管理`** -> **`锁入`** 标签
 
-Approve the governance contract to transfer your TORN tokens by clicking on the **`Approve`** button. Once the approve is confirmed, chose the amount you want to delegate and click **`Lock`**. Confirm the transaction in your wallet and wait for the confirmation.
+通过单击 **`批准`** 按钮，批准治理合同以转移您的TORN代币。确认批准后，选择您要委托的金额并单击 **`锁入`**。确认您钱包中的交易并等待确认。
 
 ![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
-The last step, is to make the actual delegation. Go again to [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
+最后一步，是进行实际的委托。再次访问 [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
-Click **`Manage`** -> **`Delegate`** tab
+单击 **`管理`** -> **`代理`** 标签
 
-Fill-in the address to which you want to delegate and click **`Delegate`**. Approve the transaction in your wallet and wait for confirmation.
+填写您要委托的地址，然后单击 **`代理`**。 批准您钱包中的交易并等待确认。
 
 ![](../.gitbook/assets/43c05d176d7f75a336af7a865565c9b23786b98c.png)
 
-The totality of your locked balance will be delegated.
+您锁定的全部余额将被委托。
 
-You can undelegate at anytime. To undelegate simply use the `Undelegate` Button in `Manage` -> `Undelegate` Tab.
+您可以随时取消委托。要取消委托，只需使用 `管理` -> `取消代理` 标签中的 `取消代理` 按钮。
 
 
 
-_Written by_ [_@rezan_](https://torn.community/u/Rezan/summary)
+_编写_ [_@rezan_](https://torn.community/u/Rezan/summary)
 
-_Updated by_ [_@bt11ba_](https://torn.community/u/bt11ba/)
+_更新_ [_@bt11ba_](https://torn.community/u/bt11ba/)

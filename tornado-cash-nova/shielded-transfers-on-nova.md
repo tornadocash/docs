@@ -1,15 +1,15 @@
-# Shielded Transfers on Nova
+# 在Nova隐蔽转账
 
-One of the specificity of Tornado Cash Nova is the introduction of shielded transfers. It allows shielded transactions of deposited tokens while staying within the pool.
+Tornado Cash Nova的特点之一是引入了隐蔽转账。它允许在不提取存款的同时对代币进行隐蔽转账。
 
-So far, to transfer the custody of deposited funds, tokens needed to be withdrawn first. With Nova, you will be able to transfer a chosen amount of your shielded balance (not necessarily all of it) to another address without needing to withdraw them from the pool.
+迄今为止，要转移存入资金的托管，一般需要先提取资金。使用Nova，您将能够指定数量的隐蔽余额（不一定是全部）转移到另一个地址，而无需从存款池中提取它们。
 
 ![](https://i.imgur.com/cf99tOn.gif)
 
-These shielded transfers can be made to any address of your choice, as long as this address is shielded (i.e. already registered to Tornado Cash Nova pool).
+这些隐蔽转账可以发送到您选择的任何地址，只要该地址是隐蔽的（即已在Tornado Cash Nova注册）。
 
-As a reminder, a shielded address is registered either through the `Set up account` action or alongside an initial deposit from a wallet address.
+提醒一下，隐蔽地址是通过`Set up account`操作注册的，或者与钱包地址的初始存款一起注册。
 
-We advise you to double-check the shielded address to which you transfer tokens as this action is irreversible.
+我们建议您仔细检查您将代币转移到的隐蔽地址，因为此操作是不可逆的。
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)
+_编写_ [_@ayefda_](https://torn.community/u/ayefda)

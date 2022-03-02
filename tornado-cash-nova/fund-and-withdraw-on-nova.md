@@ -1,71 +1,70 @@
-# Fund & Withdraw on Nova
+# 在Nova存款和提款
 
-Tornado Cash works by breaking the on-chain link between source & destination addresses. To do so, the protocol needs tokens to be deposited in a pool from one address, then to be withdrawn through another address.
+Tornado Cash的工作原理是断开源地址和目标地址之间的链上链接。为此，协议需要将代币从一个地址存入池中，然后通过另一个地址提取。
 
-This principle remains the same for Tornado Cash Nova. As for traditional fixed amount pools, these two actions are core to the efficiency of the tool:
+Tornado Cash Nova的这一原则保持不变。对于传统的固定金额池，这两个动作是工具效率的核心：
 
-* The “Funding” process,
-* The “Withdrawing” process.
+* “存款”流程，
+* “提款”流程。
 
-## Funding Process <a href="#funding-process" id="funding-process"></a>
+## 存款流程 <a href="#funding-process" id="funding-process"></a>
 
-The great novelty compared to traditional Tornado Cash pools is that **deposited amounts are no longer predefined.** Users can choose a customized amount within the capacity of their wallet balance.
+与传统Tornado Cash池相比，最大的新颖之处在于**存款金额不再是预定义的**。用户可以在钱包余额的范围内选择自定义金额。
 
-Therefore, if you want to put 0.4 ETH in the pool, you can do it all at once rather than making four separate transactions with the traditional 0.1 ETH pool.
+因此，如果您想将0.4 ETH放入池中，您可以一次完成所有操作，而不是使用传统的0.1 ETH池进行4次存款。
 
 ![](https://i.imgur.com/rqmzdgG.gif)
 
-### How Does It Work? <a href="#how-does-it-work" id="how-does-it-work"></a>
+### 它是如何工作的？ <a href="#how-does-it-work" id="how-does-it-work"></a>
 
-#### **The First Deposit 💰**
+#### **第一笔存款 💰**
 
-* The first step is to log in Tornado Cash Nova through a Metamask account.
-* Your account is not set yet (button `Set up account` available on the top right corner). To set up your account, you can either:
-  * **Click on `Set up account`**: your logged-in address will be registered to Nova without needing to deposit any tokens. This action will enable you to receive transfers or deposits within the pool from any another address.
-  * **Choose your logged-in address as a recepient address**: by depositing tokens into the pool, your account (with its shielded address & shielded key) will be automatically created. The deposited funds will come top up your shielded balance.
-  * **Choose another registered address:** tokens will be added to the shielded balance of the chosen recipient address. This recipient address needs to be a shielded address that was formerly registered to the pool.
+* 第一步是通过Metamask钱包地址登录Tornado Cash Nova。
+* •	您的账户尚未设置时（右上角的`Set up account` 按钮为激活状态）。设置您的账户，您需要：
+  * **点击`Set up account`**按钮：您连接的钱包地址将注册到Nova，无需存入任何代币。设置账户后，使您能够接收Nova其他账户的转账或存款。
+  * **选择您的登录地址作为接收地址**：通过将代币存入池中，您的账户（带有其隐蔽地址和隐蔽密钥）将被自动创建。存入的资金将补足您的受隐蔽余额。
+  * **选择另一个注册地址**：代币将添加到所选接收人地址的隐蔽余额中。此接收人地址需要是已经注册到Nova中的隐蔽地址。
 
-When you log in, the `Recipient address` is filled by default with your logged-in address. You can change it depending on how you want to use the tool.
+登录时，`Recipient address`默认填写您的登录地址。您可以根据实际情况更改。
 
-If you set a new account, you will be able to log into the pool later, check your Tornado shielded balance or receive shielded transfers by using either your shielded address or shielded key.
+如果您设置了一个新账户，您将能够稍后登录，检查您的Tornado隐蔽余额或使用您的隐蔽地址或隐蔽密钥接收转账。
 
-_All information about how to use these elements to log in or where to find your shielded key are available on_ [logging-in-tornado-cash-nova.md](logging-in-tornado-cash-nova.md "mention")_._
+_有关如何使用这些选项登录或在哪里可以找到您的隐蔽密钥的所有信息，请访问_ [logging-in-tornado-cash-nova.md](logging-in-tornado-cash-nova.md "mention")_。_
 
-#### **The following deposits 💸**
+#### **后续存款 💸**
 
-The following deposits answer to the same rules that the first one, except that the account is already set.
+以后存款与第一个存款的规则相同，但账户已设置。
 
-By logging into the pool with your shielded address / key, you can deposit your chosen amounts to your chosen shielded address as you wish to.
+通过使用您的隐蔽地址/密钥登录，您可以根据需要将您选择的金额存入您选择的隐蔽地址。
 
-⚠️ Since it is a beta version, deposits are currently limited to 1 ETH/transaction.\
-However, if the community wishes to increase this limit, the 1 ETH cap amount can always be changed through a governance proposal.
+⚠️由于是测试版，目前存款上限为每笔1 ETH。 但是，如果社区希望提高此上限，则可以通过治理提案更改1 ETH的上限。
 
-## Withdrawing Process <a href="#withdrawing-process" id="withdrawing-process"></a>
+## 提款流程 <a href="#withdrawing-process" id="withdrawing-process"></a>
 
 ![](https://i.imgur.com/qn9eJXS.gif)
 
-To withdraw funds from the Nova pool, you can either:
+要从Nova池中提取资金，您可以：
 
-* choose from a set of four predetermined amounts (0.1, 0.3, 0.5 & 1 ETH),
-* choose a completely customized amount by going through the button `Set custom`.
+* 从一组四个预定数量（0.1、0.3、0.5 和 1 ETH）中选择，
+* 通过`Set custom`按钮自定义金额。
 
-### Custom Option For Withdrawal <a href="#custom-option-for-withdrawal" id="custom-option-for-withdrawal"></a>
+### 提款的自定义选项 <a href="#custom-option-for-withdrawal" id="custom-option-for-withdrawal"></a>
 
-**The custom option should only be chosen with full knowledge of the following facts and in complete confidence in your actions.**
+**只有在充分了解以下情况并完全相信自己的行为后，才能选择自定义选项。**
 
-To maintain your privacy, choosing one of the four suggested amounts is strongly recommended as it will allow your withdrawal to blend with the crowd.
+强烈建议选择四个建议金额之一，因为它可以让您的提款金额与其它人的提款金额混淆一体，从而保护您的隐私。
 
-Indeed, ddepending on the chosen amount, a connection might be deduced between your initial fund transaction and your withdrawal if:
+但是，使用自定义金额，如果出现以下情况，可能会在您的初始存款和取款之间推断出有关联：
 
-* the initially funded amount & the withdrawn amount are exactly the same,
-* the funded & withdrawn amounts can be easily linked through a sum.
+* 初始存款金额和取款金额完全相同，
+* 存款和取款的金额可以很容易地通过一个金额联系起来。
 
-_For instance, a deposit of 0.42 ETH can be linked to a withdrawal of exactly 0.42 ETH or two times 0.21 ETH, which might compromise anonymity. However, with a withdrawal of 0.391 ETH, privacy is better preserved as there is no obvious link between the 0.42 & 0.391 amounts._
+_比如，0.42ETH的存款可以与恰好0.42 ETH或两笔0.21 ETH的提款相关联，这可能会损害匿名性。如果提款金额用0.391 ETH，隐私就能得到了更好的保护，因为0.42和0.391之间没有明显的联系。_
 
-### Transctions through Gnosis Chain (L2) <a href="#transctions-through-gnosis-chain-l2" id="transctions-through-gnosis-chain-l2"></a>
+### 通过Gnosis链(Layer2)进行的交易<a href="#transctions-through-gnosis-chain-l2" id="transctions-through-gnosis-chain-l2"></a>
 
-For cheaper transactions, Gnosis Chain (former xDAI Chain) is used as a Layer-2. To this end, a bridge is used between ETH from the Mainnet & WETH from Gnosis Chain.
+交易手续费更便宜，使用Gnosis链（前xDAI链）作为Layer2层。为此，在以太坊主网和 Gnosis链的WETH之间使用了一座桥梁。
 
-Therefore, to prevent spam attacks that will overload the bridge, the withdrawal amount has to be larger than 0.05 ETH.
+因此，为了防止垃圾交易攻击导致桥超载，提款金额限制必须大于0.05 ETH。
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)
+_编写_ [_@ayefda_](https://torn.community/u/ayefda)

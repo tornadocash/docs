@@ -1,35 +1,35 @@
-# Minified UI Hosted Locally
+# 本地简化版UI
 
-Tornado Cash protocol can be launched locally on your computer through a minified User Interface version made available by the core developers team.
+Tornado Cash协议可以通过核心开发团队提供的简化版用户界面在您的计算机上本地启动。
 
 {% embed url="https://github.com/tornadocash/ui-minified" %}
 
-### Step #1: Clone the Github repository on your computer
+### 步骤#1：在您的计算机上克隆Github存储库
 
-By opening your Command Line Interface, you can run the following commands to, first, clone the repository, then go inside the newly copied folder:
+通过打开命令行界面，您可以运行以下命令，首先克隆存储库，然后进入新创建的文件夹：
 
 ```
 git clone https://github.com/tornadocash/ui-minified.git
 cd ui-minified
 ```
 
-### Step #2: Serve the Folder with Your Favorite HTTP Server
+### 步骤#2：使用您的HTTP服务器为文件夹提供服务
 
 ```
 python -m SimpleHTTPServer 8080
 ```
 
-You can obviously use any other http web server, such as[ npmjs.com/package/http-server](https://www.npmjs.com/package/http-server).
+您可以使用任何其他http Web服务器，例如[ npmjs.com/package/http-server](https://www.npmjs.com/package/http-server)。
 
-### Step #3: Run the UI on Localhost on your Favorite Web Browser
+### 步骤#3：在您的浏览器上的localhost上运行UI
 
-To finish, you just need to run [http://localhost:8080](http://localhost:8080) on your Web Browser & let the magic happens 🪄
+最后，您只需在浏览器上运行 [http://localhost:8080](http://localhost:8080) 并让奇迹发生。
 
-## Running a TOR service
+## 运行TOR服务
 
-If you wish to serve tornado cash UI on an .onion domain, there is an easy way to do it using docker-compose.
+如果您希望在.onion域上提供tornado cash UI，可以使用docker-compose轻松实现。
 
-* You need to paste the following into `docker-compose.yml`
+* 您需要将以下内容粘贴到 `docker-compose.yml`
 
 ```
 version: '2'
@@ -60,12 +60,10 @@ services:
         -----END RSA PRIVATE KEY-----
 ```
 
-* Then, just run the following command:`docker-compose up -d`
+* 然后，只需运行以下命令：`docker-compose up -d`
 
-Enjoy your Tornado Cash UI 🌪
+享受您的Tornado Cash UI 🌪
 
-_This tutorial is inspired from the_[ _README.md document_](https://github.com/tornadocash/ui-minified/blob/gh-pages/README.md) _present in the Github repository._
+_本教程的灵感来自Github 存储库中的_[ _README.md 文档_](https://github.com/tornadocash/ui-minified/blob/gh-pages/README.md) _。_
 
-__
-
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)
+_编写_ [_@ayefda_](https://torn.community/u/ayefda)

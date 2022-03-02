@@ -1,53 +1,53 @@
-# Deposit & Withdraw
+# 存款和取款
 
-This tutorial is a step-by-step explanation of how to deposit & withdraw your funds. If you want to understand how the internal system of Tornado.cash works, please refer to [this tutorial](../general/how-does-tornado.cash-work.md).
+本教程将一步一步地讲解如何存入和提取你的资金。如果你想了解Tornado Cash的内部系统是如何工作的，请参考本[教程](../general/how-does-tornado.cash-work.md).
 
-## **Deposit**
+## **存款**
 
-### Choose a chain
+### 选择一条链
 
-[Tornado cash](https://tornadocash.eth.link) is available on several blockchains, so you will have to choose among 4 chains:
+[Tornado cash](https://tornadocash.eth.link) Tornado Cash可以在几个区块链上使用，所以你必须在列表的几个区块链中进行选择：
 
 ![](../.gitbook/assets/azpoj.gif)
 
-### Select a token
+### 选择一种代币
 
-Choose the token you want to deposit and its amount:
+选择你想存入的代币和数量：
 
 ![](../.gitbook/assets/abdce.gif)
 
-### Connect your wallet
+### 连接你的钱包
 
-Click on `Connect` and choose between wallet providers such as Metamask or WalletConnect.
+单击`Connect`并在Metamask或WalletConnect等钱包提供商之间进行选择。
 
-### Save your note
+### 保存您的凭证
 
-Click on `Deposit` and store your note on a secure place before clicking on `I backed up the note`. You can also save encrypted notes on-chain by setting up a Note Account, by clicking on `Settings` (top-right corner).
+点击`Deposit`，把你的凭证保存在一个安全的地方，然后点击`I backed up the note`。你也可以在链上保存加密的凭证，通过设置一个凭证帐户，点击`Settings`(右上角)。
 
 ![](../.gitbook/assets/aaaab.gif)
 
-### Be patient
+### 保持耐心
 
-As explained [here](../general/tips-to-remain-anonymous.md#be-patient), the longer you wait, the greater your anonymity set will be.
+正如[这里](../general/tips-to-remain-anonymous.md#be-patient)，所解释的，你等待的时间越长，您的匿名集就会越大。
 
-Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
+恭喜！你做到了。现在你的代币在Tornado Cash的资金池里了。
 
-## Withdraw
+## 取款
 
-### Choose a chain
+### 选择一条链
 
-[Tornado cash](https://tornadocash.eth.link) is available on several blockchains, so you will have to choose among 4 chains:
+[Tornado cash](https://tornadocash.eth.link) Tornado Cash可以在几个区块链上使用，所以你必须在列表的几个区块链中进行选择：
 
 ![](../.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
-### Paste your note
+### 粘贴你的凭证
 
-Use your deposit note by pasting it in the corresponding box. Click on `Withdraw` and wait for the zk-Snark proof to be generated.
+在相应的区域里使用你的存款凭证。点击`Withdraw` 并等待zksnark证明生成。
 
-### Confirm the withdrawal
+### 确认取款
 
 ![](../.gitbook/assets/abdaaaa.png)
 
-Done !
+完成！
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
+_编写_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)

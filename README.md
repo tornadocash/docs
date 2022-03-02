@@ -1,61 +1,61 @@
-# Introduction of Tornado Cash
+# Tornado Cash介绍
 
 ![](.gitbook/assets/image.png)
 
-Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space.
+Tornado Cash是一种**完全去中心化的非托管协议** ，允许用户在加密货币世界进行隐私交易。
 
-As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
+作为一个去中心化协议，Tornado Cash智能合约已经在以太坊区块链中部署，这使得它们无法被改变。它们既不能被改变，也不能被篡改。因此，任何人——包括最初的开发人员——都不能修改或关闭它们。社区以去中心化的方式部署所有治理和挖矿的智能合约。
 
-As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
+作为一种非托管协议，用户在使用Tornado.Cash时拥有其加密货币保管权。因此，在每次存款中，他们都获得了能够访问存款资金的私钥，这使用户能够完全控制他们的资产。
 
-## How privacy is achieved?
+## 隐私是如何实现的?
 
-Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
+Tornado Cash通过打破资金来源地址和资金到达地址之间的链上关联，来提高交易的私密性。它使用智能合约，接受用户从一个地址的ETH和其他代币的存款，并允许用户从不同的地址提取资金。
 
-To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance.
+为了保护隐私，部分良好的做法是有效的，比如通过中继来支付gas，来使得资金提取到一个没有预存余额的钱包地址。
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](general/how-does-tornado.cash-work.md) & [Tips to remain anonymous](general/tips-to-remain-anonymous.md).
+更多细节可在这里查看：_ [_Tornado Cash是如何工作的？_](general/how-does-tornado.cash-work.md) & [保持匿名的窍门](general/tips-to-remain-anonymous.md).
 
-## Where is Tornado.Cash at?
+## Tornado.Cash现在到哪个阶段？
 
-Since its inception in 2019, Tornado Cash has been operating **on the Ethereum blockchain**. The protocol has been offering diversified fixed amount pools for six tokens (ETH, DAI, cDAI, USDC, USDT & WBTC) handled by the Ethereum blockchain.
+自2019年成立以来，Tornado Cash一直**在以太坊区块链上运行**。协议提供6种代币（ETH、DAI、cDAI、USDC、USDT 和 WBTC）多种固定金额池。
 
-From June 2021, in addition to the Ethereum blockchain, Tornado Cash smart contracts **have also been deployed on other side-chains & blockchains**. Theses deployments enabled the tool to either support new tokens or benefit from Layer-2 advantages such as faster and cheaper transactions.
+从2021年6月开始，除了以太坊区块链，Tornado Cash智能合约**也已部署在其他侧链和区块链上**。这些部署使得协议能够支持新代币且受益于Layer-2优势，比如交易速度更快、更便宜。
 
-Therefore, as of today, Tornado Cash is currently operating on:
+因此，截至今天，在Tornado Cash上可以使用以下代币：
 
-* **Ethereum Blockchain** : **ETH** (Ethereum), **DAI** (Dai), **cDAI** (Compound Dai), **USDC** (USD Coin), **USDT** (Tether) & **WBTC** (Wrapped Bitcoin),
-* **Binance Smart Chain**: **BNB** (Binance Coin),
-* **Polygon Network**: **MATIC** (Polygon),
-* **Gnosis Chain (former xDAI Chain)**: **xDAI** (xDai),
-* **Avalanche Mainnet**: **AVAX** (Avalanche),
-* **Optimism**, as a Layer-2 for **ETH** (Ethereum),
-* **Arbitrum One**, as a Layer-2 **ETH** (Ethereum).
+* **以太坊**：**ETH** (Ethereum)， **DAI** (Dai)， **cDAI** (Compound Dai)， **USDC** (USD Coin)， **USDT** (Tether) & **WBTC** (Wrapped Bitcoin)，
+* **币安智能链**：**BNB** (Binance Coin)，
+* **Polygon网络**：**MATIC** (Polygon)，
+* **Gnosis Chain (原xDAI Chain)**：**xDAI** (xDai)，
+* **Avalanche主网**：**AVAX** (Avalanche)，
+* **Optimism**， 以太坊的Layer-2，
+* **Arbitrum One**， 以太坊的Layer-2。
 
 ![](.gitbook/assets/logos.png)
 
-Until December 2021, the protocol included an anonymity mining system for some of these tokens, allowing its users to earn a governance token (**TORN**). Users were able to ultimately earn TORN on the Blockchain network by depositing in the ETH, DAI, cDAI & WBTC pools.
+在2021年12月之前，协议还包括一些代币的匿名挖矿系统，允许其用户获得治理代币（**TORN**）。用户可以在ETH、DAI、cDAI 和 WBTC池中存入资产来赚取TORN。
 
-_More information about_ [_Anonymity mining_](tornado-cash-classic/anonymity-mining.md) _&_ [_Tornado.Cash token_](general/torn.md) _are available._
+_点击了解更多关于_ [_匿名挖矿_](tornado-cash-classic/anonymity-mining.md) _&_ [_Tornado.Cash的代币信息_](general/torn.md) 。
 
-**Thanks to the TORN token, Tornado Cash users can actively participate in shaping the protocol**. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol parameters & token distribution are completely under the community’s control through this governance.
+**通过TORN治理代币，Tornado Cash用户可以积极参与协议的制定**。社区对 Tornado Cash的发展及其功能的改进有很大的影响力。事实上，协议参数和代币分发通过这种治理方式完全由社区控制。
 
-All pools mentioned above can be accessed on [tornadocash.eth.link](https://tornadocash.eth.link). They operates **under the principle of fixed amount deposits & withdrawals**. It means that each token has 2 to 4 different pools, allowing transactions of only 2 to 4 different fixed amounts _(e.g. ETH has four different pools, one for each of these amounts: 0.1, 1, 10 & 100 ETH)_.
+上面提到的所有池都可以在[tornadocash.eth.link](https://tornadocash.eth.link)上访问。这些池 **在固定金额存款和取款的原则下运作**。每个代币有2至4个不同金额的池，这意味着只允许2至4个不同固定金额的存取 _（例如ETH有四个不同金额的池：0.1、1、10和100 ETH）_。
 
 ### Tornado Cash Nova
 
-With the [**release of Tornado Cash Nova** (beta version) on December 2021](https://tornado-cash.medium.com/tornado-cash-introduces-arbitrary-amounts-shielded-transfers-8df92d93c37c), an **upgraded pool with unique new features** has been added to the protocol. Users are no longer constrained by fixed amount transactions. With the addition of Tornado Cash Nova, they can benefit from the use of **an arbitrary amount pool & shielded transfers**.
+随着[**2021年12月Tornado Cash Nova（测试版）的发布**](https://tornado-cash.medium.com/tornado-cash-introduces-arbitrary-amounts-shielded-transfers-8df92d93c37c)，协议中添加了**具有独特新功能**的升级池。用户不再受固定金额交易的限制。随着Tornado Cash Nova的加入，用户可以从使用**任意金额池进行隐蔽交易**中受益。
 
-Tornado Cash Nova operates on the Gnosis Chain (former xDai Chain) as a Layer2 to optimize speed and cost. It allows **deposits and withdrawals of completely customized amounts in ETH**. This pool also enables shielded transactions where users can **transfer the custody of their token while remaining in the pool**.
+Tornado Cash Nova在Gnosis链（前xDai链）上作为Layer2运行，以优化速度和成本。它允许**在ETH中完全自定义金额进行存款和取款**。该池还支持隐蔽交易，用户可以**保留其池中的代币，并转移其代币的保管**。
 
-Tornado Cash Nova (beta version) can be accessed on [nova.tornadocash.eth.link](https://nova.tornadocash.eth.link). You can find further informations related to the functioning of Tornado Cash Nova in the dedicated section of our docs.
+Tornado Cash Nova（测试版）可以在[nova.tornadocash.eth.link](https://nova.tornadocash.eth.link)上访问。您可以在我们文档找到专门介绍Tornado Cash Nova 功能的更多相关信息。
 
-## How does Tornado.Cash run?
+## Tornado.Cash是如何运行的？
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain - are fully **open sourced.** Working as a DAO (Decentralized Autonomous Organization), Tornado.Cash governance and mining smart contracts are deployed by its community.
+[Tornado Cash背后运作的代码](https://github.com/tornadocash) -智能合约、线路和工具链- 是**完全开源的。**作为一个DAO(去中心化自治组织)工作，Tornado Cash治理和挖矿的智能合约由其社区部署。
 
-The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
+该协议还与zk-SNARK一起使用，zk-SNARK支持零知识证明，其允许用户在证明拥有信息的情况下而不需要透露它。这项技术的使用是基于**Zcash团队在以太坊社区的帮助下进行的开源研究**。要设置zk-SNARK的初始密钥, Tornado.Cash[ 可信设置社区](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1)于2020年5月推出，[共有1114位贡献者参与](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa)。如此大量的参与者使得伪造零知识证明来破坏协议成为不可能的。
 
-User interface is hosted on **IPFS** (InterPlanetary File System) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it.
+用户界面由社区托管在**IPFS**  (InterPlanetary File System)上，减少数据被删除的风险。事实上，只要至少有一个用户托管该界面，它就可以工作。
 
-_Written & updated by_ [_@ayefda_](https://torn.community/u/ayefda)
+_编写_ [_@ayefda_](https://torn.community/u/ayefda)

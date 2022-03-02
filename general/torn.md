@@ -1,42 +1,42 @@
 # TORN
 
-## Token
+## 代币
 
-TORN is an ERC20-compatible token with a fixed supply that governs [Tornado.Cash](https://tornado.cash). TORN holders can make proposals and vote to change the protocol via governance.
+TORN是一个兼容ERC20标准的代币，代币总量固定，用于[Tornado.Cash](https://tornado.cash)的治理。TORN代币持有者可以通过治理提出提案并并投票更改协议。
 
-**TORN is not a fundraising device or investment opportunity.**
+**TORN不是一个融资工具或投资机会。**
 
-**Here’s how the initial distribution of TORN would break down:**
+**以下是TORN最初的分布情况：**
 
-* **5% (500,000 TORN):** Airdrop to early users of [Tornado.Cash](https://tornado.cash) ETH pools
-* **10% (1,000,000 TORN):** Anonymity mining for [Tornado.Cash](https://tornado.cash) ETH pools, distributed linearly over 1 year
-* **55% (5,500,000 TORN):** DAO treasury, will be unlocked linearly over 5 years with 3 month cliff
-* **30% (3,000,000 TORN):** Founding developers and early supporters, will be unlocked linearly over 3 years with 1 year cliff
+* **5% (500,000 TORN)：** 空投给早期[Tornado.Cash](https://tornado.cash) ETH池的用户
+* **10% (1,000,000 TORN):** [Tornado.Cash](https://tornado.cash) ETH池的匿名挖矿，1年内线性分发
+* **55% (5,500,000 TORN):** DAO金库，将在5年内以3个月的悬崖线性解锁
+* **30% (3,000,000 TORN):** 创始开发者和早期 支持者，将在3年内以1年的悬崖解锁
 
 ![](../.gitbook/assets/1-bjggju1rn4\_qoxgcljfneq.png)
 
 ![](../.gitbook/assets/1-gmc0jw8zr5xfvrk5zyqmya.png)
 
-## Airdrop <a href="#f04d" id="f04d"></a>
+## 空投 <a href="#f04d" id="f04d"></a>
 
-Users who have believed in [Tornado.Cash](https://tornado.cash) from early on should have a say in governing the protocol. For this reason, early adopters of the protocol did receive an airdrop of TORN.
+从一开始就相信[Tornado.Cash](https://tornado.cash)的用户应该在管理协议方面有发言权。出于这个原因，该协议的早期使用者确实收到了TORN的空投。
 
-TORN has been airdropped to [all addresses](https://github.com/tornadocash/airdrop/blob/master/airdrop.csv) that made deposits into [Tornado.Cash](https://tornado.cash) ETH pools before block `11400000`. TORN were airdropped in the form of a non-transferable TORN voucher (vTORN) that can be redeemed 1:1 to TORN within 1 year, from December 18, 2020, to December 18, 2021. TORN that aren’t redeemed will be swept into the governance contract after 1 year and become part of the DAO Treasury. Redeemed TORN will be available immediately.
+TORN已经被空投到[all addresses](https://github.com/tornadocash/airdrop/blob/master/airdrop.csv)在11400000区块之前给[Tornado.Cash](https://tornado.cash)的ETH池存款的地址.。TORN以一种不可转让TORN凭证(vTORN)的形式空投，可以在一年内 (从2020年12月18日到2021年12月18日) 1:1兑换成TORN。未被申领的TORN将在一年后被纳入治理合约，并成为DAO金库的一部分。被申领的TORN将立即可用。
 
-The airdropped amount depends on users’ deposit size and age — larger deposits and older deposits will receive more TORN. Multipliers for deposit size are logarithmic:
+空投的数量取决于用户的存款大小和时间——越大额的存款和越早期的存款将收到更多的TORN。存款大小的乘数是对数的：
 
 ![](../.gitbook/assets/1-ogfrad8p3gez14zh4jndiq-2x.png)
 
 
 
-So a 100 ETH deposit get twice as many tokens as a 1 ETH deposit. The multiplier allows large and small users of [Tornado.Cash](https://tornado.cash) to both have a say in governance.
+所以100个ETH存款得到的代币是1个ETH存款的两倍。乘数允许存款额度大小不同的用户使用[Tornado.Cash](https://tornado.cash)的时候都在治理上有发言权。 时间乘数的确切曲线是这样的：
 
-The exact curve for the time multiplier looks like this:
+时间乘数的确切曲线如下所示：
 
 ![](../.gitbook/assets/1-bje88nlnkbe29-zcs5agkw-2x.png)
 
-The exact airdrop formula is the following:
+确切的空投公式如下：
 
 ![](../.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
 
-_Written by_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
+_编写_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
