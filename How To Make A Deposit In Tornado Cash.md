@@ -1,67 +1,60 @@
-# How To Make A Deposit In Tornado Cash
-To improve privacy, Tornado cash breaks the on-chain link between the source and the destination address. The platform uses a smart contract that accepts ETH deposits. Whenever the user wishes to deposit, he/she generates a secret and sends its hash (called a commitment) along with a deposit amount to the Tornado smart contract. The contract accepts the deposit and adds the commitment to its list of deposits. 
+# 如何在Tornado Cash中存款
+为了提高隐私性，Tornado Cash打破了源地址和目标地址之间的链上链接。平台使用接受ETH存款的智能合约。每当用户希望存款时，他/她都会生成一个密钥并将其哈希（称为承诺）与存款金额一起发送到 Tornado智能合约。合同接受存款并将承诺添加到其存款清单中。
 
-## Usage Guide
-Go to the Tornado Cash **[webpage](https://tornado.cash/)**.
-The landing page looks like this.
+## 使用指南
+转到Tornado Cash **[网站](https://tornado.cash/)**.
+首页如下所示。
 
 ![webpage](https://siasky.net/DADgpg5vPOF5JPwOxlFwYXPzT8vRFlR9leCDWqMBIWR9yg)
 
-Click on **Launch App** and it will redirect you to the **[page](https://app.tornado.cash/account)**
+单击**Launch App** 它会将您跳到 **[page](https://app.tornado.cash/account)**
 
  ![wallet](https://siasky.net/KABpV33X84PCitszZpwa4thYvYOxPHw29Qlx0UqKxf4ioQ)
  
-Connect your Web3 (Metamask) wallet.
-### Note Account
-Once you have connected your Metamask wallet, the next thing you are required to do is to set up the **Note account**.
-The Note Account key is used to encrypt and store your tornado.cash private notes on the ethereum blockchain.
+连接您的Web3(Metamask)钱包。
+### Note账户
+连接Metamask钱包后，您需要做的下一件事是设置**Note账户**。Note账户密钥用于加密和存储您的 tornado.cash 私人凭证在以太坊区块链上。 
 
  ![Note account](https://siasky.net/NAD6aVPWNrE4n1cUknhwZinCGWdCf8WlzBe2H_82i9G9CQ)
  
-Click on **Setup Account**.
+单击 **Setup Account**.
 
  ![setup account](https://siasky.net/BABEIuEBVLR7kgiE6pOxVCKjIDgjdqK9mystttsRVzprhA)
  
-The application will show your Note Account key that you need to store safely. **Do not share your account key details with anyone**. 
+该应用程序将显示您需要安全存储的Note账户密钥。**不要与任何人分享您的账户密钥信息。**. 
 
 ![account setup](https://siasky.net/bAAPlh2vU89f5mFkssIFGLhXZJTPHivQDlrrWm0m-yn5ZQ)
 
-Click on **Setup account** and a Metamask transaction is triggered. Confirm the transaction. 
-Once the transaction is finished, you can see your Note Account is successfully set up. 
+单击**Setup account**并触发Metamask交易。确认交易。交易完成后，您可以看到您的Note账户已成功设置。
 
  ![note account set](https://siasky.net/HAA4u3D5HkdPlE1de6e2n0NbKg4ANoW_qL5WBY0yGlE6gg)
  
-The basic account setup is done. We can now proceed with Deposit.
-### Deposit
-To maintain a high level of anonymity,one of the method that Tornado cash uses is that it allows users to deposit only a fixed token value. 
-Once you go to the **Deposit** tab and select the token you want to deposit, you will find that you are allowed to deposit some fixed token value. For example, in the case of ETH, you can deposit only 0.1 ETH, 1 ETH, 10 ETH, or 100 ETH.
+基本账户设置完成。我们现在可以继续存款。
+### 存款
+为了保持高度的匿名性，Tornado cash使用的方法之一是它允许用户只存入固定的代币数量。进入**Deposit**选项卡并选择要存入的代币后，您会发现您可以存入一些固定的代币价值。例如，在ETH的情况下，您只能存入0.1 ETH、1 ETH、10 ETH 或 100 ETH。 
 
 ![deposit](https://siasky.net/FAC3nA1tU50pw9JVeqLUy6TP5Cow42uhKp7pbtVrh20-gw)
 
-The Statistics section will show you the list of the latest deposits with the selected denomination.
-**Important:** Kindly note that the project is still in the experimental phase. Use at your own risk.
-To **Deposit**, select the token and the amount that you wish to deposit. The application will then ask you to save your note file (.txt). This note file can be used later to withdraw your deposit.
+统计部分将向您显示所选面额的最新存款列表。 **重要提示：** 请注意，该项目仍处于实验阶段。使用风险自负。要**存款**，请选择您要存款的代币和金额。然后应用程序会要求您保存Note文件 (.txt)。此Note文件可用于之后取款。 
 
   ![send deposit](https://siasky.net/zACyy3T6bauKX5jrch1N5Nt3Hr3sK13JcAZyg7CGDNAVOA)
   
-Click on **Send Deposit** and confirm the Metamask transaction. 
-You can now see your deposit transactions will be added in the Statistics section.
+点击 **Send Deposit** 并确认Metamask交易。您现在可以看到您的存款交易将被添加到“统计”部分。
 
  ![statistics](https://siasky.net/rADt7GRpcVllIhlIoAiUpeqDoKUfVYFhXTiklNLMlXn31w)
  
-From the bottom of the tab, you can check your deposit transactions along with other key details like:
-- Your Deposit amount
-- Any subsequent deposit after your transaction with the same denomination
-- Transaction Hash
-- Transaction status
-- Rewards Earned
+从选项卡底部，您可以查看您的存款交易以及其他关键详细信息，例如：
+- 您的存款金额
+- 以相同面额交易后的任何后续存款
+- 交易哈希
+- 交易状态
+- 获得的奖励
 - Note
  
 
 ![deposit details](https://siasky.net/OADOPSot2Tx_FAvtqKJz-jFwkUKbeqtG8YD2z4zNz7YTSA)
 
-The rewards section shows the Anonymity Point (AP) that a user earns for depositing and withdrawing from the ETH anonymity pool. You can earn more AP for staying longer in the pool.
-The Note can be used to withdraw the funds. We will explain in detail how you can use the Note to withdraw your funds in the Withdraw section.
+奖励部分显示了用户从ETH匿名池中存款和取款所获得的匿名点 (AP)。您可以通过在池中存储更长时间来赚取更多AP。该Note可用于取款。我们将在取款部分详细解释您如何使用Note取款。
 
 
 

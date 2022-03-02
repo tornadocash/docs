@@ -1,46 +1,40 @@
-# How To Withdraw From Tornado Cash
-Users can withdraw their tokens from the Tornado cash platform at any time but to ensure high-level privacy it is recommended to wait until there are a few deposits after yours.
-For Withdraw, users are required to provide two details:
+# 如何从Tornado Cash中提取
+用户可以随时从Tornado Cash平台提取他们的代币，但为了确保高度隐私，建议等到您的存款之后再进行一些存款。对于提款，用户需要提供两个详细信息：
 - Note 
-- Recipient Address
+- 接收地址
  
 ![wihdraw button](https://siasky.net/IAA0oMfBCz3vPgANvIUsGBS84y4eC0DFgrbuVWVDwX5i9Q)
 
-Fill in the mandatory details. You can get the Note details from the deposit transaction.
-Once your fill in the note details, all details about your deposit get displayed.
+填写必填信息。您可以从存款交易中获取Note详细信息。填写备注详细信息后，将显示有关您存款的所有详细信息。
 
  ![withdraw details](https://siasky.net/TAB6fl4n3yj1f_cd59CzRUEap6QvaPe3fslWThwC6KWBlQ)
  
-From the Withdraw setting tab, you can choose two options for withdrawal:
-- Via  Relayer 
-- Web3 wallet
+从提款设置选项卡中，您可以选择两个提款选项：
+- 通过中继器 
+- Web3钱包
 
-You can choose the withdrawal method as Wallet but for that, you need to have a completely new Ethereum address with some ETH on it. But getting some ETH will eventually lead to the loss of anonymity. 
+您可以选择用钱包的提款方式，但为此，您需要有一个全新的以太坊地址，上面有一些ETH。但是获得一些 ETH最终会导致失去匿名性。
  
   ![withdraw wallet](https://siasky.net/MACMuLY11IK0h2b1MON8k0gUjZHLNVqwDYdX5tW9-npAhw)
   
-Thus, it is recommended to choose the withdrawal method as Relayer. A relayer is used to preserve privacy. With Relayer, there is no way to link a connection between the withdrawal and the deposit addresses.
+因此，建议选择中继器作为提款方式。中继器用于保护隐私。使用中继器后，在提款地址和存款地址之间无法找出关联。
  
   ![relayer](https://siasky.net/MAALGPo1Emw_K_-y6t6EaB6Ao--NPnSuIQfTfqI28qSUCw)
   
-Once you select this method to withdraw, your zk-Snark proof gets generated. 
-The zkSnark technology is a method that helps the users to verify that they possess a secret to an unspent commitment from the list of deposit smart contracts without actually revealing the exact deposit corresponds to a secret.
+一旦您选择此方法来提款，您的zk-Snark证明就会生成。zkSnark技术是一种帮助用户验证他们是否拥有存款智能合约列表中未使用凭证密钥的方法，而无需实际透露与密钥对应的确切存款。
  
   ![confirmation](https://siasky.net/GADcmOqr30fMXl7neBtSR6knAzPg8x_4mxQtUt96dQSa1w)
   
-Confirm the process.
-You can now see the withdrawal transaction details at the bottom. 
-One interesting thing you can note here is that the user’s reward is continuously increasing. 
+确认过程。您现在可以在底部看到提款交易详情。您可以在此处注意到一件有趣的事情，即用户的奖励在不断增加。
 
    ![final withdraw detail](https://siasky.net/KAAxcbm5QgjFr7mTKFqBU8uVKKNHKsaWz3-m85iQOP-6kg)
  
-To cross- verify the anonymity, click on the transaction hash and check the ethereum addresses mentioned on the log.
+要交叉验证匿名性，请单击交易哈希并检查日志中提到的以太坊地址。
 
  ![txn hash](https://siasky.net/DADzeQWIwr8CkZIRyLyUJTzs8kdve1kNlvOwwc6WBz8gqg)
  
-You can easily check that the source address is something different from your wallet address. 
-Also, no transaction details will appear in the destination wallet address.
+您可以轻松检查源地址是否与您的钱包地址不同。此外，目标钱包地址中不会出现任何交易详情。
 
  ![metamask activity](https://siasky.net/VAAJZImmqf15RxJJp3nbgSrKUPaFpljsh6pQyvpxZavdIw)
  
-As a good practice, it is recommended to destroy the note data once you have successfully withdrawn your funds.
+作为一种良好做法，建议您在成功提取资金后销毁Note数据。
