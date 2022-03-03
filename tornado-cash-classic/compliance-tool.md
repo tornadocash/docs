@@ -2,19 +2,19 @@
 
 Por diseño, todo es público en la blockchain, lo que puede privar a los usuarios de su derecho a la privacidad. Cualquiera puede tener acceso al historial completo de transacciones de todos. En respuesta a este problema, el protocolo Tornado.Cash permite a los poseedores de criptomonedas recuperar su privacidad y anonimato. De hecho, permite a los usuarios romper el vínculo que existe entre una dirección de origen y una de destino.
 
-Sin embargo, mantener la privacidad y preservar la libertad financiera nunca debe ser a expensas de incumplimientos. El derecho a la privacidad radica en la capacidad de tener control sobre la información que proporcionamos y a quién se la proporcionamos.&#x20;
+Sin embargo, mantener la privacidad y preservar la libertad financiera nunca debe ser a expensas de incumplimientos. El derecho a la privacidad radica en la capacidad de tener control sobre la información que proporcionamos y a quién se la proporcionamos.
 
 De esta manera, **la Herramienta de Cumplimiento de Tornado.Cash permite a los usuarios probar el origen de sus fondos.** Gracias a la Nota generada después de cada depósito, **esta herramienta emitirá una prueba verificada criptográficamente del historial de transacciones** utilizando las direcciones de Ethereum que se utilizaron para depositar y retirar activos.
 
 Puedes visitar la publicación de Medium relacionada con esta herramienta para obtener más información sobre su desarrollo y lanzamiento: [**Tornado.Cash compliance Medium Post**](https://tornado-cash.medium.com/tornado-cash-compliance-9abbf254a370).
 
-Por lo tanto, si alguna vez necesitas probar el origen de los activos retenidos retirados de uno de los pools de Tornado.Cash, te invitamos a utilizar la siguiente [Herramienta de Cumplimiento](https://app.tornado.cash/compliance/):
+Por lo tanto, si alguna vez necesitas probar el origen de los activos retenidos retirados de uno de los pools de Tornado.Cash, te invitamos a utilizar la siguiente [Herramienta de Cumplimiento](https://tornadocash.eth.link/compliance):
 
 ![https://app.tornado.cash/compliance/](../.gitbook/assets/capture-de-cran-2021-09-02-a-14.57.11.png)
 
 ## ¿Cómo usar la herramienta de cumplimiento?
 
-Con cada depósito realizado a través de la [aplicación Tornado.Cash](https://app.tornado.cash), el protocolo genera una nueva Nota. Esta Nota es necesaria para retirar los activos depositados más adelante en cualquier dirección de retiro. Es esta misma Nota que, en caso de ser necesario, permite a los usuarios generar un Informe de Cumplimiento para acreditar el origen de sus activos.
+Con cada depósito realizado a través de la [aplicación Tornado.Cash](https://tornadocash.eth.link), el protocolo genera una nueva Nota. Esta Nota es necesaria para retirar los activos depositados más adelante en cualquier dirección de retiro. Es esta misma Nota que, en caso de ser necesario, permite a los usuarios generar un Informe de Cumplimiento para acreditar el origen de sus activos.
 
 _Más información sobre cómo depositar y retirar activos en Tornado.Cash se encuentra disponible en:_ [_Deposit & Withdraw_](deposit-withdraw.md)_._
 
@@ -36,7 +36,7 @@ _Puedes encontrar más información sobre cómo Tornado.Cash logra brindar priva
 
 ### Después de retirar
 
-Si la nota se usó (es decir, los activos se retiraron a una dirección determinada usando la nota), la Herramienta de Cumplimiento completará la información anterior agregando:&#x20;
+Si la nota se usó (es decir, los activos se retiraron a una dirección determinada usando la nota), la Herramienta de Cumplimiento completará la información anterior agregando:
 
 * Hash de transacción del retiro;
 * La dirección de destino;
@@ -52,4 +52,4 @@ Esta información también se puede descargar en formato PDF, lo que facilita su
 
 ![https://app.tornado.cash/compliance/](../.gitbook/assets/capture-de-cran-2021-09-02-a-15.12.53.png)
 
-_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)
