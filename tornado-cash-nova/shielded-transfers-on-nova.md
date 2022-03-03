@@ -12,6 +12,4 @@ Como recordatorio, una dirección protegida se registra a través de la acción 
 
 Te recomendamos que verifiques dos veces la dirección protegida a la que transfieras los tokens, ya que esta acción es irreversible.
 
-
-
-_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)
