@@ -37,9 +37,9 @@ Each Tornado Cash Nova account is linked to a shielded address. As mentionned ab
 
 ![](https://i.imgur.com/idXaco8.png)
 
-A shielded address is automatically created when users log in a given address, then deposit tokens to funs this address’ pool balance.
+A shielded address is automatically created when users log in a given address, then deposit tokens to funds this address’ pool balance.
 
-_More information about the Funding action is availaible on “Fund & Withdraw on Nova (put link)”_
+_More information about the Funding action is availaible on_ [_Fund & Withdraw on Nova_](fund-and-withdraw-on-nova.md)__
 
 However, shielded addresses can also be created from scratch as a separate action by logging in a new address with no prior link to Tornado Cash Nova, then by clicking on `Set up account`.
 

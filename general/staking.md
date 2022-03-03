@@ -6,7 +6,7 @@ Since the execution of [Tornado Cash 10th governance proposal](https://tornadoca
 
 [TORN](torn.md) holders can still lock their tokens into the governance contract as they used to for governance purposes. The significant difference is that they are now able to receive a portion of the fees collected by the protocol from relayers. Obviously, the proportion of the reward will be equal to the proportion of their locked TORN.
 
-#### FROM WHERE THESE COLLECTED FEES COME FROM ?
+#### **FROM WHERE THESE COLLECTED FEES COME FROM ?**
 
 The collection of these fees was made possible by the implementation of a decentralized relayer registry. In order to be listed on the protocol UI, relayers need to stake a given amount of TORN (currently set by governance at `300 TORN`). The functioning of this relayer registry is more extensively explained [on this forum post](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) & on the [Relayer Registry documentation page](how-to-become-a-relayer.md).
 

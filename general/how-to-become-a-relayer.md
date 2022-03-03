@@ -42,7 +42,7 @@ The next step consists in:
 * Setting up its mainnet subdomain,
 * Adding a TXT record with the Relayer URL to the mainnet subdomain according to this specific format:
 
-#### Ethereum Relayers (Mandatory)
+#### **Ethereum Relayers (Mandatory)**
 
 | TXT record              |
 | ----------------------- |
@@ -62,7 +62,7 @@ You also have the possibility to add subdomains with their corresponding TXT rec
 | arbitrum-tornado.xxx.eth  |
 | avalanche-tornado.xxx.eth |
 
-#### Nova Relayer (Optional)
+#### **Nova Relayer (Optional)**
 
 Tornado Cash Nova uses its own version of the software. If you wish to become a relayer for Tornado Cash Nova, you will find instructions to follow [here](https://github.com/tornadocash/tornado-pool-relayer#deploy-with-docker-compose).
 
@@ -72,7 +72,7 @@ Tornado Cash Nova uses its own version of the software. If you wish to become a 
 
 ![](../.gitbook/assets/3.png)
 
-#### 4. Set Up Workers
+### **4. Set Up Workers**
 
 Workers are the addresses that will allow your relayer to send ZK-proofs to users. By default, the first worker is the ENS domain owner's address.
 
@@ -82,7 +82,7 @@ Only the mainnet requires you to register workers. All other networks do not req
 
 ![](<../.gitbook/assets/4 (1).png>)
 
-#### 5. Stake
+### 5. Stake
 
 With the implementation of a decentralized relayer registry, a staking condition has been introduced to become listed on Tornado Cash UI. Indeed, **staking TORN is now necessary to be added to the recommended list of relayers.**
 
@@ -98,7 +98,7 @@ Your staked TORN amount is not claimable, and it is non-refundable.
 
 ![](../.gitbook/assets/5.png)
 
-#### 6. Summary: Last Verification & Registration
+### 6. Summary: Last Verification & Registration
 
 The last, but not the least, we advise you to **double-check all information** present on the Summary before registering.
 
