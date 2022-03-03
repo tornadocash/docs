@@ -29,7 +29,7 @@ Cuando inicias sesión, la `Recipient address` o `Dirección del destinatario` s
 
 Si configuras una nueva cuenta, podrás iniciar sesión en el pool más tarde, verificar tu saldo protegido de Tornado o recibir transferencias protegidas utilizando tu dirección protegida o tu clave protegida.
 
-_Toda la información sobre cómo usar estos elementos para iniciar sesión o dónde encontrar tu clave protegida está disponible en_ [log-in-tornado-cash-nova.md](log-in-tornado-cash-nova.md "mention") _._
+_Toda la información sobre cómo usar estos elementos para iniciar sesión o dónde encontrar tu clave protegida está disponible en_ [logging-in-tornado-cash-nova.md](logging-in-tornado-cash-nova.md "mention") _._
 
 #### **Los siguientes depósitos 💸**
 
@@ -68,4 +68,4 @@ Para transacciones más baratas, Gnosis Chain (anteriormente xDAI Chain) se usa 
 
 Por lo tanto, para evitar ataques de spam que sobrecarguen el puente, el monto del retiro debe ser superior a los 0,05 ETH.
 
-_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)
