@@ -2,7 +2,7 @@
 
 Lanzado en diciembre de 2021, Tornado Cash Nova ofrece la libertad de elegir montos personalizados para las transacciones, así como la capacidad de transferir tokens sin abandonar el anonimato. Con características tan únicas, esta nueva pool requiere su propio conjunto de instrucciones.
 
-Se puede acceder a Tornado Cash Nova (versión beta) a través de su propia aplicación descentralizada en [nova.tornadocash.eth.link](https://nova.tornadocash.eth.link).
+Se puede acceder a Tornado Cash Nova (versión beta) a través de su propia aplicación descentralizada en [ nova.tornadocash.eth.link](https://nova.tornadocash.eth.link).
 
 ![](https://i.imgur.com/F8pojDs.png)
 
@@ -39,7 +39,7 @@ Cada cuenta de Tornado Cash Nova está vinculada a una dirección protegida. Com
 
 Una dirección protegida se crea automáticamente cuando los usuarios inician sesión con una dirección determinada y luego depositan tokens para utilizar el saldo del pool de esta dirección.
 
-_Más información sobre la acción de Financiamiento está disponible en "Fondear y Retirar en Nova (put link)"_
+_Más información sobre la acción de Financiamiento está disponible en [Fondear y Retirar en Nova](fund-and-withdraw-on-nova.md)_
 
 Sin embargo, las direcciones protegidas también se pueden crear desde cero como una acción separada iniciando sesión en una nueva dirección sin un enlace previo a Tornado Cash Nova, luego haciendo clic en `Set up account`.
 
@@ -61,6 +61,6 @@ Una vez que has iniciado sesión con tu dirección y tu cuenta esté configurada
 
 Para obtener total privacidad, todavía se requieren las mismas prácticas que se recomiendan para los pools de Tornado Cash tradicionales. _Puedes encontrar consejos para mantener la privacidad en la documentación del protocolo:_ [_Consejos para permanecer anónimo_](../general/tips-to-remain-anonymous.md) _y_ [_Más consejos de anonimato_](more-anonymity-tips.md) _._
 
-__
+\_\_
 
 _Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)__
