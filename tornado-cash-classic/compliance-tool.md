@@ -32,7 +32,7 @@ El compromiso es el área aleatoria de bytes generados en cada depósito que se 
 
 ![https://app.tornado.cash/compliance/](../.gitbook/assets/capture-de-cran-2021-09-02-a-15.07.01.png)
 
-_Puedes encontrar más información sobre cómo Tornado.Cash logra brindar privacidad leyendo [¿Cómo funciona Tornado.Cash?_](../general/how-does-tornado.cash-work.md)__
+_Puedes encontrar más información sobre cómo Tornado.Cash logra brindar privacidad leyendo [¿Cómo funciona Tornado.Cash?_](../general/how-does-tornado.cash-work.md)_._
 
 ### Después de retirar
 
