@@ -83,8 +83,6 @@
 | 100 AVAX | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://snowtrace.io/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD) |
 | 500 AVAX | [0xaf8d1839c3c67cf571aa74B5c12398d4901147B3](https://snowtrace.io/address/0xaf8d1839c3c67cf571aa74B5c12398d4901147B3) |
 
-
-
 * Goerli
 
 | Contrato       | Dirección                                                                                                                      |
@@ -109,30 +107,22 @@
 | 1 WBTC         | [0x776198CCF446DFa168347089d7338879273172cF](https://goerli.etherscan.io/address/0x776198CCF446DFa168347089d7338879273172cF) |
 | 10 WBTC        | [0xeDC5d01286f99A066559F60a585406f3878a033e](https://goerli.etherscan.io/address/0xeDC5d01286f99A066559F60a585406f3878a033e) |
 
-
-
 ### Tornado Cash Nova - Contratos del Pool (beta)
-
-
 
 | Contrato             | Dirección                                                                                                                                           |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Contrato             | [0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696](https://blockscout.com/xdai/mainnet/address/0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696/transactions) |
-| Asistente del L1 Omnibridge  | [0xca0840578f57fe71599d29375e16783424023357](https://etherscan.io/address/0xca0840578f57fe71599d29375e16783424023357)                             |
+| Asistente del L1 Omnibridge  | [0xca0840578f57fe71599d29375e16783424023357](https://etherscan.io/address/0xca0840578f57fe71599d29375e16783424023357)                      |
 | Verificador 2           | [0xDF3A408c53E5078af6e8fb2A85088D46Ee09A61b](https://blockscout.com/xdai/mainnet/address/0xDF3A408c53E5078af6e8fb2A85088D46Ee09A61b/transactions) |
 | Verificador 16          | [0x743494b60097A2230018079c02fe21a7B687EAA5](https://blockscout.com/xdai/mainnet/address/0x743494b60097A2230018079c02fe21a7B687EAA5/transactions) |
 | Hasher               | [0x94C92F096437ab9958fC0A37F09348f30389Ae79](https://blockscout.com/xdai/mainnet/address/0x94C92F096437ab9958fC0A37F09348f30389Ae79/transactions) |
 
-
-
 ### Contratos de Gobernanza:
-
-
 
 | Contrato                           | Dirección                                                                                                                          |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Contrato de Gobernanza                | [0x5efda50f22d34f262c29268506c5fa42cb56a1ce](https://etherscan.io/address/0x5efda50f22d34f262c29268506c5fa42cb56a1ce)            |
-| Bóveda de Gobernanza (para el TORN bloqueado) | [0x2f50508a8a3d323b91336fa3ea6ae50e55f32185](https://etherscan.io/address/0x2f50508a8a3d323b91336fa3ea6ae50e55f32185#tokentxns)  |
+| Bóveda de Gobernanza (para el TORN bloqueado) | [0x2f50508a8a3d323b91336fa3ea6ae50e55f32185](https://etherscan.io/address/0x2f50508a8a3d323b91336fa3ea6ae50e55f32185#tokentxns) |
 | Contrato de Despliegue                  | [0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80](https://etherscan.io/address/0xCEe71753C9820f063b38FDbE4cFDAf1d3D928A80)            |
 | Impl de Gobernanza                    | [0xffbac21a641dcfe4552920138d90f3638b3c9fba](https://etherscan.io/address/0xffbac21a641dcfe4552920138d90f3638b3c9fba)            |
 | "Vesting" de Gobernanza                | [0x179f48c78f57a3a78f0608cc9197b8972921d1d2](https://etherscan.io/address/0x179f48c78f57a3a78f0608cc9197b8972921d1d2)            |
@@ -140,6 +130,20 @@
 | Token TORN                         | [0x77777feddddffc19ff86db637967013e6c6a116c](https://etherscan.io/address/0x77777feddddffc19ff86db637967013e6c6a116c)            |
 | Cupón del Token TORN                 | [0x3efa30704d2b8bbac821307230376556cf8cc39e](https://etherscan.io/address/0x3efa30704d2b8bbac821307230376556cf8cc39e)            |
 | Minería v2                          | [0x746aebc06d2ae31b71ac51429a19d54e797878e9](https://etherscan.io/address/0x746aebc06d2ae31b71ac51429a19d54e797878e9)            |
+
+### Registro del repetidor
+
+| Contrato                          | Dirección                                                                                                               |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| TornadoRooter                     | [0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b](https://etherscan.io/address/0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b) |
+| Proxy del feeManagerContract       | [0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7](https://etherscan.io/address/0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7) |
+| FeeManager                        | [0xf4B067dD14e95Bab89Be928c07Cb22E3c94E0DAA](https://etherscan.io/address/0xf4B067dD14e95Bab89Be928c07Cb22E3c94E0DAA) |
+| Proxy del relayerRegistryContract  | [0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2](https://etherscan.io/address/0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2) |
+| RelayerRegistry                   | [0x01e2919679362dFBC9ee1644Ba9C6da6D6245BB1](https://etherscan.io/address/0x01e2919679362dFBC9ee1644Ba9C6da6D6245BB1) |
+| Proxy del stakingContract          | [0x2FC93484614a34f26F7970CBB94615bA109BB4bf](https://etherscan.io/address/0x2FC93484614a34f26F7970CBB94615bA109BB4bf) |
+| TornadoStakingRewards             | [0x26903a5a198D571422b2b4EA08b56a37cbD68c89](https://etherscan.io/address/0x26903a5a198D571422b2b4EA08b56a37cbD68c89) |
+| Proxy del instanceRegistryContract | [0xB20c66C4DE72433F3cE747b58B86830c459CA911](https://etherscan.io/address/0xB20c66C4DE72433F3cE747b58B86830c459CA911) |
+| InstanceRegistry                  | [0x2573BAc39EBe2901B4389CD468F2872cF7767FAF](https://etherscan.io/address/0x2573BAc39EBe2901B4389CD468F2872cF7767FAF) |
 
 ### Otros Contratos
 
@@ -183,7 +187,5 @@
 * Todo sobre el programa de minería de anonimato (este programa finalizó a mediados de diciembre de 2021):
 
 {% embed url="https://github.com/tornadocash/tornado-anonymity-mining" %}
-
-
 
 _Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)
