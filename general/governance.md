@@ -32,7 +32,7 @@ NOTA: Partes de este artículo fueron tomadas de [esta publicación de medium](h
 
 Primero tienes que depositar (o bloquear) tokens TORN en el contrato de gobernanza.
 
-Ve a: [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Ve a: [https://app.tornado.cash/governance](https://tornadocash.eth.link/governance)
 
 Haz clic en `Manage` -> `Lock Tab`
 
@@ -44,7 +44,7 @@ Antes de la votación, el siguiente paso es revisar la propuesta.\
 &#x20;Las propuestas legítimas deben tener un post dedicado en [Torn.community](https://torn.community) en la categoría "Proposal". La publicación del foro proporcionará contexto adicional y argumentos sobre la propuesta. Leer el hilo y opinar sobre el tema o problema.
 
 Una vez que se envía una propuesta, debe aparecer en:\
-[https://app.tornado.cash/governance](https://app.tornado.cash/governance)\
+[https://tornadocash.eth.link/governance](https://app.tornado.cash/governance)\
 &#x20;La propuesta se implementa en forma de un contrato inteligente que realiza cambios en el sistema. Por lo tanto, es importante verificar la dirección del contrato inteligente y revisar su código. Encuentra la dirección del contrato de propuesta aquí:
 
 ![](../.gitbook/assets/181d612b6c57964bab59c8e5b766f5247211083d.png)
@@ -71,7 +71,7 @@ Si eres poseedor de tokens TORN, puedes delegar tu poder de voto en otra persona
 
 IMPORTANTE: si delegas tus tokens y tu delegado vota o inicia una propuesta, tus tokens se bloquearán durante 8.25 días desde el momento en que comenzó la propuesta por la que votó el delegado. Ten en cuenta que siempre puedes dejar de delegar en cualquier momento.
 
-Para delegar, ve a:[https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+Para delegar, ve a:[https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
 Primero es necesario que bloquees tus tokens en el contrato de gobernanza. Haz clic en la pestaña **`Manage`** -> **`Lock`**
 
@@ -79,7 +79,7 @@ Aprueba el contrato de gobernanza para transferir tus tokens TORN haciendo clic 
 
 ![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
-El último paso, es hacer la delegación propiamente dicha. Ir de nuevo a [https://app.tornado.cash/governance](https://app.tornado.cash/governance)
+El último paso, es hacer la delegación propiamente dicha. Ir de nuevo a [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
 Haz clic en la pestaña **`Manage`** -> **`Delegate`**
 
@@ -91,4 +91,6 @@ La totalidad de tu balance bloqueado se delegará.
 
 Puedes dejar de delegar en cualquier momento. Para anular la delegación, simplemente usa el botón `Undelegate` en la pestaña `Manage` -> `Undelegate`.
 
-_Escrito por_ [_@rezan_](https://torn.community/u/Rezan/summary)__
+_Escrito por_ [_@rezan_](https://torn.community/u/Rezan/summary)
+
+_Actualizado por_ [_@bt11ba_](https://torn.community/u/bt11ba/)
