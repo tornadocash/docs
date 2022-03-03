@@ -27,7 +27,7 @@ La comunidad de Tornado.Cash está buscando:
 
 ## Fondo Comunitario de Tornado.Cash
 
-En junio de 2021, la comunidad de Tornado.Cash votó por la implementación de un fondo comunitario para premiar a sus contribuyentes clave ([propuesta n.º 7](https://app.tornado.cash/governance/7)). La administración de este fondo está entre las manos de la comunidad. Los usuarios de Tornado.Cash son quienes deciden qué contribución es elegible para una compensación.
+En junio de 2021, la comunidad de Tornado.Cash votó por la implementación de un fondo comunitario para premiar a sus contribuyentes clave ([propuesta n.º 7](https://tornadocash.eth.link/governance/7)). La administración de este fondo está entre las manos de la comunidad. Los usuarios de Tornado.Cash son quienes deciden qué contribución es elegible para una compensación.
 
 ###
 
@@ -39,11 +39,11 @@ Al Fondo Comunitario Tornado.Cash se le ha asignado el 5% del TORN total disponi
  __
 * 5% de los 91.6k mensuales a los que se le hará "vesting" en los próximos 12 meses, lo que resultará en **una transferencia mensual de aprox. 4,600 TORN** (un total aproximado de 55,000 TORN durante un año)
 
-La asignación mensual del Fondo se programó a través de [Sablier](https://sablier.finance), un protocolo basado en Ethereum que permite una transmisión en vivo de los TORN restantes (segundo a segundo) por 12 meses.&#x20;
+La asignación mensual del Fondo se programó a través de [Sablier](https://sablier.finance), un protocolo basado en Ethereum que permite una transmisión en vivo de los TORN restantes (segundo a segundo) por 12 meses.
 
 En total, se asignó una cantidad de aproximadamente **78k TORN** a este Fondo Comunitario. Para finales de agosto de 2021, el saldo del Fondo Comunitario es de aproximadamente \~12,600 TORN "vested" a Sablier y 15,500 TORN en Gnosis Safe. A principios de 2022, el saldo del Fondo Comunitario (en Gnosis Safe) asciende a \~36,400 TORN.
 
-El Contrato de la comunidad de Tornado.Cash es: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances).&#x20;
+El Contrato de la comunidad de Tornado.Cash es: [0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4](https://gnosis-safe.io/app/#/safes/0xb04E030140b30C27bcdfaafFFA98C57d80eDa7B4/balances).
 
 Los fondos se manejan a través de una billetera "Multi-signature" traducido "billetera de firmas múltiples" en Gnosis Safe. Las llaves para administrar esta billetera se pusieron entre las manos de 5 miembros elegidos por la comunidad. Para validar una transacción, se necesita un consenso de al menos 4 de 5 firmas.
 
@@ -51,15 +51,13 @@ Esos miembros pertenecientes al "multi-sig" fueron elegidos por sus contribucion
 
 Todos los firmantes también se comprometieron a renunciar si ya no cumplen con su lealtad a la prosperidad de Tornado. También pueden ser separados de su cargo por decisión de la comunidad. Para recompensar su compromiso como firmantes y contribuyentes clave para la comunidad de Tornado.Cash, se ha desplegado un mínimo de 100 TORN por mes para cada firmante a través de Sablier.
 
-Los 5 miembros del "multi-sig" son:&#x20;
+Los 5 miembros del "multi-sig" son:
 
 * [0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75](https://etherscan.io/address/0xd26BaA5F41CC7839CEdb020b6d98E1C6e1642D75)
 * [0x7c09bCa28ba3DB1CF7cd793696B161261cAC27b5](https://etherscan.io/address/0x7c09bCa28ba3DB1CF7cd793696B161261cAC27b5)
 * [0x339B45fBEed1ab46Fe9c11f484b0Ea7220e75300](https://etherscan.io/address/0x339B45fBEed1ab46Fe9c11f484b0Ea7220e75300)
 * [0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d](https://etherscan.io/address/0x647e9e26DA82C29AAFbbFB1C3f45d916AA9b300d)
 * [0xEA27752f7D6687CB3Be2F180B997713b784c9911](https://etherscan.io/address/0xEA27752f7D6687CB3Be2F180B997713b784c9911)
-
-
 
 ### ¿Cómo reclamar recompensas?
 
@@ -73,13 +71,11 @@ Aquí está el espacio de Tornado.Cash en Snapshot:[ https://snapshot.org/#/torn
 
 ![](../.gitbook/assets/page-daccueil.png)
 
-
-
 ### ¿Cómo votar en Snapshot?
 
 Cada solicitud de financiación va acompañada de un voto en Snapshot, donde los poseedores de TORN pueden expresar explícitamente su posición. El resultado de esta votación proporciona una instrucción final a los dueños del "multi-sig" sobre si transferir el monto de la recompensa decidida al miembro en cuestión.
 
-Cada votación tiene una "duración de `3 días` para acumular los votos de los poseedores de TORN. Cuando se alcanza la fecha de finalización, el estado del voto pasa de `Active` "Activo" a `Closed` "Cerrado". Los miembros de la comunidad ya no pueden votar.&#x20;
+Cada votación tiene una "duración de `3 días` para acumular los votos de los poseedores de TORN. Cuando se alcanza la fecha de finalización, el estado del voto pasa de `Active` "Activo" a `Closed` "Cerrado". Los miembros de la comunidad ya no pueden votar.
 
 ![](../.gitbook/assets/time-window.png)
 
@@ -104,6 +100,4 @@ Los pasos para votar en Snapshot son bastante intuitivos. El miembro de la comun
 
 ![](../.gitbook/assets/confirm-the-vote.png)
 
-
-
-_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)
