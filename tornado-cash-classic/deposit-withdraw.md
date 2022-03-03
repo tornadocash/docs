@@ -1,6 +1,6 @@
 # Depósitos y retiros
 
-Este tutorial es una explicación paso a paso de cómo depositar y retirar tus fondos. Si quieres comprender cómo funciona el sistema interno de Tornado.cash, consulta [este tutorial](https://docs.tornado.cash/how-does-tornado.cash-work).
+Este tutorial es una explicación paso a paso de cómo depositar y retirar tus fondos. Si quieres comprender cómo funciona el sistema interno de Tornado.cash, consulta [este tutorial](../general/how-does-tornado.cash-work.md).
 
 ## **Depositar**
 
