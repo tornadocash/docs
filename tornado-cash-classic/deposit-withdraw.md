@@ -6,7 +6,7 @@ Este tutorial es una explicación paso a paso de cómo depositar y retirar tus f
 
 ### Elige una red
 
-Tornado.cash está disponible en varias blockchains, por lo que tendrás que elegir entre 4:
+[Tornado cash](https://tornadocash.eth.link) está disponible en varias blockchains, por lo que tendrás que elegir entre 4:
 
 ![](../.gitbook/assets/azpoj.gif)
 
@@ -28,7 +28,7 @@ Haz clic en `Deposit` y almacena tu nota en un lugar seguro antes de hacer clic 
 
 ### Se paciente
 
-Como se explica [aquí](https://docs.tornado.cash/tips-to-remain-anonymous#be-patient), cuanto más esperes, mayor será tu anonimato.
+Como se explica [aquí](../general/tips-to-remain-anonymous.md#be-patient), cuanto más esperes, mayor será tu anonimato.
 
 ¡Felicitaciones! Lo hiciste. Ahora tus tokens están en el pool de Tornado.Cash.
 
@@ -36,7 +36,7 @@ Como se explica [aquí](https://docs.tornado.cash/tips-to-remain-anonymous#be-pa
 
 ### Elige una red
 
-Tornado.cash está disponible en varias blockchains, por lo que tendrás que elegir entre 4:
+[Tornado cash](https://tornadocash.eth.link) está disponible en varias blockchains, por lo que tendrás que elegir entre 4:
 
 ![](../.gitbook/assets/enregistrement-de-le-cran-2021-08-25-a-16.15.15-1-.gif)
 
@@ -51,5 +51,3 @@ Utiliza tu nota de depósito pegándola en la casilla correspondiente. Haz clic 
 ¡Listo!
 
 _Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
-
-
