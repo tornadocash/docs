@@ -2,9 +2,9 @@
 
 La herramienta Tornado Cash te permite permanecer anónimo en la blockchain. Sin embargo, si la herramienta se utiliza sin protegerse desde todos los ángulos, no tendría sentido y el anonimato sería solo parcial. Hay prácticas para evitar esto.
 
-### Usar un VPN
+### Usa TOR o un VPN
 
-Tu proveedor de servicios de Internet (ISP) te identifica con una dirección IP. Para evitar que terceros sepan que estás usando Tornado.cash, deberías considerar usar TOR y/o una VPN para tus transferencias. Evita utilizar VPN gratuitas, tienden a conservar o incluso vender tus datos. Hay varias VPN en el mercado que cuentan con una "política de no registro".
+Tu proveedor de servicios de Internet (ISP) te identifica con una dirección IP. Para evitar que terceros sepan que estás usando Tornado.cash, deberías considerar [usar TOR](how-to-use-tornado-cash-with-tor.md) y/o una VPN para tus transferencias. Evita utilizar VPN gratuitas, tienden a conservar o incluso vender tus datos. Hay varias VPN en el mercado que cuentan con una "política de no registro".
 
 ### Guarda tu nota en un lugar seguro <a href="#save-your-note-in-a-safe-place" id="save-your-note-in-a-safe-place"></a>
 
