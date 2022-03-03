@@ -41,4 +41,4 @@ Por ejemplo, un depósito de 0,42 ETH se puede vincular a un retiro de exactamen
 
 La opción personalizada solo debe elegirse con pleno conocimientos y con total confianza en tus acciones.
 
-_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)
