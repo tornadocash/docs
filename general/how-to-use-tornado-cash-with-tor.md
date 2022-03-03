@@ -58,7 +58,7 @@ Luego, puedes agregar Metamask a tu barra de herramientas, haciendo clic derecho
 
 ### Paso **#4 - Disfruta de tu privacidad** :sunglasses:****
 
-Ahora puedes usar [Tornado Cash Classic](https://tornadocash.eth.link) or [Tornado Cash Nova](https://nova.tornadocash.eth.link) with TOR.
+Ahora puedes usar [Tornado Cash Classic](https://tornadocash.eth.link) o [Tornado Cash Nova](https://nova.tornadocash.eth.link) con TOR.
 
 
 
