@@ -1,12 +1,5 @@
 # ¿Cómo convertirse en un repetidor?
 
-{% hint style="warning" %}
-25 de febrero de 2022 - Información\
-Esta función aún no está disponible en la interfaz de usuario de Tornado Cash.\
-\
-(solo unos dias de espera.. :cloud\_tornado:)
-{% endhint %}
-
 Tras la ejecución de la [propuesta de Tornado Cash 10th de gobernanza](https://tornadocash.eth.link/governance/10), cualquiera se puede convertir en repetidor para los usuarios de Tornado Cash.
 
 {% hint style="success" %}
@@ -115,4 +108,4 @@ _¡Bienvenido al equipo de repetidores! Gracias a ti, la privacidad se puede res
 
 
 
-_Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _**** &_ [_**@ayefda**_](https://torn.community/u/ayefda)****
+_Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _**** y_ [_**@ayefda**_](https://torn.community/u/ayefda)****
