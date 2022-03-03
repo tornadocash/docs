@@ -2,7 +2,9 @@
 
 La minería de anonimato es un incentivo para aumentar el nivel de privacidad en cualquier protocolo de unión o mezcla de monedas al recompensar a los participantes con puntos de anonimato (AP) dependiendo de cuánto tiempo mantengan sus activos en un pool.
 
+{% hint style="warning" %}
 _El programa de minería de anonimato de Tornado Cash comenzó el 18 de diciembre de 2020 y finalizó el 18 de diciembre de 2021._
+{% endhint %}
 
 Las personas depositan en cualquiera de los pools de anonimato admitidos (ETH, WBTC, DAI o cDAI) y se les recompensa con una cantidad fija de AP por bloque, durante el período que su depósito permanece en el pool. Estos puntos se pueden canjear por TORN una vez reclamados.
 
@@ -50,8 +52,6 @@ _Las notas que están activas (no retiradas) se conocen como notas "no gastadas 
 
 ![](../.gitbook/assets/e9jyqhu.png)
 
-&#x20;
-
 * **La imposibilidad de reclamar una nota usada:** _“Warning: The note is not yet ready for anonymity mining. You can wait few days before trying again”, traducido “Advertencia: La nota aún no está lista para la minería de anonimato. Puedes esperar unos días antes de volver a intentarlo”_: esto significa que los árboles de Merkle no están sincronizados y requieren una transacción para actualizarse.
 
 ![](../.gitbook/assets/i6qtr0f.png)
@@ -81,7 +81,7 @@ Siempre se recomienda planificar al decidir minar cualquiera de los pools de ano
 Para obtener más información sobre la minería de anonimato, revisa los siguientes recursos:
 
 * [Artículo de propuesta de gobernanza de Tornado.Cash](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703)
-* [Artículo de optimización de minería de anonimato de Tornado.Cash](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)&#x20;
+* [Artículo de optimización de minería de anonimato de Tornado.Cash](https://tornado-cash.medium.com/gas-price-claimed-anonymity-mining-a-victim-but-now-everyone-can-claim-ap-5441aaa32a1a)
 * [Minería de anonimato explicada (ártico técnico)](https://torn.community/t/anonymity-mining-technical-overview/15)
 
 _Saludos a_ [_@sockawoo_](https://torn.community/u/sockawoo) _y_ [_@ethdev_](https://torn.community/u/ethdev) _por asistir en el "peer-reviewing"_
