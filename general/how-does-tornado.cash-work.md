@@ -4,9 +4,9 @@ Antes de sumergirse en los tutoriales que explican y facilitan el uso de Tornado
 
 ### Resumen global del funcionamiento de Tornado.Cash
 
-Para lograr privacidad, Tornado.Cash **utiliza contratos inteligentes que aceptan depósitos de tokens desde una dirección y permiten su retiro desde una dirección diferente**. Esos contratos inteligentes funcionan como pools que mezclan todos los activos depositados.&#x20;
+Para lograr privacidad, Tornado.Cash **utiliza contratos inteligentes que aceptan depósitos de tokens desde una dirección y permiten su retiro desde una dirección diferente**. Esos contratos inteligentes funcionan como pools que mezclan todos los activos depositados.
 
-Una vez que los fondos son retirados de esas pools por una dirección completamente nueva, se rompe el vínculo en la blockchain entre el origen y el destino. Por lo tanto, los criptoactivos retirados se anonimizan.&#x20;
+Una vez que los fondos son retirados de esas pools por una dirección completamente nueva, se rompe el vínculo en la blockchain entre el origen y el destino. Por lo tanto, los criptoactivos retirados se anonimizan.
 
 Mientras los tokens están en un pool de Tornado Cash, la custodia permanece en manos de los usuarios. Los usuarios, en consecuencia, tienen control completo sobre sus tokens.
 
@@ -39,4 +39,4 @@ Gracias a zk-SNARK, es posible probar el hash de 20 mimc del compromiso inicial 
 
 Los depósitos son simples desde un punto de vista tecnológico, pero costosos en términos de gas, ya que necesitan calcular el hash de 20 mimc y actualizar el árbol de Merkle. Por el contrario, el proceso de retiro es complejo, pero más económico ya que solo se necesita gas para el hash anulador y el "zero-knowledge proof" (la prueba de conocimiento cero) .
 
-_Escrito y editado por_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Escrito y actualizado por_ [_@ayefda_](https://torn.community/u/ayefda)__
