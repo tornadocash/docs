@@ -13,8 +13,6 @@ git clone https://github.com/tornadocash/ui-minified.git
 cd ui-minified
 ```
 
-
-
 ### Paso #2: Configura la carpeta con tu servidor HTTP favorito
 
 ```
@@ -69,3 +67,7 @@ Y disfruta de tu interfaz de usuario de Tornado Cash 🌪
 
 
 _Este tutorial está inspirado en el_[ _documento README.md _](https://github.com/tornadocash/ui-minified/blob/gh-pages/README.md) _presente en el repositorio de Github._
+
+__
+
+_Escrito por_ [_@ayefda_](https://torn.community/u/ayefda)
