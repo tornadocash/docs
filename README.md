@@ -36,7 +36,7 @@ Por lo tanto, a partir de hoy, Tornado Cash está operando actualmente en:
 
 Hasta diciembre de 2021, el protocolo incluía un sistema de extracción de anonimato para algunos de estos tokens, lo que permitía a sus usuarios obtener un token de gobernanza llamado (**TORN**). Los usuarios finalmente pudieron ganar TORN depositando en los pools de ETH, DAI, cDAI y WBTC.
 
-_Más información sobre_ [_Minería de anonimato_](tornado-cash-classic/anonymity-mining.md) _&_ [_Token de Tornado.Cash_](general/torn.md) _están disponibles._
+_Más información sobre_ [_Minería de anonimato_](tornado-cash-classic/anonymity-mining.md) _y_ [_Token de Tornado.Cash_](general/torn.md) _están disponibles._
 
 **Gracias al token TORN, los usuarios de Tornado Cash pueden participar activamente en la configuración del protocolo**. La comunidad tiene un fuerte peso en la evolución de Tornado Cash y la mejora de sus características. De hecho, los parámetros del protocolo y la distribución de tokens están completamente bajo el control de la comunidad a través de esta gobernanza.
 
@@ -54,8 +54,8 @@ Se puede acceder a Tornado Cash Nova (versión beta) en [nova.tornadocash.eth.li
 
 [Los códigos detrás del funcionamiento de Tornado.Cash](https://github.com/tornadocash) - los contactos inteligentes, circuitos y la cadena de herramientas - son completamente **de código abierto.** Trabajando como DAO (Organización Autónoma Descentralizada), la gobernanza de Tornado.Cash y los contratos inteligentes de minería son desplegados por su comunidad.
 
-El protocolo también funciona con zk-SNARK, que permite pruebas de conocimiento cero que permiten a los usuarios demostrar la posesión de información sin necesidad de revelarla. El uso de esta tecnología se basa **en investigaciones de código abierto realizadas por el equipo de Zcash con la ayuda de la comunidad de Ethereum**. Para configurar las claves iniciales de zk-SNARK, Tornado.Cash [ "Trusted Setup Community"](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) se lanzó en mayo de 2020 y se contabilizó [para 1114 contribuciones](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). Este número significativo de contribuyentes hace que sea imposible comprometer el protocolo falsificando pruebas de conocimiento cero.
+El protocolo también funciona con zk-SNARK, que permite pruebas de conocimiento cero que permiten a los usuarios demostrar la posesión de información sin necesidad de revelarla. El uso de esta tecnología se basa **en investigaciones de código abierto realizadas por el equipo de Zcash con la ayuda de la comunidad de Ethereum**. Para configurar las claves iniciales de zk-SNARK, Tornado.Cash [ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) se lanzó en mayo de 2020 y se contabilizó [para 1114 contribuciones](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). Este número significativo de contribuyentes hace que sea imposible comprometer el protocolo falsificando pruebas de conocimiento cero.
 
 La interfaz de usuario está alojada en **IPFS** "InterPlanetary File System" o "Sistema de archivos interplanetarios" por la comunidad, lo que minimiza los riesgos de que se eliminen los datos. De hecho, la interfaz funcionará siempre que al menos un usuario la aloje.
 
-_Escrito y editado por_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+_Escrito y actualizado por_ [_@ayefda_](https://torn.community/u/ayefda)
