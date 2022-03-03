@@ -2,7 +2,7 @@
 
 Desde su creación, los usuarios de Tornado Cash utilizan el token TORN para la gobernanza. Su principal utilidad es permitir la sugerencia de propuestas y la votación tanto como en la blockchain (a través de TORN bloqueado para propuestas de gobernanza) como fuera de blockchain (en Snapshot).
 
-Desde la ejecución de la [décima propuesta de gobernanza de Tornado Cash](https://tornadocash.eth.link/governance/10), El token TORN ha ganado otra utilidad. De hecho, **con la introducción de un registro de retransmisión descentralizado,** **se implementó una recompensa de staking para todos los poseedores de TORN bloqueado en el contrato de gobernanza.**&#x20;
+Desde la ejecución de la [décima propuesta de gobernanza de Tornado Cash](https://tornadocash.eth.link/governance/10), El token TORN ha ganado otra utilidad. De hecho, **con la introducción de un registro de retransmisión descentralizado,** **se implementó una recompensa de staking para todos los poseedores de TORN bloqueado en el contrato de gobernanza.**
 
 [TORN](torn.md) los que posean TORN aún pueden bloquear sus tokens en el contrato de gobernanza como solían hacerlo con fines de gobernanza. La diferencia significativa es que ahora pueden recibir una parte de las tarifas recaudadas por el protocolo de los repetidores. Obviamente, la proporción de la recompensa será igual a la proporción del  TORN que tengan bloqueado.
 
@@ -39,4 +39,4 @@ _Eso es todo, hemos terminado_ :wink:__
 
 __
 
-_Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _**** &_ [_**@ayefda**_](https://torn.community/u/ayefda)****
+_Escrito por_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _**** y_ [_**@ayefda**_](https://torn.community/u/ayefda)****
