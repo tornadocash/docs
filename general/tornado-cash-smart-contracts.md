@@ -1,10 +1,9 @@
-# Tornado Cash Smart Contracts
+# Смарт-контракты Tornado Cash
+[Код, лежащий в основе функционирования Tornado.Cash](https://github.com/tornadocash) — смарт-контакты, схемы и набор инструментов — **полностью открыты**. На этой странице собрана вся информация о смарт-контрактах Tornado Cash.
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain -  are fully **open sourced.** This page regroups all information regarding Tornado Cash smart contracts.
+## Адреса смарт-контрактов
 
-## Smart Contracts Adresses
-
-### Tornado Cash Classic - Pools Contracts
+### Tornado Cash Classic - контракты пулов
 
 * Ethereum Mainnet
 
@@ -83,8 +82,6 @@
 | 100 AVAX | [0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD](https://snowtrace.io/address/0x1E34A77868E19A6647b1f2F47B51ed72dEDE95DD) |
 | 500 AVAX | [0xaf8d1839c3c67cf571aa74B5c12398d4901147B3](https://snowtrace.io/address/0xaf8d1839c3c67cf571aa74B5c12398d4901147B3) |
 
-
-
 * Goerli
 
 | Contract       | Address                                                                                                                      |
@@ -109,11 +106,7 @@
 | 1 WBTC         | [0x776198CCF446DFa168347089d7338879273172cF](https://goerli.etherscan.io/address/0x776198CCF446DFa168347089d7338879273172cF) |
 | 10 WBTC        | [0xeDC5d01286f99A066559F60a585406f3878a033e](https://goerli.etherscan.io/address/0xeDC5d01286f99A066559F60a585406f3878a033e) |
 
-
-
-### Tornado Cash Nova - Pool contracts (beta)
-
-
+### Tornado Cash Nova - контракты пулов (beta)
 
 | Contract             | Address                                                                                                                                           |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -123,11 +116,7 @@
 | Verifier 16          | [0x743494b60097A2230018079c02fe21a7B687EAA5](https://blockscout.com/xdai/mainnet/address/0x743494b60097A2230018079c02fe21a7B687EAA5/transactions) |
 | Hasher               | [0x94C92F096437ab9958fC0A37F09348f30389Ae79](https://blockscout.com/xdai/mainnet/address/0x94C92F096437ab9958fC0A37F09348f30389Ae79/transactions) |
 
-
-
-### Governance Contracts:
-
-
+### Контракты управления:
 
 | Contract                           | Address                                                                                                                          |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -141,7 +130,21 @@
 | Voucher TORN Token                 | [0x3efa30704d2b8bbac821307230376556cf8cc39e](https://etherscan.io/address/0x3efa30704d2b8bbac821307230376556cf8cc39e)            |
 | Mining v2                          | [0x746aebc06d2ae31b71ac51429a19d54e797878e9](https://etherscan.io/address/0x746aebc06d2ae31b71ac51429a19d54e797878e9)            |
 
-### Other Contracts
+### Реестр ретрансляторов
+
+| Contract                          | Address                                                                                                               |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| TornadoRooter                     | [0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b](https://etherscan.io/address/0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b) |
+| Proxy of feeManagerContract       | [0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7](https://etherscan.io/address/0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7) |
+| FeeManager                        | [0xf4B067dD14e95Bab89Be928c07Cb22E3c94E0DAA](https://etherscan.io/address/0xf4B067dD14e95Bab89Be928c07Cb22E3c94E0DAA) |
+| Proxy of relayerRegistryContract  | [0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2](https://etherscan.io/address/0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2) |
+| RelayerRegistry                   | [0x01e2919679362dFBC9ee1644Ba9C6da6D6245BB1](https://etherscan.io/address/0x01e2919679362dFBC9ee1644Ba9C6da6D6245BB1) |
+| Proxy of stakingContract          | [0x2FC93484614a34f26F7970CBB94615bA109BB4bf](https://etherscan.io/address/0x2FC93484614a34f26F7970CBB94615bA109BB4bf) |
+| TornadoStakingRewards             | [0x26903a5a198D571422b2b4EA08b56a37cbD68c89](https://etherscan.io/address/0x26903a5a198D571422b2b4EA08b56a37cbD68c89) |
+| Proxy of instanceRegistryContract | [0xB20c66C4DE72433F3cE747b58B86830c459CA911](https://etherscan.io/address/0xB20c66C4DE72433F3cE747b58B86830c459CA911) |
+| InstanceRegistry                  | [0x2573BAc39EBe2901B4389CD468F2872cF7767FAF](https://etherscan.io/address/0x2573BAc39EBe2901B4389CD468F2872cF7767FAF) |
+
+### Другие контракты
 
 | Contract             | Address                                                                                                               |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -158,32 +161,31 @@
 | Poseidon 3           | [0xd82ed8786d7c69dc7e052f7a542ab047971e73d2](https://etherscan.io/address/0xd82ed8786d7c69dc7e052f7a542ab047971e73d2) |
 | Gitcoin Grants       | [0xdd4c48c0b24039969fc16d1cdf626eab821d3384](https://etherscan.io/address/0xdd4c48c0b24039969fc16d1cdf626eab821d3384) |
 
-## GitHub links
+## Ссылки на GitHub
 
-* Tornado Cash core code:
+* Tornado Cash основной код:
 
 {% embed url="https://github.com/tornadocash/tornado-core" %}
 
-* Tornado Cash Command Line to make transactions in the protocol:
+* Tornado Cash командная строка для совершения транзакций в протоколе:
 
 {% embed url="https://github.com/tornadocash/tornado-cli" %}
 
-* To become a relayer for Tornado Cash:
+* Стать ретранслятором Tornado Cash:
 
 {% embed url="https://github.com/tornadocash/tornado-relayer" %}
 
-* Minified web UI for Tornado Cash protocol:
+* Минимизированный веб-интерфейс для протокола Tornado Cash:
 
 {% embed url="https://github.com/tornadocash/ui-minified" %}
 
-* All about the TORN token:
+* Все о токене TORN:
 
 {% embed url="https://github.com/tornadocash/torn-token" %}
 
-* All about the anonymity mining program (this program has ended mid-December 2021):
+* Все о програме майнинга анонимности (завершено в декабре 2021):
 
 {% embed url="https://github.com/tornadocash/tornado-anonymity-mining" %}
 
-
-
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)
+_Авторы:_ [_@ayefda_](https://torn.community/u/ayefda) _&_ [_@bt11ba_](https://torn.community/u/bt11ba/)
+_Переведено и адаптировано:_ [**@Ghost**](https://torn.community/u/ghost)
