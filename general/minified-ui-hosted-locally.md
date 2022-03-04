@@ -1,39 +1,38 @@
-# Minified UI Hosted Locally
+# Минимизированный локальный пользовательский интерфейс
 
-Tornado Cash protocol can be launched locally on your computer through a minified User Interface version made available by the core developers team.
+Протокол Tornado Cash можно запустить локально на вашем компьютере через уменьшенную версию пользовательского интерфейса, предоставленную командой разработчиков.
 
 {% embed url="https://github.com/tornadocash/ui-minified" %}
 
-### Step #1: Clone the Github repository on your computer
+### Шаг #1 - Клонируйте репозиторий Github на свой компьютер
 
-By opening your Command Line Interface, you can run the following commands to, first, clone the repository, then go inside the newly copied folder:
+Открыв интерфейс командной строки, вы можете запустить следующие команды, чтобы сначала клонировать репозиторий, а затем перейти во вновь скопированную папку:
 
 ```
 git clone https://github.com/tornadocash/ui-minified.git
 cd ui-minified
 ```
 
-### Step #2: Serve the Folder with Your Favorite HTTP Server
+### Шаг #2 - Используйте папку с вашим HTTP-сервером
 
 ```
 python -m SimpleHTTPServer 8080
 ```
 
-You can obviously use any other http web server, such as[ npmjs.com/package/http-server](https://www.npmjs.com/package/http-server).
+Вы можете использовать любой другой http веб-сервер, например [npmjs.com/package/http-server](https://www.npmjs.com/package/http-server).
 
-### Step #3: Run the UI on Localhost on your Favorite Web Browser
+### Шаг #3 - Запустите UI на Localhost в своем любимом веб-браузере.
 
-To finish, you just need to run [http://localhost:8080](http://localhost:8080) on your Web Browser & let the magic happens 🪄
+Чтобы закончить, вам просто нужно запустить [http://localhost:8080](http://localhost:8080) в вашем браузере.
 
-## Running a TOR service
+## Запуск TOR
 
-If you wish to serve tornado cash UI on an .onion domain, there is an easy way to do it using docker-compose.
+Если вы хотите использовать Tornado Cash UI в домене .onion, есть простой способ сделать это с помощью docker-compose:
 
-* You need to paste the following into `docker-compose.yml`
+* Вам нужно вставить следующее в `docker-compose.yml`
 
 ```
 version: '2'
-
 services:
   tornado_ui:
     image: tornadocash/ui
@@ -60,10 +59,11 @@ services:
         -----END RSA PRIVATE KEY-----
 ```
 
-* Then, just run the following command:`docker-compose up -d`
+* Затем просто запустите команду:`docker-compose up -d`
 
-Enjoy your Tornado Cash UI 🌪
+Наслаждайтесь вашим Tornado Cash UI 🌪
 
+__
 
-
-_This tutorial is inspired from the_[ _README.md document_](https://github.com/tornadocash/ui-minified/blob/gh-pages/README.md) _present in the Github repository._
+_Автор:_ [_@ayefda_](https://torn.community/u/ayefda)
+_Переведено и адаптировано:_ [**@Ghost**](https://torn.community/u/ghost)
