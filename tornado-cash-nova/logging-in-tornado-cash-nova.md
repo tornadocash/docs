@@ -1,66 +1,72 @@
-# Logging In Tornado Cash Nova
+# Вход в Tornado Cash Nova
 
-Launched in December 2021, Tornado Cash Nova offers the freedom to choose customized amounts for transactions, as well as the ability to transfer tokens without leaving the anonymity pool. With such unique features, this new pool requires its own set of instructions.
+Tornado Cash Nova, запущенный в декабре 2021 года, предлагает свободу выбора сумм для транзакций, а также возможность перевода токенов, не выходя из анонимного пула. С такими уникальными функциями для этого нового пула требуется собственный набор инструкций.
 
-Tornado Cash Nova (beta version) can be accessed through its own decentralized app at[ nova.tornadocash.eth.link](https://nova.tornadocash.eth.link).
+Подключиться к Tornado Cash Nova (бета версия) можно по ссылке [ nova.tornadocash.eth.link](https://nova.tornadocash.eth.link).
 
 ![](https://i.imgur.com/F8pojDs.png)
 
-First of all, welcome to Tornado Cash Nova pool & let’s discover how this brand new tool functions 🌪
+Прежде всего, добро пожаловать в пул Tornado Cash Nova. Давайте узнаем, как работает этот новый инструмент 🌪.
 
-## Log In <a href="#log-in-nova" id="log-in-nova"></a>
+## Вход <a href="#vhod-nova" id="vhod-nova"></a>
 
 ![](https://i.imgur.com/uHPTk13.png)
 
-You can log into your Tornado Cash Nova account either by:
+Вы можете войти в свою учетную запись Tornado Cash Nova такими способами:
 
-* **connecting the MetaMask Wallet** with the address linked to your Nova account,
-* **using the Shielded Key** that was generated alongside the creation of your account.
+* **подключиться к кошельку MetaMask** с помощью адреса, связанного с вашей учетной записью Nova,
+* **использовать защищенный ключ**, который был сгенерирован во время создания вашей учетной записи.
 
-Each account is connected to a unique **shielded address** (as well as a unique **shielded key**) that can both be used to log in & manage your balance within the Nova pool.
+Каждая учетная запись связана с уникальным защищенным адресом (а также уникальным **защищенным ключом**), который можно использовать как для входа в систему, так и для управления вашим балансом в пуле Nova.
 
-### Tornado Cash Nova Account <a href="#tornado-cash-nova-account" id="tornado-cash-nova-account"></a>
+### Учетная запись Tornado Cash Nova <a href="#tornado-nova-account" id="tornado-nova-account"></a>
 
-Logging into the Nova pool will allow you to:
+Войдя в пул Nova, вы сможете:
 
-* **check your shielded balance** which represents the amount of tokens currently owned in the Nova pool,
-* **fund your balance** with further tokens,
-* **transfer the custody of tokens** to another shielded address registered to the pool,
-* **withdraw any desired amount of tokens** through the destination address of your chosing.
+* **проверить ваш защищенный баланс**, который отображает количество токенов, находящихся в настоящее время в пуле Nova,
+* **пополнить свой баланс** дополнительными токенами,
+* **перевести токены** на другой защищенный адрес, зарегистрированный в пуле,
+* **вывести желаемое количество токенов** на выбранный вами адрес.
 
-Only those who have access to your Metamask wallet or to your Shielded key will be able to access these informations regarding your account (i.e. your shielded balance).\
-⚠️ Be aware of which information you share with whom.
+Только те, у кого есть доступ к вашему кошельку Metamask или защищенному ключу, смогут получить доступ к информации о вашей учетной записи (т.е. к вашему защищенному балансу). 
+⚠️ Будьте осторожны с информацией, которой вы делитесь с другими.
 
-### MetaMask Wallet <a href="#metamask-wallet" id="metamask-wallet"></a>
 
-Each Tornado Cash Nova account is linked to a shielded address. As mentionned above, users have two ways to access their account & its balance. One of these ways is **through a MetaMask wallet connected to the appropriate shielded address**.
+### Кошелек MetaMask <a href="#metamask-koshelek" id="metamask-koshelek"></a>
+
+Каждая учетная запись Tornado Cash Nova связана с защищенным адресом. Как упоминалось выше, у пользователей есть два способа доступа к своей учетной записи и балансу.
+Один из них — **через кошелек MetaMask, подключенный к соответствующему защищенному адресу**.
 
 ![](https://i.imgur.com/idXaco8.png)
 
-A shielded address is automatically created when users log in a given address, then deposit tokens to funs this address’ pool balance.
+Защищенный адрес автоматически создаётся, когда пользователь входит с данным адресом и пополняет баланс пула.
 
-_More information about the Funding action is availaible on “Fund & Withdraw on Nova (put link)”_
+_Более подробно о Депозите вы можете прочитать здесь: “Пополнение и вывод в пуле Nova (put link)”_.
 
-However, shielded addresses can also be created from scratch as a separate action by logging in a new address with no prior link to Tornado Cash Nova, then by clicking on `Set up account`.
+Тем не менее защищенный адрес также может быть создан с нуля, путем входа с использованием нового адреса на Tornado Cash Nova, а затем нажатия на `Set up account`.
 
-By confirming this action through your Metamask account, your shielded address will be crypted & created with the generation of a shielded key.
+Подтвердив это действие с помощью своего кошелька MetaMask, ваш защищенный адрес будет зашифрован и создан с генерацией защищенного ключа.
 
 ![](https://i.imgur.com/8q7DYeh.png)
 
-Once the account set, you will be able to receive shielded transfers of tokens from any another address registered to the pool. You will also be able to fund, transfer & withdraw tokens as you wish.
+После настройки учетной записи вы сможете получать защищенные переводы токенов с любого другого адреса, зарегистрированного в пуле. Вы также сможете депонировать, переводить и выводить токены по своему усмотрению.
 
-### Shielded Key <a href="#shielded-key" id="shielded-key"></a>
+### Защищенный ключ <a href="#Zashchishchennyy-klyuch" id="Zashchishchennyy-klyuch"></a>
 
-As seen above, the other way to log in is **through the generated Shielded Key** that is created when an account is created through the set up of a new shielded address.
+Как было сказано выше, другой способ входа — **сгенерированный защищенный ключ**, который создается во время создания учетной записи.
 
-Once you are logged in with your address & your account is set up, you can download this shielded key at any time by accessing your account data (by clicking on your address, next to your shielded balance).
+После того, как вы вошли с использованием адреса и ваша учетная запись настроена, вы можете получить этот защищенный ключ, получив доступ к данным своей учетной записи (нажав на свой адрес рядом с вашим защищенным балансом).
 
 ![](https://i.imgur.com/RFac1HU.png)
 
 ![](https://i.imgur.com/F2Scf8w.png)
 
-To obtain full privacy, the same good practices that were recommended for traditional Tornado Cash pools are still required. _You can find guidelines to maintain privacy in the protocol’s documentation:_ [_Tips to remain anonymous_](../general/tips-to-remain-anonymous.md) _&_ [_More anonymity tips_](more-anonymity-tips.md)_._
+Для обеспечения полной конфиденциальности по-прежнему требуется использовать те же методы, которые были рекомендованы для традиционных пулов Tornado Cash. 
 
-__
+_Вы можете найти рекомендации по сохранению конфиденциальности в документации протокола:_ [_Советы по сохранению анонимности_](../v/ru/tips-to-remain-anonymous) _&_ [_Больше советов по анонимности_](/v/ru/more-anonymity-tips.md).
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+
+--
+
+_Автор:_ [_**@ayefda**_](https://torn.community/u/ayefda)
+_Переведено и адаптировано:_ [**@Ghost**](https://torn.community/u/ghost)
