@@ -1,17 +1,18 @@
-# Shielded Transfers on Nova
+# Защищенные переводы в пуле Nova
 
-One of the specificity of Tornado Cash Nova is the introduction of shielded transfers. It allows shielded transactions of deposited tokens while staying within the pool.
+Одной из особенностей Tornado Cash Nova является введение защищенных переводов. Это позволяет скрывать транзакции депонированных токенов, оставаясь в пуле.
 
-So far, to transfer the custody of deposited funds, tokens needed to be withdrawn first. With Nova, you will be able to transfer a chosen amount of your shielded balance (not necessarily all of it) to another address without needing to withdraw them from the pool.
+До сих пор, чтобы перевести депонированные средства, сначала нужно было вывести токены. С версией Nova вы сможете перевести выбранное количество своих внесенных токенов (необязательно все) на другой адрес без необходимости вывода из пула.
 
 ![](https://i.imgur.com/cf99tOn.gif)
 
-These shielded transfers can be made to any address of your choice, as long as this address is shielded (i.e. already registered to Tornado Cash Nova pool).
+Эти защищенные переводы могут быть сделаны на любой адрес по вашему выбору, если этот адрес является защищенным (т.е уже зарегистрирован в пуле Tornado Cash Nova).
 
-As a reminder, a shielded address is registered either through the `Set up account` action or alongside an initial deposit from a wallet address.
+Напоминаем, защищенный адрес регистрируется через действие `Set up account` или вместе с первоначальным депозитом с использованием адреса кошелька.
 
-We advise you to double-check the shielded address to which you transfer tokens as this action is irreversible.
+Мы советуем вам перепроверять защищенные адреса, на которые вы переводите токены, так как это действие необратимо.
 
+--
 
-
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Автор:_ [_**@ayefda**_](https://torn.community/u/ayefda)
+_Переведено и адаптировано:_ [**@Ghost**](https://torn.community/u/ghost)
