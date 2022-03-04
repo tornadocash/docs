@@ -1,73 +1,74 @@
-# Fund & Withdraw on Nova
+# Пополнение и вывод в пуле Nova
 
-Tornado Cash works by breaking the on-chain link between source & destination addresses. To do so, the protocol needs tokens to be deposited in a pool from one address, then to be withdrawn through another address.
+Tornado Cash работает, разрывая цепочку между адресами отправителя и получателя. Для этого протоколу необходимо, чтобы токены помещались в пул с одного адреса, а затем выводились на другой.
 
-This principle remains the same for Tornado Cash Nova. As for traditional fixed amount pools, these two actions are core to the efficiency of the tool:
+Этот принцип остается тем же для Tornado Cash Nova. Что касается традиционных пулов с фиксированной суммой, эти два действия являются ключевыми для эффективности инструмента:
 
-* The “Funding” process,
-* The “Withdrawing” process.
+* Процесс “Депонирования”.
+* Процесс “Вывода”.
 
-## Funding Process <a href="#funding-process" id="funding-process"></a>
+## Процесс Депонирования <a href="#process-deponirovaniya" id="process-deponirovaniya"></a>
 
-The great novelty compared to traditional Tornado Cash pools is that **deposited amounts are no longer predefined.** Users can choose a customized amount within the capacity of their wallet balance.
+Большим достижением, по сравнению с традиционными пулами Tornado Cash, является то, что **суммы депозитов больше не предопределены**. Пользователи могут выбрать индивидуальную сумму в пределах баланса своего кошелька.
 
-Therefore, if you want to put 0.4 ETH in the pool, you can do it all at once rather than making four separate transactions with the traditional 0.1 ETH pool.
+Поэтому, если вы хотите поместить 0,4 ETH в пул, вы можете сделать это сразу, а не совершать четыре отдельные транзакции по 0,1 ETH.
 
 ![](https://i.imgur.com/rqmzdgG.gif)
 
-### How Does It Work? <a href="#how-does-it-work" id="how-does-it-work"></a>
+### Как это работает? <a href="#kak-eto-rabotaet" id="kak-eto-rabotaet"></a>
 
-#### **The First Deposit 💰**
+#### **Первый депозит 💰**
 
-* The first step is to log in Tornado Cash Nova through a Metamask account.
-* Your account is not set yet (button `Set up account` available on the top right corner). To set up your account, you can either:
-  * **Click on `Set up account`**: your logged-in address will be registered to Nova without needing to deposit any tokens. This action will enable you to receive transfers or deposits within the pool from any another address.
-  * **Choose your logged-in address as a recepient address**: by depositing tokens into the pool, your account (with its shielded address & shielded key) will be automatically created. The deposited funds will come top up your shielded balance.
-  * **Choose another registered address:** tokens will be added to the shielded balance of the chosen recipient address. This recipient address needs to be a shielded address that was formerly registered to the pool.
+* Первый шаг — подключиться к **Tornado Cash Nova**, используя Metamask.
+* Ваш аккаунт еще не настроен (кнопка «Set up account» доступна в правом верхнем углу). Для настройки учетной записи, вы можете использовать несколько способов:
+  * **Нажать на `Set up account`**: ваш авторизованный адрес будет зарегистрирован в Nova без необходимости внесения каких-либо токенов. Это позволит вам получать переводы или депозиты в пуле с любого другого адреса.
+  * **Выбрать авторизованный адрес как адрес получателя**: внося токены в пул, ваш аккаунт (с его защищенным адресом и ключом) будет создан автоматически. Внесенные средства пополнят ваш защищенный баланс.
+  * **Выбрать другой зарегистрированный адрес:** токены будут добавлены на защищенный баланс выбранного адреса получателя. Он должен быть защищенным адресом, который ранее был зарегистрирован в пуле.
 
-When you log in, the `Recipient address` is filled by default with your logged-in address. You can change it depending on how you want to use the tool.
+При входе, поле `Recipient address` по умолчанию заполняется вашим зарегистрированным адресом. Вы можете изменить его в зависимости от того, как вы хотите использовать инструмент.
 
-If you set a new account, you will be able to log into the pool later, check your Tornado shielded balance or receive shielded transfers by using either your shielded address or shielded key.
+Если вы создадите новую учетную запись, вы сможете войти в пул, проверить свой защищенный баланс Tornado или получить защищенные переводы, используя ваш защищенный адрес или же ключ.
 
-_All information about how to use these elements to log in or where to find your shielded key are available on_ [logging-in-tornado-cash-nova.md](logging-in-tornado-cash-nova.md "mention")_._
+_Всю информацию о том, как использовать эти элементы для входа в систему или где найти ваш защищенный ключ, вы можете найти здесь:_ [logging-in-tornado-cash-nova.md](logging-in-tornado-cash-nova.md "mention")_._
 
-#### **The following deposits 💸**
+#### **Последующие депозиты 💸**
 
-The following deposits answer to the same rules that the first one, except that the account is already set.
+Все последующие депозиты происходят так же, как и первый, за исключением создания учетной записи.
 
-By logging into the pool with your shielded address / key, you can deposit your chosen amounts to your chosen shielded address as you wish to.
+Войдя в пул с помощью своего защищенного адреса/ключа, вы сможете вносить любые суммы на выбранный вами защищенный адрес.
 
-⚠️ Since it is a beta version, deposits are currently limited to 1 ETH/transaction.\
-However, if the community wishes to increase this limit, the 1 ETH cap amount can always be changed through a governance proposal.
+⚠️ Поскольку это бета-версия, депозиты ограничены 1 ETH за транзакцию. Однако, если сообщество желает увеличить этот лимит, предельная сумма в 1 ETH всегда может быть изменена с помощью предложения DAO.
 
-## Withdrawing Process <a href="#withdrawing-process" id="withdrawing-process"></a>
+
+## Процесс вывода <a href="#process-vivoda" id="process-vivoda"></a>
 
 ![](https://i.imgur.com/qn9eJXS.gif)
 
-To withdraw funds from the Nova pool, you can either:
+Чтобы вывести средства из пула Nova, вы можете:
 
-* choose from a set of four predetermined amounts (0.1, 0.3, 0.5 & 1 ETH),
-* choose a completely customized amount by going through the button `Set custom`.
+* выбрать один из 4 наборов сумм (0.1, 0.3, 0.5 & 1 ETH),
+* выбрать свою сумму, нажав на кнопку `Set custom`.
 
-### Custom Option For Withdrawal <a href="#custom-option-for-withdrawal" id="custom-option-for-withdrawal"></a>
+### Настраиваемая сумма вывода <a href="#nastraivaiema-summa" id="nastraivaiema-summa"></a>
 
-**The custom option should only be chosen with full knowledge of the following facts and in complete confidence in your actions.**
+**Этот вариант следует выбирать только при полном знании следующих фактов и при полной уверенности в своих действиях..**
 
-To maintain your privacy, choosing one of the four suggested amounts is strongly recommended as it will allow your withdrawal to blend with the crowd.
+Чтобы сохранить вашу конфиденциальность, настоятельно рекомендуется выбрать одну из четырех предложенных сумм, так как это позволит вашему выводу "_слиться с остальными_".
 
-Indeed, ddepending on the chosen amount, a connection might be deduced between your initial fund transaction and your withdrawal if:
+Действительно, в зависимости от выбранной суммы, может быть установлена связь между вашей транзакцией депозита и снятием средств, если:
 
-* the initially funded amount & the withdrawn amount are exactly the same,
-* the funded & withdrawn amounts can be easily linked through a sum.
+* сумма первоначального депозита точно такая же, как и сумма вывода,
+* количество депонированых и выведенных монет может быть легко сопоставлено через сумму.
 
-_For instance, a deposit of 0.42 ETH can be linked to a withdrawal of exactly 0.42 ETH or two times 0.21 ETH, which might compromise anonymity. However, with a withdrawal of 0.391 ETH, privacy is better preserved as there is no obvious link between the 0.42 & 0.391 amounts._
+_Например, депозит в размере 0,42 ETH может быть связан с выводом 0,42 ETH, или дважды по 0,21 ETH, что может поставить под угрозу анонимность. Однако при выводе 0,391 ETH конфиденциальность сохраняется лучше, поскольку нет очевидной связи между суммами 0,42 и 0,391._
 
-### Transctions through Gnosis Chain (L2) <a href="#transctions-through-gnosis-chain-l2" id="transctions-through-gnosis-chain-l2"></a>
+### Транзакции через Gnosis Chain (L2) <a href="#transctions-cherez-gnosis-chain-l2" id="transctions-cherez-gnosis-chain-l2"></a>
 
-For cheaper transactions, Gnosis Chain (former xDAI Chain) is used as a Layer-2. To this end, a bridge is used between ETH from the Mainnet & WETH from Gnosis Chain.
+Для более дешевых транзакций в качестве Layer-2 используется Gnosis Chain (бывший xDAI Chain). С этой целью используется мост между ETH из основной сети в WETH Gnosis Chain.
 
-Therefore, to prevent spam attacks that will overload the bridge, the withdrawal amount has to be larger than 0.05 ETH.
+Поэтому, чтобы предотвратить спам-атаки, которые могут привести к перегрузке моста, сумма вывода должна быть больше 0,05 ETH.
 
+--
 
-
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)__
+_Автор:_ [_**@ayefda**_](https://torn.community/u/ayefda)
+_Переведено и адаптировано:_ [**@Ghost**](https://torn.community/u/ghost)
