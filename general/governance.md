@@ -34,9 +34,9 @@
 
 前往：[https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
-点击 `管理` -> `锁入`标签
+点击 `Manage` -> `Lock`标签
 
-通过点击 `批准` 按钮，批准治理合约来转移你的TORN代币。一旦确认批准，选择你想要存入的金额，并单击 `锁入`。确认你钱包中的交易，并等待确认。
+通过点击 `Approve` 按钮，批准治理合约来转移你的TORN代币。一旦确认批准，选择你想要存入的金额，并单击 `Lock`。确认你钱包中的交易，并等待确认。
 
 ![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
@@ -73,23 +73,23 @@
 
 要实现委托，请访问： [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
-你首先需要在治理合约中锁定你的代币。单击 **`管理`** -> **`锁入`** 标签
+你首先需要在治理合约中锁定你的代币。单击 **`Manage`** -> **`Lock`** 标签
 
-通过单击 **`批准`** 按钮，批准治理合同以转移您的TORN代币。确认批准后，选择您要委托的金额并单击 **`锁入`**。确认您钱包中的交易并等待确认。
+通过单击 **`Approve`** 按钮，批准治理合同以转移您的TORN代币。确认批准后，选择您要委托的金额并单击 **`Lock`**。确认您钱包中的交易并等待确认。
 
 ![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
 最后一步，是进行实际的委托。再次访问 [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
-单击 **`管理`** -> **`代理`** 标签
+单击 **`Manage`** -> **`Delegate`** 标签
 
-填写您要委托的地址，然后单击 **`代理`**。 批准您钱包中的交易并等待确认。
+填写您要委托的地址，然后单击 **`Delegate`**。 批准您钱包中的交易并等待确认。
 
 ![](../.gitbook/assets/43c05d176d7f75a336af7a865565c9b23786b98c.png)
 
 您锁定的全部余额将被委托。
 
-您可以随时取消委托。要取消委托，只需使用 `管理` -> `取消代理` 标签中的 `取消代理` 按钮。
+您可以随时取消委托。要取消委托，只需使用 `Manage` -> `Undelegate` 标签中的 `Undelegate` 按钮。
 
 
 

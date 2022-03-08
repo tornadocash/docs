@@ -1,13 +1,6 @@
 # 如何成为中继器？
 
-{% hint style="warning" %}
-2022年2月25日 - 信息\
-Tornado Cash UI上尚不提供此功能。\
-\
-(需要再等待几天时间.. :cloud\_tornado:)
-{% endhint %}
-
-Fo[Tornado Cash 治理提案#10](https://tornadocash.eth.link/governance/10)执行后，任何人都可以成为Tornado Cash的中继器。
+[Tornado Cash 治理提案#10](https://tornadocash.eth.link/governance/10)执行后，任何人都可以成为Tornado Cash的中继器。
 
 {% hint style="success" %}
 能在Tornado Cash UI中列出的中继器，唯一条件是至少质押 `300个TORN`。 这个最低质押数可以随时通过治理投票来改变。
@@ -49,7 +42,7 @@ Fo[Tornado Cash 治理提案#10](https://tornadocash.eth.link/governance/10)执�
 * 设置主网子域，
 * 根据此特定格式将带有Relayer URL的TXT记录添加到主网子域：
 
-#### 以太坊中继器 (强制)
+#### **以太坊中继器 (强制)**
 
 | TXT record              |
 | ----------------------- |
@@ -69,7 +62,7 @@ Fo[Tornado Cash 治理提案#10](https://tornadocash.eth.link/governance/10)执�
 | arbitrum-tornado.xxx.eth  |
 | avalanche-tornado.xxx.eth |
 
-#### Nova中继器 (可选)
+#### **Nova中继器 (可选)**
 
 Tornado Cash Nova使用自己的软件版本。如果您想成为Tornado Cash Nova的中继器，您将[在此处](https://github.com/tornadocash/tornado-pool-relayer#deploy-with-docker-compose)找到要遵循的说明。
 
@@ -79,7 +72,7 @@ Tornado Cash Nova使用自己的软件版本。如果您想成为Tornado Cash No
 
 ![](../.gitbook/assets/3.png)
 
-#### 4. 设置Workers
+### 4. 设置Workers
 
 Worker是允许中继器向用户发送ZK证明的地址。默认情况下，第一个Worker是ENS域所有者的地址。
 
@@ -89,7 +82,7 @@ Worker是允许中继器向用户发送ZK证明的地址。默认情况下，第
 
 ![](<../.gitbook/assets/4 (1).png>)
 
-#### 5. 质押
+### 5. 质押
 
 随着去中心化中继器注册表的执行，质押条件的介绍以在Tornado Cash UI上列出。**现在已将质押TORN功能添加到推荐的中继器列表中。**
 
@@ -105,7 +98,7 @@ Tornado Cash治理目前设定的最低质押数量为 **`300个TORN`**。Tornad
 
 ![](../.gitbook/assets/5.png)
 
-#### 6. 摘要：最后验证和注册
+### 6. 摘要：最后验证和注册
 
 最后要说的，但不是最不重要的，我们建议您在注册前**仔细检查**摘要中的所有信息。
 

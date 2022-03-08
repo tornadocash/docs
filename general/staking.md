@@ -6,7 +6,7 @@
 
 [TORN](torn.md)的持有者仍然可以将他们的代币锁入到治理合约中，就像他们过去用于投票治理一样。显著的区别在于，他们现在能够从中继者那里获得奖励（协议收取的费用）。显然，奖励的比例将同他们锁入的TORN数量成正比。
 
-#### 这些收取的费用从哪里来？
+#### **这些收取的费用从哪里来？**
 
 这些费用的收取是通过实施去中心化的中继器注册表来实现的。为了在协议UI上列出中继器，中继器需要质押一定数量的TORN（目前由治理设置`300个TORN`）。此中继器注册表的功能[在此论坛帖子](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) 和 [中继器注册表文档页面](how-to-become-a-relayer.md)上有详细的解释。
 
@@ -16,9 +16,9 @@
 
 如上所述，锁入TORN代币的流程保持不变。
 
-* 在这里➡️[https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)⬅️，点击 **`管理`**，然后在 **`锁入`** 标签
-* 治理合约需要获得批准才能将您的代币转移到智能合约。为此，您需要单击 **`批准`** 按钮
-* 确认批准后，您可以输入要锁入的代币数量，然后点击 **`锁入`**
+* 在这里➡️[https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)⬅️，点击 **`Manage`**，然后在 **`Lock`** 标签
+* 治理合约需要获得批准才能将您的代币转移到智能合约。为此，您需要单击 **`Approve`** 按钮
+* 确认批准后，您可以输入要锁入的代币数量，然后点击 **`Lock`**
 * 之后您要做的就是确认钱包中的交易并等待确认通过
 
 ![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
@@ -31,7 +31,7 @@
 
 ![](../.gitbook/assets/head.png)
 
-* 点击 **`管理`** -> **`Claim`** 标签 -> **`Claim`** _按钮。_
+* 点击 **`Manage`** -> **`Claim`** 标签 -> **`Claim`** _按钮。_
 
 ![](<../.gitbook/assets/claim (1).png>)
 
