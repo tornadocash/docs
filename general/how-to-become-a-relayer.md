@@ -16,7 +16,7 @@ It’s fixed at **** `0.3%` for now. Some pools remain without fees, either beca
 
 ## How to Become a Relayer ?
 
-Anyone can become a relayer for the protocol in **6 simple steps** through a Relayer Registry User Interface (UI).
+Anyone can become a relayer for the protocol in **6 simple steps** through a [Relayer Registry User Interface (UI)](https://relayers-network.tornadocash.eth.limo/).
 
 You will find below everything your need to join our relayers' club & be listed on Tornado Cash decentralized relayer registry.
 
