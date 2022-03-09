@@ -20,9 +20,17 @@ Anyone can become a relayer for the protocol in **6 simple steps** through a Rel
 
 You will find below everything your need to join our relayers' club & be listed on Tornado Cash decentralized relayer registry.
 
-### 1. Requirements: Be Aware & Accept Potential Risks
+### 1. Warning: Be Aware & Accept Potential Risks
 
-Before you commit to sharing part of your journey with Tornado Cash users as a relayer, you need to be aware & accept all potential risks of being a relayer for the protocol.
+Before you commit to sharing part of your journey with Tornado Cash users as a relayer, you need to be aware & accept all potential risks of being a relayer for the protocol. 
+
+#### How a Relayer is chosen by user interface
+
+The formula that is used to preset a relayer is following:
+* get all registered relayers from the Relayer Registy smart contract
+* sort all Relayers by cheapest fee
+* select 30% from cheapest Relayers
+* randomly choose a relayer weighted by the TORN stake in Registry
 
 ### 2. Set up Relayer
 
