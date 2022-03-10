@@ -42,6 +42,10 @@ Once you are done, you will need to insert your url in the input box.
 
 ![](../.gitbook/assets/2.png)
 
+{% hint style="warning" %}
+It is strongly recommended that you use your own RPC nodes. Instructions on how to run full nodes can be found [here](https://github.com/feshchenkod/rpc-nodes). 
+{% endhint %}
+
 ### 3. Set Up ENS Subdomain
 
 The next step consists in:
