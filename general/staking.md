@@ -21,7 +21,7 @@ As mentioned above, the process to lock TORN tokens has remained unchanged.
 * Once the approval is confirmed, you can chose the amount of token to lock, then click on **`Lock`**
 * All you have to do after that is to confirm the transaction in your wallet & wait for the confirmation to come through
 
-![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
+![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
 ### How to Claim Your Staking Reward ?
 

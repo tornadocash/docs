@@ -2,7 +2,7 @@
 
 ## General
 
-* [Introduction of Tornado Cash](README.md)
+* [Introduction to Tornado Cash](README.md)
 * [How Does Tornado Cash Work?](general/how-does-tornado.cash-work.md)
 * [Tips to Remain Anonymous](general/tips-to-remain-anonymous.md)
 * [How to use Tornado Cash with TOR](general/how-to-use-tornado-cash-with-tor.md)
