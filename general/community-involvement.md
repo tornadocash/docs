@@ -1,4 +1,4 @@
-# Роль сообщества в проекте Tornado Cash
+# Роль сообщества
 
 В децентрализованной автономной организации (DAO) такие элементы, как параметры протокола и распределение токенов - контролируются сообществом посредством контрактов управления. Такое управление позволяет сообществу формировать "путь" проекта и постоянно совершенствовать протокол.
 
@@ -6,9 +6,9 @@
 
 Вы можете познакомиться с сообществом Tornado.Cash на специальном форуме сообщества и в социальных сетях. Вот полезные ссылки, чтобы присоединиться к сообществу Tornado.Cash
 
-* [Форум сообщества Tornado.Cas](https://torn.community)
-* [Discord-сервер сообщества Tornado.Cas](https://discord.com/invite/TFDrM8K42j)
-* [Телеграм-чат сообщества Tornado.Cash](https://t.me/TornadoCashOfficial)
+* [**Форум сообщества Tornado.Cash**](https://torn.community)****
+* [**Discord-сервер сообщества Tornado.Cash**](https://discord.com/invite/TFDrM8K42j)****
+* [**Телеграм-чат сообщества Tornado.Cash**](https://t.me/TornadoCashOfficial)****
 
 Если вам интересна эта тема, вы можете получить больше информации о [правилах управления и функционирования Tornado.Cash здесь](https://docs.tornado.cash/governance)
 
@@ -73,7 +73,7 @@
 
 Вот Snapshot пространства Tornado.Cash: [https://snapshot.org/#/torn-community.eth](https://snapshot.org/#/torn-community.eth).&#x20;
 
-![](.gitbook/assets/page-daccueil.png)
+![](../.gitbook/assets/page-daccueil.png)
 
 
 
@@ -83,7 +83,7 @@
 
 Каждое snapshot-голосование имеет окно в 3 дня для накопления голосов держателей TORN. По достижению даты окончания голосования,  статус snapshot переходит с `Active` на `Closed`. После этого члены сообщества больше не могут голосовать.&#x20;
 
-![](.gitbook/assets/time-window.png)
+![](../.gitbook/assets/time-window.png)
 
 Держатели ключей с подписями могут считать, что запрос на финансирование одобрен сообществом, если:
 
@@ -96,15 +96,15 @@
 
 Подключить кошелек, на котором хранятся TORN, с помощью MetaMask, WalletConnect или Torus;
 
-![](.gitbook/assets/connect-wallet.png)
+![](../.gitbook/assets/connect-wallet.png)
 
 * Проголосовать, нажав на кнопку `Accept` или `Refuse`;
 
-![](.gitbook/assets/cast-the-vote.png)
+![](../.gitbook/assets/cast-the-vote.png)
 
 * Подтвердить свой голос.
 
-![](.gitbook/assets/confirm-the-vote.png)
+![](../.gitbook/assets/confirm-the-vote.png)
 
-автор_ _[_@ayefda_](https://torn.community/u/ayefda)__\
+автор __ [_@ayefda_](https://torn.community/u/ayefda)__\
 __Переведено и адаптировано: [@ghost](https://torn.community/u/ghost/summary)
