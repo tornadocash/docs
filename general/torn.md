@@ -11,9 +11,9 @@ TORN - это токен типа ERC20 с фиксированным запас
 * 55% (5,500,000 TORN): направиться в Валютный запас DAO, будет разблокирован линейно в течение 5 лет с 3-месячным перерывом
 * 30% (3,000,000 TORN): Разработчикам-основателям и ранним сторонникам проекта, будет разблокировано линейно в течение 3 лет с разрывом в 1 год.
 
-![](../.gitbook/assets/1-bjggju1rn4\_qoxgcljfneq.png)
+![](../.gitbook/assets/1BjggJu1rN4\_QOXgcLJFNEQ.png)
 
-![](../.gitbook/assets/1-gmc0jw8zr5xfvrk5zyqmya.png)
+![](../.gitbook/assets/1gmC0Jw8zr5xFvRK5zyQMyA.png)
 
 ## Airdrop <a href="#f04d" id="f04d"></a>
 
@@ -23,17 +23,17 @@ TORN были отправлены [по всем адресам](https://github
 
 Сумма airdrop’а зависит от размера депозита и возраста пользователей - более крупные и старые депозиты получат больше TORN. Множители для размера депозита являются логарифмическими:
 
-![](../.gitbook/assets/1-ogfrad8p3gez14zh4jndiq-2x.png)
+![](../.gitbook/assets/1OgFrAd8p3GEZ14ZH4JnDiQ@2x.png)
 
 Таким образом, депозит в 100 ETH получает в два раза больше токенов, чем депозит в 1 ETH. Множитель позволяет крупным и более мелким пользователям [Tornado.Cash](http://tornado.cash) иметь право голоса в управлении.
 
 Точная кривая для множителя показателя времени выглядит следующим образом:
 
-![](../.gitbook/assets/1-bje88nlnkbe29-zcs5agkw-2x.png)
+![](../.gitbook/assets/1bjE88NLnkBe29-Zcs5AGkw@2x.png)
 
 Точная формула airdrop’a выглядит следующим образом:
 
-![](../.gitbook/assets/1-megm4amqrrkx0qxva9iska-2x.png)
+![](../.gitbook/assets/1mEGM4aMqrrKx0QXVa9IsKA@2x.png)
 
 _Авторы: ****_ [_**Tornado Team**_](https://tornado-cash.medium.com/tornado-cash-governance-proposal-a55c5c7d0703) и [_**@bt11ba**_](https://torn.community/u/bt11ba/)_****_
 

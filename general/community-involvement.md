@@ -73,7 +73,7 @@
 
 Вот Snapshot пространства Tornado.Cash: [https://snapshot.org/#/torn-community.eth](https://snapshot.org/#/torn-community.eth).&#x20;
 
-![](../.gitbook/assets/page-daccueil.png)
+![](<../.gitbook/assets/Page d'accueil.png>)
 
 
 
@@ -83,7 +83,7 @@
 
 Каждое snapshot-голосование имеет окно в 3 дня для накопления голосов держателей TORN. По достижению даты окончания голосования,  статус snapshot переходит с `Active` на `Closed`. После этого члены сообщества больше не могут голосовать.&#x20;
 
-![](../.gitbook/assets/time-window.png)
+![](<../.gitbook/assets/Time window.png>)
 
 Держатели ключей с подписями могут считать, что запрос на финансирование одобрен сообществом, если:
 
@@ -96,15 +96,15 @@
 
 Подключить кошелек, на котором хранятся TORN, с помощью MetaMask, WalletConnect или Torus;
 
-![](../.gitbook/assets/connect-wallet.png)
+![](<../.gitbook/assets/Connect wallet.png>)
 
 * Проголосовать, нажав на кнопку `Accept` или `Refuse`;
 
-![](../.gitbook/assets/cast-the-vote.png)
+![](<../.gitbook/assets/Cast the vote.png>)
 
 * Подтвердить свой голос.
 
-![](../.gitbook/assets/confirm-the-vote.png)
+![](<../.gitbook/assets/Confirm the vote.png>)
 
 автор __ [_@ayefda_](https://torn.community/u/ayefda)__\
 __Переведено и адаптировано: [@ghost](https://torn.community/u/ghost/summary)

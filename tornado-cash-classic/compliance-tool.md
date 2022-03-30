@@ -10,7 +10,7 @@
 
 Поэтому, если вам когда-нибудь потребуется доказать легальность происхождения активов, выведенных из одного из пулов Tornado.Cash, вы можете воспользоваться следующим [инструментом для обеспечения соответствия](https://app.tornado.cash/compliance/) требованиям:
 
-![https://app.tornado.cash/compliance/](../.gitbook/assets/capture-de-cran-2021-09-02-a-14.57.11.png)
+![https://app.tornado.cash/compliance/](<../.gitbook/assets/Capture d’écran 2021-09-02 à 14.57.11.png>)
 
 ## Как использовать инструмент для обеспечения соответствия требованиям?
 
@@ -30,7 +30,7 @@
 
 Обязательство - это хэшированная случайная область байтов, генерируемая при каждом депозите, которая отправляется смарт-контракту Tornado.Cash для характеристики транзакции.
 
-![https://app.tornado.cash/compliance/](../.gitbook/assets/capture-de-cran-2021-09-02-a-15.07.01.png)
+![https://app.tornado.cash/compliance/](<../.gitbook/assets/Capture d’écran 2021-09-02 à 15.07.01.png>)
 
 Вы можете получить больше информации о том, как Tornado.Cash обеспечивает конфиденциальность, прочитав статью [Как работает Tornado.Cash?](https://docs.tornado.cash/v/ru/)
 
@@ -44,13 +44,13 @@
 
 Хеш нуллификатора - это публичный массив данных, который отправляется внутри сети для проверки смарт-контракта и данных дерева Меркла, чтобы одобрить операцию вывода средств.
 
-![https://app.tornado.cash/compliance/](../.gitbook/assets/capture-de-cran-2021-09-02-a-15.12.23.png)
+![https://app.tornado.cash/compliance/](<../.gitbook/assets/Capture d’écran 2021-09-02 à 15.12.23.png>)
 
 Таким образом, инструмент для обеспечения соответствия позволяет пользователям повторно связать адреса источника и назначения, чтобы показать историю транзакций для активов, используемых на сервисе Tornado.Cash.
 
 Эта информация также может быть выгружена в формате PDF, что облегчает ее отправку третьим лицам:
 
-![https://app.tornado.cash/compliance/](../.gitbook/assets/capture-de-cran-2021-09-02-a-15.12.53.png)
+![https://app.tornado.cash/compliance/](<../.gitbook/assets/Capture d’écran 2021-09-02 à 15.12.53.png>)
 
 автор [@ayefda](https://torn.community/u/ayefda)\
 Переведено и адаптировано: [@ghost](https://torn.community/u/ghost/summary)
