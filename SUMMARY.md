@@ -19,7 +19,11 @@
 * [Deposit & Withdraw](tornado-cash-classic/deposit-withdraw.md)
 * [Anonymity Mining](tornado-cash-classic/anonymity-mining.md)
 * [Compliance Tool](tornado-cash-classic/compliance-tool.md)
-
+* [Circuits](circuits/README.md)
+  * [Core Deposit Circuit](circuits/core-deposit-circuit.md)
+  * [Anonymity Mining](circuits/anonymity-mining/README.md)
+    * [Tornado Trees](circuits/anonymity-mining/tornado-trees.md)
+    * [Reward Claim](circuits/anonymity-mining/mining-rewards.md)
 ## Tornado Cash Nova
 
 * [Logging In Tornado Cash Nova](tornado-cash-nova/logging-in-tornado-cash-nova.md)
