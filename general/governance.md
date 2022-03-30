@@ -38,7 +38,7 @@ Click `Manage` -> `Lock Tab`
 
 Approve the governance contract to transfer your TORN tokens by clicking on the `Approve` button. Once the approve is confirmed, chose the amount you want to deposit and click `Lock`. Confirm the transaction in your wallet and wait for the confirmation.
 
-![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
+![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
 Before the vote, the next crucial step is to review the proposal.\
 Legitimate proposals should have a dedicated post on [Torn.community ](https://torn.community)under the category “Proposal”. The forum post will provide additional context and arguments on the proposal. Read the thread and make your own mind on the issue.
@@ -77,7 +77,7 @@ You first need to lock your tokens in the governance contract. Click **`Manage`*
 
 Approve the governance contract to transfer your TORN tokens by clicking on the **`Approve`** button. Once the approve is confirmed, chose the amount you want to delegate and click **`Lock`**. Confirm the transaction in your wallet and wait for the confirmation.
 
-![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
+![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
 
 The last step, is to make the actual delegation. Go again to [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance)
 
@@ -90,8 +90,6 @@ Fill-in the address to which you want to delegate and click **`Delegate`**. Appr
 The totality of your locked balance will be delegated.
 
 You can undelegate at anytime. To undelegate simply use the `Undelegate` Button in `Manage` -> `Undelegate` Tab.
-
-
 
 _Written by_ [_@rezan_](https://torn.community/u/Rezan/summary)
 

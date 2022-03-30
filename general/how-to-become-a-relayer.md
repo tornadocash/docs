@@ -12,7 +12,7 @@ Therefore, relayers act as third parties and manage the entire withdrawal. They 
 
 Since the implementation of the [Relayer Registry proposal](https://tornadocash.eth.link/governance/10), the protocol collects a fee directly from the relayer’s staked balance through the `StakingReward` contract for each withdrawal. This fee percentage may vary from one pool to another and is also subject to change through on-chain governance.
 
-Currently, it is fixed at  `0.3%` . Some pools remain without fees, either because the instance is too small to assign a fee (0.1 ETH, 100 DAI/USDT, 1000 DAI/USDT), or because there is not enough liquidity on Uni v3 (all cDAI instances).
+Currently, it is fixed at `0.3%` . Some pools remain without fees, either because the instance is too small to assign a fee (0.1 ETH, 100 DAI/USDT, 1000 DAI/USDT), or because there is not enough liquidity on Uni v3 (all cDAI instances).
 
 ## How to Become a Relayer?
 
@@ -22,7 +22,7 @@ Below you will find everything your need to join our relayers' club & get listed
 
 ### 1. Warning: Understand & Accept Potential Risks
 
-Before you commit to sharing part of your journey with Tornado Cash users as a relayer, you need to understand  & accept all potential risks of being a relayer for the protocol.
+Before you commit to sharing part of your journey with Tornado Cash users as a relayer, you need to understand & accept all potential risks of being a relayer for the protocol.
 
 #### How a Relayer is chosen by user interface
 
@@ -93,7 +93,7 @@ To ensure an extra level of security, we advise you to set up more than one work
 
 Only the mainnet requires you to register workers. All other networks do not require the use of registered workers.
 
-![](<../.gitbook/assets/4 (1).png>)
+![](../.gitbook/assets/4.png)
 
 ### 5. Stake
 

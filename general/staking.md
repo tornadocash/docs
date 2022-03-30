@@ -2,7 +2,7 @@
 
 Since its inception, the TORN token is used by Tornado Cash users for governance. Its main utility is to allow the suggestion of proposals & voting both in-chain (through locked TORN for governance proposals) and off-chain (on Snapshot).
 
-Since the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), TORN token has gained one other useful utility. Indeed, **with the introduction of a decentralized relayer register,** **a staking reward has been implemented for all holders with locked TORN in the governance contract.**&#x20;
+Since the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), TORN token has gained one other useful utility. Indeed, **with the introduction of a decentralized relayer register,** **a staking reward has been implemented for all holders with locked TORN in the governance contract.**
 
 [TORN](torn.md) holders can still lock their tokens into the governance contract as they used to for governance purposes. The significant difference is that they are now able to receive a portion of the fees collected by the protocol from relayers. Obviously, the proportion of the reward will be equal to the proportion of their locked TORN.
 
@@ -21,7 +21,7 @@ As mentioned above, the process to lock TORN tokens has remained unchanged.
 * Once the approval is confirmed, you can chose the amount of token to lock, then click on **`Lock`**
 * All you have to do after that is to confirm the transaction in your wallet & wait for the confirmation to come through
 
-![](<../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2 (1).png>)
+![](../.gitbook/assets/c05e5a1813edad280544b627b24002dc8d5adcf2.png)
 
 ### How to Claim Your Staking Reward ?
 
@@ -35,8 +35,8 @@ As soon as you log in the page, you will be able to see your staking reward at t
 
 ![](<../.gitbook/assets/claim (1).png>)
 
-_That's it, we're done, easy peasy lemon squeezy_ :wink:__
+_That's it, we're done, easy peasy lemon squeezy_ :wink:\_\_
 
-__
+\_\_
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _**** &_ [_**@ayefda**_](https://torn.community/u/ayefda)****
+_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _\*\*\*\* &_ [_**@ayefda**_](https://torn.community/u/ayefda)\*\*\*\*
