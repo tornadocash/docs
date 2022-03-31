@@ -29,7 +29,7 @@ Before you commit to sharing part of your journey with Tornado Cash users as a r
 The formula for designating a relayer is as follows:
 
 * The list of all registered relayers is retrieved from the Relayer Registry smart contract.
-* For each relayer, calculate a score based on its stacked TORN and its fee. The higher the stake, the higher the score is; the higher the fee, the lower the score is. For Ethereum mainnet, the formula used to calculate the score is `stake * [1 - 25*(fee-0.33)^2]`; for sidechains, the formula is `stake * [1 - 11.89*(fee-0.01)^2]`.
+* For each relayer, calculate a score based on its staked TORN and its fee. The higher the stake, the higher the score is; the higher the fee, the lower the score is. For Ethereum mainnet, the formula used to calculate the score is `stake * [1 - 25*(fee-0.33)^2]`; for sidechains, the formula is `stake * [1 - 11.89*(fee-0.01)^2]`.
 * Then randomly pick a relayer, weighted by its calculated score.
 
 ### 2. Set up Relayer
