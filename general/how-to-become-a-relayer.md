@@ -118,4 +118,4 @@ Last but not least, we advise you to **double-check all information** displayed 
 
 _Welcome to the relayer team! Thanks to you, privacy can be better respected_ 💚
 
-_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _\*\*\*\* &_ [_**@ayefda**_](https://torn.community/u/ayefda)\*\*\*\*
+_Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/) _&_ [_**@ayefda**_](https://torn.community/u/ayefda)
