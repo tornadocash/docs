@@ -16,7 +16,7 @@ In a nutshell, for each withdrawal through the relayer method, the chosen relaye
 
 As mentioned above, the process to lock TORN tokens has remained unchanged.
 
-* It happens here ➡️ [https://tornadocash.eth.link/governance](https://tornadocash.eth.limo/governance) ⬅️, by clicking on **`Manage`**, then going on the **`Lock`** tab
+* It happens here ➡️ [https://tornadocash.eth.limo/governance](https://tornadocash.eth.limo/governance) ⬅️, by clicking on **`Manage`**, then going on the **`Lock`** tab
 * The governance contract need to be approved in order to allow the transfer of your tokens to the smart contract. To do so, you need to click on the **`Approve`** button
 * Once the approval is confirmed, you can chose the amount of token to lock, then click on **`Lock`**
 * All you have to do after that is to confirm the transaction in your wallet & wait for the confirmation to come through
