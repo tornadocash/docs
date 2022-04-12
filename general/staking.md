@@ -2,7 +2,7 @@
 
 Since its inception, the TORN token is used by Tornado Cash users for governance. Its main utility is to allow the suggestion of proposals & voting both in-chain (through locked TORN for governance proposals) and off-chain (on Snapshot).
 
-Since the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), TORN token has gained one other useful utility. Indeed, **with the introduction of a decentralized relayer register,** **a staking reward has been implemented for all holders with locked TORN in the governance contract.**
+Since the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.limo/governance/10), TORN token has gained one other useful utility. Indeed, **with the introduction of a decentralized relayer register,** **a staking reward has been implemented for all holders with locked TORN in the governance contract.**
 
 [TORN](torn.md) holders can still lock their tokens into the governance contract as they used to for governance purposes. The significant difference is that they are now able to receive a portion of the fees collected by the protocol from relayers. Obviously, the proportion of the reward will be equal to the proportion of their locked TORN.
 
@@ -16,7 +16,7 @@ In a nutshell, for each withdrawal through the relayer method, the chosen relaye
 
 As mentioned above, the process to lock TORN tokens has remained unchanged.
 
-* It happens here ➡️ [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance) ⬅️, by clicking on **`Manage`**, then going on the **`Lock`** tab
+* It happens here ➡️ [https://tornadocash.eth.link/governance](https://tornadocash.eth.limo/governance) ⬅️, by clicking on **`Manage`**, then going on the **`Lock`** tab
 * The governance contract need to be approved in order to allow the transfer of your tokens to the smart contract. To do so, you need to click on the **`Approve`** button
 * Once the approval is confirmed, you can chose the amount of token to lock, then click on **`Lock`**
 * All you have to do after that is to confirm the transaction in your wallet & wait for the confirmation to come through
@@ -25,7 +25,7 @@ As mentioned above, the process to lock TORN tokens has remained unchanged.
 
 ### How to Claim Your Staking Reward ?
 
-Now that your TORN tokens have stayed nice & warm locked in the governance contract, you are able to claim your staking reward. How to do that? Everything is still happening here ➡️ [https://tornadocash.eth.link/governance](https://tornadocash.eth.link/governance) ⬅️
+Now that your TORN tokens have stayed nice & warm locked in the governance contract, you are able to claim your staking reward. How to do that? Everything is still happening here ➡️ [https://tornadocash.eth.link/governance](https://tornadocash.eth.limo/governance) ⬅️
 
 As soon as you log in the page, you will be able to see your staking reward at the top, just waiting for you to collect it 💰
 
