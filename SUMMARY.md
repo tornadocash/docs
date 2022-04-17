@@ -9,7 +9,7 @@
 * [TORN](general/torn.md)
 * [Governance](general/governance.md)
 * [Staking](general/staking.md)
-* [Farming](general/farming.md)
+* [How to add or remove liquidity on Uniswap v2](general/how-to-add-or-remove-liquidity-on-uniswapv2.md)
 * [How to become a relayer?](general/how-to-become-a-relayer.md)
 * [Community Involvement](general/community-involvement.md)
 * [Tornado Cash smart contracts](general/tornado-cash-smart-contracts.md)
