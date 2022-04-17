@@ -9,6 +9,7 @@
 * [TORN](general/torn.md)
 * [Governance](general/governance.md)
 * [Staking](general/staking.md)
+* [Farming](general/farming.md)
 * [How to Become a Relayer?](general/how-to-become-a-relayer.md)
 * [Community Involvement](general/community-involvement.md)
 * [Tornado Cash Smart Contracts](general/tornado-cash-smart-contracts.md)
@@ -24,6 +25,7 @@
   * [Anonymity Mining](circuits/anonymity-mining/README.md)
     * [Tornado Trees](circuits/anonymity-mining/tornado-trees.md)
     * [Reward Claim](circuits/anonymity-mining/mining-rewards.md)
+
 ## Tornado Cash Nova
 
 * [Logging In Tornado Cash Nova](tornado-cash-nova/logging-in-tornado-cash-nova.md)

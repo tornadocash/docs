@@ -3,10 +3,10 @@
 Following the execution of [Tornado Cash 10th governance proposal](https://tornadocash.eth.link/governance/10), anyone can become a relayer for Tornado Cash users.
 
 {% hint style="success" %}
-The only condition to be included on the Tornado Cash UI is to lock a min. of `300 TORN`*.
-To remain listed, it is needed to keep enough TORN locked (~`40 TORN` at the moment in April 2022) to be able to pay back the transaction fee to the staking contract.
+The only condition to be included on the Tornado Cash UI is to lock a min. of `300 TORN`\*. To remain listed, it is needed to keep enough TORN locked (\~`40 TORN` at the moment in April 2022) to be able to pay back the transaction fee to the staking contract.
 {% endhint %}
-**This minimum stake can be changed by a governance vote at any time.*
+
+\*_This minimum stake can be changed by a governance vote at any time._
 
 Relayers form an essential & necessary part of the Tornado Cash ecosystem. Their use guarantees privacy as they solve the infamous “fee payment dilemma” : how to pay fees for token withdrawals from a pool while maintaining anonymity?
 
@@ -42,7 +42,7 @@ The first concrete step is to run the Tornado Cash Relayer software for Ethereum
 
 Once completed, you will need to insert your url in the input box.
 
-![](../.gitbook/assets/2.png)
+![](<../.gitbook/assets/2 (1).png>)
 
 {% hint style="warning" %}
 It is strongly recommended that you use your own RPC nodes. Instructions on how to run full nodes can be found [here](https://github.com/feshchenkod/rpc-nodes).
