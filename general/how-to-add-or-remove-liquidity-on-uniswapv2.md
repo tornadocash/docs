@@ -1,4 +1,4 @@
-# Farming
+# How to add or remove liquidity on Uniswap v2
 
 In this tutorial we will see how to add and remove liquidity on Uniswap v2 TORN/ETH pair.
 
