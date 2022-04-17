@@ -2,11 +2,10 @@
 
 In this tutorial we will see how to add and remove liquidity on Uniswap v2 TORN/ETH pair.
 
-[Add liquidity](farming.md#add-liquidity)
+1. [Add liquidity](farming.md#add-liquidity)
+2. [Remove liquidity](farming.md#remove-liquidity)
 
-[Remove liquidity](farming.md#remove-liquidity)
-
-### Add liquidity
+### 1. Add liquidity
 
 1. Go there: [https://app.uniswap.org/#/add/v2/ETH?chain=mainnet](https://app.uniswap.org/#/add/v2/ETH?chain=mainnet)
 2. Add the TORN and ETH pair
@@ -31,7 +30,7 @@ In this tutorial we will see how to add and remove liquidity on Uniswap v2 TORN/
 
 
 
-### Remove liquidity
+### 2. Remove liquidity
 
 1. Go there: [https://app.uniswap.org/#/add/v2/ETH?chain=mainnet](https://app.uniswap.org/#/add/v2/ETH?chain=mainnet)
 2. Add the TORN and ETH pair
