@@ -102,7 +102,7 @@ With the implementation of a decentralized relayer registry, a staking condition
 
 The minimum staked amount is currently set by Tornado Cash governance at **`300 TORN`**. This threshold can be changed by Tornado Cash governance at any time.
 
-When a relayer is used in the Tornado Cash pool, a small amount of TORN is automatically collected from this staked balance by the `StakingReward` contract. This element is essential to keep in mind as relayers will need to maintain their stakes balance above `300 TORN` at all times.
+When a relayer is used in the Tornado Cash pool, a small amount of TORN is automatically collected from this staked balance by the `StakingReward` contract. This element is essential to keep in mind as relayers will need to keep enough TORN locked (\~`40 TORN` at the moment in April 2022) to be able to pay back the transaction fee to the staking contract.
 
 The collected fees are subsequently distributed among DAO members with lockedTORN tokens locked. TORN are usually locked to participate in on-chain governance (submitting & voting on proposals). You can find more information both on this [forum post](https://torn.community/t/proposal-relayer-registry-setting-parameters-after-audit/2134) & in the [Staking TORN documentation page](staking.md).
 
