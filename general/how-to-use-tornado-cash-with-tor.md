@@ -6,6 +6,8 @@ However, before and after your transactions are executed, your privacy may not b
 
 Here is a quick and easy tutorial to ensure your anonymity.
 
+### Here's a video on how to install Metamask on TOR - https://youtu.be/pEYmIjkL5bc
+
 ### Step **#1 - Install** TOR
 
 First, go there: [https://www.torproject.org/download/](https://www.torproject.org/download/)
