@@ -3,7 +3,7 @@
 This tutorial is a step-by-step explanation of how to deposit & withdraw your funds. If you want to understand how the internal system of Tornado.cash works, please refer to [this tutorial](../general/how-does-tornado.cash-work.md).
 
 ## **Deposit**
-
+Here's a video on how to make a deposit on Tornado Cash Classic - https://youtu.be/QMA2mj0hMAs
 ### Choose a chain
 
 [Tornado cash](https://tornadocash.eth.link) is available on several blockchains, so you will have to choose among 4 chains:
@@ -33,6 +33,8 @@ As explained [here](../general/tips-to-remain-anonymous.md#be-patient), the long
 Congrats ! You did it. Now your tokens are on the Tornado.Cash pool.
 
 ## Withdraw
+
+Here's a video on how to make a withdrawal on Tornado Cash Classic - https://youtu.be/IXKbtLrKfUo
 
 ### Choose a chain
 
