@@ -32,3 +32,8 @@
 * [Fund & withdraw on Nova](tornado-cash-nova/fund-and-withdraw-on-nova.md)
 * [Shielded transfers on Nova](tornado-cash-nova/shielded-transfers-on-nova.md)
 * [More anonymity tips](tornado-cash-nova/more-anonymity-tips.md)
+
+## Media Content
+
+* [Videos](tornado-cash-Media-Content/videos.md)
+* [Blogs & Articles](tornado-cash-Media-Content/blogs-&-articles.md)
