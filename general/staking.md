@@ -14,7 +14,7 @@ In a nutshell, for each withdrawal through the relayer method, the chosen relaye
 
 ### How to Stake TORN token ?
 
-First, [connect your wallet to Tornado Cash](./tornado-cash-classic/how-to-connect-your-wallet.md).
+First, [connect your wallet to Tornado Cash](../tornado-cash-classic/how-to-connect-your-wallet.md).
 
 As mentioned above, the process to lock TORN tokens has remained unchanged.
 
