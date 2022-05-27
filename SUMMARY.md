@@ -17,6 +17,7 @@
 
 ## Tornado Cash Classic
 
+* [How to connect your wallet](tornado-cash-classic/how-to-connect-your-wallet.md)
 * [Deposit & Withdraw](tornado-cash-classic/deposit-withdraw.md)
 * [Anonymity Mining](tornado-cash-classic/anonymity-mining.md)
 * [Compliance Tool](tornado-cash-classic/compliance-tool.md)
