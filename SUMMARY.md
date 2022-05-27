@@ -17,6 +17,7 @@
 
 ## Tornado Cash Classic
 
+* [How to connect your wallet](tornado-cash-classic/how-to-connect-your-wallet.md)
 * [Deposit & Withdraw](tornado-cash-classic/deposit-withdraw.md)
 * [Anonymity Mining](tornado-cash-classic/anonymity-mining.md)
 * [Compliance Tool](tornado-cash-classic/compliance-tool.md)
@@ -32,3 +33,7 @@
 * [Fund & withdraw on Nova](tornado-cash-nova/fund-and-withdraw-on-nova.md)
 * [Shielded transfers on Nova](tornado-cash-nova/shielded-transfers-on-nova.md)
 * [More anonymity tips](tornado-cash-nova/more-anonymity-tips.md)
+
+## They talk about us
+* [Articles](medias/articles.md)
+* [Videos](medias/videos.md)
