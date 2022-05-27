@@ -35,5 +35,5 @@
 * [More anonymity tips](tornado-cash-nova/more-anonymity-tips.md)
 
 ## They talk about us
-* [Articles](medias/they-talk-about-us-articles.md)
-* [Videos](medias/they-talk-about-us-videos.md)
+* [Articles](medias/articles.md)
+* [Videos](medias/videos.md)
