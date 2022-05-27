@@ -14,7 +14,10 @@
 * [Community Involvement](general/community-involvement.md)
 * [Tornado Cash smart contracts](general/tornado-cash-smart-contracts.md)
 * [Minified UI hosted locally](general/minified-ui-hosted-locally.md)
-* [They talk about us](general/they-talk-about-us.md)
+
+## They talk about us
+* [Articles](medias/they-talk-about-us-articles.md)
+* [Videos](medias/they-talk-about-us-videos.md)
 
 ## Tornado Cash Classic
 
