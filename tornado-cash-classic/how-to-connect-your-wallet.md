@@ -37,7 +37,7 @@ If you have a Metamask wallet, you have to make sure you **already have the exte
 ![Connection with a Metamask Wallet](<.gitbook/assets/Screen Recording 2022-05-16 at 4.05.59 PM.gif>)
 
 ### **Built-in browser**
-If you wish, you can navigate online through the **mobile** application. To do so, you have to follow the following steps:
+If you wish, you can navigate online through the **mobile** application. To do so, you have to take the following steps:
 1. Open the application.
 2. Click on the menu icon on the top left of your screen.
 3. Click on "Browser".
@@ -63,7 +63,7 @@ To connect your wallet, you will need your phone. If you have a TrustWallet wall
 
 ![Connecting Trustwallet](<.gitbook/assets/trust (1) (1).gif>)
 
-If you wish, you can navigate online through the **mobile** application. To do so, you have to follow the following steps:
+If you wish, you can navigate online through the **mobile** application. To do so, you have to take the following steps:
 1. Open the application.
 2. Look for the icon "Browser" at the bottom of your screen.
 3. You can now start browsing within Trustwallet app.
