@@ -23,6 +23,8 @@ You can also click on **Settings** on the top right of the page then click on **
 
 ![Connecting via Settings](<.gitbook/assets/Screen Recording 2022-05-16 at 4.07.52 PM.gif>)
 
+We recommend you to use Metamask since it is currently the most reliable and stable wallet.
+
 ## **Metamask wallet**
 
 If you have a Metamask wallet, you have to make sure you **already have the extensions installed** on your browser. _If you don't know how to install it, you can check this_ [_tutorial_](https://docs.tornado.cash/general/how-to-use-tornado-cash-with-tor#step-3-install-metamask) _before the next step._ &#x20;
@@ -33,6 +35,15 @@ If you have a Metamask wallet, you have to make sure you **already have the exte
 4. You are now connected to Tornado Cash.
 
 ![Connection with a Metamask Wallet](<.gitbook/assets/Screen Recording 2022-05-16 at 4.05.59 PM.gif>)
+
+### **Built-in browser**
+If you wish, you can navigate online through the **mobile** application. To do so, you have to follow the following steps:
+1. Open the application.
+2. Click on the menu icon on the top left of your screen.
+3. Click on "Browser".
+3. You can now start browsing within MetaMask app.
+
+![Browsing within Metamask](<.gitbook/assets/Metamaskbrowser.mp4>)
 
 ## WalletConnect
 
@@ -51,6 +62,14 @@ To connect your wallet, you will need your phone. If you have a TrustWallet wall
 5. You are now connected with Tornado Cash.
 
 ![Connecting Trustwallet](<.gitbook/assets/trust (1) (1).gif>)
+
+If you wish, you can navigate online through the **mobile** application. To do so, you have to follow the following steps:
+1. Open the application.
+2. Look for the icon "Browser" at the bottom of your screen.
+3. You can now start browsing within Trustwallet app.
+
+![Browsing within Trustwallet](<.gitbook/assets/trustwalletbrowser.mp4>)
+
 
 ### **ImToken**
 
