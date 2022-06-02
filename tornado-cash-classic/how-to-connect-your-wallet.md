@@ -43,7 +43,7 @@ If you wish, you can navigate online through the **mobile** application. To do s
 3. Click on "Browser".
 3. You can now start browsing within MetaMask app.
 
-![Browsing within Metamask](<.gitbook/assets/Metamaskbrowser.mp4>)
+![Browsing within Metamask](<.gitbook/assets/Metamaskbrowser.gif>)
 
 ## WalletConnect
 
@@ -68,7 +68,7 @@ If you wish, you can navigate online through the **mobile** application. To do s
 2. Look for the icon "Browser" at the bottom of your screen.
 3. You can now start browsing within Trustwallet app.
 
-![Browsing within Trustwallet](<.gitbook/assets/trustwalletbrowser.mp4>)
+![Browsing within Trustwallet](<.gitbook/assets/trustwalletbrowser.gif>)
 
 
 ### **ImToken**
