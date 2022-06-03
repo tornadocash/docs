@@ -6,13 +6,6 @@ description: >-
 
 # How to connect your wallet
 
-1. [Connect your wallet](./#connect-your-wallet)
-2. [Metamask Wallet](./#metamask-wallet)
-3. [WalletConnect](./#walletconnect)
-   * [TrustWallet](./#trustwallet)
-   * [ImToken](./#imtoken)
-   * [Argent](./#argent-wallet)
-
 ## Connect your wallet
 
 To connect your wallet to Tornado Cash, you have two options: You can either click on **Connect** on the main page of Tornado Cash, _directly after selecting your deposit amount._
