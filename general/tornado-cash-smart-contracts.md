@@ -112,10 +112,12 @@
 | Contract             | Address                                                                                                                                           |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Contract             | [0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696](https://blockscout.com/xdai/mainnet/address/0xD692Fd2D0b2Fbd2e52CFa5B5b9424bC981C30696/transactions) |
-| L1 Omnibridge Helper | [0xca0840578f57fe71599d29375e16783424023357](https://etherscan.io/address/0xca0840578f57fe71599d29375e16783424023357)                             |
-| Verifier 2           | [0xDF3A408c53E5078af6e8fb2A85088D46Ee09A61b](https://blockscout.com/xdai/mainnet/address/0xDF3A408c53E5078af6e8fb2A85088D46Ee09A61b/transactions) |
-| Verifier 16          | [0x743494b60097A2230018079c02fe21a7B687EAA5](https://blockscout.com/xdai/mainnet/address/0x743494b60097A2230018079c02fe21a7B687EAA5/transactions) |
-| Hasher               | [0x94C92F096437ab9958fC0A37F09348f30389Ae79](https://blockscout.com/xdai/mainnet/address/0x94C92F096437ab9958fC0A37F09348f30389Ae79/transactions) |
+| L1 Omnibridge Helper for deposits | [0xca0840578f57fe71599d29375e16783424023357](https://etherscan.io/address/0xca0840578f57fe71599d29375e16783424023357#code)                             |
+| L1 Omnibridge Helper for withdrawals | [0x3f615ba21bc6cc5d4a6d798c5950cc5c42937fbd](https://etherscan.io/address/0x3f615ba21bc6cc5d4a6d798c5950cc5c42937fbd#code)                             |
+
+| Verifier 2           | [0xDF3A408c53E5078af6e8fb2A85088D46Ee09A61b](https://blockscout.com/xdai/mainnet/address/0xDF3A408c53E5078af6e8fb2A85088D46Ee09A61b#code) |
+| Verifier 16          | [0x743494b60097A2230018079c02fe21a7B687EAA5](https://blockscout.com/xdai/mainnet/address/0x743494b60097A2230018079c02fe21a7B687EAA5#code) |
+| Hasher               | [0x94C92F096437ab9958fC0A37F09348f30389Ae79](https://blockscout.com/xdai/mainnet/address/0x94C92F096437ab9958fC0A37F09348f30389Ae79#code) |
 
 ### Governance Contracts:
 
