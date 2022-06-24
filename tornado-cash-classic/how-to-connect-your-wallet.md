@@ -54,7 +54,7 @@ To connect your wallet, you will need your phone. If you have a TrustWallet wall
 4. Click on **Connect**.
 5. You are now connected with Tornado Cash.
 
-![Connecting Trustwallet](<.gitbook/assets/trust.gif>)
+<img src=".gitbook/assets/trust.gif" width="430" height=745/>
 
 If you wish, you can navigate online through the **mobile** application. To do so, you have to take the following steps:
 1. Open the application.
