@@ -61,7 +61,7 @@ If you wish, you can navigate online through the **mobile** application. To do s
 2. Look for the icon "Browser" at the bottom of your screen.
 3. You can now start browsing within Trustwallet app.
 
-![Browsing within Trustwallet](<.gitbook/assets/trustbrowser.gif>)
+![Browsing within Trustwallet](<.gitbook/assets/trustwalletbrowser.gif>)
 
 
 ### **ImToken**
