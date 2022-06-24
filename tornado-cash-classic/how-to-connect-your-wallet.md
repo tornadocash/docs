@@ -54,14 +54,14 @@ To connect your wallet, you will need your phone. If you have a TrustWallet wall
 4. Click on **Connect**.
 5. You are now connected with Tornado Cash.
 
-           <img src=".gitbook/assets/trust.gif" width="430" height=745/>
+      <img src=".gitbook/assets/trust.gif" width="430" height=745/>
 
 If you wish, you can navigate online through the **mobile** application. To do so, you have to take the following steps:
 1. Open the application.
 2. Look for the icon "Browser" at the bottom of your screen.
 3. You can now start browsing within Trustwallet app.
 
-![Browsing within Trustwallet](<.gitbook/assets/trustwalletbrowser.gif>)
+      <img src=".gitbook/assets/trustwalletbrowser.gif" width="430" height=745/>
 
 
 ### **ImToken**
