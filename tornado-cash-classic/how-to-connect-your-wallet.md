@@ -36,9 +36,9 @@ If you wish, you can navigate online through the **mobile** application. To do s
 3. Click on "Browser".
 3. You can now start browsing within MetaMask app.
 
-<img src=".gitbook/assets/metamask.gif" display=block 
-   width=430 height=245  />
-
+<p display=block margin="0 auto">
+<img src=".gitbook/assets/metamask.gif"  width=430 height=245  />
+</p>
 ## WalletConnect
 
 For other wallets, **you should click on WalletConnect**. You will have to use your phone since many wallets do not have Desktop applications yet. **It generates a QR code that needs to be scanned.**&#x20;
