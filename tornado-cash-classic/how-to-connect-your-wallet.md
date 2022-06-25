@@ -36,7 +36,7 @@ If you wish, you can navigate online through the **mobile** application. To do s
 3. Click on "Browser".
 3. You can now start browsing within MetaMask app.
 
-<img src=".gitbook/assets/metamask.gif" width="430" height=245 justify-content=center/>
+<img src=".gitbook/assets/metamask.gif" width="430" height=245 style="text-align:center" />
 
 ## WalletConnect
 
