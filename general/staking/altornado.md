@@ -28,7 +28,7 @@ The site will always remain accessible to everyone, without any restrictions.
 ### Hmmm, maybe not yet, now you need to claim your rewards in order to do so 😼
 
 * In order to claim your rewards, head over the [Claim](https://altornado.com/#/claim) tab.
-* Select the amount of TORN to claim, and click on the **`Claim`** button.
+* Click on the **`Claim`** button.
 * Confirm the transaction in your wallet and wait until your fresh $TORN hits your wallet balance.
 
 ![](../../.gitbook/assets/Claim.png)
