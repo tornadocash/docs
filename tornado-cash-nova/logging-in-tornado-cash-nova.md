@@ -64,3 +64,4 @@ To obtain full privacy, the same good practices that were recommended for tradit
 \_\_
 
 _Written by_ [_@ayefda_](https://torn.community/u/ayefda)
+.
