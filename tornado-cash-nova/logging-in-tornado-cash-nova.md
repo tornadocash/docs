@@ -31,27 +31,65 @@ Logging into the Nova pool will allow you to:
 Only those who have access to your Metamask wallet or to your Shielded key will be able to access these informations regarding your account (i.e. your shielded balance).\
 ⚠️ Be aware of which information you share with whom.
 
-### MetaMask Wallet <a href="#metamask-wallet" id="metamask-wallet"></a>
+# Logging in with MetaMask <a href="#metamask-wallet" id="metamask-wallet"></a>
 
 Each Tornado Cash Nova account is linked to a shielded address. As mentionned above, users have two ways to access their account & its balance. One of these ways is **through a MetaMask wallet connected to the appropriate shielded address**.
 
-![](https://i.imgur.com/idXaco8.png)
+* Go to https://nova.tornadocash.eth.limo/ or any of the alternative links from Tornado Cash landing page.
+* Click on the `Log in` button.
 
-A shielded address is automatically created when users log in a given address, then deposit tokens to funds this address’ pool balance.
+![](https://imgur.com/aSjaNa4.png)
+
+* Select `Using Metamask`.
+* Choose the wallet you want to connect with, and sign the request in your Metamask.
+
+![](https://imgur.com/AXB0bYR.png) ![](https://imgur.com/Anb2KI4.png)
+
+You have 2 alternatives, funding the default wallet connected to Nova, which will automatically create a shielded address, or fund **another registered shielded address**.
+To fund the default wallet:
+* Select the amount of funds you want to deposit.
+* Click on `Fund`.
+* Sign the transaction in your wallet and wait for it to be confirmed.
+
+![](https://imgur.com/scB6sMs.png) ![](https://imgur.com/Be2mNGG.png)
+
+After the transaction is succesful, you will find your shielded balance here.
+
+![](https://imgur.com/LllWMQT.png)
+
+To fund **another registered shielded address**, paste it under *Recipient Address*, and follow the same steps as above.
 
 _More information about the Funding action is availaible on_ [_Fund & Withdraw on Nova_](fund-and-withdraw-on-nova.md)__
 
-However, shielded addresses can also be created from scratch as a separate action by logging in a new address with no prior link to Tornado Cash Nova, then by clicking on `Set up account`.
 
-By confirming this action through your Metamask account, your shielded address will be crypted & created with the generation of a shielded key.
+# Set up an account with a shielded key
 
-![](https://i.imgur.com/8q7DYeh.png)
+However, shielded addresses can also be created from scratch as a separate action by logging in a new address with no prior link to Tornado Cash Nova.
 
-Once the account set, you will be able to receive shielded transfers of tokens from any another address registered to the pool. You will also be able to fund, transfer & withdraw tokens as you wish.
+![](https://imgur.com/RuFVU1R.png)
 
-### Shielded Key <a href="#shielded-key" id="shielded-key"></a>
+* Click on `Set up account`.
+* A pop-up window will appear for you to save your shielded key (do not share this key !)
+* Sign the transaction in your wallet, and you're done.
+
+![](https://imgur.com/YKiLFKv.png)
+
+Your shielded address will be crypted & created with the generation of a shielded key.
+
+Once the account is set, you will be able to receive shielded transfers of tokens from any another address registered to the pool. You will also be able to fund, transfer & withdraw tokens as you wish.
+
+# Logging in with a Shielded Key <a href="#shielded-key" id="shielded-key"></a>
 
 As seen above, the other way to log in is **through the generated Shielded Key** that is created when an account is created through the set up of a new shielded address.
+
+* Click the `Log in` button.
+* Select `Using private key`.
+* Paste your shielded key in the box and click on `Log in`.
+
+![](https://imgur.com/aSjaNa4.png)
+![](https://imgur.com/cuAfYUN.png) ![](https://imgur.com/6gWPr0C.png)
+
+## Recover your shielded key
 
 Once you are logged in with your address & your account is set up, you can download this shielded key at any time by accessing your account data (by clicking on your address, next to your shielded balance).
 
