@@ -137,7 +137,7 @@
 
 | Contract                          | Address                                                                                                               |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| TornadoRooter                     | [0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b](https://etherscan.io/address/0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b) |
+| Tornado Router                     | [0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b](https://etherscan.io/address/0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b) |
 | Proxy of feeManagerContract       | [0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7](https://etherscan.io/address/0x5f6c97C6AD7bdd0AE7E0Dd4ca33A4ED3fDabD4D7) |
 | FeeManager                        | [0xf4B067dD14e95Bab89Be928c07Cb22E3c94E0DAA](https://etherscan.io/address/0xf4B067dD14e95Bab89Be928c07Cb22E3c94E0DAA) |
 | Proxy of relayerRegistryContract  | [0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2](https://etherscan.io/address/0x58E8dCC13BE9780fC42E8723D8EaD4CF46943dF2) |
