@@ -36,7 +36,7 @@ If you wish, you can navigate online through the **mobile** application. To do s
 3. Click on "Browser".
 3. You can now start browsing within MetaMask app.
 
-![Browsing within Metamask](<.gitbook/assets/metamask.gif>)
+<img src=".gitbook/assets/metamask.gif"  width=430 height=245  />
 
 ## WalletConnect
 
@@ -54,14 +54,14 @@ To connect your wallet, you will need your phone. If you have a TrustWallet wall
 4. Click on **Connect**.
 5. You are now connected with Tornado Cash.
 
-![Connecting Trustwallet](<.gitbook/assets/trust.gif>)
+      <img src=".gitbook/assets/trust.gif" width="430" height=745/>
 
 If you wish, you can navigate online through the **mobile** application. To do so, you have to take the following steps:
 1. Open the application.
 2. Look for the icon "Browser" at the bottom of your screen.
 3. You can now start browsing within Trustwallet app.
 
-![Browsing within Trustwallet](<.gitbook/assets/trustbrowser.gif>)
+<img src=".gitbook/assets/trustwalletbrowser.gif" width="430" height=745/>
 
 
 ### **ImToken**
@@ -73,7 +73,7 @@ To connect your wallet, you will need your phone. If you have a ImToken wallet, 
 3. **Click** on Connect.
 4. You are now connected with Tornado Cash.&#x20;
 
-![Connecting ImToken](<.gitbook/assets/imtoken.gif>)
+<img src=".gitbook/assets/imtoken.gif" width="430" height=745/>
 
 ### **Argent Wallet**
 
@@ -84,7 +84,7 @@ To connect your wallet, you will need your phone. If you have a Argent wallet, y
 3. Scan the QRCode on Tornado Cash's page.
 4. You are now connected with Tornado Cash.
 
-![Connecting Argent](<.gitbook/assets/argen.gif>)
+<img src=".gitbook/assets/argen.gif" width="430" height=745/>
 
 ### **Other wallets**
 
