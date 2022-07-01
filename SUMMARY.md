@@ -8,7 +8,9 @@
 * [How to use Tornado Cash with TOR](general/how-to-use-tornado-cash-with-tor.md)
 * [TORN](general/torn.md)
 * [Governance](general/governance.md)
-* [Staking](general/staking.md)
+* [Staking](general/staking/README.md)
+  * [Tornado Cash](general/staking/tornado-cash.md)
+  * [Altornado](general/staking/altornado.md)
 * [How to add or remove liquidity on Uniswap v2](general/how-to-add-or-remove-liquidity-on-uniswapv2.md)
 * [How to become a relayer?](general/how-to-become-a-relayer.md)
 * [Community Involvement](general/community-involvement.md)
@@ -35,5 +37,6 @@
 * [More anonymity tips](tornado-cash-nova/more-anonymity-tips.md)
 
 ## They talk about us
+
 * [Articles](medias/articles.md)
 * [Videos](medias/videos.md)
