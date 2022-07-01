@@ -55,7 +55,7 @@ To withdraw funds from the Nova pool, you can either:
 
 To maintain your privacy, choosing one of the four suggested amounts is strongly recommended as it will allow your withdrawal to blend with the crowd.
 
-Indeed, ddepending on the chosen amount, a connection might be deduced between your initial fund transaction and your withdrawal if:
+Indeed, depending on the chosen amount, a connection might be deduced between your initial fund transaction and your withdrawal if:
 
 * the initially funded amount & the withdrawn amount are exactly the same,
 * the funded & withdrawn amounts can be easily linked through a sum.
