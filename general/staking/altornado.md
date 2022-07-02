@@ -6,7 +6,7 @@ description: Staking on Altornado
 
 ## Alternative staking UI
 
-Since the deployment of [Altornado](https://altornado.com/#/stake) **TORN** holders have now an alternative open-source staking UI made by Tornado Cash Community, for the Tornado Cash community.
+Since the deployment of [Altornado](https://altornado.com/#/stake), **TORN** holders have now an alternative open-source staking UI made by Tornado Cash Community, for the Tornado Cash community.
 
 Yes, hence the name altornado: from “alternative” and “tornado” 🌝
 
