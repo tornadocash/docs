@@ -10,8 +10,6 @@ Since the deployment of [Altornado](https://altornado.com/#/stake) **TORN** hold
 
 Yes, hence the name altornado: from “alternative” and “tornado” 🌝
 
-From the approval of [this](https://snapshot.org/#/torn-community.eth/proposal/0x331caa7b479669e8b836bd87ba9d91427c212ec29a2ede13d84c7190af18c931) snapshot proposal, they will be funded to deliver an amazing roadmap full of new features in the subsequent versions.
-
 Altornado’s source code is and will always be free to access. Altornado do not and will never have access to users data.
 
 The site will always remain accessible to everyone, without any restrictions.
@@ -25,7 +23,7 @@ The site will always remain accessible to everyone, without any restrictions.
 
 ![](../../.gitbook/assets/Stake.png)
 
-### Hmmm, maybe not yet, now you need to claim your rewards in order to do so 😼
+### Let's claim your rewards! 😼
 
 * In order to claim your rewards, head over the [Claim](https://altornado.com/#/claim) tab.
 * Click on the **`Claim`** button.
