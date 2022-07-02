@@ -1,5 +1,5 @@
 ---
-description: Staking options for $TORN
+description: Staking alternatives for $TORN
 ---
 
 # Staking
