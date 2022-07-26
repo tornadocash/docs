@@ -6,7 +6,7 @@ description: Staking on Altornado
 
 ## Alternative staking UI
 
-Since the deployment of [Altornado](https://altornado.com/#/stake) **TORN** holders have now an alternative open-source staking UI made by Tornado Cash Community, for the Tornado Cash community.
+Since the deployment of [Altornado](https://altornado.com/#/stake), **TORN** holders have now an alternative open-source staking UI made by Tornado Cash Community, for the Tornado Cash community.
 
 Yes, hence the name altornado: from “alternative” and “tornado” 🌝
 
@@ -25,7 +25,7 @@ The site will always remain accessible to everyone, without any restrictions.
 
 ![](../../.gitbook/assets/Stake.png)
 
-### Hmmm, maybe not yet, now you need to claim your rewards in order to do so 😼
+### Let's claim your tokens now 😼
 
 * In order to claim your rewards, head over the [Claim](https://altornado.com/#/claim) tab.
 * Click on the **`Claim`** button.
