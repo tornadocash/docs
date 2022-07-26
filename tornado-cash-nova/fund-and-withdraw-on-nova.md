@@ -68,4 +68,10 @@ For cheaper transactions, Gnosis Chain (former xDAI Chain) is used as a Layer-2.
 
 Therefore, to prevent spam attacks that will overload the bridge, the withdrawal amount has to be larger than 0.05 ETH.
 
+### Bridge daily limits
+
+Daily limits on token exits (bridging tokens from Gnosis Chain to Ethereum) have been established for several tokens on the Gnosis chain.
+For more information about the daily limits please visit Gnosis Chain documentation:
+https://developers.gnosischain.com/for-users/bridges/bridge-daily-limits
+
 _Written by_ [_@ayefda_](https://torn.community/u/ayefda)
