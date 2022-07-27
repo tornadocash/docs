@@ -48,6 +48,22 @@ Use your deposit note by pasting it in the corresponding box. Click on `Withdraw
 
 ![](../.gitbook/assets/abdaaaa.png)
 
+## Note Account
+
+A Note Account allows to **store encrypted on-chain backups** of private notes. This makes safe storage of funds hassle- and stress-free with the security of the Ethereum blockchain backing each note.
+
+![](https://i.imgur.com/1MF067o.png)
+
+* Connect your wallet and click on `Settings`
+* Click on `Set Up Account`
+* Save your `Note Account Key`
+* Confirm the transaction in your wallet.
+
+![](https://i.imgur.com/AqkPo5o.png)
+
+
+**Never share your Note Account key.**
+
 Done !
 
 _Written by_ [_**@bt11ba**_](https://torn.community/u/bt11ba/)
