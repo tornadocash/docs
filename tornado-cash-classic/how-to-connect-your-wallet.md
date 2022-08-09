@@ -5,6 +5,7 @@ description: >-
 ---
 
 # How to connect your wallet
+![How to connect your wallet](<.gitbook/assets/How to connect your wallet.png>)
 
 ## Connect your wallet
 
