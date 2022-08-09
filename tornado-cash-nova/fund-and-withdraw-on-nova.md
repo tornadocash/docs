@@ -55,17 +55,23 @@ To withdraw funds from the Nova pool, you can either:
 
 To maintain your privacy, choosing one of the four suggested amounts is strongly recommended as it will allow your withdrawal to blend with the crowd.
 
-Indeed, ddepending on the chosen amount, a connection might be deduced between your initial fund transaction and your withdrawal if:
+Indeed, depending on the chosen amount, a connection might be deduced between your initial fund transaction and your withdrawal if:
 
 * the initially funded amount & the withdrawn amount are exactly the same,
 * the funded & withdrawn amounts can be easily linked through a sum.
 
 _For instance, a deposit of 0.42 ETH can be linked to a withdrawal of exactly 0.42 ETH or two times 0.21 ETH, which might compromise anonymity. However, with a withdrawal of 0.391 ETH, privacy is better preserved as there is no obvious link between the 0.42 & 0.391 amounts._
 
-### Transctions through Gnosis Chain (L2) <a href="#transctions-through-gnosis-chain-l2" id="transctions-through-gnosis-chain-l2"></a>
+### Transactions through Gnosis Chain (L2) <a href="#transctions-through-gnosis-chain-l2" id="transctions-through-gnosis-chain-l2"></a>
 
 For cheaper transactions, Gnosis Chain (former xDAI Chain) is used as a Layer-2. To this end, a bridge is used between ETH from the Mainnet & WETH from Gnosis Chain.
 
 Therefore, to prevent spam attacks that will overload the bridge, the withdrawal amount has to be larger than 0.05 ETH.
+
+### Bridge daily limits
+
+Daily limits on token exits (bridging tokens from Gnosis Chain to Ethereum) have been established for several tokens on the Gnosis chain.
+For more information about the daily limits please visit Gnosis Chain documentation:
+https://developers.gnosischain.com/for-users/bridges/bridge-daily-limits
 
 _Written by_ [_@ayefda_](https://torn.community/u/ayefda)
