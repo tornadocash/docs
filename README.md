@@ -1,5 +1,7 @@
 # Introduction to Tornado Cash
 
+![](.gitbook/assets/Introduction.png)
+
 ![](.gitbook/assets/image.png)
 
 Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space.
